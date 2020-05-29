@@ -1,0 +1,4422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACCESSIBILITY_BUSY_STATUS" xml:space="preserve">
+    <value>[O]</value>
+  </data>
+  <data name="ACCESSIBILITY_BUSY_UNDEFINED" xml:space="preserve">
+    <value>[.]</value>
+  </data>
+  <data name="ACCESSIBILITY_FREE_STATUS" xml:space="preserve">
+    <value>[L]</value>
+  </data>
+  <data name="AGENTS_STATUS_PAUSE" xml:space="preserve">
+    <value>Pausa</value>
+  </data>
+  <data name="AGENT_LBL_MENU_BY_AGENT" xml:space="preserve">
+    <value>Visualizza per agente</value>
+  </data>
+  <data name="AGENT_LBL_MENU_BY_QUEUE" xml:space="preserve">
+    <value>Visualizza per coda</value>
+  </data>
+  <data name="AGENT_MENU_BY_AGENT" xml:space="preserve">
+    <value>Per agente</value>
+  </data>
+  <data name="AGENT_MENU_BY_QUEUE" xml:space="preserve">
+    <value>Per coda</value>
+  </data>
+  <data name="AVATAR_SELECTOR_CMD_SELECT" xml:space="preserve">
+    <value>Seleziona da file...</value>
+  </data>
+  <data name="AVATAR_SELECTOR_TEXT" xml:space="preserve">
+    <value>Seleziona immagine contatto</value>
+  </data>
+  <data name="BUTTON_AS_AVAILABLE" xml:space="preserve">
+    <value>Disponibile</value>
+  </data>
+  <data name="BUTTON_AS_UNAVAILABLE" xml:space="preserve">
+    <value>Non disponibile</value>
+  </data>
+  <data name="BUTTON_MODIFY_HOTKEY" xml:space="preserve">
+    <value>Cambia tasti scelta rapida</value>
+  </data>
+  <data name="CHANGEPWD_LBL_NEWPASSWORD" xml:space="preserve">
+    <value>Nuova password:</value>
+  </data>
+  <data name="CHANGEPWD_LBL_NEWRETYPEPASSWORD" xml:space="preserve">
+    <value>Conferma password:</value>
+  </data>
+  <data name="CHANGEPWD_LBL_OLDPASSWORD" xml:space="preserve">
+    <value>Vecchia password:</value>
+  </data>
+  <data name="CHECKBOX_LBL_ENABLEHOTKEY" xml:space="preserve">
+    <value>Abilita tasti scelta rapida</value>
+  </data>
+  <data name="CMD_CALL_RESERVD" xml:space="preserve">
+    <value>Chiamata prenotata</value>
+  </data>
+  <data name="CMD_LOGIN" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="CMD_LOGOUT" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="CMD_QUEUE_LOGOUT" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="CMD_NEXT_CALL" xml:space="preserve">
+    <value>Chiamata successiva</value>
+  </data>
+  <data name="CMD_PAUSE" xml:space="preserve">
+    <value>Pausa</value>
+  </data>
+  <data name="CMD_WRAPUP" xml:space="preserve">
+    <value>Wrap-up</value>
+  </data>
+  <data name="COLUMN_ACTIVE_CALL_STATUS" xml:space="preserve">
+    <value>Stato chiamata</value>
+  </data>
+  <data name="COLUMN_LBL_ACTION" xml:space="preserve">
+    <value>Azione</value>
+  </data>
+  <data name="COLUMN_LBL_ATTIVO" xml:space="preserve">
+    <value>Attivo</value>
+  </data>
+  <data name="COLUMN_LBL_DESCRIPTION" xml:space="preserve">
+    <value>Tasto di scelta rapida</value>
+  </data>
+  <data name="COLUMN_WALLBOARD_TOT_IDLE" xml:space="preserve">
+    <value>Tot. inattivo</value>
+  </data>
+  <data name="COLUMN_WALLBOARD_TOT_PAUSE" xml:space="preserve">
+    <value>Tot. pausa</value>
+  </data>
+  <data name="COLUMN_WALLBOARD_TOT_READY" xml:space="preserve">
+    <value>Tot. ready</value>
+  </data>
+  <data name="COLUMN_WALLBOARD_TOT_WRAPUP" xml:space="preserve">
+    <value>Tot. wrap-up</value>
+  </data>
+  <data name="COMMON_CMD_ADDTOFAVOURITES" xml:space="preserve">
+    <value>Aggiungi ai preferiti</value>
+  </data>
+  <data name="COMMON_CMD_ADD_NUMBER" xml:space="preserve">
+    <value>Aggiungi numero</value>
+  </data>
+  <data name="COMMON_CMD_APPLY" xml:space="preserve">
+    <value>Applica</value>
+  </data>
+  <data name="COMMON_CMD_CALLNUMBER" xml:space="preserve">
+    <value>Chiama</value>
+  </data>
+  <data name="COMMON_CMD_CANCEL" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="COMMON_CMD_CHANGE_PASSWORD" xml:space="preserve">
+    <value>Cambia password</value>
+  </data>
+  <data name="COMMON_CMD_CHIUDI" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="COMMON_CMD_CLOSE_FOLDERS" xml:space="preserve">
+    <value>&amp;Chiudi schede</value>
+  </data>
+  <data name="COMMON_CMD_COPYPHONENUMBER" xml:space="preserve">
+    <value>Copia numero telefonico</value>
+  </data>
+  <data name="COMMON_CMD_DETAILS" xml:space="preserve">
+    <value>Dettagli</value>
+  </data>
+  <data name="COMMON_CMD_FILTER_BY" xml:space="preserve">
+    <value>Filtra per</value>
+  </data>
+  <data name="COMMON_CMD_HELP" xml:space="preserve">
+    <value>&amp;Aiuto</value>
+  </data>
+  <data name="COMMON_CMD_HOTKEYS" xml:space="preserve">
+    <value>HotKeys</value>
+  </data>
+  <data name="COMMON_CMD_LOGOFF" xml:space="preserve">
+    <value>&amp;Esci</value>
+  </data>
+  <data name="COMMON_CMD_NOTIFYCALL_EMAIL" xml:space="preserve">
+    <value>Notifica chiamata con email</value>
+  </data>
+  <data name="COMMON_CMD_NOTIFYCALL_SMS" xml:space="preserve">
+    <value>Notifica chiamata con SMS</value>
+  </data>
+  <data name="COMMON_CMD_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="COMMON_CMD_OPEN_FAVOURITES" xml:space="preserve">
+    <value>Gestione preferiti</value>
+  </data>
+  <data name="COMMON_CMD_OPEN_FOLDERS" xml:space="preserve">
+    <value>&amp;Apri schede</value>
+  </data>
+  <data name="COMMON_CMD_OPZIONI" xml:space="preserve">
+    <value>Opzioni</value>
+  </data>
+  <data name="COMMON_CMD_ORDER_BY" xml:space="preserve">
+    <value>&amp;Ordina per</value>
+  </data>
+  <data name="COMMON_CMD_REMOVEEVENT" xml:space="preserve">
+    <value>Elimina evento</value>
+  </data>
+  <data name="COMMON_CMD_SAVE" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="COMMON_CMD_SEARCH" xml:space="preserve">
+    <value>Cerca</value>
+  </data>
+  <data name="COMMON_CMD_SENDCONTACT" xml:space="preserve">
+    <value>Invia Contatto</value>
+  </data>
+  <data name="COMMON_CMD_SENDEMAIL" xml:space="preserve">
+    <value>Invia Email</value>
+  </data>
+  <data name="COMMON_CMD_SENDSMS" xml:space="preserve">
+    <value>Invia SMS</value>
+  </data>
+  <data name="COMMON_CMD_VIEW" xml:space="preserve">
+    <value>Visualizza</value>
+  </data>
+  <data name="COMMON_DISPLAY_REDIRECTION_ALL" xml:space="preserve">
+    <value>-  Red. {0} ({1})</value>
+  </data>
+  <data name="COMMON_DISPLAY_REDIRECTION_ALL_LESS_NAME" xml:space="preserve">
+    <value>Red. {0} ({1})</value>
+  </data>
+  <data name="COMMON_DISPLAY_REDIRECTION_NUMBER" xml:space="preserve">
+    <value>-  Red. {0}</value>
+  </data>
+  <data name="COMMON_DISPLAY_REDIRECTION_NUMBER_LESS_NAME" xml:space="preserve">
+    <value>Red. {0}</value>
+  </data>
+  <data name="COMMON_LABEL_AGGIUNGI" xml:space="preserve">
+    <value>Aggiungi</value>
+  </data>
+  <data name="COMMON_LABEL_MODIFICA" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="COMMON_LABEL_ORGANIZZA" xml:space="preserve">
+    <value>Organizza</value>
+  </data>
+  <data name="COMMON_LABEL_REGISTRY_EVENTS_COUNT" xml:space="preserve">
+    <value>{0} eventi</value>
+  </data>
+  <data name="COMMON_LABEL_REMAINIG_DAYS" xml:space="preserve">
+    <value>Rimangono {0} giorni per la versione trial</value>
+  </data>
+  <data name="COMMON_LABEL_SPEEDY" xml:space="preserve">
+    <value>Speedy</value>
+  </data>
+  <data name="COMMON_LBL_ACTION" xml:space="preserve">
+    <value>Azioni</value>
+  </data>
+  <data name="COMMON_LBL_ACTIONS" xml:space="preserve">
+    <value>Azioni</value>
+  </data>
+  <data name="COMMON_LBL_ACTIVE_CALLS" xml:space="preserve">
+    <value>C&amp;hiamate in corso</value>
+  </data>
+  <data name="COMMON_LBL_ACTIVE_QUEUE" xml:space="preserve">
+    <value>Coda attiva</value>
+  </data>
+  <data name="COMMON_LBL_AGENTS" xml:space="preserve">
+    <value>&amp;Agenti</value>
+  </data>
+  <data name="COMMON_LBL_ANONYMOUSE" xml:space="preserve">
+    <value>Numero privato</value>
+  </data>
+  <data name="COMMON_LBL_CALLER" xml:space="preserve">
+    <value>Numero</value>
+  </data>
+  <data name="COMMON_LBL_CALL_COUNT" xml:space="preserve">
+    <value>N&amp;umero Chiamate</value>
+  </data>
+  <data name="COMMON_LBL_CATEGORY" xml:space="preserve">
+    <value>&amp;Categoria</value>
+  </data>
+  <data name="COMMON_LBL_CODE_GESTITE" xml:space="preserve">
+    <value>C&amp;ode gestite</value>
+  </data>
+  <data name="COMMON_LBL_COMPANY" xml:space="preserve">
+    <value>Azienda</value>
+  </data>
+  <data name="COMMON_LBL_CONFERENCE" xml:space="preserve">
+    <value>Conferenza</value>
+  </data>
+  <data name="COMMON_LBL_CONFERENCE_CALLS" xml:space="preserve">
+    <value>&amp;Chiamate in conferenza</value>
+  </data>
+  <data name="COMMON_LBL_CONTACT" xml:space="preserve">
+    <value>Contatto</value>
+  </data>
+  <data name="COMMON_LBL_CONTACTS" xml:space="preserve">
+    <value>Con&amp;tatti</value>
+  </data>
+  <data name="COMMON_LBL_COPY_NUMBER" xml:space="preserve">
+    <value>Copia numero</value>
+  </data>
+  <data name="COMMON_LBL_COST_CENTER" xml:space="preserve">
+    <value>Centro di costo</value>
+  </data>
+  <data name="COMMON_LBL_CUSTOM1" xml:space="preserve">
+    <value>Personalizzato 1</value>
+  </data>
+  <data name="COMMON_LBL_CUSTOM10" xml:space="preserve">
+    <value>Personalizzato 10</value>
+  </data>
+  <data name="COMMON_LBL_CUSTOM2" xml:space="preserve">
+    <value>Personalizzato 2</value>
+  </data>
+  <data name="COMMON_LBL_CUSTOM3" xml:space="preserve">
+    <value>Personalizzato 3</value>
+  </data>
+  <data name="COMMON_LBL_CUSTOM4" xml:space="preserve">
+    <value>Personalizzato 4</value>
+  </data>
+  <data name="COMMON_LBL_CUSTOM5" xml:space="preserve">
+    <value>Personalizzato 5</value>
+  </data>
+  <data name="COMMON_LBL_CUSTOM6" xml:space="preserve">
+    <value>Personalizzato 6</value>
+  </data>
+  <data name="COMMON_LBL_CUSTOM7" xml:space="preserve">
+    <value>Personalizzato 7</value>
+  </data>
+  <data name="COMMON_LBL_CUSTOM8" xml:space="preserve">
+    <value>Personalizzato 8</value>
+  </data>
+  <data name="COMMON_LBL_CUSTOM9" xml:space="preserve">
+    <value>Personalizzato 9</value>
+  </data>
+  <data name="COMMON_LBL_DATA" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="COMMON_LBL_DEPARMENT" xml:space="preserve">
+    <value>Dipartimento</value>
+  </data>
+  <data name="COMMON_LBL_DURATION" xml:space="preserve">
+    <value>Durata</value>
+  </data>
+  <data name="COMMON_LBL_EMAIL" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="COMMON_LBL_EXTENSION" xml:space="preserve">
+    <value>Interno</value>
+  </data>
+  <data name="COMMON_LBL_EXTENSIONS" xml:space="preserve">
+    <value>C&amp;olleghi</value>
+  </data>
+  <data name="COMMON_LBL_FAVOURITES" xml:space="preserve">
+    <value>&amp;Preferiti</value>
+  </data>
+  <data name="COMMON_LBL_FAX" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="COMMON_LBL_GESTIONE_CODE" xml:space="preserve">
+    <value>&amp;Gestione code</value>
+  </data>
+  <data name="COMMON_LBL_GESTORE_HOTKEYS" xml:space="preserve">
+    <value>&amp;Gestione HotKey</value>
+  </data>
+  <data name="COMMON_LBL_HOME_PHONE" xml:space="preserve">
+    <value>Telefono di casa</value>
+  </data>
+  <data name="COMMON_LBL_LANGUAGE_ARB" xml:space="preserve">
+    <value>العربية (&amp;Arabic)</value>
+  </data>
+  <data name="COMMON_LBL_LANGUAGE_ENG" xml:space="preserve">
+    <value>&amp;English (English)</value>
+  </data>
+  <data name="COMMON_LBL_LANGUAGE_FRA" xml:space="preserve">
+    <value>&amp;Français (French)</value>
+  </data>
+  <data name="COMMON_LBL_LANGUAGE_GER" xml:space="preserve">
+    <value>&amp;Deutsch (German)</value>
+  </data>
+  <data name="COMMON_LBL_LANGUAGE_ITA" xml:space="preserve">
+    <value>&amp;Italiano (Italian)</value>
+  </data>
+  <data name="COMMON_LBL_LANGUAGE_OLA" xml:space="preserve">
+    <value>&amp;Nederlands (Dutch)</value>
+  </data>
+  <data name="COMMON_LBL_LANGUAGE_POR" xml:space="preserve">
+    <value>&amp;Português (Portugal)</value>
+  </data>
+  <data name="COMMON_LBL_LANGUAGE_SELECTION" xml:space="preserve">
+    <value>&amp;Selezione lingua</value>
+  </data>
+  <data name="COMMON_LBL_LANGUAGE_SPA" xml:space="preserve">
+    <value>E&amp;spañol (Spanish)</value>
+  </data>
+  <data name="COMMON_LBL_LASTNAME" xml:space="preserve">
+    <value>Cognome</value>
+  </data>
+  <data name="COMMON_LBL_LICENCE_EXPIRED" xml:space="preserve">
+    <value>Licenza scaduta - contattare l'amministratore di sistema.</value>
+  </data>
+  <data name="COMMON_LBL_LINE" xml:space="preserve">
+    <value>Linea</value>
+  </data>
+  <data name="COMMON_LBL_LOGIN" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="COMMON_LBL_LOGOUT" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="COMMON_LBL_MOBILE" xml:space="preserve">
+    <value>Cellulare</value>
+  </data>
+  <data name="COMMON_LBL_MOBILE_PRIVATE" xml:space="preserve">
+    <value>Cellulare privato</value>
+  </data>
+  <data name="COMMON_LBL_NAME" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="COMMON_LBL_NO" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="COMMON_LBL_NOTES" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="COMMON_LBL_NO_ACTIVE_QUEUE" xml:space="preserve">
+    <value>Coda non attiva</value>
+  </data>
+  <data name="COMMON_LBL_PHONE_NUMBER" xml:space="preserve">
+    <value>Numero telefonico</value>
+  </data>
+  <data name="COMMON_LBL_OFFICE" xml:space="preserve">
+    <value>Ufficio</value>
+  </data>
+  <data name="COMMON_LBL_OPTION" xml:space="preserve">
+    <value>&amp;Opzioni</value>
+  </data>
+  <data name="FORM_OPTIONS_TITLE" xml:space="preserve">
+    <value>Opzioni</value>
+  </data>
+  <data name="COMMON_LBL_PARK_CALLS" xml:space="preserve">
+    <value>Chiamate &amp;parcheggiate</value>
+  </data>
+  <data name="COMMON_LBL_PASSWORD" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="COMMON_LBL_PHONE" xml:space="preserve">
+    <value>Telefono</value>
+  </data>
+  <data name="COMMON_LBL_POSITION" xml:space="preserve">
+    <value>Posizione</value>
+  </data>
+  <data name="COMMON_LBL_POSTAL_ADDRESS" xml:space="preserve">
+    <value>Indirizzo</value>
+  </data>
+  <data name="COMMON_LBL_QME_NOT_ACTIVE" xml:space="preserve">
+    <value>QME non attivo</value>
+  </data>
+  <data name="COMMON_LBL_QME_UNAVAILABLE" xml:space="preserve">
+    <value>QME non disponibile</value>
+  </data>
+  <data name="COMMON_LBL_QUEUE" xml:space="preserve">
+    <value>Coda</value>
+  </data>
+  <data name="COMMON_LBL_QUEUES" xml:space="preserve">
+    <value>Co&amp;de</value>
+  </data>
+  <data name="COMMON_LBL_QUEUE_ACTIVE" xml:space="preserve">
+    <value>Attiva</value>
+  </data>
+  <data name="COMMON_LBL_QUEUE_DISACTIVE" xml:space="preserve">
+    <value>Disattiva</value>
+  </data>
+  <data name="COMMON_LBL_QUEUE_NAME" xml:space="preserve">
+    <value>Nome coda</value>
+  </data>
+  <data name="COMMON_LBL_REGISTRY" xml:space="preserve">
+    <value>&amp;Registro chiamate</value>
+  </data>
+  <data name="COMMON_LBL_RESERVE" xml:space="preserve">
+    <value>Prenotata</value>
+  </data>
+  <data name="COMMON_LBL_SEARCH_TOOLTIP_CONTACT" xml:space="preserve">
+    <value>Inserire il contatto da ricercare</value>
+  </data>
+  <data name="COMMON_LBL_SEARCH_TOOLTIP_EXTENSION" xml:space="preserve">
+    <value>Inserire l'interno da ricercare</value>
+  </data>
+  <data name="COMMON_LBL_SEARCH_TOOLTIP_FAVOURITE" xml:space="preserve">
+    <value>Inserire il preferito da ricercare</value>
+  </data>
+  <data name="COMMON_LBL_SEND_CONTACT" xml:space="preserve">
+    <value>Invia contatto</value>
+  </data>
+  <data name="COMMON_LBL_SITE" xml:space="preserve">
+    <value>Sede</value>
+  </data>
+  <data name="COMMON_LBL_STATISTICS" xml:space="preserve">
+    <value>Statistiche</value>
+  </data>
+  <data name="COMMON_LBL_STATS" xml:space="preserve">
+    <value>&amp;Monitor</value>
+  </data>
+  <data name="COMMON_LBL_STATUS" xml:space="preserve">
+    <value>Stato</value>
+  </data>
+  <data name="COMMON_LBL_STATUS_ABSENT" xml:space="preserve">
+    <value>Assente</value>
+  </data>
+  <data name="COMMON_LBL_STATUS_ALL" xml:space="preserve">
+    <value>Tutti</value>
+  </data>
+  <data name="COMMON_LBL_STATUS_AVAILABLE" xml:space="preserve">
+    <value>Libero</value>
+  </data>
+  <data name="COMMON_LBL_STATUS_INCALL" xml:space="preserve">
+    <value>In chiamata</value>
+  </data>
+  <data name="COMMON_LBL_TIPO" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="COMMON_LBL_TOOLS" xml:space="preserve">
+    <value>&amp;Strumenti</value>
+  </data>
+  <data name="COMMON_LBL_TYPE" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="COMMON_LBL_USERNAME" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="COMMON_LBL_VIEW" xml:space="preserve">
+    <value>&amp;Visualizza</value>
+  </data>
+  <data name="COMMON_LBL_VIP" xml:space="preserve">
+    <value>VIP</value>
+  </data>
+  <data name="COMMON_LBL_WAITHING" xml:space="preserve">
+    <value>Attesa</value>
+  </data>
+  <data name="COMMON_LBL_WAIT_TOTAL" xml:space="preserve">
+    <value>&amp;Attesa totale</value>
+  </data>
+  <data name="COMMON_LBL_WALLBOARD" xml:space="preserve">
+    <value>Dash&amp;board</value>
+  </data>
+  <data name="COMMON_LBL_YES" xml:space="preserve">
+    <value>Si</value>
+  </data>
+  <data name="COMMON_MSG_TITLE_INFO" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="COMMON_QME_TRIAL_PERIOD" xml:space="preserve">
+    <value>QME Trial Period - la licenza scadrà tra {0} giorni</value>
+  </data>
+  <data name="COMMON_TRIAL_EXPIRED" xml:space="preserve">
+    <value>Attenzione il periodo di valutazione di QME è terminato, al prossimo riavvio dell'applicazione saranno disabilitate le componenti non più utilizzabili.</value>
+  </data>
+  <data name="CONTEXTMENU_CALL_ADDTOCONFERENCE" xml:space="preserve">
+    <value>Aggiungi a conferenza</value>
+  </data>
+  <data name="CONTEXTMENU_CALL_ADD_CONFERENCE" xml:space="preserve">
+    <value>Unisci alla conferenza</value>
+  </data>
+  <data name="CONTEXTMENU_CALL_ANSWER" xml:space="preserve">
+    <value>Rispondi</value>
+  </data>
+  <data name="CONTEXTMENU_CALL_BLINDTRANSFER" xml:space="preserve">
+    <value>Trasferisci senza consultazione</value>
+  </data>
+  <data name="CONTEXTMENU_CALL_COMPLETETRANSFER" xml:space="preserve">
+    <value>Completa trasferimento</value>
+  </data>
+  <data name="CONTEXTMENU_CALL_CONSULTTRANSFER" xml:space="preserve">
+    <value>Trasferisci con consultazione</value>
+  </data>
+  <data name="CONTEXTMENU_CALL_HANGUP" xml:space="preserve">
+    <value>Riaggancia</value>
+  </data>
+  <data name="CONTEXTMENU_CALL_HOLD" xml:space="preserve">
+    <value>Attesa</value>
+  </data>
+  <data name="CONTEXTMENU_CALL_INVITETOCONFERENCE" xml:space="preserve">
+    <value>Invita in conferenza</value>
+  </data>
+  <data name="CONTEXTMENU_CALL_INVITE_CONFERENCE" xml:space="preserve">
+    <value>Aggiungi alla conferenza</value>
+  </data>
+  <data name="CONTEXTMENU_CALL_MAKECALL" xml:space="preserve">
+    <value> Chiama</value>
+  </data>
+  <data name="CONTEXTMENU_CALL_PARK" xml:space="preserve">
+    <value>Parcheggia</value>
+  </data>
+  <data name="CONTEXTMENU_CALL_RETRIEVE" xml:space="preserve">
+    <value>Riprendi</value>
+  </data>
+  <data name="CONTEXTMENU_CALL_SMARTPARK" xml:space="preserve">
+    <value>Parcheggia su destinazione</value>
+  </data>
+  <data name="CONTEXTMENU_CALL_UNPARK" xml:space="preserve">
+    <value>Riprendi</value>
+  </data>
+  <data name="CONTEXTMENU_CANCEL_RESERVE_CALL" xml:space="preserve">
+    <value>Annulla prenotazione</value>
+  </data>
+  <data name="CONTEXTMENU_CONTACT_ADD_TO_FAVOURITES" xml:space="preserve">
+    <value>Aggiungi ai preferiti</value>
+  </data>
+  <data name="CONTEXTMENU_CONTACT_CALL" xml:space="preserve">
+    <value>Chiama</value>
+  </data>
+  <data name="CONTEXTMENU_CONTACT_SEND_EMAIL" xml:space="preserve">
+    <value>Invia Email</value>
+  </data>
+  <data name="CONTEXTMENU_CONTACT_SHOW_DETAILS" xml:space="preserve">
+    <value>Mostra dettagli</value>
+  </data>
+  <data name="CONTEXTMENU_FAVOURITES_CALL" xml:space="preserve">
+    <value>Chiama</value>
+  </data>
+  <data name="CONTEXTMENU_FAVOURITES_DELETE" xml:space="preserve">
+    <value>Rimuovi dai preferiti</value>
+  </data>
+  <data name="CONTEXTMENU_FAVOURITES_MODIFY" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="CONTEXTMENU_FAVOURITES_MOVE" xml:space="preserve">
+    <value>Sposta in un'altra scheda</value>
+  </data>
+  <data name="CONTEXTMENU_FAVOURITES_SEND_EMAIL" xml:space="preserve">
+    <value>Invia Email</value>
+  </data>
+  <data name="CONTEXTMENU_FAVOURITES_SHOW_DETAILS" xml:space="preserve">
+    <value>Mostra dettagli</value>
+  </data>
+  <data name="CONTEXTMENU_MOVE_QUEUE" xml:space="preserve">
+    <value>Sposta nella coda...</value>
+  </data>
+  <data name="CONTEXTMENU_ORDER_BY" xml:space="preserve">
+    <value>Ordina per...</value>
+  </data>
+  <data name="CONTEXTMENU_PICK_CALL" xml:space="preserve">
+    <value>Rispondi alla chiamata</value>
+  </data>
+  <data name="CONTEXTMENU_QUEUE_MOVE_TO" xml:space="preserve">
+    <value>Sposta in coda</value>
+  </data>
+  <data name="CONTEXTMENU_QUEUE_ORDER_BY" xml:space="preserve">
+    <value>Ordina per</value>
+  </data>
+  <data name="CONTEXTMENU_QUEUE_ORDER_BY_CATEGORY" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="CONTEXTMENU_QUEUE_ORDER_BY_POS" xml:space="preserve">
+    <value>Posizione</value>
+  </data>
+  <data name="CONTEXTMENU_QUEUE_ORDER_BY_VIP" xml:space="preserve">
+    <value>Vip</value>
+  </data>
+  <data name="CONTEXTMENU_QUEUE_ORDER_BY_WAIT_TIME" xml:space="preserve">
+    <value>Tempo di attesa</value>
+  </data>
+  <data name="CONTEXTMENU_QUEUE_RESERVE" xml:space="preserve">
+    <value>Prenota</value>
+  </data>
+  <data name="CONTEXTMENU_QUEUE_RESERVE_CLEAR" xml:space="preserve">
+    <value>Annulla prenotazione</value>
+  </data>
+  <data name="CONTEXTMENU_RESERVE_CALL" xml:space="preserve">
+    <value>Prenota chiamata</value>
+  </data>
+  <data name="CONTEXT_MENU_AZIONI" xml:space="preserve">
+    <value>&amp;Azioni</value>
+  </data>
+  <data name="CONTEXT_MENU_NAME" xml:space="preserve">
+    <value>&amp;Nome</value>
+  </data>
+  <data name="CRM_CALLTYPE_BOTH" xml:space="preserve">
+    <value>Chiamate entanti/uscenti</value>
+  </data>
+  <data name="CRM_CALLTYPE_INCOMING" xml:space="preserve">
+    <value>Chiamate entranti</value>
+  </data>
+  <data name="CRM_CALLTYPE_OUTCOMING" xml:space="preserve">
+    <value>Chiamate uscenti</value>
+  </data>
+  <data name="CRM_INTEGRATION_ADDRESS" xml:space="preserve">
+    <value>Indirizzo postale</value>
+  </data>
+  <data name="CRM_INTEGRATION_BUSINESS" xml:space="preserve">
+    <value>Telefono ufficio</value>
+  </data>
+  <data name="CRM_INTEGRATION_COMPANY" xml:space="preserve">
+    <value>Azienda</value>
+  </data>
+  <data name="CRM_INTEGRATION_CONTACT_DIRECTORY" xml:space="preserve">
+    <value>Rubrica contatto</value>
+  </data>
+  <data name="CRM_INTEGRATION_COST_CENTER" xml:space="preserve">
+    <value>Centro di costo</value>
+  </data>
+  <data name="CRM_INTEGRATION_CUSTOM1" xml:space="preserve">
+    <value>Custom 1</value>
+  </data>
+  <data name="CRM_INTEGRATION_CUSTOM10" xml:space="preserve">
+    <value>Custom 10</value>
+  </data>
+  <data name="CRM_INTEGRATION_CUSTOM2" xml:space="preserve">
+    <value>Custom 2</value>
+  </data>
+  <data name="CRM_INTEGRATION_CUSTOM3" xml:space="preserve">
+    <value>Custom 3</value>
+  </data>
+  <data name="CRM_INTEGRATION_CUSTOM4" xml:space="preserve">
+    <value>Custom 4</value>
+  </data>
+  <data name="CRM_INTEGRATION_CUSTOM5" xml:space="preserve">
+    <value>Custom 5</value>
+  </data>
+  <data name="CRM_INTEGRATION_CUSTOM6" xml:space="preserve">
+    <value>Custom 6</value>
+  </data>
+  <data name="CRM_INTEGRATION_CUSTOM7" xml:space="preserve">
+    <value>Custom 7</value>
+  </data>
+  <data name="CRM_INTEGRATION_CUSTOM8" xml:space="preserve">
+    <value>Custom 8</value>
+  </data>
+  <data name="CRM_INTEGRATION_CUSTOM9" xml:space="preserve">
+    <value>Custom 9</value>
+  </data>
+  <data name="CRM_INTEGRATION_DATE" xml:space="preserve">
+    <value>Data chiamata</value>
+  </data>
+  <data name="CRM_INTEGRATION_DEPARTMENT" xml:space="preserve">
+    <value>Reparto</value>
+  </data>
+  <data name="CRM_INTEGRATION_ENCODE_NONE" xml:space="preserve">
+    <value>Nessuna</value>
+  </data>
+  <data name="CRM_INTEGRATION_EXTENSION" xml:space="preserve">
+    <value>Numero derivato</value>
+  </data>
+  <data name="CRM_INTEGRATION_FAX_NUMBER" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="CRM_INTEGRATION_HOME" xml:space="preserve">
+    <value>Telefono casa</value>
+  </data>
+  <data name="CRM_INTEGRATION_ID_CALL" xml:space="preserve">
+    <value>ID di chiamata</value>
+  </data>
+  <data name="CRM_INTEGRATION_ID_CONTACT" xml:space="preserve">
+    <value>ID del contatto</value>
+  </data>
+  <data name="CRM_INTEGRATION_LAST_NAME" xml:space="preserve">
+    <value>Cognome</value>
+  </data>
+  <data name="CRM_INTEGRATION_MAIL" xml:space="preserve">
+    <value>EMail</value>
+  </data>
+  <data name="CRM_INTEGRATION_MOBILE" xml:space="preserve">
+    <value>Cellulare privato</value>
+  </data>
+  <data name="CRM_INTEGRATION_MOBILE_BUSINESS" xml:space="preserve">
+    <value>Cellulare lavoro</value>
+  </data>
+  <data name="CRM_INTEGRATION_NAME" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="CRM_INTEGRATION_OFFICE" xml:space="preserve">
+    <value>Indirizzo ufficio</value>
+  </data>
+  <data name="CRM_INTEGRATION_PHONE" xml:space="preserve">
+    <value>Numero telefono</value>
+  </data>
+  <data name="CRM_INTEGRATION_PWD_ATT" xml:space="preserve">
+    <value>Password Blue's Attendant</value>
+  </data>
+  <data name="CRM_INTEGRATION_PWD_CRM" xml:space="preserve">
+    <value>Password CRM</value>
+  </data>
+  <data name="CRM_INTEGRATION_QUEUE_NAME" xml:space="preserve">
+    <value>Nome coda</value>
+  </data>
+  <data name="CRM_INTEGRATION_QUEUE_PHONE" xml:space="preserve">
+    <value>Numero coda</value>
+  </data>
+  <data name="CRM_INTEGRATION_SITE" xml:space="preserve">
+    <value>Sito</value>
+  </data>
+  <data name="CRM_INTEGRATION_TIME" xml:space="preserve">
+    <value>Ora chiamata</value>
+  </data>
+  <data name="CRM_INTEGRATION_USER_ATT" xml:space="preserve">
+    <value>Utente Blue's Attendant</value>
+  </data>
+  <data name="CRM_INTEGRATION_USER_CRM" xml:space="preserve">
+    <value>Utente CRM</value>
+  </data>
+  <data name="CRM_INTEGRATION_USER_NAME" xml:space="preserve">
+    <value>Nome utente</value>
+  </data>
+  <data name="ENUM_BACCALLLOCATION_ACTIVE" xml:space="preserve">
+    <value>Attiva</value>
+  </data>
+  <data name="ENUM_BACCALLLOCATION_INQUEUE" xml:space="preserve">
+    <value>In coda</value>
+  </data>
+  <data name="ENUM_BACCALLLOCATION_PARKED" xml:space="preserve">
+    <value>Parcheggiata</value>
+  </data>
+  <data name="ENUM_BACCALLLOCATION_SMARTPARKED" xml:space="preserve">
+    <value>Parcheggiata su destinazione</value>
+  </data>
+  <data name="ENUM_BACCALLSTATUS_BUSY" xml:space="preserve">
+    <value>Occupato</value>
+  </data>
+  <data name="ENUM_BACCALLSTATUS_CLOSED" xml:space="preserve">
+    <value>Terminata</value>
+  </data>
+  <data name="ENUM_BACCALLSTATUS_CONFERENCED" xml:space="preserve">
+    <value>In conferenza</value>
+  </data>
+  <data name="ENUM_BACCALLSTATUS_CONNECTED" xml:space="preserve">
+    <value>Connessa</value>
+  </data>
+  <data name="ENUM_BACCALLSTATUS_DIALLING" xml:space="preserve">
+    <value>In composizione</value>
+  </data>
+  <data name="ENUM_BACCALLSTATUS_IDLE" xml:space="preserve">
+    <value>In attesa</value>
+  </data>
+  <data name="ENUM_BACCALLSTATUS_INCOMING_RINGING" xml:space="preserve">
+    <value>In arrivo</value>
+  </data>
+  <data name="ENUM_BACCALLSTATUS_ONHOLD" xml:space="preserve">
+    <value>In attesa</value>
+  </data>
+  <data name="ENUM_BACCALLSTATUS_ONHOLD_PENDING_CONFERENCE" xml:space="preserve">
+    <value>In attesa con conferenza</value>
+  </data>
+  <data name="ENUM_BACCALLSTATUS_ONHOLD_PENDING_TRANSFER" xml:space="preserve">
+    <value>In attesa con consultazione</value>
+  </data>
+  <data name="ENUM_BACCALLSTATUS_OUTGOING_RINGING" xml:space="preserve">
+    <value>Uscente</value>
+  </data>
+  <data name="ENUM_BACCALLSTATUS_PARKED" xml:space="preserve">
+    <value>Parcheggiata</value>
+  </data>
+  <data name="ENUM_BACCALLTYPE_IN" xml:space="preserve">
+    <value>Entrante</value>
+  </data>
+  <data name="ENUM_BACCALLTYPE_IN_UNANSW" xml:space="preserve">
+    <value>Entrante non risposta</value>
+  </data>
+  <data name="ENUM_BACCALLTYPE_NONE" xml:space="preserve">
+    <value>Sconosciuto</value>
+  </data>
+  <data name="ENUM_BACCALLTYPE_OUT" xml:space="preserve">
+    <value>Uscente</value>
+  </data>
+  <data name="ENUM_BACCALLTYPE_OUT_UNANSW" xml:space="preserve">
+    <value>Uscente non risposta</value>
+  </data>
+  <data name="ENUM_BACCALLTYPE_UNKNOWN" xml:space="preserve">
+    <value>Sconosciuto</value>
+  </data>
+  <data name="ENUM_UNDEFINED" xml:space="preserve">
+    <value>Non definito</value>
+  </data>
+  <data name="ERROR_MSG_COMPONENTI_MANCANTI" xml:space="preserve">
+    <value>Mancano dei componenti fondamentali al corretto funzionamento del programma.Si consiglia di reinstallare il prodotto per risolvere il problema.</value>
+  </data>
+  <data name="ERROR_OPERATION_DALAYED" xml:space="preserve">
+    <value>L'agente è attualmente in conversazione, così l'operazione richiesta è stata rinviata a fine conversazione.</value>
+  </data>
+  <data name="ERROR_TIT_COMPONENTI_MANCANTI" xml:space="preserve">
+    <value>Errore</value>
+  </data>
+  <data name="ERR_LABEL_EXTENSION_UNAVAILABLE" xml:space="preserve">
+    <value>Interno non configurato, verificare le impostazioni utente sul server SAS.</value>
+  </data>
+  <data name="ERR_LABEL_EXTENSION_UNCONTROLLED" xml:space="preserve">
+    <value>Errore CTI/TAPI: l'interno {0} non è controllato dal server.</value>
+  </data>
+  <data name="ERR_LABEL_LICENSENOTAVAILABLE" xml:space="preserve">
+    <value>Licenza non disponibile per questo utente.</value>
+  </data>
+  <data name="ERR_LABEL_UNAUTHORIZED" xml:space="preserve">
+    <value>Errore durante la validazione dell'utente.</value>
+  </data>
+  <data name="ERR_LABEL_WRONG_CLIENT_VERSION" xml:space="preserve">
+    <value>Versione del client non corretta. E' richiesta una versione {0} o successiva.</value>
+  </data>
+  <data name="EXTENSION_STATUS_BUSY" xml:space="preserve">
+    <value>Occupato</value>
+  </data>
+  <data name="EXTENSION_STATUS_NOTPRESENT" xml:space="preserve">
+    <value>Non presente</value>
+  </data>
+  <data name="EXTENSION_STATUS_PRESENT" xml:space="preserve">
+    <value>Libero</value>
+  </data>
+  <data name="EXTENSION_STATUS_UNDEFINED" xml:space="preserve">
+    <value>Indefinito</value>
+  </data>
+  <data name="FADE_QUEUE_CALLS" xml:space="preserve">
+    <value>{0} chiamate in coda, {1} VIP</value>
+  </data>
+  <data name="FASTSEARCH_EXTENSION_CONTACT" xml:space="preserve">
+    <value>Contatto</value>
+  </data>
+  <data name="FASTSEARCH_EXTENSION_NUMBER" xml:space="preserve">
+    <value>Numero</value>
+  </data>
+  <data name="FASTSEARCH_EXTENSION_REPARTO" xml:space="preserve">
+    <value>Reparto</value>
+  </data>
+  <data name="FASTSEARCH_EXTENSION_TYPE" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="FASTSEARCH_LBL_ADD_CONTACT" xml:space="preserve">
+    <value>Invita un nuovo contatto</value>
+  </data>
+  <data name="FASTSEARCH_LBL_CALL_NUMBER" xml:space="preserve">
+    <value>Chiama numero</value>
+  </data>
+  <data name="FASTSEARCH_LBL_CAMP_ON" xml:space="preserve">
+    <value>Parcheggio su destinazione</value>
+  </data>
+  <data name="FASTSEARCH_LBL_INVITE_TO_CONF" xml:space="preserve">
+    <value>Invita in conferenza</value>
+  </data>
+  <data name="FASTSEARCH_LBL_MERGE_CALL" xml:space="preserve">
+    <value>Unisci una chiamata già attiva</value>
+  </data>
+  <data name="FASTSEARCH_LBL_RICERCA_CONTATTO" xml:space="preserve">
+    <value>Ricerca Contatto</value>
+  </data>
+  <data name="FASTSEARCH_LBL_TRASFERISCI" xml:space="preserve">
+    <value>Trasferisci</value>
+  </data>
+  <data name="FAVORITE_LBL_ORDINA_CELLULARE" xml:space="preserve">
+    <value>Ordina per Cellulare</value>
+  </data>
+  <data name="FAVORITE_LBL_ORDINA_EMAIL" xml:space="preserve">
+    <value>Ordina per Email</value>
+  </data>
+  <data name="FAVORITE_LBL_ORDINA_NOME" xml:space="preserve">
+    <value>Ordina per Nome</value>
+  </data>
+  <data name="FAVORITE_LBL_ORDINA_TELEFONO" xml:space="preserve">
+    <value>Ordina per Telefono</value>
+  </data>
+  <data name="FAVOURITES_ADD_CONTACT_TOOLTIP_ADD_IMG" xml:space="preserve">
+    <value>Aggiungi immagine contatto</value>
+  </data>
+  <data name="FAVOURITES_ADD_DEPARTMENT" xml:space="preserve">
+    <value>Dipartimento</value>
+  </data>
+  <data name="FAVOURITES_LABEL_LISTA" xml:space="preserve">
+    <value>Visualizza ad elenco</value>
+  </data>
+  <data name="FAVOURITES_LABEL_LISTA_3X3" xml:space="preserve">
+    <value>Visualizza griglia 3x3</value>
+  </data>
+  <data name="FAVOURITES_LABEL_LISTA_4X4" xml:space="preserve">
+    <value>Visualizza griglia 4x4</value>
+  </data>
+  <data name="FAVOURITES_LABEL_LISTA_4X5" xml:space="preserve">
+    <value>Visualizza griglia 4x5</value>
+  </data>
+  <data name="FAVOURITES_LABEL_LISTA_4X6" xml:space="preserve">
+    <value>Visualizza griglia 4x6</value>
+  </data>
+  <data name="FAVOURITES_LABEL_LISTA_6X6" xml:space="preserve">
+    <value>Visualizza griglia 6x6</value>
+  </data>
+  <data name="FAVOURITES_LABEL_LISTA_8X6" xml:space="preserve">
+    <value>Visualizza griglia 8x6</value>
+  </data>
+  <data name="FAVOURITE_STATUS_BUSY" xml:space="preserve">
+    <value>Stato occupato</value>
+  </data>
+  <data name="FAVOURITE_STATUS_PRESENT" xml:space="preserve">
+    <value>Stato libero</value>
+  </data>
+  <data name="FAVOURITE_STATUS_UNDEFINITED" xml:space="preserve">
+    <value>Stato indefinito</value>
+  </data>
+  <data name="FORM_HOTKEYMANAGER_TITLE" xml:space="preserve">
+    <value>Tasti scelta rapida</value>
+  </data>
+  <data name="FORM_LOGIN_LBL_DESCRIPTION" xml:space="preserve">
+    <value>Inserire il nome utente e la password</value>
+  </data>
+  <data name="FORM_LOGIN_LBL_REMEMBER_USER" xml:space="preserve">
+    <value>Memorizza utente</value>
+  </data>
+  <data name="FORM_LOGIN_MSG_USERNAME_PWD_EMPTY" xml:space="preserve">
+    <value>Il nome utente o la password sono vuoti</value>
+  </data>
+  <data name="FORM_LOGIN_TITLE" xml:space="preserve">
+    <value>Imagicle Blue's Attendant / Blue's One Enterprise login</value>
+  </data>
+  <data name="FORM_MAIN_TITLE" xml:space="preserve">
+    <value>Imagicle {0} - {1} ({2})</value>
+  </data>
+  <data name="FORM_MAIN_TITLE_MSGBOX" xml:space="preserve">
+    <value>Imagicle {0}</value>
+  </data>
+  <data name="GROUP_LBL_ACTIVE_CALL" xml:space="preserve">
+    <value>Chiamata Selezionata</value>
+  </data>
+  <data name="GROUP_LBL_CONFERENCE_CALLS" xml:space="preserve">
+    <value>Conferenze</value>
+  </data>
+  <data name="GROUP_LBL_CURRENT_CALLS" xml:space="preserve">
+    <value>Chiamate</value>
+  </data>
+  <data name="GROUP_LBL_PARKING_CALLS" xml:space="preserve">
+    <value>Parcheggi</value>
+  </data>
+  <data name="GROUP_LBL_QUEUE" xml:space="preserve">
+    <value>Gestione Code</value>
+  </data>
+  <data name="HOTKEY_CALL_COMMAND_ADD_NOTE" xml:space="preserve">
+    <value>Aggiungi nota alla chiamata corrente</value>
+  </data>
+  <data name="HOTKEY_DETACH_DASHBOARD" xml:space="preserve">
+    <value>Visualizza dashboard in una finestra separata</value>
+  </data>
+  <data name="HOTKEY_GROUP_CALL_COMMAND" xml:space="preserve">
+    <value>Comandi telefonici</value>
+  </data>
+  <data name="HOTKEY_GROUP_GENERAL" xml:space="preserve">
+    <value>Generali</value>
+  </data>
+  <data name="HOTKEY_GROUP_NAVIGATION" xml:space="preserve">
+    <value>Navigazione</value>
+  </data>
+  <data name="HOTKEY_GROUP_QUEUE_MANAGER" xml:space="preserve">
+    <value>Gestione code</value>
+  </data>
+  <data name="HOTKEY_GROUP_READ_INFO" xml:space="preserve">
+    <value>Lettura informazioni</value>
+  </data>
+  <data name="HOTKEY_GROUP_SEARCH" xml:space="preserve">
+    <value>Ricerca contatti</value>
+  </data>
+  <data name="HOTKEY_LABEL_TITLE" xml:space="preserve">
+    <value>Imposta tasti di scelta rapida per '{0}'</value>
+  </data>
+  <data name="HOTKEY_SEND_MAIL" xml:space="preserve">
+    <value>Componi email</value>
+  </data>
+  <data name="IDS_LBLSLIDE_SMS_RICERCA_DI" xml:space="preserve">
+    <value>Ricerca di: {0}</value>
+  </data>
+  <data name="IDS_LBL_SEARCH_EMPTY_TEXT" xml:space="preserve">
+    <value>inserisci nome o numero</value>
+  </data>
+  <data name="IDS_LBL_SENDSMS_INVIA_MAIL" xml:space="preserve">
+    <value>Componi email</value>
+  </data>
+  <data name="IDS_LBL_SENDSMS_INVIA_SMS" xml:space="preserve">
+    <value>Invia SMS</value>
+  </data>
+  <data name="IDS_LBL_SENDSMS_STATO_ANNULLATO" xml:space="preserve">
+    <value>L'invio del messaggio è stato annullato dal gateway SMS.</value>
+  </data>
+  <data name="IDS_LBL_SENDSMS_STATO_ERRORE" xml:space="preserve">
+    <value>Si è verificato un errore. Verificare che la connessione ad Internet sia attiva e che l'utente e la password siano corretti.</value>
+  </data>
+  <data name="IDS_LBL_SENDSMS_STATO_ERRORE_INVIO" xml:space="preserve">
+    <value>Si è verificato un errore durante l'invio dell'SMS. Verificare che la connessione ad Internet sia attiva e che l'utente e la password siano corretti.</value>
+  </data>
+  <data name="IDS_LBL_SENDSMS_STATO_ERR_GATEWAY" xml:space="preserve">
+    <value>Si è verificato un errore di comunicazione con il gateway di SMS.</value>
+  </data>
+  <data name="IDS_LBL_SENDSMS_STATO_NO_CREDITO" xml:space="preserve">
+    <value>L'utente non dispone di credito sufficiente per inviare un messaggio</value>
+  </data>
+  <data name="IDS_LBL_SENDSMS_STATO_NO_DESTINATARIO" xml:space="preserve">
+    <value>Inserire un destinatario prima di inviare il messaggio</value>
+  </data>
+  <data name="IDS_LBL_SENDSMS_STATO_NO_MESSAGGIO" xml:space="preserve">
+    <value>Inserire il messaggio prima di inviare il messaggio.</value>
+  </data>
+  <data name="IDS_LBL_SENDSMS_STATO_PSW_ERRATA" xml:space="preserve">
+    <value>L' utente o la password per l'accesso al servizio sono errati. Verificare nelle opzioni la correttezza di questi dati.</value>
+  </data>
+  <data name="IDS_LBL_SENDSMS_STATO_PSW_NON_SET" xml:space="preserve">
+    <value>Impostare utente e password nelle opzioni prima di inviare un sms.</value>
+  </data>
+  <data name="IDS_LSTCONT_HEADER1" xml:space="preserve">
+    <value>Contatto</value>
+  </data>
+  <data name="IDS_LSTCONT_HEADER2" xml:space="preserve">
+    <value>Azienda</value>
+  </data>
+  <data name="IDS_LSTCONT_HEADER3" xml:space="preserve">
+    <value>Numero</value>
+  </data>
+  <data name="IDS_LSTCONT_HEADER4" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="IDS_MONITOR_CALL_COL_AZIENDA" xml:space="preserve">
+    <value>azienda</value>
+  </data>
+  <data name="IDS_MONITOR_CALL_COL_CONTATTO" xml:space="preserve">
+    <value>contatto</value>
+  </data>
+  <data name="IDS_MONITOR_CALL_COL_DUR_MED" xml:space="preserve">
+    <value>dur. med.</value>
+  </data>
+  <data name="IDS_MONITOR_CALL_COL_DUR_TOT" xml:space="preserve">
+    <value>dur. tot.</value>
+  </data>
+  <data name="IDS_MONITOR_CALL_COL_NUMERO" xml:space="preserve">
+    <value>numero</value>
+  </data>
+  <data name="IDS_MONITOR_CALL_DURATA" xml:space="preserve">
+    <value>durata totale</value>
+  </data>
+  <data name="IDS_MONITOR_CALL_DURATA_MEDIA" xml:space="preserve">
+    <value>media</value>
+  </data>
+  <data name="IDS_MONITOR_CALL_ESTERNE" xml:space="preserve">
+    <value>esterne</value>
+  </data>
+  <data name="IDS_MONITOR_CALL_INCOMING" xml:space="preserve">
+    <value>totale chiamate</value>
+  </data>
+  <data name="IDS_MONITOR_CALL_INTERNE" xml:space="preserve">
+    <value>interne</value>
+  </data>
+  <data name="IDS_MONITOR_CALL_TIT_TOP_FIVE" xml:space="preserve">
+    <value>Top 5 per # chiamate</value>
+  </data>
+  <data name="IDS_MONITOR_TITOLO_RPT_ENTRANTI" xml:space="preserve">
+    <value>Le mie chiamate entranti (interno {0})</value>
+  </data>
+  <data name="IDS_MONITOR_TITOLO_RPT_GENERALE" xml:space="preserve">
+    <value>Le mie chiamate (interno {0})</value>
+  </data>
+  <data name="IDS_MONITOR_TITOLO_RPT_USCENTI" xml:space="preserve">
+    <value>Le mie chiamate uscenti (interno {0})</value>
+  </data>
+  <data name="IDS_MSG_SENDSMS_MSG_GIA_INVIATO" xml:space="preserve">
+    <value>Questo messaggio è già stato inviato precedentemente. Si intende inviare nuovamente questo sms?</value>
+  </data>
+  <data name="IDS_MSG_SENDSMS_TIT_GIA_INVIATO" xml:space="preserve">
+    <value>Invio SMS</value>
+  </data>
+  <data name="IDS_MSG_TIT_ERRORE_INVIO_SMS" xml:space="preserve">
+    <value>Invio SMS</value>
+  </data>
+  <data name="IDS_OPTION_MESSAGES_TAB_EMAIL" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="IDS_OPTION_MESSAGES_TAB_SMS" xml:space="preserve">
+    <value>SMS</value>
+  </data>
+  <data name="IDS_OPTION_MESSAGES_TAB_TEMPLATE" xml:space="preserve">
+    <value>Modelli</value>
+  </data>
+  <data name="IDS_TAB_MONITOR_CHIAMATE_ENTRANTI" xml:space="preserve">
+    <value>chiamate entranti</value>
+  </data>
+  <data name="IDS_TAB_MONITOR_CHIAMATE_PERSE" xml:space="preserve">
+    <value>chiamate perse</value>
+  </data>
+  <data name="IDS_TAB_MONITOR_CHIAMATE_USCENTI" xml:space="preserve">
+    <value>chiamate uscenti</value>
+  </data>
+  <data name="IDS_TAB_MONITOR_DURATA_MEDIA" xml:space="preserve">
+    <value>media</value>
+  </data>
+  <data name="IDS_TAB_MONITOR_SMS_INVIATI" xml:space="preserve">
+    <value>SMS inviati</value>
+  </data>
+  <data name="IDS_TAB_MONITOR_TOT_CHIAMATE" xml:space="preserve">
+    <value>chiamate totali</value>
+  </data>
+  <data name="IDS_TAB_MONITOR_TOT_DUR_CHIAMATE" xml:space="preserve">
+    <value>durata chiamate</value>
+  </data>
+  <data name="IDS_TLB_MONITOR_CALL_ENTRANTI" xml:space="preserve">
+    <value>Chiamate entranti</value>
+  </data>
+  <data name="IDS_TLB_MONITOR_CALL_USCENTI" xml:space="preserve">
+    <value>Chiamate uscenti</value>
+  </data>
+  <data name="IDS_TLB_MONITOR_GENERALE" xml:space="preserve">
+    <value>Generale</value>
+  </data>
+  <data name="IDS_TLB_MONITOR_STAMPA" xml:space="preserve">
+    <value>Stampa</value>
+  </data>
+  <data name="IDS_TOOLTIP_MONITOR_PRECEDENTE" xml:space="preserve">
+    <value>Monitor precedente</value>
+  </data>
+  <data name="IDS_TOOLTIP_MONITOR_SUCCESSIVO" xml:space="preserve">
+    <value>Monitor successivo</value>
+  </data>
+  <data name="IDS_TOOLTIP_SENDMAIL_CERCA_DESTINATARI" xml:space="preserve">
+    <value>Aggiungi destinatari all'Email</value>
+  </data>
+  <data name="IDS_TOOLTIP_SENDSMS_CERCA_DESTINATARI" xml:space="preserve">
+    <value>Aggiungi destinatari all'SMS</value>
+  </data>
+  <data name="IDS_TOOLTIP_SENDSMS_INVIA_SMS" xml:space="preserve">
+    <value>Invia SMS</value>
+  </data>
+  <data name="IDS_TOOLTIP_SENDSMS_RIMUOVI_DESTINATARI" xml:space="preserve">
+    <value>Rimuovi destinatari</value>
+  </data>
+  <data name="IDS_TOOLTIP_SLIDE_SEARCH_SMS_ADD_DEST" xml:space="preserve">
+    <value>Aggiungi destinatario</value>
+  </data>
+  <data name="IDS_TOOLTIP_SLIDE_SEARCH_SMS_CERCA_DESTINATARIO" xml:space="preserve">
+    <value>Cerca un destinatario</value>
+  </data>
+  <data name="IDS_TOOLTIP_SLIDE_SEARCH_SMS_NASCONDI_FINESTRA" xml:space="preserve">
+    <value>Nascondi la finestra</value>
+  </data>
+  <data name="IDS_TXT_SENDMAIL_EMPTY_DESTINATARIO" xml:space="preserve">
+    <value>Inserisci indirizzi email o i nomi dei destinatari</value>
+  </data>
+  <data name="IDS_TXT_SENDSMS_EMPTY_DESTINATARIO" xml:space="preserve">
+    <value>Inserisci i numeri o i nomi dei destinatari</value>
+  </data>
+  <data name="IDS_TXT_SENDSMS_EMPTY_MESSAGGIO" xml:space="preserve">
+    <value>Inserisci il testo del messaggio</value>
+  </data>
+  <data name="IDS_TXT_SENDSMS_NUMERO_MESSAGGI" xml:space="preserve">
+    <value>Credito sms</value>
+  </data>
+  <data name="IDS_TXT_SLIDESEARCHSMS_CERCA_CONTATTO" xml:space="preserve">
+    <value>Cerca contatto</value>
+  </data>
+  <data name="IDS_TYPEDATECALLFILTER_ALL" xml:space="preserve">
+    <value>Nel registro</value>
+  </data>
+  <data name="IDS_TYPEDATECALLFILTER_LAST_2_HOUR" xml:space="preserve">
+    <value>Delle ultime due ore</value>
+  </data>
+  <data name="IDS_TYPEDATECALLFILTER_LAST_8_HOUR" xml:space="preserve">
+    <value>Delle ultime otto ore</value>
+  </data>
+  <data name="IDS_TYPEDATECALLFILTER_LAST_HALF_HOUR" xml:space="preserve">
+    <value>Dell'ultima mezz'ora</value>
+  </data>
+  <data name="IDS_TYPEDATECALLFILTER_LAST_HOUR" xml:space="preserve">
+    <value>Dell'ultima ora</value>
+  </data>
+  <data name="IDS_TYPEDATECALLFILTER_LAST_MONTH" xml:space="preserve">
+    <value>Del mese scorso</value>
+  </data>
+  <data name="IDS_TYPEDATECALLFILTER_THIS_DAY" xml:space="preserve">
+    <value>Della giornata</value>
+  </data>
+  <data name="IDS_TYPEDATECALLFILTER_THIS_MONTH" xml:space="preserve">
+    <value>Di questo mese</value>
+  </data>
+  <data name="IDS_TYPEDATECALLFILTER_THIS_WEEK" xml:space="preserve">
+    <value>Di questa settimana</value>
+  </data>
+  <data name="IDS_TYPEDATECALLFILTER_THIS_YEAR" xml:space="preserve">
+    <value>Di quest'anno</value>
+  </data>
+  <data name="IDS_TYPEDATECALLFILTER_YESTERDAY" xml:space="preserve">
+    <value>Di ieri</value>
+  </data>
+  <data name="JAWS_DEFAULT_MESSAGE_CALL_STATUS" xml:space="preserve">
+    <value>Chiamata $$CALL_STATUS$$ con $$REMOTEPARTY_NAME$$ numero $$REMOTEPARTY_NUMBER$$ [per la coda $$QUEUE_NAME$$] [inoltrata da $$REDIRECTINGPARTY_NAME$$ numero $$REDIRECTINGPARTY_NUMBER$$] [$$RECORDING_STATUS$$]</value>
+  </data>
+  <data name="JAWS_DEFAULT_RINGING_MESSAGE" xml:space="preserve">
+    <value>Chiamata da $$REMOTEPARTY_NAME$$ numero $$REMOTEPARTY_NUMBER$$ [azienda $$REMOTEPARTY_COMPANYNAME$$] [per la coda $$QUEUE_NAME$$] [inoltrata da $$REDIRECTINGPARTY_NAME$$ numero $$REDIRECTINGPARTY_NUMBER$$]</value>
+  </data>
+  <data name="JAWS_MONITOR_GENERAL" xml:space="preserve">
+    <value>Monitor analisi generale {0} Chiamate totali {1} Chiamate entranti {2} Chiamate uscenti {3} Chiamate perse {4} Durata totale delle chiamate {5} Durata media delle chiamate {6}</value>
+  </data>
+  <data name="JAWS_MONITOR_INCOMING" xml:space="preserve">
+    <value>Monitor chiamate entranti {0} Chiamate totali {1} Durata totale delle chiamate {2} Durata media delle chiamate {3}</value>
+  </data>
+  <data name="JAWS_MONITOR_OUTCOMING" xml:space="preserve">
+    <value>Monitor chiamate uscenti {0} Chiamate totali {1} Durata totale delle chiamate {2} Durata media delle chiamate {3}</value>
+  </data>
+  <data name="LABEL_ABOUT_VERSION" xml:space="preserve">
+    <value>Versione {0}</value>
+  </data>
+  <data name="LABEL_AGENT_EXTENSION" xml:space="preserve">
+    <value>Interno</value>
+  </data>
+  <data name="LABEL_AGENT_QUEUE_NAME" xml:space="preserve">
+    <value>Coda</value>
+  </data>
+  <data name="LABEL_BAE" xml:space="preserve">
+    <value>Blue's Attendant Enterprise</value>
+  </data>
+  <data name="LABEL_BAP" xml:space="preserve">
+    <value>Blue's Attendant Professional</value>
+  </data>
+  <data name="LABEL_BOE" xml:space="preserve">
+    <value>Blue's One Enterprise</value>
+  </data>
+  <data name="LABEL_CONCTS_RECORD_COUNT" xml:space="preserve">
+    <value>{0} contatti</value>
+  </data>
+  <data name="LABEL_ERROR_TITLE" xml:space="preserve">
+    <value>Errore</value>
+  </data>
+  <data name="LABEL_ERR_CCADDTOCONFERENCE" xml:space="preserve">
+    <value>Impossibile aggiungere il numero alla conferenza</value>
+  </data>
+  <data name="LABEL_ERR_CCANSWERCALL" xml:space="preserve">
+    <value>Impossibile rispondere alla chiamata</value>
+  </data>
+  <data name="LABEL_ERR_CCBLINDTRANSFER" xml:space="preserve">
+    <value>Impossibile trasferire la chiamata</value>
+  </data>
+  <data name="LABEL_ERR_CCBLINDTRANSFERDESTINATIONBUSY" xml:space="preserve">
+    <value>Destinazione occupata</value>
+  </data>
+  <data name="LABEL_ERR_CCBLINDTRANSFERDESTINATIONINVALID" xml:space="preserve">
+    <value>Numero di destinazione non valido</value>
+  </data>
+  <data name="LABEL_ERR_CCCALLPARK" xml:space="preserve">
+    <value>Impossibile parcheggiare la chiamata</value>
+  </data>
+  <data name="LABEL_ERR_CCCALLUNPARK" xml:space="preserve">
+    <value>Impossibile riprendere la chiamata dal parcheggio</value>
+  </data>
+  <data name="LABEL_ERR_CCCOMPLETETRANSFER" xml:space="preserve">
+    <value>Impossibile completare il trasferimento della chiamata</value>
+  </data>
+  <data name="LABEL_ERR_CCHANGUP" xml:space="preserve">
+    <value>Impossibile chiudere la chiamata</value>
+  </data>
+  <data name="LABEL_ERR_CCHOLD" xml:space="preserve">
+    <value>Impossibile mettere in attesa la chiamata</value>
+  </data>
+  <data name="LABEL_ERR_CCINVITETOCONFERENCE" xml:space="preserve">
+    <value>Impossibile invitare il numero alla conferenza</value>
+  </data>
+  <data name="LABEL_ERR_CCMAKECALL" xml:space="preserve">
+    <value>Impossibile effettuare la chiamata</value>
+  </data>
+  <data name="LABEL_ERR_CCMAKECONSULTATIONCALL" xml:space="preserve">
+    <value>Impossibile effettuare la chiamata di consultazione</value>
+  </data>
+  <data name="LABEL_ERR_CCRETRIEVE" xml:space="preserve">
+    <value>Impossibile riprendere la chiamata</value>
+  </data>
+  <data name="LABEL_ERR_CCWRONGSTATUS" xml:space="preserve">
+    <value>Impossibile effettuare questo comando nello stato attuale della chiamata</value>
+  </data>
+  <data name="LABEL_ERR_CC_TAPI_CONFERENCEFULL" xml:space="preserve">
+    <value>Non è possibile aggiungere altri partecipanti perché è stato raggiunto il numero massimo di partecipanti</value>
+  </data>
+  <data name="LABEL_ERR_CC_TAPI_INVALSTATE" xml:space="preserve">
+    <value>L’operazione non è compatibile con lo stato di chiamata</value>
+  </data>
+  <data name="LABEL_ERR_CC_TAPI_OPERATIONFAILED" xml:space="preserve">
+    <value>Non è stato possibile eseguire l’operazione richiesta</value>
+  </data>
+  <data name="LABEL_ERR_CC_TAPI_RESOURCEUNAVAIL" xml:space="preserve">
+    <value>Non ci sono risorse sufficienti per completare l’operazione</value>
+  </data>
+  <data name="LABEL_ERR_QUEUEBOOKCALL" xml:space="preserve">
+    <value>Impossibile prenotare la chiamata</value>
+  </data>
+  <data name="LABEL_ERR_QUEUECAMPONREQUEST" xml:space="preserve">
+    <value>Impossibile parcheggiare la chiamata sull'interno</value>
+  </data>
+  <data name="LABEL_ERR_QUEUEPICKCALL" xml:space="preserve">
+    <value>Impossibile rispondere alla chiamata in coda</value>
+  </data>
+  <data name="LABEL_FADE_INCOMING_CALL" xml:space="preserve">
+    <value>Chiamata da</value>
+  </data>
+  <data name="LABEL_FADE_MISSED_CALLS" xml:space="preserve">
+    <value>{0} chiamate non risposte</value>
+  </data>
+  <data name="LABEL_FADE_MISSING_CALL" xml:space="preserve">
+    <value>Chiamata persa da</value>
+  </data>
+  <data name="LABEL_FADE_OUTGOING_CALL" xml:space="preserve">
+    <value>Chiamata verso</value>
+  </data>
+  <data name="LABEL_FAVOURITE_CELLULARE" xml:space="preserve">
+    <value>Cellulare</value>
+  </data>
+  <data name="LABEL_FAVOURITE_CELLULARE_PRIVATO" xml:space="preserve">
+    <value>Cellulare privato</value>
+  </data>
+  <data name="LABEL_FAVOURITE_EMPTY" xml:space="preserve">
+    <value>Preferito vuoto</value>
+  </data>
+  <data name="LABEL_FAVOURITE_GRID_VIEW" xml:space="preserve">
+    <value>griglia</value>
+  </data>
+  <data name="LABEL_FAVOURITE_HOME_PHONE" xml:space="preserve">
+    <value>Casa</value>
+  </data>
+  <data name="LABEL_FAVOURITE_INSERT_TEXT" xml:space="preserve">
+    <value>Digitare un contatto da ricercare e premere INVIO</value>
+  </data>
+  <data name="LABEL_FAVOURITE_INTERNO" xml:space="preserve">
+    <value>Interno</value>
+  </data>
+  <data name="LABEL_FAVOURITE_LIST_VIEW" xml:space="preserve">
+    <value>elenco</value>
+  </data>
+  <data name="LABEL_FAVOURITE_NO_RESULT_TEXT" xml:space="preserve">
+    <value>Nessun contatto corrisponde ai criteri di ricerca</value>
+  </data>
+  <data name="LABEL_FAVOURITE_TELEFONO" xml:space="preserve">
+    <value>Telefono</value>
+  </data>
+  <data name="LABEL_HOTKEY_ACTIVE_CALL_NUMBER" xml:space="preserve">
+    <value>Leggi numero chiamate su linee</value>
+  </data>
+  <data name="LABEL_HOTKEY_ACTIVE_LIST" xml:space="preserve">
+    <value>Lista delle HotKey attive</value>
+  </data>
+  <data name="LABEL_HOTKEY_ADD_TO_CONF" xml:space="preserve">
+    <value>Unisci in conferenza</value>
+  </data>
+  <data name="LABEL_HOTKEY_ANSWER" xml:space="preserve">
+    <value>Rispondi</value>
+  </data>
+  <data name="LABEL_HOTKEY_BLIND_TRANSFER" xml:space="preserve">
+    <value>Trasferisci senza consultazione</value>
+  </data>
+  <data name="LABEL_HOTKEY_CALL" xml:space="preserve">
+    <value>Chiama</value>
+  </data>
+  <data name="LABEL_HOTKEY_CALL_EDIT_AND_DIAL" xml:space="preserve">
+    <value>Composizione rapida di un numero di telefono modificabile</value>
+  </data>
+  <data name="LABEL_HOTKEY_CALL_INFO" xml:space="preserve">
+    <value>Leggi info chiamata</value>
+  </data>
+  <data name="LABEL_HOTKEY_CLOSE" xml:space="preserve">
+    <value>Riaggancia</value>
+  </data>
+  <data name="LABEL_HOTKEY_COMPLETE_TRANSFER" xml:space="preserve">
+    <value>Completa trasferta</value>
+  </data>
+  <data name="LABEL_HOTKEY_DESC_APP_FOCUS" xml:space="preserve">
+    <value>Porta l'applicazione in primo piano</value>
+  </data>
+  <data name="LABEL_HOTKEY_DESC_CLOSE_APP" xml:space="preserve">
+    <value>Esci dall'applicazione</value>
+  </data>
+  <data name="LABEL_HOTKEY_DESC_CURRENT_CALLS" xml:space="preserve">
+    <value>Seleziona il pannello chiamate correnti</value>
+  </data>
+  <data name="LABEL_HOTKEY_DESC_FAVOURITES" xml:space="preserve">
+    <value>Seleziona pannello preferiti</value>
+  </data>
+  <data name="LABEL_HOTKEY_DESC_PARK_CALLS" xml:space="preserve">
+    <value>Seleziona il pannello chiamate parcheggiate</value>
+  </data>
+  <data name="LABEL_HOTKEY_DESC_PHON_EDIT_FOCUS" xml:space="preserve">
+    <value>Seleziona il campo di inserimento numero telefonico</value>
+  </data>
+  <data name="LABEL_HOTKEY_DESC_QUEUE" xml:space="preserve">
+    <value>Seleziona pannello di gestione delle code</value>
+  </data>
+  <data name="LABEL_HOTKEY_DESC_REGISTRY" xml:space="preserve">
+    <value>Seleziona pannello registro chiamate</value>
+  </data>
+  <data name="LABEL_HOTKEY_DESC_SEARCH_CONTACT" xml:space="preserve">
+    <value>Seleziona pannello ricerca contatto</value>
+  </data>
+  <data name="LABEL_HOTKEY_DESC_SEARCH_EXTEN" xml:space="preserve">
+    <value>Seleziona pannello ricerca interno</value>
+  </data>
+  <data name="LABEL_HOTKEY_DESC_SHOW_HOTKEY_LIST" xml:space="preserve">
+    <value>Visualizza la lista delle Hotkey attive</value>
+  </data>
+  <data name="LABEL_HOTKEY_DESC_SHOW_OPTION" xml:space="preserve">
+    <value>Mostra opzioni</value>
+  </data>
+  <data name="LABEL_HOTKEY_GENERAL_EDIT_AND_DIAL" xml:space="preserve">
+    <value>Composizione rapida di un numero di telefono modificabile</value>
+  </data>
+  <data name="LABEL_HOTKEY_GENERAL_FAST_SEARCH" xml:space="preserve">
+    <value>Ricerca rapida</value>
+  </data>
+  <data name="LABEL_HOTKEY_GENERAL_SEND_SMS" xml:space="preserve">
+    <value>Invia SMS</value>
+  </data>
+  <data name="LABEL_HOTKEY_HOLD" xml:space="preserve">
+    <value>Metti in attesa</value>
+  </data>
+  <data name="LABEL_HOTKEY_INVITE_TO_CONF" xml:space="preserve">
+    <value>Invita a conferenza</value>
+  </data>
+  <data name="LABEL_HOTKEY_INVITE_TO_CONFERENCE" xml:space="preserve">
+    <value>Invita/Unisci in conferenza</value>
+  </data>
+  <data name="LABEL_HOTKEY_LIST_TITLE_PRINT" xml:space="preserve">
+    <value>Lista delle Hotkeys</value>
+  </data>
+  <data name="LABEL_HOTKEY_LOGIN_ALL" xml:space="preserve">
+    <value>Ready su tutte le code</value>
+  </data>
+  <data name="LABEL_HOTKEY_LOGIN_LOGOUT" xml:space="preserve">
+    <value>Ready/logout coda selezionata</value>
+  </data>
+  <data name="LABEL_HOTKEY_LOGOUT_ALL" xml:space="preserve">
+    <value>Logout tutte le code</value>
+  </data>
+  <data name="LABEL_HOTKEY_PARK" xml:space="preserve">
+    <value>Parcheggia</value>
+  </data>
+  <data name="LABEL_HOTKEY_PARKED_CALL_NUMBER" xml:space="preserve">
+    <value>Leggi numero chiamate parcheggiate</value>
+  </data>
+  <data name="LABEL_HOTKEY_PARK_ON_EXT" xml:space="preserve">
+    <value>Parcheggia su destinazione</value>
+  </data>
+  <data name="LABEL_HOTKEY_QUEUE_STAT" xml:space="preserve">
+    <value>Leggi statistiche coda</value>
+  </data>
+  <data name="LABEL_HOTKEY_RAPID_CALL" xml:space="preserve">
+    <value>Composizione rapida di un numero di telefono</value>
+  </data>
+  <data name="LABEL_HOTKEY_RESERVE_CALL" xml:space="preserve">
+    <value>Prenota chiamata</value>
+  </data>
+  <data name="LABEL_HOTKEY_SEARCH_FOCUS_CONTACT" xml:space="preserve">
+    <value>Ricerca Contatti rubrica</value>
+  </data>
+  <data name="LABEL_HOTKEY_SEARCH_FOCUS_EXT" xml:space="preserve">
+    <value>Ricerca colleghi</value>
+  </data>
+  <data name="LABEL_HOTKEY_SEARCH_SHOW_CONTACT_DETAILS" xml:space="preserve">
+    <value>Visualizza scheda con dettagli del contatto</value>
+  </data>
+  <data name="LABEL_HOTKEY_START_TRANSFER" xml:space="preserve">
+    <value>Inizia trasferta</value>
+  </data>
+  <data name="LABEL_HOTKEY_STATUS_OPERATOR" xml:space="preserve">
+    <value>Leggi stato operatore</value>
+  </data>
+  <data name="LABEL_HOTKEY_UNHOLD" xml:space="preserve">
+    <value>Riprendi da attesa</value>
+  </data>
+  <data name="LABEL_HOTKEY_UNPARK" xml:space="preserve">
+    <value>Riprendi da parcheggio</value>
+  </data>
+  <data name="LABEL_LOGIN_ADDRESS" xml:space="preserve">
+    <value>Indirizzo IP/hostname/dominio:</value>
+  </data>
+  <data name="LABEL_LOGIN_ERROR_AUTH" xml:space="preserve">
+    <value>Utente o password errati.</value>
+  </data>
+  <data name="LABEL_LOGIN_ERROR_INIT" xml:space="preserve">
+    <value>Errore di inizializzazione</value>
+  </data>
+  <data name="LABEL_LOGIN_ERROR_SERVER" xml:space="preserve">
+    <value>Errore nella connessione al server.</value>
+  </data>
+  <data name="LABEL_LOGIN_OPTION_DESCRIPTION" xml:space="preserve">
+    <value>Indicare l'indirizzo e la porta di comunicazione del server.</value>
+  </data>
+  <data name="LABEL_LOGIN_OPTION_DESCRIPTION_EX" xml:space="preserve">
+    <value>Indicare l'indirizzo del server</value>
+  </data>
+  <data name="LABEL_LOGIN_OPTION_TITLE" xml:space="preserve">
+    <value>Opzioni di connessione</value>
+  </data>
+  <data name="LABEL_LOGIN_PORT" xml:space="preserve">
+    <value>Porta:</value>
+  </data>
+  <data name="LABEL_LOGIN_QUEUE" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="LABEL_LOGIN_WAIT" xml:space="preserve">
+    <value>Login in corso...</value>
+  </data>
+  <data name="LABEL_LOGOUT_QUEUE" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="LABEL_MAIN_ALL_QUEUE" xml:space="preserve">
+    <value>Tutte le code</value>
+  </data>
+  <data name="LABEL_MAIN_QUEUE" xml:space="preserve">
+    <value>Chiamate in coda</value>
+  </data>
+  <data name="LABEL_MENU_PASSA_DISPONIBILE" xml:space="preserve">
+    <value>Passa a disponibile</value>
+  </data>
+  <data name="LABEL_MENU_PASSA_NON_DISPONIBILE" xml:space="preserve">
+    <value>Passa a non disponibile</value>
+  </data>
+  <data name="LABEL_OPEN_APPLICATION" xml:space="preserve">
+    <value>Apri applicazione</value>
+  </data>
+  <data name="LABEL_OPTION_SPEEDY_STATUS_OFF" xml:space="preserve">
+    <value>Il servizio Speedy non è attualmente attivo sul server {0}</value>
+  </data>
+  <data name="LABEL_OPTION_SPEEDY_STATUS_ON" xml:space="preserve">
+    <value>Il servizio Speedy è attualmente attivo sul server {0}</value>
+  </data>
+  <data name="LABEL_PARKED_BY" xml:space="preserve">
+    <value>Parcheggiato da</value>
+  </data>
+  <data name="LABEL_PARKED_ON" xml:space="preserve">
+    <value>Parcheggiato su</value>
+  </data>
+  <data name="LABEL_PARK_NUMBER" xml:space="preserve">
+    <value>Numero</value>
+  </data>
+  <data name="LABEL_PHONENUMBERTYPE_ALTRO" xml:space="preserve">
+    <value>Altro</value>
+  </data>
+  <data name="LABEL_PHONENUMBERTYPE_CASA" xml:space="preserve">
+    <value>Casa</value>
+  </data>
+  <data name="LABEL_PHONENUMBERTYPE_CELLULARE" xml:space="preserve">
+    <value>Cellulare</value>
+  </data>
+  <data name="LABEL_PHONENUMBERTYPE_EXTENSION" xml:space="preserve">
+    <value>Interno</value>
+  </data>
+  <data name="LABEL_PHONENUMBERTYPE_FAX" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="LABEL_PHONENUMBERTYPE_GENERICO" xml:space="preserve">
+    <value>Generico</value>
+  </data>
+  <data name="LABEL_PHONENUMBERTYPE_SPEEDDIAL" xml:space="preserve">
+    <value>Speed Dial</value>
+  </data>
+  <data name="LABEL_PHONENUMBERTYPE_TELEFONO" xml:space="preserve">
+    <value>Telefono</value>
+  </data>
+  <data name="LABEL_PHONENUMBERTYPE_UFFICIO" xml:space="preserve">
+    <value>Ufficio</value>
+  </data>
+  <data name="LABEL_PRINT_LIST" xml:space="preserve">
+    <value>Stampa lista</value>
+  </data>
+  <data name="LABEL_PROGRAM_NAME" xml:space="preserve">
+    <value>Imagicle Blue's Attendant</value>
+  </data>
+  <data name="LABEL_QUEUE_CLOSED" xml:space="preserve">
+    <value>(Coda chiusa)</value>
+  </data>
+  <data name="LABEL_QUEUE_LIST_SUBSCRIBE" xml:space="preserve">
+    <value>Le mie code</value>
+  </data>
+  <data name="LABEL_QUEUE_LOGIN" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="LABEL_QUEUE_LOGOUT" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="LABEL_QUEUE_MANUAL" xml:space="preserve">
+    <value>[F]</value>
+  </data>
+  <data name="LABEL_QUEUE_NEME_STATISTICS" xml:space="preserve">
+    <value>({0} chiamate, {1} VIP)</value>
+  </data>
+  <data name="LABEL_QUEUE_PROGRAMMED" xml:space="preserve">
+    <value>[P]</value>
+  </data>
+  <data name="LABEL_QUEUE_STATISTICS" xml:space="preserve">
+    <value>{0} chiamate, {1} VIP</value>
+  </data>
+  <data name="LABEL_SEARCH_CERCA_CONTATTO" xml:space="preserve">
+    <value>Cerca contatto</value>
+  </data>
+  <data name="LABEL_SEARCH_CERCA_INTERNO" xml:space="preserve">
+    <value>Cerca tra i colleghi</value>
+  </data>
+  <data name="LABEL_SEARCH_CERCA_PREFERITO" xml:space="preserve">
+    <value>Cerca tra i preferiti</value>
+  </data>
+  <data name="LABEL_SEARCH_CERCA_REGISTRO" xml:space="preserve">
+    <value>Cerca nel registro</value>
+  </data>
+  <data name="LABEL_SMS_OPTION_INTERNATIONAL_PREFIX" xml:space="preserve">
+    <value>Prefisso internazionale:</value>
+  </data>
+  <data name="LABEL_STATUS_AVAILABLE" xml:space="preserve">
+    <value>Stato: disponibile</value>
+  </data>
+  <data name="LABEL_STATUS_HOTKEYDESCRIPTION" xml:space="preserve">
+    <value>Configura i tasti di scelta rapida per le funzioni usate frequentamente</value>
+  </data>
+  <data name="LABEL_STATUS_UNAVAILABLE" xml:space="preserve">
+    <value>Stato: non disponibile</value>
+  </data>
+  <data name="LBL_AGENT_STATUS_PAUSE" xml:space="preserve">
+    <value>Pausa</value>
+  </data>
+  <data name="LBL_AGENT_STATUS_WRAPUP" xml:space="preserve">
+    <value>Wrap-up</value>
+  </data>
+  <data name="LBL_COMMON_NUMERO" xml:space="preserve">
+    <value>Numero</value>
+  </data>
+  <data name="LBL_COMMON_TIPO" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="LBL_HOTKEY_PAUSE_WRAPUP" xml:space="preserve">
+    <value>Inizio pausa/fine pausa/fine wrap-up</value>
+  </data>
+  <data name="LBL_LOADING_NEWS" xml:space="preserve">
+    <value>Caricamento delle novità. Attendere...</value>
+  </data>
+  <data name="LBL_NEWS" xml:space="preserve">
+    <value>Novità</value>
+  </data>
+  <data name="LINK_FADE_SHOW_QUEUE_CALLS" xml:space="preserve">
+    <value>Visualizza chiamate in coda</value>
+  </data>
+  <data name="LINK_FADE_SHOW_REGISTRY" xml:space="preserve">
+    <value>Visualizza registro chiamate</value>
+  </data>
+  <data name="LINK_LABEL_ABILITA_RUBRICHE" xml:space="preserve">
+    <value>Per poter effettuare delle ricerche sui contatti è necessario abilitare l'integrazione con almeno una delle rubriche disponibili</value>
+  </data>
+  <data name="MENU_ADD_FAVOURITE" xml:space="preserve">
+    <value>Aggiungi preferito</value>
+  </data>
+  <data name="MENU_ADD_MODIFY_NOTE" xml:space="preserve">
+    <value>Aggiungi/modifica nota</value>
+  </data>
+  <data name="MENU_ADD_NOTIFY_CALL" xml:space="preserve">
+    <value>Notifica chiamata con SMS/Email</value>
+  </data>
+  <data name="MENU_CONTACT_PHOTO" xml:space="preserve">
+    <value>Foto contatto</value>
+  </data>
+  <data name="MENU_CONTACT_PRESENCE" xml:space="preserve">
+    <value>Stato presenza</value>
+  </data>
+  <data name="MENU_CONTAC_ADD_NOTE" xml:space="preserve">
+    <value>Aggiungi/modifica nota al contatto</value>
+  </data>
+  <data name="MENU_CONTAC_ADD_TO_FAVOURITE" xml:space="preserve">
+    <value>Aggiungi a preferiti</value>
+  </data>
+  <data name="MENU_CONTAC_BLIND_TRANSFER_DIRECT" xml:space="preserve">
+    <value>Trasferisci diretto</value>
+  </data>
+  <data name="MENU_CONTAC_CALL_NUMBER" xml:space="preserve">
+    <value>Chiama</value>
+  </data>
+  <data name="MENU_CONTAC_CONFERENCE" xml:space="preserve">
+    <value>Invita in conferenza</value>
+  </data>
+  <data name="MENU_CONTAC_COPY_NUMBER" xml:space="preserve">
+    <value>Copia numero</value>
+  </data>
+  <data name="MENU_CONTAC_HANG_NUMBER" xml:space="preserve">
+    <value>Riaggancia</value>
+  </data>
+  <data name="MENU_CONTAC_OPEN_DETAIL" xml:space="preserve">
+    <value>Apri scheda</value>
+  </data>
+  <data name="MENU_CONTAC_PARK" xml:space="preserve">
+    <value>Parcheggia su destinazione</value>
+  </data>
+  <data name="MENU_CONTAC_SEND_CONTACT" xml:space="preserve">
+    <value>Invia contatto</value>
+  </data>
+  <data name="MENU_CONTAC_SEND_MESSAGE" xml:space="preserve">
+    <value>Invia messaggio</value>
+  </data>
+  <data name="MENU_CONTAC_SEND_SMS" xml:space="preserve">
+    <value>Invia SMS</value>
+  </data>
+  <data name="MENU_CONTAC_TRANSFER_CONSULT" xml:space="preserve">
+    <value>Trasferisci con consultazione</value>
+  </data>
+  <data name="MENU_END_PAUSE" xml:space="preserve">
+    <value>Fine pausa</value>
+  </data>
+  <data name="MENU_FAVOURITE_ADD" xml:space="preserve">
+    <value>Aggiungi preferito</value>
+  </data>
+  <data name="MENU_FAVOURITE_ADD_CONF" xml:space="preserve">
+    <value>Invita in conferenza</value>
+  </data>
+  <data name="MENU_FAVOURITE_CHIAMA_NUMERO" xml:space="preserve">
+    <value>Chiama numero</value>
+  </data>
+  <data name="MENU_FAVOURITE_COPY_NUMBER" xml:space="preserve">
+    <value>Copia numero</value>
+  </data>
+  <data name="MENU_FAVOURITE_MODIFICA_PREFERITO" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="MENU_FAVOURITE_MOVE_TO" xml:space="preserve">
+    <value>Sposta in</value>
+  </data>
+  <data name="MENU_FAVOURITE_OPEN_SCHEDA" xml:space="preserve">
+    <value>Apri scheda</value>
+  </data>
+  <data name="MENU_FAVOURITE_PARCHEGGIA" xml:space="preserve">
+    <value>Parcheggia su destinazione</value>
+  </data>
+  <data name="MENU_FAVOURITE_REMOVE" xml:space="preserve">
+    <value>Rimuovi preferito</value>
+  </data>
+  <data name="MENU_FAVOURITE_SEND_CONTACT" xml:space="preserve">
+    <value>Invia contatto</value>
+  </data>
+  <data name="MENU_FAVOURITE_SEND_EMAIL" xml:space="preserve">
+    <value>Componi email</value>
+  </data>
+  <data name="MENU_FAVOURITE_SEND_MESSAGE" xml:space="preserve">
+    <value>Invia messaggio</value>
+  </data>
+  <data name="MENU_FAVOURITE_SEND_SMS" xml:space="preserve">
+    <value>Invia SMS</value>
+  </data>
+  <data name="MENU_FAVOURITE_TRASFERISCI_CONSULTAZIONE" xml:space="preserve">
+    <value>Trasferisci con consultazione</value>
+  </data>
+  <data name="MENU_FAVOURITE_TRASFERISCI_DIRETTO" xml:space="preserve">
+    <value>Trasferisci diretto</value>
+  </data>
+  <data name="MENU_FORCE_CLOSE_QUEUE" xml:space="preserve">
+    <value>Forza chiusura</value>
+  </data>
+  <data name="MENU_FORCE_OPEN_QUEUE" xml:space="preserve">
+    <value>Forza apertura</value>
+  </data>
+  <data name="MENU_LABEL_ABOUT" xml:space="preserve">
+    <value>&amp;Informazioni su...</value>
+  </data>
+  <data name="ACCESSIBILITY_ABOUT_DIALOG" xml:space="preserve">
+    <value>Informazioni su</value>
+  </data>
+  <data name="MENU_LABEL_CHECK_UPDATE" xml:space="preserve">
+    <value>Controlla &amp;aggiornamenti</value>
+  </data>
+  <data name="MENU_LBL_AZIENDA" xml:space="preserve">
+    <value>&amp;Azienda</value>
+  </data>
+  <data name="MENU_LBL_AZIONI" xml:space="preserve">
+    <value>A&amp;zioni</value>
+  </data>
+  <data name="MENU_LBL_CELLULARE" xml:space="preserve">
+    <value>&amp;Cellulare</value>
+  </data>
+  <data name="MENU_LBL_MAIL" xml:space="preserve">
+    <value>E&amp;mail</value>
+  </data>
+  <data name="MENU_LBL_NOME" xml:space="preserve">
+    <value>&amp;Nome</value>
+  </data>
+  <data name="MENU_LBL_OPTION" xml:space="preserve">
+    <value>&amp;Opzioni</value>
+  </data>
+  <data name="MENU_LBL_SEDE" xml:space="preserve">
+    <value>S&amp;ede</value>
+  </data>
+  <data name="MENU_LBL_STATO" xml:space="preserve">
+    <value>&amp;Stato</value>
+  </data>
+  <data name="MENU_LBL_TELEFONO" xml:space="preserve">
+    <value>&amp;Telefono</value>
+  </data>
+  <data name="MENU_LBL_TUTTE_SEDI" xml:space="preserve">
+    <value>Tutte le sedi</value>
+  </data>
+  <data name="MENU_LBL_TUTTI_DIPARTIMENTI" xml:space="preserve">
+    <value>Tutti i dipartimenti</value>
+  </data>
+  <data name="MENU_LBL_TUTTI_UFFICI" xml:space="preserve">
+    <value>Tutti gli uffici</value>
+  </data>
+  <data name="MENU_LBL_UFFICIO" xml:space="preserve">
+    <value>&amp;Ufficio</value>
+  </data>
+  <data name="MENU_MODIFY_CONTACT_IMAGE" xml:space="preserve">
+    <value>Modifica immagine contatto</value>
+  </data>
+  <data name="MENU_RESUME_BEHAVIOR" xml:space="preserve">
+    <value>Ripristina comportamento programmato</value>
+  </data>
+  <data name="MENU_START_PAUSE" xml:space="preserve">
+    <value>Inizo pausa</value>
+  </data>
+  <data name="MENU_SUBITEM_COMPACT_VIEW" xml:space="preserve">
+    <value>Vista compatta</value>
+  </data>
+  <data name="MENU_SUBITEM_EXTENDED_VIEW" xml:space="preserve">
+    <value>Vista estesa</value>
+  </data>
+  <data name="MENU_VISUALIZATION_TYPE" xml:space="preserve">
+    <value>Visualizzazione lista</value>
+  </data>
+  <data name="MESSAGE_BOX_RECONNECTION" xml:space="preserve">
+    <value>Impossibile stabilire una connessione con il server ({0}). Si desidera provare a riconnettersi al server?</value>
+  </data>
+  <data name="MESSAGE_CLOSE_APP" xml:space="preserve">
+    <value>Si desidera chiudere l'applicazione?</value>
+  </data>
+  <data name="MESSAGE_CLOSE_APPLICATION" xml:space="preserve">
+    <value>Si desidera chiudere l'applicazione?</value>
+  </data>
+  <data name="MESSAGE_FAVOURITES_REMOVE" xml:space="preserve">
+    <value>Eliminare i preferiti selezionati?</value>
+  </data>
+  <data name="MESSAGE_FAVOURITE_REMOVE" xml:space="preserve">
+    <value>Eliminare il preferito selezionato?</value>
+  </data>
+  <data name="MESSAGE_FAVOURITE_TITLE_REMOVE" xml:space="preserve">
+    <value>Elimina preferito</value>
+  </data>
+  <data name="MESSAGE_HOTKEY_ALREADY_EXIST" xml:space="preserve">
+    <value>La HotKey inserita è già utilizzata. Inserire una HotKey differente</value>
+  </data>
+  <data name="MESSAGE_LBL_NO_ACTIVE_CALL" xml:space="preserve">
+    <value>Nessuna chiamata in corso</value>
+  </data>
+  <data name="MESSAGE_LBL_NUMBER_CALLS_ACTIVE" xml:space="preserve">
+    <value>Sono presenti {0} chiamate in corso</value>
+  </data>
+  <data name="MESSAGE_LBL_NUMBER_CALLS_PARKED" xml:space="preserve">
+    <value>Sono presenti {0} chiamate parcheggiate</value>
+  </data>
+  <data name="MESSAGE_LBL_OPERATORE_DISPONIBILE" xml:space="preserve">
+    <value>Operatore disponibile</value>
+  </data>
+  <data name="MESSAGE_LBL_OPERATORE_NON_DISPONIBILE" xml:space="preserve">
+    <value>Operatore non disponibile</value>
+  </data>
+  <data name="MESSAGE_LBL_STATISTICS_QUEUE" xml:space="preserve">
+    <value>{0} {1} Chiamate in coda {2} Chiamate VIP {3}</value>
+  </data>
+  <data name="MESSAGE_LOAD_CUSTOM_CONFIG" xml:space="preserve">
+    <value>Si desidera importare la configurazione dal file {0} ?</value>
+  </data>
+  <data name="MESSAGE_LOAD_CUSTOM_CONFIG_TXT" xml:space="preserve">
+    <value>Importa configurazione</value>
+  </data>
+  <data name="MESSAGE_MAIL_CLIENT_NOT_PRESENT" xml:space="preserve">
+    <value>Si è verificato un errore nell'apertura del client di posta. Verificare che sia installato sul PC un client di posta e che sia impostato come predefinito.</value>
+  </data>
+  <data name="MESSAGGE_LBL_GENERAL_STATISTICS_QUEUE" xml:space="preserve">
+    <value>Code attive {0} Chiamate gestite {1} Chiamate VIP {2}</value>
+  </data>
+  <data name="MESSAGGE_LBL_GENERAL_STATISTICS_QUEUE_BAP" xml:space="preserve">
+    <value>Chiamate gestite {0} Chiamate VIP {1}</value>
+  </data>
+  <data name="MONITOR_PAGE_ONE" xml:space="preserve">
+    <value>Pagina uno</value>
+  </data>
+  <data name="MONITOR_PAGE_THREE" xml:space="preserve">
+    <value>Pagina tre</value>
+  </data>
+  <data name="MONITOR_PAGE_TWO" xml:space="preserve">
+    <value>Pagina due</value>
+  </data>
+  <data name="MSG_PASSWORD_DIFFERENT" xml:space="preserve">
+    <value>La nuova password non coincide con la password di conferma.</value>
+  </data>
+  <data name="MSG_UPDATE_PASSWORD_FAIL" xml:space="preserve">
+    <value>Aggiornamento della password fallito.</value>
+  </data>
+  <data name="MSG_UPDATE_PASSWORD_SUCCESS" xml:space="preserve">
+    <value>Aggiornamento della password eseguito correttamente.</value>
+  </data>
+  <data name="NOTA_DLG_EMPTY_TEXT" xml:space="preserve">
+    <value>Inserisci nota</value>
+  </data>
+  <data name="NOTA_LBL_NOTE" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="OPTION_ACCESSIBILITY_CALL_STATUS_AS_TEXT" xml:space="preserve">
+    <value>Visualizza le informazioni di stato nella lista chiamate attive in modalità testuale</value>
+  </data>
+  <data name="OPTION_ACCESSIBILITY_DISPLAY_FOCUS" xml:space="preserve">
+    <value>All'arrivo o all'avvio di una chiamata seleziona il numero di telefono all'interno del display.</value>
+  </data>
+  <data name="OPTION_ACCESSIBILITY_REMOVE_CALL_CLOSED" xml:space="preserve">
+    <value>Lascia visibile le chiamate terminate per</value>
+  </data>
+  <data name="OPTION_ACCESSIBILITY_SECONDS" xml:space="preserve">
+    <value>secondi</value>
+  </data>
+  <data name="OPTION_ACCESSIBILITY_SELECT_ACTIVE_ITEM_LIST" xml:space="preserve">
+    <value>Seleziona automaticamente la chiamata in arrivo</value>
+  </data>
+  <data name="OPTION_ACCESSIBILITY_SELECT_RESULT" xml:space="preserve">
+    <value>Seleziona automaticamente il primo risultato di ricerca premendo il tasto invio</value>
+  </data>
+  <data name="OPTION_ACCESSIBILITY_STATUS_AS_TEXT" xml:space="preserve">
+    <value>Visualizza le icone di stato telefonico come testo</value>
+  </data>
+  <data name="OPTION_ADVISE_ENABLE_ACUSTIC_PHONE" xml:space="preserve">
+    <value>Abilita la segnalazione acustica all'arrivo di una chiamata sul telefono</value>
+  </data>
+  <data name="OPTION_ADVISE_ENABLE_ACUSTIC_QUEUE" xml:space="preserve">
+    <value>Abilita la segnalazione acustica all'arrivo di una chiamata sulla coda</value>
+  </data>
+  <data name="OPTION_ADVISE_FOCUS" xml:space="preserve">
+    <value>Porta la console in primo piano</value>
+  </data>
+  <data name="OPTION_ADVISE_LABEL_ACTION_PHONE" xml:space="preserve">
+    <value>All'arrivo di una chiamata sul telefono esegui questa operazione</value>
+  </data>
+  <data name="OPTION_ADVISE_LABEL_ACTION_QUEUE" xml:space="preserve">
+    <value>All'arrivo di una chiamata sulla coda esegui questa operazione</value>
+  </data>
+  <data name="OPTION_ADVISE_NOTHING" xml:space="preserve">
+    <value>Nessuna azione</value>
+  </data>
+  <data name="OPTION_ADVISE_POPUP" xml:space="preserve">
+    <value>Visualizza il popup di notifica</value>
+  </data>
+  <data name="OPTION_AVVISI" xml:space="preserve">
+    <value>Avvisi</value>
+  </data>
+  <data name="OPTION_CMD_TAB_FAVOURITE_ADD" xml:space="preserve">
+    <value>Aggiungi</value>
+  </data>
+  <data name="OPTION_CMD_TAB_FAVOURITE_DOWN" xml:space="preserve">
+    <value>Sposta giu</value>
+  </data>
+  <data name="OPTION_CMD_TAB_FAVOURITE_EDIT" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="OPTION_CMD_TAB_FAVOURITE_REMOVE" xml:space="preserve">
+    <value>Rimuovi</value>
+  </data>
+  <data name="OPTION_CMD_TAB_FAVOURITE_UP" xml:space="preserve">
+    <value>Sposta su</value>
+  </data>
+  <data name="OPTION_COMBO_TAB_IMAGE" xml:space="preserve">
+    <value>Immagine {0}</value>
+  </data>
+  <data name="OPTION_CRMINTEGRATION" xml:space="preserve">
+    <value>Apri scheda</value>
+  </data>
+  <data name="OPTION_CRMINTG_CBO_CALL_BOTH" xml:space="preserve">
+    <value>Chiamate interne ed esterne</value>
+  </data>
+  <data name="OPTION_CRMINTG_CBO_CALL_EXTERNAL" xml:space="preserve">
+    <value>Solo chiamate esterne</value>
+  </data>
+  <data name="OPTION_CRMINTG_CBO_CALL_INTERNAL" xml:space="preserve">
+    <value>Solo chiamate interne</value>
+  </data>
+  <data name="OPTION_CRMINTG_CHK_CONNECT_CALL" xml:space="preserve">
+    <value>La conversazione inizia / la chiamata viene risposta</value>
+  </data>
+  <data name="OPTION_CRMINTG_CHK_DISABLED" xml:space="preserve">
+    <value>Apri la scheda contatto dalle rubriche abilitate (se disponibile)</value>
+  </data>
+  <data name="OPTION_CRMINTG_CHK_ENABLED" xml:space="preserve">
+    <value>Apri la scheda contatto di una specifica applicazione (CRM, ERP...)</value>
+  </data>
+  <data name="OPTION_CRMINTG_CHK_END_CALL" xml:space="preserve">
+    <value>La chiamata termina</value>
+  </data>
+  <data name="OPTION_CRMINTG_CHK_MANUAL_MODE" xml:space="preserve">
+    <value>premo sul tasto di apertura scheda contatto (modalità manuale)</value>
+  </data>
+  <data name="OPTION_CRMINTG_CHK_SPEDDY_FOUND" xml:space="preserve">
+    <value>Solo quando il numero viene associato ad un contatto di Speedy</value>
+  </data>
+  <data name="OPTION_CRMINTG_CHK_START_CALL" xml:space="preserve">
+    <value>Il telefono squilla</value>
+  </data>
+  <data name="OPTION_CRMINTG_CMD_CONFIG" xml:space="preserve">
+    <value>Configura</value>
+  </data>
+  <data name="OPTION_CRMINTG_LBL_ACTION" xml:space="preserve">
+    <value>Azione:</value>
+  </data>
+  <data name="OPTION_CRMINTG_LBL_AUTH" xml:space="preserve">
+    <value>Credenziali applicazione (se richieste)</value>
+  </data>
+  <data name="OPTION_CRMINTG_LBL_EXECUTE" xml:space="preserve">
+    <value>Apri automaticamente l'applicazione quando:</value>
+  </data>
+  <data name="OPTION_CRMINTG_LBL_EXECUTE_ON" xml:space="preserve">
+    <value>Applica solo per:</value>
+  </data>
+  <data name="OPTION_CRMINTG_LBL_PASSWORD" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="OPTION_CRMINTG_LBL_USER" xml:space="preserve">
+    <value>Utente:</value>
+  </data>
+  <data name="OPTION_CRMINTG_OPT_OPEN_APP" xml:space="preserve">
+    <value>Apri un'applicazione</value>
+  </data>
+  <data name="OPTION_CRMINTG_OPT_OPEN_URL" xml:space="preserve">
+    <value>Apri un url</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_CRM_CMD_EXPORT" xml:space="preserve">
+    <value>Esporta configurazione per altri client</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_CRM_COL_ENCODE" xml:space="preserve">
+    <value>Codifica</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_CRM_COL_SOURCE" xml:space="preserve">
+    <value>Sorgente</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_CRM_COL_VALUE" xml:space="preserve">
+    <value>Valore</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_CRM_COL_VARIABLE" xml:space="preserve">
+    <value>Variabile</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_CRM_LBL_PARAM" xml:space="preserve">
+    <value>Parametri</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_CRM_LBL_PATH" xml:space="preserve">
+    <value>Percorso applicazione</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_CRM_LBL_URL" xml:space="preserve">
+    <value>Url CRM</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_CRM_OPT_GET" xml:space="preserve">
+    <value>Richiesta GET</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_CRM_OPT_POST" xml:space="preserve">
+    <value>Richiesta POST</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_CRM_PATH_TEXT" xml:space="preserve">
+    <value>Modifica percorso applicazione CRM</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_CRM_SOURCE_CALL" xml:space="preserve">
+    <value>Chiamata corrente</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_CRM_SOURCE_PHONE" xml:space="preserve">
+    <value>Numero di telefono del Chiamato/chiamante</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_CRM_SOURCE_PWD" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_CRM_SOURCE_PWDATT" xml:space="preserve">
+    <value>Password Attendant</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_CRM_SOURCE_SPEEDY" xml:space="preserve">
+    <value>Speedy</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_CRM_SOURCE_USER" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_CRM_SOURCE_USERATT" xml:space="preserve">
+    <value>User name Attendant</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_CRM_TEXT" xml:space="preserve">
+    <value>Modifica url CRM</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_EXPLORER_FILTER" xml:space="preserve">
+    <value>Tutte le applicazioni</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_EXPLORER_TIT" xml:space="preserve">
+    <value>Seleziona applicazione</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_EXPORT_CONFIG_DEF_FILE" xml:space="preserve">
+    <value>AttendantCRMIntegration</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_EXPORT_CONFIG_INTEG" xml:space="preserve">
+    <value>Configurazione integrazione CRM</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_EXPORT_CONFIG_TIT" xml:space="preserve">
+    <value>Esporta la configurazione</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_EXPORT_MSG_KO" xml:space="preserve">
+    <value>L'esportazione è fallita</value>
+  </data>
+  <data name="OPTION_FRM_MODIFY_EXPORT_MSG_OK" xml:space="preserve">
+    <value>L'esportazione è stata completata con successo</value>
+  </data>
+  <data name="OPTION_GENERAL_AUTO_LOGIN" xml:space="preserve">
+    <value>Effettua il login automatico all'avvio dell'applicazione</value>
+  </data>
+  <data name="OPTION_GENERAL_AUTO_QUEUE_LOGIN" xml:space="preserve">
+    <value>Imposta stato di ready su tutte le code all'avvio dell'applicazione</value>
+  </data>
+  <data name="OPTION_GENERAL_AUTO_QUEUE_LOGOUT" xml:space="preserve">
+    <value>Effettua il logout su tutte le code all'uscita dall'applicazione</value>
+  </data>
+  <data name="OPTION_GENERAL_DRAGDROP_COMMAND" xml:space="preserve">
+    <value>Trascinando una chiamata su un interno/preferito esegui il comando</value>
+  </data>
+  <data name="OPTION_GENERAL_ENABLE_LOG" xml:space="preserve">
+    <value>Abilita la creazione dei log per l'assistenza</value>
+  </data>
+  <data name="OPTION_GENERAL_LABEL_HOLD_ON_TRANSFER" xml:space="preserve">
+    <value>Metti in attesa la chiamata attiva durante il suo trasferimento</value>
+  </data>
+  <data name="OPTION_GENERAL_LOOKUP_LOCAL_DIRS" xml:space="preserve">
+    <value>Ricerca prima il numero chiamante nelle rubriche del client</value>
+  </data>
+  <data name="OPTION_GENERAL_START_MINIMIZED" xml:space="preserve">
+    <value>Mostra come icona nella barra applicazioni all'avvio</value>
+  </data>
+  <data name="OPTION_GENREAL_QUICK_DIAL_MODIFY" xml:space="preserve">
+    <value>Permetti la modifica del numero composto con la 'chiamata rapida'</value>
+  </data>
+  <data name="OPTION_LABEL_ACCESSIBILITY" xml:space="preserve">
+    <value>Accessibilità</value>
+  </data>
+  <data name="OPTION_LABEL_AVANZATE" xml:space="preserve">
+    <value>Avanzate</value>
+  </data>
+  <data name="OPTION_LABEL_CHECK_UPDATE" xml:space="preserve">
+    <value>Abilita il controllo automatico degli aggiornamenti</value>
+  </data>
+  <data name="OPTION_LABEL_FAVOURITES" xml:space="preserve">
+    <value>Preferiti</value>
+  </data>
+  <data name="OPTION_LABEL_GENERALI" xml:space="preserve">
+    <value>Generali</value>
+  </data>
+  <data name="OPTION_LABEL_RUBRICHE" xml:space="preserve">
+    <value>Rubriche</value>
+  </data>
+  <data name="OPTION_LABEL_TELEFONIA" xml:space="preserve">
+    <value>Telefonia</value>
+  </data>
+  <data name="OPTION_LBL_TAB_DESCRIPTION" xml:space="preserve">
+    <value>Inserire il nome della scheda e selezionare l'immagine associata</value>
+  </data>
+  <data name="OPTION_LBL_TAB_FAVOURITE_MANAGER" xml:space="preserve">
+    <value>Gestione delle schede dei preferiti:</value>
+  </data>
+  <data name="OPTION_LBL_TAB_IMAGE" xml:space="preserve">
+    <value>Immagine scheda:</value>
+  </data>
+  <data name="OPTION_LBL_TAB_NAME" xml:space="preserve">
+    <value>Nome della scheda:</value>
+  </data>
+  <data name="OPTION_MESSAGES_SECTION" xml:space="preserve">
+    <value>Messaggi</value>
+  </data>
+  <data name="OPTION_MESSAGE_REMOVE_TAB" xml:space="preserve">
+    <value>Si desidera rimuovere la scheda selezionata?</value>
+  </data>
+  <data name="OPTION_SMS_CMD_CONFIG_PROVIDER" xml:space="preserve">
+    <value>Configura provider</value>
+  </data>
+  <data name="OPTION_SMS_CREDIT" xml:space="preserve">
+    <value>Credito sms disponibile:</value>
+  </data>
+  <data name="OPTION_SMS_LBL_NOT_CONFIG" xml:space="preserve">
+    <value>Non configurato</value>
+  </data>
+  <data name="OPTION_SMS_SELECT_PROVIDER" xml:space="preserve">
+    <value>Selezionare il provider da utilizzare per l'invio di SMS</value>
+  </data>
+  <data name="OPTION_SMS_USE_PROVIDER" xml:space="preserve">
+    <value>Utilizza il provider</value>
+  </data>
+  <data name="OPTION_TEMPLATE_CMD_ADD" xml:space="preserve">
+    <value>Nuovo</value>
+  </data>
+  <data name="OPTION_TEMPLATE_CMD_DEFAULT" xml:space="preserve">
+    <value>Imposta come default</value>
+  </data>
+  <data name="OPTION_TEMPLATE_CMD_TEST" xml:space="preserve">
+    <value>Anteprima</value>
+  </data>
+  <data name="OPTION_TEMPLATE_COL_TEMPLATE" xml:space="preserve">
+    <value>Modelli</value>
+  </data>
+  <data name="OPTION_TEMPLATE_LBL_LIST" xml:space="preserve">
+    <value>Lista dei modelli di notifica disponibili</value>
+  </data>
+  <data name="OPTION_TEMPLATE_MODIFY" xml:space="preserve">
+    <value>Modifica modello</value>
+  </data>
+  <data name="OPTION_TEMPLATE_MODIFY_LBL_EXTEND" xml:space="preserve">
+    <value>Testo esteso (per email):</value>
+  </data>
+  <data name="OPTION_TEMPLATE_MODIFY_LBL_LARGEPREVIEW" xml:space="preserve">
+    <value>Anteprima testo esteso</value>
+  </data>
+  <data name="OPTION_TEMPLATE_MODIFY_LBL_NOME" xml:space="preserve">
+    <value>Nome modello:</value>
+  </data>
+  <data name="OPTION_TEMPLATE_MODIFY_LBL_SHORT" xml:space="preserve">
+    <value>Testo ridotto (per SMS, max 160 car.):</value>
+  </data>
+  <data name="OPTION_TEMPLATE_MODIFY_LBL_SHORTPREVIEW" xml:space="preserve">
+    <value>Anteprima testo ridotto</value>
+  </data>
+  <data name="OPTION_TEMPLATE_MODIFY_LBL_VAR" xml:space="preserve">
+    <value>Variabili disponibili</value>
+  </data>
+  <data name="OPTION_TEMPLATE_MODIFY_NAME_USED" xml:space="preserve">
+    <value>Il nome del modello è già utilizzato. Cambiare il nome inserito.</value>
+  </data>
+  <data name="OPTION_TEMPLATE_MODIFY_TIT_ADD" xml:space="preserve">
+    <value>Aggiungi modello</value>
+  </data>
+  <data name="OPTION_TEMPLATE_MODIFY_TIT_MOD" xml:space="preserve">
+    <value>Modifica modello</value>
+  </data>
+  <data name="OPTION_TEMPLATE_MODIFY_TT_ADD_VAR" xml:space="preserve">
+    <value>Aggiungi variabile</value>
+  </data>
+  <data name="OPTION_TEMPLATE_MODIFY_VAR_COMPANY" xml:space="preserve">
+    <value>Azienda</value>
+  </data>
+  <data name="OPTION_TEMPLATE_MODIFY_VAR_CONTACT" xml:space="preserve">
+    <value>Contatto</value>
+  </data>
+  <data name="OPTION_TEMPLATE_MODIFY_VAR_DATE" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="OPTION_TEMPLATE_MODIFY_VAR_NOTE" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="OPTION_TEMPLATE_MODIFY_VAR_PHONE" xml:space="preserve">
+    <value>Telefono</value>
+  </data>
+  <data name="OPTION_TEMPLATE_MODIFY_VAR_TIME" xml:space="preserve">
+    <value>Ora</value>
+  </data>
+  <data name="OPTION_TEMPLATE_REMOVE" xml:space="preserve">
+    <value>Elimina modello</value>
+  </data>
+  <data name="OPTION_TEMPLATE_REMOVE_MSG_BOX" xml:space="preserve">
+    <value>Rimuovere il modello selezionato?</value>
+  </data>
+  <data name="OPTION_TEMPLATE_REMOVE_MSG_TIT" xml:space="preserve">
+    <value>Elimina modello</value>
+  </data>
+  <data name="OPTION_TEMPLATE_SPOSTAGIU" xml:space="preserve">
+    <value>Sposta giù</value>
+  </data>
+  <data name="OPTION_TEMPLATE_SPOSTASU" xml:space="preserve">
+    <value>Sposta su</value>
+  </data>
+  <data name="OPTION_TEMPLATE_TEST_MSG" xml:space="preserve">
+    <value>Versione estesa:\r\n{0}\r\n\r\nVersione abbreviata:\r\n{1}</value>
+  </data>
+  <data name="OPTION_TEMPLATE_TEST_TIT" xml:space="preserve">
+    <value>Test del modello '{0}'</value>
+  </data>
+  <data name="OPTION_TITLE_TAB_ADD" xml:space="preserve">
+    <value>Aggiungi scheda</value>
+  </data>
+  <data name="OPTION_TITLE_TAB_EDIT" xml:space="preserve">
+    <value>Modifica scheda</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_APPOINTMENT" xml:space="preserve">
+    <value>Appuntamento</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_AWAY" xml:space="preserve">
+    <value>Non disponibile</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_BREAKFAST" xml:space="preserve">
+    <value>Colazione</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_BUSY" xml:space="preserve">
+    <value>Occupato</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_DINNER" xml:space="preserve">
+    <value>Cena</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_DND" xml:space="preserve">
+    <value>Non disturbare</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_HOLIDAY" xml:space="preserve">
+    <value>Vacanza</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_LFW" xml:space="preserve">
+    <value>In cerca di lavoro</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_LUNCH" xml:space="preserve">
+    <value>Pranzo</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_MEAL" xml:space="preserve">
+    <value>Pasto</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_MEETING" xml:space="preserve">
+    <value>In riunione</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_ON_CALL" xml:space="preserve">
+    <value>Al telefono</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_OTHER" xml:space="preserve">
+    <value>Altro</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_PA" xml:space="preserve">
+    <value>Sempre assente </value>
+  </data>
+  <data name="PRESENCEACTIVITIES_PERFORMANCE" xml:space="preserve">
+    <value>In esibizione</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_PLAYNG" xml:space="preserve">
+    <value>A giocare</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_PRESENTATION" xml:space="preserve">
+    <value>Presentazione</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_SHOPPING" xml:space="preserve">
+    <value>A fare la spesa</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_SLEEPING" xml:space="preserve">
+    <value>A dormire</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_SPECTATOR" xml:space="preserve">
+    <value>Spettatore</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_STEERING" xml:space="preserve">
+    <value>Alla guida</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_TRANSIT" xml:space="preserve">
+    <value>In viaggio</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_TRAVEL" xml:space="preserve">
+    <value>In viaggio</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_TV" xml:space="preserve">
+    <value>Tv</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_VACATION" xml:space="preserve">
+    <value>In vacanza</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_WARSHIP" xml:space="preserve">
+    <value>In preghiera</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_WORKING" xml:space="preserve">
+    <value>A lavoro</value>
+  </data>
+  <data name="PRESENCE_STATUS_AVAILABLE" xml:space="preserve">
+    <value>Disponibile</value>
+  </data>
+  <data name="PRESENCE_STATUS_BUSY" xml:space="preserve">
+    <value>Occupato</value>
+  </data>
+  <data name="PRESENCE_STATUS_DND" xml:space="preserve">
+    <value>Non disturbare</value>
+  </data>
+  <data name="PRESENCE_STATUS_NONE" xml:space="preserve">
+    <value>Nessuno</value>
+  </data>
+  <data name="PRESENCE_STATUS_OFFLINE" xml:space="preserve">
+    <value>Non in linea</value>
+  </data>
+  <data name="REGISTRY_MENUELIMINAEVENTI" xml:space="preserve">
+    <value>Elimina eventi</value>
+  </data>
+  <data name="REGISTRY_MENUFILTRAARRIVO" xml:space="preserve">
+    <value>Chiamate in arrivo</value>
+  </data>
+  <data name="REGISTRY_MENUFILTRACHIAMATE" xml:space="preserve">
+    <value>Tutti gli eventi</value>
+  </data>
+  <data name="REGISTRY_MENUFILTRANONRISPOSTE" xml:space="preserve">
+    <value>Uscenti non risposte</value>
+  </data>
+  <data name="REGISTRY_MENUFILTRAPERSE" xml:space="preserve">
+    <value>Chiamate perse</value>
+  </data>
+  <data name="REGISTRY_MENUFILTRASMS" xml:space="preserve">
+    <value>Messaggi SMS</value>
+  </data>
+  <data name="REGISTRY_MENUFILTRATUTTIEVENTI" xml:space="preserve">
+    <value>Tutti gli eventi</value>
+  </data>
+  <data name="REGISTRY_MENUFILTRAUSCITA" xml:space="preserve">
+    <value>Chiamate in uscita</value>
+  </data>
+  <data name="REGISTRY_MENU_ALLEVENTS" xml:space="preserve">
+    <value>Tutti gli eventi</value>
+  </data>
+  <data name="REGISTRY_MENU_LAST_N_DAYS_FILTER" xml:space="preserve">
+    <value>Ultimi {0} giorni</value>
+  </data>
+  <data name="REGISTRY_MENU_REGISTRO" xml:space="preserve">
+    <value>Registro</value>
+  </data>
+  <data name="REGISTRY_MENU_REGISTROALL" xml:space="preserve">
+    <value>Nel registro</value>
+  </data>
+  <data name="REGISTRY_MENU_REGISTROIERI" xml:space="preserve">
+    <value>Di ieri</value>
+  </data>
+  <data name="REGISTRY_MENU_REGISTROMEZZORA" xml:space="preserve">
+    <value>Dell'ultima mezz'ora</value>
+  </data>
+  <data name="REGISTRY_MENU_REGISTROOGGI" xml:space="preserve">
+    <value>Della giornata</value>
+  </data>
+  <data name="REGISTRY_MENU_REGISTROSETTIMANA" xml:space="preserve">
+    <value>Di questa settimana</value>
+  </data>
+  <data name="REGISTRY_MENU_REGISTROULTIMAORA" xml:space="preserve">
+    <value>Dell'ultima ora</value>
+  </data>
+  <data name="REGISTRY_MENU_REGISTROULTIMEDUE" xml:space="preserve">
+    <value>Delle ultime due ore</value>
+  </data>
+  <data name="REGISTRY_MENU_REGISTROULTIMEOTTO" xml:space="preserve">
+    <value>Delle ultime otto ore</value>
+  </data>
+  <data name="REGISTRY_MSG_NO_CONTACT_INFO" xml:space="preserve">
+    <value>Scheda contatto non disponibile</value>
+  </data>
+  <data name="REPORT_GENERAL_MONITOR" xml:space="preserve">
+    <value>Analisi generale</value>
+  </data>
+  <data name="REPORT_INCOMING_MONITOR" xml:space="preserve">
+    <value>Chiamate entranti</value>
+  </data>
+  <data name="REPORT_OUTCOMING_MONITOR" xml:space="preserve">
+    <value>Chiamate uscenti</value>
+  </data>
+  <data name="STATUSMANAGER_LBL_IN_QUEUE_VIP" xml:space="preserve">
+    <value>chiamate in attesa/vip</value>
+  </data>
+  <data name="STATUSMANAGER_LBL_MAX_W_TIME" xml:space="preserve">
+    <value>max tempo attesa</value>
+  </data>
+  <data name="STATUS_LABEL_CONNECTED" xml:space="preserve">
+    <value>Connessione al server attiva</value>
+  </data>
+  <data name="STATUS_LABEL_CONNECTING" xml:space="preserve">
+    <value>Riconnessione al server in corso...</value>
+  </data>
+  <data name="STATUS_LABEL_DISCONNECTED" xml:space="preserve">
+    <value>Connessione al server non attiva</value>
+  </data>
+  <data name="STATUS_MANAGER_QUEUE_BAE_STATUS_ACTIVE" xml:space="preserve">
+    <value>Disponibile su tutte le code</value>
+  </data>
+  <data name="STATUS_MANAGER_QUEUE_BAE_STATUS_PARTIAL_ACTIVE" xml:space="preserve">
+    <value>Disponibile su {0} code di {1}</value>
+  </data>
+  <data name="STATUS_MANAGER_QUEUE_BAP_STATUS_ACTIVE" xml:space="preserve">
+    <value>Disponibile</value>
+  </data>
+  <data name="STATUS_MANAGER_QUEUE_STATISTICS" xml:space="preserve">
+    <value>{0} chiamate, {1} VIP</value>
+  </data>
+  <data name="STATUS_MANAGER_QUEUE_STATISTICS_BAP" xml:space="preserve">
+    <value>{0} chiamate in coda</value>
+  </data>
+  <data name="STATUS_MANAGER_QUEUE_STATUS_NON_ACTIVE" xml:space="preserve">
+    <value>Non disponibile</value>
+  </data>
+  <data name="TABMANAGER_AGENTS" xml:space="preserve">
+    <value>Agenti</value>
+  </data>
+  <data name="TABMANAGER_CONTACTS" xml:space="preserve">
+    <value>Contatti</value>
+  </data>
+  <data name="TABMANAGER_EXTENSIONS" xml:space="preserve">
+    <value>Colleghi</value>
+  </data>
+  <data name="TABMANAGER_FAVOURITES" xml:space="preserve">
+    <value>Preferiti</value>
+  </data>
+  <data name="TABMANAGER_MANAGE_USERS" xml:space="preserve">
+    <value>Gestione operatori</value>
+  </data>
+  <data name="TABMANAGER_MONITOR" xml:space="preserve">
+    <value>Monitor</value>
+  </data>
+  <data name="TABMANAGER_QUEUE" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="TABMANAGER_REGISTRY" xml:space="preserve">
+    <value>Registro</value>
+  </data>
+  <data name="TABMANAGER_STATS" xml:space="preserve">
+    <value>Statistiche</value>
+  </data>
+  <data name="TABMANAGER_TRACE" xml:space="preserve">
+    <value>Log assistenza</value>
+  </data>
+  <data name="TABMANAGER_WALLBOARD" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="TAB_LBL_RUBRICHE_MICROSOFT" xml:space="preserve">
+    <value>Microsoft</value>
+  </data>
+  <data name="TEXTBOX_EMPTY_PHONE_NUMBER" xml:space="preserve">
+    <value>Inserire numero telefono</value>
+  </data>
+  <data name="TITLE_SELECT_PHOTO" xml:space="preserve">
+    <value>Seleziona foto</value>
+  </data>
+  <data name="TOOLTIP_ADD_CONTACT" xml:space="preserve">
+    <value>Aggiungi nuovo contatto</value>
+  </data>
+  <data name="TOOLTIP_ADD_FAVOURITE" xml:space="preserve">
+    <value>Aggiungi preferito</value>
+  </data>
+  <data name="TOOLTIP_AGENT_MESSAGE" xml:space="preserve">
+    <value>{0} {1} - {2}</value>
+  </data>
+  <data name="TOOLTIP_AGENT_MESSAGE_MINI" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="TOOLTIP_AGGANCIA" xml:space="preserve">
+    <value>Riaggancia</value>
+  </data>
+  <data name="TOOLTIP_ANSWER_QUEUE_CALL" xml:space="preserve">
+    <value>Rispondi</value>
+  </data>
+  <data name="TOOLTIP_APRI_SCHEDA" xml:space="preserve">
+    <value>Apri scheda contatto</value>
+  </data>
+  <data name="TOOLTIP_ATTIVA_REC" xml:space="preserve">
+    <value>Attiva/Disattiva registrazione</value>
+  </data>
+  <data name="TOOLTIP_CALL" xml:space="preserve">
+    <value>Chiama/Rispondi</value>
+  </data>
+  <data name="TOOLTIP_CHIAMA" xml:space="preserve">
+    <value>Chiama</value>
+  </data>
+  <data name="TOOLTIP_COLLAPSE" xml:space="preserve">
+    <value>Comprimi</value>
+  </data>
+  <data name="TOOLTIP_CONFERENCE" xml:space="preserve">
+    <value>Aggiungi a conferenza</value>
+  </data>
+  <data name="TOOLTIP_CONSULTTRANSFER" xml:space="preserve">
+    <value>Trasferisci con consultazione</value>
+  </data>
+  <data name="TOOLTIP_CONSULT_TRANSFER" xml:space="preserve">
+    <value>Trasferisci chiamata con consultazione</value>
+  </data>
+  <data name="TOOLTIP_END_PAUSE" xml:space="preserve">
+    <value>Fine pausa</value>
+  </data>
+  <data name="TOOLTIP_EXPAND" xml:space="preserve">
+    <value>Espandi</value>
+  </data>
+  <data name="TOOLTIP_EXPAND_AGENT" xml:space="preserve">
+    <value>Espandi/Comprimi l'agente</value>
+  </data>
+  <data name="TOOLTIP_EXPAND_QUEUE" xml:space="preserve">
+    <value>Espandi/Comprimi la coda</value>
+  </data>
+  <data name="TOOLTIP_FURTHERRESULTS" xml:space="preserve">
+    <value>Numero di risultati della ricerca troppo elevato, alcuni dati potrebbero non essere\nvisualizzati: occorre inserire un termine di ricerca più lungo per affinare i criteri di ricerca.</value>
+  </data>
+  <data name="TOOLTIP_HANG" xml:space="preserve">
+    <value>Chiudi chiamata</value>
+  </data>
+  <data name="TOOLTIP_HOLD" xml:space="preserve">
+    <value>Metti in attesa</value>
+  </data>
+  <data name="TOOLTIP_HOLD_RETRIVE" xml:space="preserve">
+    <value>Riprendi chiamata</value>
+  </data>
+  <data name="TOOLTIP_LOGIN_LOGOUT" xml:space="preserve">
+    <value>Ready/Logout</value>
+  </data>
+  <data name="TOOLTIP_MENU_QUEUE" xml:space="preserve">
+    <value>Opzioni</value>
+  </data>
+  <data name="TOOLTIP_MISSED_CALL" xml:space="preserve">
+    <value>{0} chiamata persa</value>
+  </data>
+  <data name="TOOLTIP_MISSED_CALLS" xml:space="preserve">
+    <value>{0} chiamate perse</value>
+  </data>
+  <data name="TOOLTIP_OPERATOR_STATUS_ACTIVE" xml:space="preserve">
+    <value>Imposta lo stato dell'operatore come disponibile</value>
+  </data>
+  <data name="TOOLTIP_OPERATOR_STATUS_INACTIVE" xml:space="preserve">
+    <value>Imposta lo stato dell'operatore come non disponibile</value>
+  </data>
+  <data name="TOOLTIP_OPTION" xml:space="preserve">
+    <value>Opzioni</value>
+  </data>
+  <data name="TOOLTIP_PARKING" xml:space="preserve">
+    <value>Parcheggia chiamata</value>
+  </data>
+  <data name="TOOLTIP_PARK_CALL" xml:space="preserve">
+    <value>Parcheggia chiamata</value>
+  </data>
+  <data name="TOOLTIP_PLAY_SOUND" xml:space="preserve">
+    <value>Ascolta segnalazione audio</value>
+  </data>
+  <data name="TOOLTIP_QUEUE_CLOSE" xml:space="preserve">
+    <value>Chiusa</value>
+  </data>
+  <data name="TOOLTIP_QUEUE_CLOSED" xml:space="preserve">
+    <value>Coda chiusa</value>
+  </data>
+  <data name="TOOLTIP_QUEUE_LOGIN" xml:space="preserve">
+    <value>Imposta stato Ready/Logout sulla coda</value>
+  </data>
+  <data name="TOOLTIP_QUEUE_MANUAL_CLOSE" xml:space="preserve">
+    <value>Chiusa (chiusura manuale)</value>
+  </data>
+  <data name="TOOLTIP_QUEUE_MANUAL_OPEN" xml:space="preserve">
+    <value>Aperta (apertura manuale)</value>
+  </data>
+  <data name="TOOLTIP_QUEUE_MESSAGE" xml:space="preserve">
+    <value>{0} ({1}) - {2}</value>
+  </data>
+  <data name="TOOLTIP_QUEUE_MESSAGE_MINI" xml:space="preserve">
+    <value>{0} ({1})</value>
+  </data>
+  <data name="TOOLTIP_QUEUE_OPEN" xml:space="preserve">
+    <value>Aperta</value>
+  </data>
+  <data name="TOOLTIP_RESERVE_QUEUE_CALL" xml:space="preserve">
+    <value>Prenota</value>
+  </data>
+  <data name="TOOLTIP_SEND_SMS" xml:space="preserve">
+    <value>Invia un SMS</value>
+  </data>
+  <data name="TOOLTIP_SERVER_IP" xml:space="preserve">
+    <value>Server IP: {0}</value>
+  </data>
+  <data name="TOOLTIP_SMARTPARK" xml:space="preserve">
+    <value>Parcheggia su destinazione</value>
+  </data>
+  <data name="TOOLTIP_START_PAUSE" xml:space="preserve">
+    <value>Inizio pausa</value>
+  </data>
+  <data name="TOOLTIP_TRANSFER" xml:space="preserve">
+    <value>Trasferisci chiamata</value>
+  </data>
+  <data name="TOOLTIP_TRANSFER_COMPLETE" xml:space="preserve">
+    <value>Completa trasferimento</value>
+  </data>
+  <data name="TOOLTIP_WALLBOARD_STATISTICS" xml:space="preserve">
+    <value>Disponibile {0} Pausa {1} Logoff {2}</value>
+  </data>
+  <data name="TOOLTIP_WRAPUP_END" xml:space="preserve">
+    <value>Fine wrap-up</value>
+  </data>
+  <data name="TRAYICON_MESSAGE_SMS_SENT" xml:space="preserve">
+    <value>Il messaggio SMS è stato inviato correttamente</value>
+  </data>
+  <data name="WALLBOARD_ATTACH_BUTTON" xml:space="preserve">
+    <value>Visualizza dati nel client</value>
+  </data>
+  <data name="WALLBOARD_DETACH_BUTTON" xml:space="preserve">
+    <value>Visualizza dati in finestra separata</value>
+  </data>
+  <data name="WALLBOARD_FILTER_10_MIN" xml:space="preserve">
+    <value>Ultimi 10 minuti</value>
+  </data>
+  <data name="WALLBOARD_FILTER_2_HOU" xml:space="preserve">
+    <value>Ultime 2 ore</value>
+  </data>
+  <data name="WALLBOARD_FILTER_30_MIN" xml:space="preserve">
+    <value>Ultimi 30 minuti</value>
+  </data>
+  <data name="WALLBOARD_FILTER_4_HOU" xml:space="preserve">
+    <value>Ultime 4 ore</value>
+  </data>
+  <data name="WALLBOARD_FILTER_5_MIN" xml:space="preserve">
+    <value>Ultimi 5 minuti</value>
+  </data>
+  <data name="WALLBOARD_FILTER_60_MIN" xml:space="preserve">
+    <value>Ultimi 60 minuti</value>
+  </data>
+  <data name="WALLBOARD_FILTER_8_HOU" xml:space="preserve">
+    <value>Ultime 8 ore</value>
+  </data>
+  <data name="WALLBOARD_FILTER_TODAY" xml:space="preserve">
+    <value>Oggi</value>
+  </data>
+  <data name="WALLBOARD_LBL_ABANDONED_CALLS" xml:space="preserve">
+    <value>abbandonate/trabocco</value>
+  </data>
+  <data name="WALLBOARD_LBL_AGENT_LOGGED" xml:space="preserve">
+    <value>agenti in chiamata/loggati</value>
+  </data>
+  <data name="WALLBOARD_LBL_ALL_AGENTS" xml:space="preserve">
+    <value>Tutti gli agenti</value>
+  </data>
+  <data name="WALLBOARD_LBL_ALL_QUEUES" xml:space="preserve">
+    <value>Tutte le code</value>
+  </data>
+  <data name="WALLBOARD_LBL_AVG_ANSW_TIME" xml:space="preserve">
+    <value>media risposta</value>
+  </data>
+  <data name="WALLBOARD_LBL_AVG_DURATION" xml:space="preserve">
+    <value>media durata</value>
+  </data>
+  <data name="WALLBOARD_LBL_CALL_WAITING" xml:space="preserve">
+    <value>chiamate in attesa/vip</value>
+  </data>
+  <data name="WALLBOARD_LBL_COL_ABANDONED" xml:space="preserve">
+    <value>Abbandonate</value>
+  </data>
+  <data name="WALLBOARD_LBL_COL_AGENTS" xml:space="preserve">
+    <value>Agente</value>
+  </data>
+  <data name="WALLBOARD_LBL_COL_AVG_ANSW" xml:space="preserve">
+    <value>Tempo medio di risposta</value>
+  </data>
+  <data name="WALLBOARD_LBL_COL_AVG_DURATION" xml:space="preserve">
+    <value>Durata media convers.</value>
+  </data>
+  <data name="WALLBOARD_LBL_COL_AVG_WAIT" xml:space="preserve">
+    <value>Tempo medio di attesa</value>
+  </data>
+  <data name="WALLBOARD_LBL_COL_MISSED" xml:space="preserve">
+    <value>Perse</value>
+  </data>
+  <data name="WALLBOARD_LBL_COL_OVERFLOWS" xml:space="preserve">
+    <value>Trabocco</value>
+  </data>
+  <data name="WALLBOARD_LBL_COL_QUEUE" xml:space="preserve">
+    <value>Coda</value>
+  </data>
+  <data name="WALLBOARD_LBL_COL_SERVED" xml:space="preserve">
+    <value>Servite</value>
+  </data>
+  <data name="WALLBOARD_LBL_COL_TOT_TALK" xml:space="preserve">
+    <value>Tot. convers.</value>
+  </data>
+  <data name="WALLBOARD_LBL_MAX_WAITING" xml:space="preserve">
+    <value>max tempo di attesa</value>
+  </data>
+  <data name="WALLBOARD_LBL_SERVER" xml:space="preserve">
+    <value>servite/perse</value>
+  </data>
+  <data name="COLUMN_WALLBOARD_TOT_LOGIN" xml:space="preserve">
+    <value>Tot. login</value>
+  </data>
+  <data name="CHK_GLOBAL" xml:space="preserve">
+    <value>Globale (la Hotkey è attiva anche quando l'applicazione non è in primo piano)</value>
+  </data>
+  <data name="LBL_GLOBAL" xml:space="preserve">
+    <value>Globale</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_BERIGHTBACK" xml:space="preserve">
+    <value>Torno subito</value>
+  </data>
+  <data name="PRESENCEACTIVITIES_OFFWORK" xml:space="preserve">
+    <value>Non a lavoro</value>
+  </data>
+  <data name="CBO_FORMAT_COGNOME_NOME" xml:space="preserve">
+    <value>Cognome Nome</value>
+  </data>
+  <data name="CBO_FORMAT_NOME_COGNOME" xml:space="preserve">
+    <value>Nome Cognome</value>
+  </data>
+  <data name="LBL_VISUALIZZACOLLEGUE_AS" xml:space="preserve">
+    <value>Visualizza elenco colleghi come</value>
+  </data>
+  <data name="HEADSET_MSG_DEVICE_DETECTED" xml:space="preserve">
+    <value>Rilevate le cuffie {0}. Si desidera integrare tali cuffie con l'Attendant?</value>
+  </data>
+  <data name="OPTION_HEADSETS" xml:space="preserve">
+    <value>Cuffie</value>
+  </data>
+  <data name="OPTION_ACCESSIBILITA_COL_VISIBILI" xml:space="preserve">
+    <value>Configura i campi della lista nel pannello 'Chiamate'</value>
+  </data>
+  <data name="DLG_TIT_VISUALIZZA_COL" xml:space="preserve">
+    <value>Colonne visibili</value>
+  </data>
+  <data name="DLG_VISUALIZZA_COL_DESC" xml:space="preserve">
+    <value>Selezionare le informazioni di chiamata da visualizzare a video o vocalizzare dal motore di sintesi vocale</value>
+  </data>
+  <data name="COMMON_LBL_LANGUAGE_EBR" xml:space="preserve">
+    <value>עברית (Hebrew)</value>
+  </data>
+  <data name="MENU_CONTAC_TRANSFER_TO_VOICEMAIL" xml:space="preserve">
+    <value>Trasferisci alla voicemail</value>
+  </data>
+  <data name="LABEL_ERR_CCCALLTRANSFERTOVOICEMAIL" xml:space="preserve">
+    <value>Impossibile trasferire la chiamata alla voicemail</value>
+  </data>
+  <data name="LABEL_ERR_USERHASNOVOICEMAILNUMBER" xml:space="preserve">
+    <value>Impossibile trasferire la chiamata ad un utente senza voicemail</value>
+  </data>
+  <data name="LABEL_ERR_USERNOTFOUND" xml:space="preserve">
+    <value>Impossibile trasferire la chiamata ad un utente sconosciuto o non più esistente</value>
+  </data>
+  <data name="COMMON_LBL_FROM" xml:space="preserve">
+    <value>Da</value>
+  </data>
+  <data name="OPTION_GENERAL_FLAG_CALLER" xml:space="preserve">
+    <value>Visualizza la nazione del numero telefonico chiamante/chiamato</value>
+  </data>
+  <data name="FLAG_AD" xml:space="preserve">
+    <value> Andorra</value>
+  </data>
+  <data name="FLAG_AE" xml:space="preserve">
+    <value> Emirati Arabi Uniti</value>
+  </data>
+  <data name="FLAG_AF" xml:space="preserve">
+    <value> Afghanistan</value>
+  </data>
+  <data name="FLAG_AG" xml:space="preserve">
+    <value> Antigua e Barbuda</value>
+  </data>
+  <data name="FLAG_AI" xml:space="preserve">
+    <value> Anguilla</value>
+  </data>
+  <data name="FLAG_AL" xml:space="preserve">
+    <value> Albania</value>
+  </data>
+  <data name="FLAG_AM" xml:space="preserve">
+    <value> Armenia</value>
+  </data>
+  <data name="FLAG_AO" xml:space="preserve">
+    <value> Angola</value>
+  </data>
+  <data name="FLAG_AQ" xml:space="preserve">
+    <value> Antartide</value>
+  </data>
+  <data name="FLAG_AR" xml:space="preserve">
+    <value> Argentina</value>
+  </data>
+  <data name="FLAG_AS" xml:space="preserve">
+    <value> Samoa Americane</value>
+  </data>
+  <data name="FLAG_AT" xml:space="preserve">
+    <value> Austria</value>
+  </data>
+  <data name="FLAG_AU" xml:space="preserve">
+    <value> Australia</value>
+  </data>
+  <data name="FLAG_AW" xml:space="preserve">
+    <value> Aruba</value>
+  </data>
+  <data name="FLAG_AX" xml:space="preserve">
+    <value> Isole Åland</value>
+  </data>
+  <data name="FLAG_AZ" xml:space="preserve">
+    <value> Azerbaigian</value>
+  </data>
+  <data name="FLAG_BA" xml:space="preserve">
+    <value> Bosnia ed Erzegovina</value>
+  </data>
+  <data name="FLAG_BB" xml:space="preserve">
+    <value> Barbados</value>
+  </data>
+  <data name="FLAG_BD" xml:space="preserve">
+    <value> Bangladesh</value>
+  </data>
+  <data name="FLAG_BE" xml:space="preserve">
+    <value> Belgio</value>
+  </data>
+  <data name="FLAG_BF" xml:space="preserve">
+    <value> Burkina Faso</value>
+  </data>
+  <data name="FLAG_BG" xml:space="preserve">
+    <value> Bulgaria</value>
+  </data>
+  <data name="FLAG_BH" xml:space="preserve">
+    <value> Bahrein</value>
+  </data>
+  <data name="FLAG_BI" xml:space="preserve">
+    <value> Burundi</value>
+  </data>
+  <data name="FLAG_BJ" xml:space="preserve">
+    <value> Benin</value>
+  </data>
+  <data name="FLAG_BL" xml:space="preserve">
+    <value> Saint-Barthélemy</value>
+  </data>
+  <data name="FLAG_BM" xml:space="preserve">
+    <value> Bermuda</value>
+  </data>
+  <data name="FLAG_BN" xml:space="preserve">
+    <value> Brunei</value>
+  </data>
+  <data name="FLAG_BO" xml:space="preserve">
+    <value> Bolivia</value>
+  </data>
+  <data name="FLAG_BQ" xml:space="preserve">
+    <value> Isole BES</value>
+  </data>
+  <data name="FLAG_BR" xml:space="preserve">
+    <value> Brasile</value>
+  </data>
+  <data name="FLAG_BS" xml:space="preserve">
+    <value> Bahamas</value>
+  </data>
+  <data name="FLAG_BT" xml:space="preserve">
+    <value> Bhutan</value>
+  </data>
+  <data name="FLAG_BV" xml:space="preserve">
+    <value> Isola Bouvet</value>
+  </data>
+  <data name="FLAG_BW" xml:space="preserve">
+    <value> Botswana</value>
+  </data>
+  <data name="FLAG_BY" xml:space="preserve">
+    <value> Bielorussia</value>
+  </data>
+  <data name="FLAG_BZ" xml:space="preserve">
+    <value> Belize</value>
+  </data>
+  <data name="FLAG_CA" xml:space="preserve">
+    <value> Canada</value>
+  </data>
+  <data name="FLAG_CC" xml:space="preserve">
+    <value> Isole Cocos (Keeling)</value>
+  </data>
+  <data name="FLAG_CD" xml:space="preserve">
+    <value> RD del Congo</value>
+  </data>
+  <data name="FLAG_CF" xml:space="preserve">
+    <value> Rep. Centrafricana</value>
+  </data>
+  <data name="FLAG_CG" xml:space="preserve">
+    <value> Rep. del Congo</value>
+  </data>
+  <data name="FLAG_CH" xml:space="preserve">
+    <value> Svizzera</value>
+  </data>
+  <data name="FLAG_CI" xml:space="preserve">
+    <value> Costa d'Avorio</value>
+  </data>
+  <data name="FLAG_CK" xml:space="preserve">
+    <value> Isole Cook</value>
+  </data>
+  <data name="FLAG_CL" xml:space="preserve">
+    <value> Cile</value>
+  </data>
+  <data name="FLAG_CM" xml:space="preserve">
+    <value> Camerun</value>
+  </data>
+  <data name="FLAG_CN" xml:space="preserve">
+    <value> Cina</value>
+  </data>
+  <data name="FLAG_CO" xml:space="preserve">
+    <value> Colombia</value>
+  </data>
+  <data name="FLAG_CR" xml:space="preserve">
+    <value> Costa Rica</value>
+  </data>
+  <data name="FLAG_CU" xml:space="preserve">
+    <value> Cuba</value>
+  </data>
+  <data name="FLAG_CV" xml:space="preserve">
+    <value> Capo Verde</value>
+  </data>
+  <data name="FLAG_CW" xml:space="preserve">
+    <value> Curaçao</value>
+  </data>
+  <data name="FLAG_CX" xml:space="preserve">
+    <value> Isola di Natale</value>
+  </data>
+  <data name="FLAG_CY" xml:space="preserve">
+    <value> Cipro</value>
+  </data>
+  <data name="FLAG_CZ" xml:space="preserve">
+    <value> Rep. Ceca</value>
+  </data>
+  <data name="FLAG_DE" xml:space="preserve">
+    <value> Germania</value>
+  </data>
+  <data name="FLAG_DJ" xml:space="preserve">
+    <value> Gibuti</value>
+  </data>
+  <data name="FLAG_DK" xml:space="preserve">
+    <value> Danimarca</value>
+  </data>
+  <data name="FLAG_DM" xml:space="preserve">
+    <value> Dominica</value>
+  </data>
+  <data name="FLAG_DO" xml:space="preserve">
+    <value> Rep. Dominicana</value>
+  </data>
+  <data name="FLAG_DZ" xml:space="preserve">
+    <value> Algeria</value>
+  </data>
+  <data name="FLAG_EC" xml:space="preserve">
+    <value> Ecuador</value>
+  </data>
+  <data name="FLAG_EE" xml:space="preserve">
+    <value> Estonia</value>
+  </data>
+  <data name="FLAG_EG" xml:space="preserve">
+    <value> Egitto</value>
+  </data>
+  <data name="FLAG_EH" xml:space="preserve">
+    <value> Sahara Occidentale</value>
+  </data>
+  <data name="FLAG_ER" xml:space="preserve">
+    <value> Eritrea</value>
+  </data>
+  <data name="FLAG_ES" xml:space="preserve">
+    <value> Spagna</value>
+  </data>
+  <data name="FLAG_ET" xml:space="preserve">
+    <value> Etiopia</value>
+  </data>
+  <data name="FLAG_FI" xml:space="preserve">
+    <value> Finlandia</value>
+  </data>
+  <data name="FLAG_FJ" xml:space="preserve">
+    <value> Figi</value>
+  </data>
+  <data name="FLAG_FK" xml:space="preserve">
+    <value> Isole Falkland</value>
+  </data>
+  <data name="FLAG_FM" xml:space="preserve">
+    <value> Micronesia</value>
+  </data>
+  <data name="FLAG_FO" xml:space="preserve">
+    <value> Fær Øer</value>
+  </data>
+  <data name="FLAG_FR" xml:space="preserve">
+    <value> Francia</value>
+  </data>
+  <data name="FLAG_GA" xml:space="preserve">
+    <value> Gabon</value>
+  </data>
+  <data name="FLAG_GB" xml:space="preserve">
+    <value> Regno Unito</value>
+  </data>
+  <data name="FLAG_GD" xml:space="preserve">
+    <value> Grenada</value>
+  </data>
+  <data name="FLAG_GE" xml:space="preserve">
+    <value> Georgia</value>
+  </data>
+  <data name="FLAG_GF" xml:space="preserve">
+    <value> Guyana francese</value>
+  </data>
+  <data name="FLAG_GG" xml:space="preserve">
+    <value> Guernsey</value>
+  </data>
+  <data name="FLAG_GH" xml:space="preserve">
+    <value> Ghana</value>
+  </data>
+  <data name="FLAG_GI" xml:space="preserve">
+    <value> Gibilterra</value>
+  </data>
+  <data name="FLAG_GL" xml:space="preserve">
+    <value> Groenlandia</value>
+  </data>
+  <data name="FLAG_GM" xml:space="preserve">
+    <value> Gambia</value>
+  </data>
+  <data name="FLAG_GN" xml:space="preserve">
+    <value> Guinea</value>
+  </data>
+  <data name="FLAG_GP" xml:space="preserve">
+    <value> Guadalupa</value>
+  </data>
+  <data name="FLAG_GQ" xml:space="preserve">
+    <value> Guinea Equatoriale</value>
+  </data>
+  <data name="FLAG_GR" xml:space="preserve">
+    <value> Grecia</value>
+  </data>
+  <data name="FLAG_GS" xml:space="preserve">
+    <value> Georgia del Sud e isole Sandwich meridionali</value>
+  </data>
+  <data name="FLAG_GT" xml:space="preserve">
+    <value> Guatemala</value>
+  </data>
+  <data name="FLAG_GU" xml:space="preserve">
+    <value> Guam</value>
+  </data>
+  <data name="FLAG_GW" xml:space="preserve">
+    <value> Guinea-Bissau</value>
+  </data>
+  <data name="FLAG_GY" xml:space="preserve">
+    <value> Guyana</value>
+  </data>
+  <data name="FLAG_HK" xml:space="preserve">
+    <value> Hong Kong</value>
+  </data>
+  <data name="FLAG_HM" xml:space="preserve">
+    <value> Isole Heard e McDonald</value>
+  </data>
+  <data name="FLAG_HN" xml:space="preserve">
+    <value> Honduras</value>
+  </data>
+  <data name="FLAG_HR" xml:space="preserve">
+    <value> Croazia</value>
+  </data>
+  <data name="FLAG_HT" xml:space="preserve">
+    <value> Haiti</value>
+  </data>
+  <data name="FLAG_HU" xml:space="preserve">
+    <value> Ungheria</value>
+  </data>
+  <data name="FLAG_ID" xml:space="preserve">
+    <value> Indonesia</value>
+  </data>
+  <data name="FLAG_IE" xml:space="preserve">
+    <value> Irlanda</value>
+  </data>
+  <data name="FLAG_IL" xml:space="preserve">
+    <value> Israele</value>
+  </data>
+  <data name="FLAG_IM" xml:space="preserve">
+    <value> Isola di Man</value>
+  </data>
+  <data name="FLAG_IN" xml:space="preserve">
+    <value> India</value>
+  </data>
+  <data name="FLAG_IO" xml:space="preserve">
+    <value> Territorio britannico dell'oceano Indiano</value>
+  </data>
+  <data name="FLAG_IQ" xml:space="preserve">
+    <value> Iraq</value>
+  </data>
+  <data name="FLAG_IR" xml:space="preserve">
+    <value> Iran</value>
+  </data>
+  <data name="FLAG_IS" xml:space="preserve">
+    <value> Islanda</value>
+  </data>
+  <data name="FLAG_IT" xml:space="preserve">
+    <value> Italia</value>
+  </data>
+  <data name="FLAG_JE" xml:space="preserve">
+    <value> Jersey</value>
+  </data>
+  <data name="FLAG_JM" xml:space="preserve">
+    <value> Giamaica</value>
+  </data>
+  <data name="FLAG_JO" xml:space="preserve">
+    <value> Giordania</value>
+  </data>
+  <data name="FLAG_JP" xml:space="preserve">
+    <value> Giappone</value>
+  </data>
+  <data name="FLAG_KE" xml:space="preserve">
+    <value> Kenya</value>
+  </data>
+  <data name="FLAG_KG" xml:space="preserve">
+    <value> Kirghizistan</value>
+  </data>
+  <data name="FLAG_KH" xml:space="preserve">
+    <value> Cambogia</value>
+  </data>
+  <data name="FLAG_KI" xml:space="preserve">
+    <value> Kiribati</value>
+  </data>
+  <data name="FLAG_KM" xml:space="preserve">
+    <value> Comore</value>
+  </data>
+  <data name="FLAG_KN" xml:space="preserve">
+    <value> Saint Kitts e Nevis</value>
+  </data>
+  <data name="FLAG_KP" xml:space="preserve">
+    <value> Corea del Nord</value>
+  </data>
+  <data name="FLAG_KR" xml:space="preserve">
+    <value> Corea del Sud</value>
+  </data>
+  <data name="FLAG_KW" xml:space="preserve">
+    <value> Kuwait</value>
+  </data>
+  <data name="FLAG_KY" xml:space="preserve">
+    <value> Isole Cayman</value>
+  </data>
+  <data name="FLAG_KZ" xml:space="preserve">
+    <value> Kazakistan</value>
+  </data>
+  <data name="FLAG_LA" xml:space="preserve">
+    <value> Laos</value>
+  </data>
+  <data name="FLAG_LB" xml:space="preserve">
+    <value> Libano</value>
+  </data>
+  <data name="FLAG_LC" xml:space="preserve">
+    <value> Santa Lucia</value>
+  </data>
+  <data name="FLAG_LI" xml:space="preserve">
+    <value> Liechtenstein</value>
+  </data>
+  <data name="FLAG_LK" xml:space="preserve">
+    <value> Sri Lanka</value>
+  </data>
+  <data name="FLAG_LR" xml:space="preserve">
+    <value> Liberia</value>
+  </data>
+  <data name="FLAG_LS" xml:space="preserve">
+    <value> Lesotho</value>
+  </data>
+  <data name="FLAG_LT" xml:space="preserve">
+    <value> Lituania</value>
+  </data>
+  <data name="FLAG_LU" xml:space="preserve">
+    <value> Lussemburgo</value>
+  </data>
+  <data name="FLAG_LV" xml:space="preserve">
+    <value> Lettonia</value>
+  </data>
+  <data name="FLAG_LY" xml:space="preserve">
+    <value> Libia</value>
+  </data>
+  <data name="FLAG_MA" xml:space="preserve">
+    <value> Marocco</value>
+  </data>
+  <data name="FLAG_MC" xml:space="preserve">
+    <value> Monaco</value>
+  </data>
+  <data name="FLAG_MD" xml:space="preserve">
+    <value> Moldavia</value>
+  </data>
+  <data name="FLAG_ME" xml:space="preserve">
+    <value> Montenegro</value>
+  </data>
+  <data name="FLAG_MF" xml:space="preserve">
+    <value> Saint-Martin</value>
+  </data>
+  <data name="FLAG_MG" xml:space="preserve">
+    <value> Madagascar</value>
+  </data>
+  <data name="FLAG_MH" xml:space="preserve">
+    <value> Isole Marshall</value>
+  </data>
+  <data name="FLAG_MK" xml:space="preserve">
+    <value> Macedonia</value>
+  </data>
+  <data name="FLAG_ML" xml:space="preserve">
+    <value> Mali</value>
+  </data>
+  <data name="FLAG_MM" xml:space="preserve">
+    <value> Birmania</value>
+  </data>
+  <data name="FLAG_MN" xml:space="preserve">
+    <value> Mongolia</value>
+  </data>
+  <data name="FLAG_MO" xml:space="preserve">
+    <value> Macao</value>
+  </data>
+  <data name="FLAG_MP" xml:space="preserve">
+    <value> Isole Marianne Settentrionali</value>
+  </data>
+  <data name="FLAG_MQ" xml:space="preserve">
+    <value> Martinica</value>
+  </data>
+  <data name="FLAG_MR" xml:space="preserve">
+    <value> Mauritania</value>
+  </data>
+  <data name="FLAG_MS" xml:space="preserve">
+    <value> Montserrat</value>
+  </data>
+  <data name="FLAG_MT" xml:space="preserve">
+    <value> Malta</value>
+  </data>
+  <data name="FLAG_MU" xml:space="preserve">
+    <value> Mauritius</value>
+  </data>
+  <data name="FLAG_MV" xml:space="preserve">
+    <value> Maldive</value>
+  </data>
+  <data name="FLAG_MW" xml:space="preserve">
+    <value> Malawi</value>
+  </data>
+  <data name="FLAG_MX" xml:space="preserve">
+    <value> Messico</value>
+  </data>
+  <data name="FLAG_MY" xml:space="preserve">
+    <value> Malesia</value>
+  </data>
+  <data name="FLAG_MZ" xml:space="preserve">
+    <value> Mozambico</value>
+  </data>
+  <data name="FLAG_NA" xml:space="preserve">
+    <value> Namibia</value>
+  </data>
+  <data name="FLAG_NC" xml:space="preserve">
+    <value> Nuova Caledonia</value>
+  </data>
+  <data name="FLAG_NE" xml:space="preserve">
+    <value> Niger</value>
+  </data>
+  <data name="FLAG_NF" xml:space="preserve">
+    <value> Isola Norfolk</value>
+  </data>
+  <data name="FLAG_NG" xml:space="preserve">
+    <value> Nigeria</value>
+  </data>
+  <data name="FLAG_NI" xml:space="preserve">
+    <value> Nicaragua</value>
+  </data>
+  <data name="FLAG_NL" xml:space="preserve">
+    <value> Paesi Bassi</value>
+  </data>
+  <data name="FLAG_NO" xml:space="preserve">
+    <value> Norvegia</value>
+  </data>
+  <data name="FLAG_NP" xml:space="preserve">
+    <value> Nepal</value>
+  </data>
+  <data name="FLAG_NR" xml:space="preserve">
+    <value> Nauru</value>
+  </data>
+  <data name="FLAG_NU" xml:space="preserve">
+    <value> Niue</value>
+  </data>
+  <data name="FLAG_NZ" xml:space="preserve">
+    <value> Nuova Zelanda</value>
+  </data>
+  <data name="FLAG_OM" xml:space="preserve">
+    <value> Oman</value>
+  </data>
+  <data name="FLAG_PA" xml:space="preserve">
+    <value> Panamá</value>
+  </data>
+  <data name="FLAG_PE" xml:space="preserve">
+    <value> Perù</value>
+  </data>
+  <data name="FLAG_PF" xml:space="preserve">
+    <value> Polinesia Francese</value>
+  </data>
+  <data name="FLAG_PG" xml:space="preserve">
+    <value> Papua Nuova Guinea</value>
+  </data>
+  <data name="FLAG_PH" xml:space="preserve">
+    <value> Filippine</value>
+  </data>
+  <data name="FLAG_PK" xml:space="preserve">
+    <value> Pakistan</value>
+  </data>
+  <data name="FLAG_PL" xml:space="preserve">
+    <value> Polonia</value>
+  </data>
+  <data name="FLAG_PM" xml:space="preserve">
+    <value> Saint-Pierre e Miquelon</value>
+  </data>
+  <data name="FLAG_PN" xml:space="preserve">
+    <value> Isole Pitcairn</value>
+  </data>
+  <data name="FLAG_PR" xml:space="preserve">
+    <value> Porto Rico</value>
+  </data>
+  <data name="FLAG_PS" xml:space="preserve">
+    <value> Palestina</value>
+  </data>
+  <data name="FLAG_PT" xml:space="preserve">
+    <value> Portogallo</value>
+  </data>
+  <data name="FLAG_PW" xml:space="preserve">
+    <value> Palau</value>
+  </data>
+  <data name="FLAG_PY" xml:space="preserve">
+    <value> Paraguay</value>
+  </data>
+  <data name="FLAG_QA" xml:space="preserve">
+    <value> Qatar</value>
+  </data>
+  <data name="FLAG_RE" xml:space="preserve">
+    <value> Riunione</value>
+  </data>
+  <data name="FLAG_RO" xml:space="preserve">
+    <value> Romania</value>
+  </data>
+  <data name="FLAG_RS" xml:space="preserve">
+    <value> Serbia</value>
+  </data>
+  <data name="FLAG_RU" xml:space="preserve">
+    <value> Russia</value>
+  </data>
+  <data name="FLAG_RW" xml:space="preserve">
+    <value> Ruanda</value>
+  </data>
+  <data name="FLAG_SA" xml:space="preserve">
+    <value> Arabia Saudita</value>
+  </data>
+  <data name="FLAG_SB" xml:space="preserve">
+    <value> Isole Salomone</value>
+  </data>
+  <data name="FLAG_SC" xml:space="preserve">
+    <value> Seychelles</value>
+  </data>
+  <data name="FLAG_SD" xml:space="preserve">
+    <value> Sudan</value>
+  </data>
+  <data name="FLAG_SE" xml:space="preserve">
+    <value> Svezia</value>
+  </data>
+  <data name="FLAG_SG" xml:space="preserve">
+    <value> Singapore</value>
+  </data>
+  <data name="FLAG_SH" xml:space="preserve">
+    <value> Sant'Elena, Ascensione e Tristan da Cunha</value>
+  </data>
+  <data name="FLAG_SI" xml:space="preserve">
+    <value> Slovenia</value>
+  </data>
+  <data name="FLAG_SJ" xml:space="preserve">
+    <value> Svalbard e Jan Mayen</value>
+  </data>
+  <data name="FLAG_SK" xml:space="preserve">
+    <value> Slovacchia</value>
+  </data>
+  <data name="FLAG_SL" xml:space="preserve">
+    <value> Sierra Leone</value>
+  </data>
+  <data name="FLAG_SM" xml:space="preserve">
+    <value> San Marino</value>
+  </data>
+  <data name="FLAG_SN" xml:space="preserve">
+    <value> Senegal</value>
+  </data>
+  <data name="FLAG_SO" xml:space="preserve">
+    <value> Somalia</value>
+  </data>
+  <data name="FLAG_SR" xml:space="preserve">
+    <value> Suriname</value>
+  </data>
+  <data name="FLAG_SS" xml:space="preserve">
+    <value> Sudan del Sud</value>
+  </data>
+  <data name="FLAG_ST" xml:space="preserve">
+    <value> São Tomé e Príncipe</value>
+  </data>
+  <data name="FLAG_SV" xml:space="preserve">
+    <value> El Salvador</value>
+  </data>
+  <data name="FLAG_SX" xml:space="preserve">
+    <value> Sint Maarten</value>
+  </data>
+  <data name="FLAG_SY" xml:space="preserve">
+    <value> Siria</value>
+  </data>
+  <data name="FLAG_SZ" xml:space="preserve">
+    <value> Swaziland</value>
+  </data>
+  <data name="FLAG_TC" xml:space="preserve">
+    <value> Turks e Caicos</value>
+  </data>
+  <data name="FLAG_TD" xml:space="preserve">
+    <value> Ciad</value>
+  </data>
+  <data name="FLAG_TF" xml:space="preserve">
+    <value> Terre australi e antartiche francesi</value>
+  </data>
+  <data name="FLAG_TG" xml:space="preserve">
+    <value> Togo</value>
+  </data>
+  <data name="FLAG_TH" xml:space="preserve">
+    <value> Thailandia</value>
+  </data>
+  <data name="FLAG_TJ" xml:space="preserve">
+    <value> Tagikistan</value>
+  </data>
+  <data name="FLAG_TK" xml:space="preserve">
+    <value> Tokelau</value>
+  </data>
+  <data name="FLAG_TL" xml:space="preserve">
+    <value> Timor Est</value>
+  </data>
+  <data name="FLAG_TM" xml:space="preserve">
+    <value> Turkmenistan</value>
+  </data>
+  <data name="FLAG_TN" xml:space="preserve">
+    <value> Tunisia</value>
+  </data>
+  <data name="FLAG_TO" xml:space="preserve">
+    <value> Tonga</value>
+  </data>
+  <data name="FLAG_TR" xml:space="preserve">
+    <value> Turchia</value>
+  </data>
+  <data name="FLAG_TT" xml:space="preserve">
+    <value> Trinidad e Tobago</value>
+  </data>
+  <data name="FLAG_TV" xml:space="preserve">
+    <value> Tuvalu</value>
+  </data>
+  <data name="FLAG_TW" xml:space="preserve">
+    <value> Taiwan</value>
+  </data>
+  <data name="FLAG_TZ" xml:space="preserve">
+    <value> Tanzania</value>
+  </data>
+  <data name="FLAG_UA" xml:space="preserve">
+    <value> Ucraina</value>
+  </data>
+  <data name="FLAG_UG" xml:space="preserve">
+    <value> Uganda</value>
+  </data>
+  <data name="FLAG_UM" xml:space="preserve">
+    <value> Isole minori esterne degli Stati Uniti</value>
+  </data>
+  <data name="FLAG_US" xml:space="preserve">
+    <value> Stati Uniti</value>
+  </data>
+  <data name="FLAG_UY" xml:space="preserve">
+    <value> Uruguay</value>
+  </data>
+  <data name="FLAG_UZ" xml:space="preserve">
+    <value> Uzbekistan</value>
+  </data>
+  <data name="FLAG_VA" xml:space="preserve">
+    <value> Città del Vaticano</value>
+  </data>
+  <data name="FLAG_VC" xml:space="preserve">
+    <value> Saint Vincent e Grenadine</value>
+  </data>
+  <data name="FLAG_VE" xml:space="preserve">
+    <value> Venezuela</value>
+  </data>
+  <data name="FLAG_VG" xml:space="preserve">
+    <value> Isole Vergini britanniche</value>
+  </data>
+  <data name="FLAG_VI" xml:space="preserve">
+    <value> Isole Vergini americane</value>
+  </data>
+  <data name="FLAG_VN" xml:space="preserve">
+    <value> Vietnam</value>
+  </data>
+  <data name="FLAG_VU" xml:space="preserve">
+    <value> Vanuatu</value>
+  </data>
+  <data name="FLAG_WF" xml:space="preserve">
+    <value> Wallis e Futuna</value>
+  </data>
+  <data name="FLAG_WS" xml:space="preserve">
+    <value> Samoa</value>
+  </data>
+  <data name="FLAG_YE" xml:space="preserve">
+    <value> Yemen</value>
+  </data>
+  <data name="FLAG_YT" xml:space="preserve">
+    <value> Mayotte</value>
+  </data>
+  <data name="FLAG_ZA" xml:space="preserve">
+    <value> Sudafrica</value>
+  </data>
+  <data name="FLAG_ZM" xml:space="preserve">
+    <value> Zambia</value>
+  </data>
+  <data name="FLAG_ZW" xml:space="preserve">
+    <value> Zimbabwe</value>
+  </data>
+  <data name="LABEL_HOTKEY_DESC_SEARCH_FAVOURITES" xml:space="preserve">
+    <value>Selezionare il pannello di ricerca nei preferiti</value>
+  </data>
+  <data name="HOTKEY_ADD_NOTE_TO_COLLEAGUES" xml:space="preserve">
+    <value>Aggiungi nota per il collega selezionato</value>
+  </data>
+  <data name="ACCESSIBILITY_DO_NOT_DISTURB" xml:space="preserve">
+    <value>[ND]</value>
+  </data>
+  <data name="ACCESSIBILITY_FW_NUMBER" xml:space="preserve">
+    <value>[DVAN]</value>
+  </data>
+  <data name="ACCESSIBILITY_FW_VMAIL" xml:space="preserve">
+    <value>[DVVM]</value>
+  </data>
+  <data name="COMMON_LBL_FWTO" xml:space="preserve">
+    <value>Deviato verso</value>
+  </data>
+  <data name="FAVOURITE_STATUS_DND" xml:space="preserve">
+    <value>Stato non disturbare</value>
+  </data>
+  <data name="FAVOURITE_STATUS_FW_TO_NUMBER" xml:space="preserve">
+    <value>Stato deviato verso numero</value>
+  </data>
+  <data name="FAVOURITE_STATUS_FW_TO_VOICEMAIL" xml:space="preserve">
+    <value>Stato deviato verso voicemail </value>
+  </data>
+  <data name="STATUS_FWAVMAIL" xml:space="preserve">
+    <value>Voicemail</value>
+  </data>
+  <data name="COMMON_QUEUE_REDIRECTION" xml:space="preserve">
+    <value>per {0}</value>
+  </data>
+  <data name="COMMON_CMD_NEXT" xml:space="preserve">
+    <value>Avanti</value>
+  </data>
+  <data name="COMMON_CMD_DELETE" xml:space="preserve">
+    <value>Rimuovi</value>
+  </data>
+  <data name="COMMON_SPEEDY_DIRECTORY" xml:space="preserve">
+    <value>Rubrica Imagicle</value>
+  </data>
+  <data name="DISPLAY_ADD_CONTACT" xml:space="preserve">
+    <value>Crea nuovo contatto</value>
+  </data>
+  <data name="ERROR_EMAIL_VALIDATOR" xml:space="preserve">
+    <value>Email non valida</value>
+  </data>
+  <data name="ERROR_PHONE_NUMBER_VALIDATOR" xml:space="preserve">
+    <value>Numero di telefono non valido</value>
+  </data>
+  <data name="MENU_CALL_LIST_ADD_CONTACT" xml:space="preserve">
+    <value>Crea nuovo contatto</value>
+  </data>
+  <data name="MENU_CALL_LIST_EDIT_CONTACT" xml:space="preserve">
+    <value>Visualizza/Modifica contatto</value>
+  </data>
+  <data name="MENU_CONTACT_DELETE_CONTACT" xml:space="preserve">
+    <value>Rimuovi contatto</value>
+  </data>
+  <data name="SPEEDY_ACTION_REQUIRED" xml:space="preserve">
+    <value>(azione richiesta)</value>
+  </data>
+  <data name="SPEEDY_ADD_CONTACT_TITLE" xml:space="preserve">
+    <value>Crea contatto</value>
+  </data>
+  <data name="SPEEDY_ADD_FAVORITE_TOOLTIP" xml:space="preserve">
+    <value>Aggiungi ai preferiti</value>
+  </data>
+  <data name="SPEEDY_ASK_REMOVE_FAV" xml:space="preserve">
+    <value>Vuoi rimuovere questo numero di telefono dai preferiti?</value>
+  </data>
+  <data name="SPEEDY_ASK_REMOVE_TIT" xml:space="preserve">
+    <value>Rimuovi preferito</value>
+  </data>
+  <data name="SPEEDY_CHOOSE_DIR" xml:space="preserve">
+    <value>Seleziona una rubrica</value>
+  </data>
+  <data name="SPEEDY_DELETE_CONTACT_CONFIRM" xml:space="preserve">
+    <value>Il contatto "{0}" sarà rimosso dalla rubrica "{1}".{2}{3} Sei sicuro di volerlo rimuovere?</value>
+  </data>
+  <data name="SPEEDY_DELETE_CONTACT_TITLE" xml:space="preserve">
+    <value>Rimuovi contatto</value>
+  </data>
+  <data name="SPEEDY_EDIT_CONTACT_TITLE" xml:space="preserve">
+    <value>Visualizza/Modifica contatto</value>
+  </data>
+  <data name="SPEEDY_ERROR_ACCESS_DENIED" xml:space="preserve">
+    <value>Non si dispone dei permessi di aggiunta, modifica o rimozione del contatto in questa rubrica</value>
+  </data>
+  <data name="SPEEDY_ERROR_ACTION_REQUIRED_DEP" xml:space="preserve">
+    <value>Al fine di condividere i contatti con gli altri operatori si deve appartenere allo stesso dipartimento. Si prega di contattare l'amministratore per essere assegnati ad un dipartimento</value>
+  </data>
+  <data name="SPEEDY_ERROR_DIR_NOT_EDITABLE" xml:space="preserve">
+    <value>La rubrica selezionata non è editabile</value>
+  </data>
+  <data name="SPEEDY_ERROR_DIR_NOT_FOUND" xml:space="preserve">
+    <value>La rubrica selezionata non esiste</value>
+  </data>
+  <data name="SPEEDY_ERROR_GENERIC" xml:space="preserve">
+    <value>Si è verificato un errore, si prega di riprovare più tardi</value>
+  </data>
+  <data name="SPEEDY_ERROR_NO_CONTACT_FOUND" xml:space="preserve">
+    <value>Il contatto è già stato rimosso da un altro utente</value>
+  </data>
+  <data name="SPEEDY_ERROR_NO_DIR_FOUND" xml:space="preserve">
+    <value>Nessuna rubrica trovata</value>
+  </data>
+  <data name="SPEEDY_FAKEDEPDIR" xml:space="preserve">
+    <value>Contatti condivisi</value>
+  </data>
+  <data name="SPEEDY_LBL_DEF_DIR" xml:space="preserve">
+    <value>Rubrica predefinita per i nuovi contatti:</value>
+  </data>
+  <data name="SPEEDY_LBL_EXPLAIN" xml:space="preserve">
+    <value>Con Speedy Enterprise, l'applicazione di gestione rubriche Imagicle della Suite, è possibile gestire un numero qualsiasi di rubriche e contatti. Clicca sul link qui sotto per accedere all'interfaccia di gestione web: è necessario avere i diritti di amministrazione per gestire le rubriche condivise.</value>
+  </data>
+  <data name="SPEEDY_LICENCE_EXPIRED_ALERT" xml:space="preserve">
+    <value>La licenza di Speedy è scaduta</value>
+  </data>
+  <data name="SPEEDY_LINK_MANAGE_DIRS" xml:space="preserve">
+    <value>Gestisci rubriche</value>
+  </data>
+  <data name="SPEEDY_NO_DEFAULT_DIR" xml:space="preserve">
+    <value>Nessuna</value>
+  </data>
+  <data name="SPEEDY_SHARED_DEPARTMENT" xml:space="preserve">
+    <value>(condivisa con il dipartimento {0})</value>
+  </data>
+  <data name="SPEEDY_SHARED_PRIVATE" xml:space="preserve">
+    <value>(visibile solamente da me)</value>
+  </data>
+  <data name="SPEEDY_SHARED_PUBLIC" xml:space="preserve">
+    <value>(condivisa con tutta l'azienda)</value>
+  </data>
+  <data name="MENU_CONTAC_ADD_CONTACT" xml:space="preserve">
+    <value>Aggiungi contatto</value>
+  </data>
+  <data name="SPEEDY_UPDATE_FAVORITE_TIT" xml:space="preserve">
+    <value>Preferiti</value>
+  </data>
+  <data name="SPEEDY_UPDATE_FAVORITE_MSG" xml:space="preserve">
+    <value>Preferito modificato correttamente</value>
+  </data>
+  <data name="COMMON_LBL_UNKNOWN" xml:space="preserve">
+    <value>Sconosciuto</value>
+  </data>
+  <data name="MESSAGE_BOX_END_PAUSE" xml:space="preserve">
+    <value>Sei sicuro di voler uscire dalla pausa?</value>
+  </data>
+  <data name="MESSAGE_BOX_LOG_OUT_ALL_QUEUE" xml:space="preserve">
+    <value>Sei sicuro di voler effettuare il logout su tutte le code?</value>
+  </data>
+  <data name="MESSAGE_BOX_LOG_OUT_ON_QUEUE" xml:space="preserve">
+    <value>Sei sicuro di voler effettuare il logout dalla coda '{0}'?</value>
+  </data>
+  <data name="MESSAGE_BOX_READY_ALL_QUEUE" xml:space="preserve">
+    <value>Sei sicuro di voler renderti disponibile su tutte le code?</value>
+  </data>
+  <data name="MESSAGE_BOX_READY_ON_QUEUE" xml:space="preserve">
+    <value>Sei sicuro di voler renderti disponibile sulla coda '{0}'?</value>
+  </data>
+  <data name="MESSAGE_BOX_START_PAUSE" xml:space="preserve">
+    <value>Sei sicuro di voler entrare in pausa?</value>
+  </data>
+  <data name="MESSAGE_BOX_STATUS_TITLE" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="OPTION_GENERAL_ASK_CONFIRM" xml:space="preserve">
+    <value>Abilita il messaggio di conferma sul cambio di stato (ready/logout e pausa/fine pausa)</value>
+  </data>
+  <data name="COMMON_LBL_SMS_TEXT" xml:space="preserve">
+    <value>Testo SMS</value>
+  </data>
+  <data name="COMMON_LBL_OPTION_FOR_JAWS" xml:space="preserve">
+    <value>Opzioni per attivare premere la barra spaziatrice</value>
+  </data>
+  <data name="LABEL_HOTKEY_QUEUE_CALLS_STAT" xml:space="preserve">
+    <value>Leggi situazione code</value>
+  </data>
+  <data name="LABEL_HOTKEY_QUEUE_CALLS_STAT_BY_QUEUE" xml:space="preserve">
+    <value>{0} su coda '{1}'</value>
+  </data>
+  <data name="LABEL_HOTKEY_QUEUE_CALLS_STAT_COUNT" xml:space="preserve">
+    <value>{0} chiamate in coda, di cui:</value>
+  </data>
+  <data name="LABEL_HOTKEY_QUEUE_CALLS_STAT_MWT" xml:space="preserve">
+    <value>Attesa massima {0}</value>
+  </data>
+  <data name="LABEL_HOTKEY_QUEUE_CALLS_STAT_NO_CALLS" xml:space="preserve">
+    <value>Nessuna chiamata in coda.</value>
+  </data>
+  <data name="LABEL_LABEL_HOTKEY_QUEUE_STATISTICS" xml:space="preserve">
+    <value>Chiamate in attesa: {0}, Tempo max di attesa: {1} Servite: {2}, Perse: {3}, durata media: {4}, Tempo medio risposta: {5}</value>
+  </data>
+  <data name="SPEEDY_NOTE_ERROR_NOACCESS" xml:space="preserve">
+    <value>Non si dispone dei permessi di aggiunta, modifica o rimozione di note per il contatto selezionato</value>
+  </data>
+  <data name="SPEEDY_NOTE_ERROR_NOCONTACT" xml:space="preserve">
+    <value>Non si può aggiungere, modificare o rimuovere la nota perchè il contatto è stato rimosso da un altro utente</value>
+  </data>
+  <data name="LABEL_HOTKEY_CALL_TOGGLE" xml:space="preserve">
+    <value>Alterna chiamate</value>
+  </data>
+  <data name="MENU_LABEL_CHANGELOG" xml:space="preserve">
+    <value>Note di &amp;versione</value>
+  </data>
+  <data name="WALLBOARD_ALL_AGENT_MENU" xml:space="preserve">
+    <value>Pannello 'Tutti gli agenti'</value>
+  </data>
+  <data name="WALLBOARD_ALL_QUEUE_MENU" xml:space="preserve">
+    <value>Pannello 'Tutte le code'</value>
+  </data>
+  <data name="PHONE_ALIAS_PLACEHOLDER" xml:space="preserve">
+    <value>Numero breve</value>
+  </data>
+  <data name="SPEEDY_ERROR_DUPLICATE_ALIAS" xml:space="preserve">
+    <value>Uno o più numeri brevi di questo contatto sono già associati ad altri numeri di telefono. Si prega di specificare numeri brevi che non siano già associati ad altri numeri di telefono.</value>
+  </data>
+  <data name="LOGIN_NOSERVER_DNSSRV_ERROR_DETAIL" xml:space="preserve">
+    <value>La connessione al server {0}:{1} è fallita (anche la query SRV a {2} è fallita).</value>
+  </data>
+  <data name="LOGIN_NOSERVER_DNSSRV_MULTI_SERVER_DETAIL" xml:space="preserve">
+    <value>La connessione ai server {0} è fallita (la query SRV a {1} ha avuto successo).</value>
+  </data>
+  <data name="LOGIN_NOSERVER_DNSSRV_ONE_SERVER_DETAIL" xml:space="preserve">
+    <value>La connessione al server {0}:{1} è fallita (la query SRV a {2} ha avuto successo).</value>
+  </data>
+  <data name="LABEL_LOGIN_ERROR_TO_SERVER" xml:space="preserve">
+    <value>Impossibile connettersi al server Imagicle {0}</value>
+  </data>
+  <data name="MUTED_REC_STATUS" xml:space="preserve">
+    <value>registrazione silenziata</value>
+  </data>
+  <data name="REC_IN_PROGRESS_STATUS" xml:space="preserve">
+    <value>registrazione in corso</value>
+  </data>
+  <data name="ACCESSIBILITY_RECORDING_NOT_AVAILABLE" xml:space="preserve">
+    <value>Call recording non disponibile</value>
+  </data>
+  <data name="COMMAND_PAUSE_REC_ERROR_COMMANDDISABLED" xml:space="preserve">
+    <value>Impossibile sospendere la registrazione: non sei abilitato a sospendere la registrazione. Si prega di contattare l’amministratore.</value>
+  </data>
+  <data name="COMMAND_PAUSE_REC_ERROR_INVALIDLICENSE" xml:space="preserve">
+    <value>Impossibile sospendere la registrazione: la licenza del call recording è scaduta o non valida.</value>
+  </data>
+  <data name="COMMAND_PAUSE_REC_ERROR_INVALIDSYSTEMCONFIGURATION" xml:space="preserve">
+    <value>Impossibile sospendere la registrazione: si è verificato un errore nel sistema telefonico durante il tentativo di sospensione della registrazione. Se il problema persiste si prega di contattare l’amministratore di sistema.</value>
+  </data>
+  <data name="COMMAND_PAUSE_REC_ERROR_NOSUCHCALL" xml:space="preserve">
+    <value>Impossibile sospendere la registrazione: nessuna registrazione in corso.</value>
+  </data>
+  <data name="COMMAND_PAUSE_REC_ERROR_UNAUTHORIZEDUSER" xml:space="preserve">
+    <value>Impossibile sospendere la registrazione: non sei autorizzato ad utilizzare il Call Recording. Si prega di contattare l’amministratore.</value>
+  </data>
+  <data name="COMMAND_PAUSE_REC_ERROR_UNKNOWN" xml:space="preserve">
+    <value>Impossibile mettere la registrazione in pausa: si è verificato un errore durante l’operazione.</value>
+  </data>
+  <data name="COMMAND_RESUME_REC_ERROR_COMMANDDISABLED" xml:space="preserve">
+    <value>Impossibile riprendere la registrazione: non sei abilitato a riprendere la registrazione. Si prega di contattare l’amministratore.</value>
+  </data>
+  <data name="COMMAND_RESUME_REC_ERROR_INVALIDLICENSE" xml:space="preserve">
+    <value>Impossibile riprendere la registrazione: la licenza del call recording è scaduta o non valida.</value>
+  </data>
+  <data name="COMMAND_RESUME_REC_ERROR_INVALIDSYSTEMCONFIGURATION" xml:space="preserve">
+    <value>Impossibile riprendere la registrazione: si è verificato un errore nel sistema telefonico durante il tentativo di ripresa della registrazione. Se il problema persiste si prega di contattare l’amministratore di sistema.</value>
+  </data>
+  <data name="COMMAND_RESUME_REC_ERROR_NOSUCHCALL" xml:space="preserve">
+    <value>Impossibile riprendere la registrazione: nessuna registrazione in corso.</value>
+  </data>
+  <data name="COMMAND_RESUME_REC_ERROR_UNAUTHORIZEDUSER" xml:space="preserve">
+    <value>Impossibile riprendere la registrazione: non sei autorizzato ad utilizzare il Call Recording. Si prega di contattare l’amministratore.</value>
+  </data>
+  <data name="COMMAND_RESUME_REC_ERROR_UNKNOWN" xml:space="preserve">
+    <value>Impossibile riprendere la registrazione: si è verificato un errore durante l’operazione.</value>
+  </data>
+  <data name="COMMAND_START_REC_ERROR_COMMANDDISABLED" xml:space="preserve">
+    <value>Impossibile avviare la registrazione: non sei abilitato a registrare le chiamate. Si prega di contattare l’amministratore.</value>
+  </data>
+  <data name="COMMAND_START_REC_ERROR_INVALIDLICENSE" xml:space="preserve">
+    <value>Impossibile avviare la registrazione: la licenza Call Recording è invalida o scaduta.</value>
+  </data>
+  <data name="COMMAND_START_REC_ERROR_INVALIDMEDIAFORKINGALWAYSONOPERATION" xml:space="preserve">
+    <value>Errore: la configurazione telefonica non permette l’avvio manuale delle registrazioni.</value>
+  </data>
+  <data name="COMMAND_START_REC_ERROR_INVALIDSYSTEMCONFIGURATION" xml:space="preserve">
+    <value>Impossibile avviare la registrazione: si è verificato un errore nel sistema telefonico mentre la registrazione veniva avviata. Si prega di contattare l’amministratore se il problema persiste.</value>
+  </data>
+  <data name="COMMAND_START_REC_ERROR_LICENSEDCHANNELSEXCEEDED" xml:space="preserve">
+    <value>Impossibile avviare la registrazione: non sono disponibili licenze per registrare questa chiamata.</value>
+  </data>
+  <data name="COMMAND_START_REC_ERROR_NOSUCHCALL" xml:space="preserve">
+    <value>Impossibile avviare la registrazione: non ci sono chiamate registrabili.</value>
+  </data>
+  <data name="COMMAND_START_REC_ERROR_NOSUCHLINE" xml:space="preserve">
+    <value>Impossibile avviare la registrazione: nessun dispositivo abilitato alla registrazione risulta associato all’utente corrente.</value>
+  </data>
+  <data name="COMMAND_START_REC_ERROR_UNAUTHORIZEDUSER" xml:space="preserve">
+    <value>Impossibile avviare la registrazione: non sei abilitato a registrare le chiamate. Si prega di contattare l’amministratore.</value>
+  </data>
+  <data name="COMMAND_START_REC_ERROR_UNKNOWN" xml:space="preserve">
+    <value>Impossibile avviare la registrazione: si è verificato un errore durante l’operazione.</value>
+  </data>
+  <data name="COMMAND_STOP_REC_ERROR_COMMANDDISABLED" xml:space="preserve">
+    <value>Impossibile arrestare la registrazione: non sei abilitato ad arrestare la registrazione delle chiamate. Si prega di contattare l’amministratore.</value>
+  </data>
+  <data name="COMMAND_STOP_REC_ERROR_INVALIDLICENSE" xml:space="preserve">
+    <value>Impossibile arrestare la registrazione: la licenza del call recording è scaduta o non valida.</value>
+  </data>
+  <data name="COMMAND_STOP_REC_ERROR_INVALIDMEDIAFORKINGALWAYSONOPERATION" xml:space="preserve">
+    <value>Errore: la configurazione telefonica non permette l’arresto manuale delle registrazioni.</value>
+  </data>
+  <data name="COMMAND_STOP_REC_ERROR_INVALIDSYSTEMCONFIGURATION" xml:space="preserve">
+    <value>Impossibile arrestare la registrazione: si è verificato un errore nel sistema telefonico durante il tentativo di arresto della registrazione. Se il problema persiste si prega di contattare l’amministratore di sistema.</value>
+  </data>
+  <data name="COMMAND_STOP_REC_ERROR_NOSUCHCALL" xml:space="preserve">
+    <value>Impossibile arrestare la registrazione: nessuna registrazione in corso.</value>
+  </data>
+  <data name="COMMAND_STOP_REC_ERROR_UNAUTHORIZEDUSER" xml:space="preserve">
+    <value>Impossibile arrestare la registrazione: non sei autorizzato ad utilizzare il Call Recording. Si prega di contattare l’amministratore.</value>
+  </data>
+  <data name="COMMAND_STOP_REC_ERROR_UNKNOWN" xml:space="preserve">
+    <value>Impossibile arrestare la registrazione: si è verificato un errore durante l’operazione.</value>
+  </data>
+  <data name="COMMAND_VIEW_RECORDINGS" xml:space="preserve">
+    <value>Visualizza registrazioni</value>
+  </data>
+  <data name="COMMON_LBL_SILENT_MONITOR" xml:space="preserve">
+    <value>Ascolta operatore</value>
+  </data>
+  <data name="COMMON_LBL_WHISPER_COACHING" xml:space="preserve">
+    <value>Assisti operatore</value>
+  </data>
+  <data name="ERROR_GENERIC_SILENT_MONITOR_WC" xml:space="preserve">
+    <value>Impossibile ascoltare l’utente selezionato: l’utente non è in conversazione o lui/lei  è già ascoltato da un altro utente.</value>
+  </data>
+  <data name="ERROR_SILENT_MONITOR_WC_BIB" xml:space="preserve">
+    <value>Impossibile ascoltare il telefono selezionato per un problema di configurazione telefonica.</value>
+  </data>
+  <data name="ERROR_SILENT_MONITOR_WC_INVALIDTARGET" xml:space="preserve">
+    <value>Impossibile ascoltare il telefono selezionato: la linea non è controllata via CTI o non è una linea Cisco</value>
+  </data>
+  <data name="ERROR_SILENT_MONITOR_WC_NOCALL" xml:space="preserve">
+    <value>Impossibile ascoltare il telefono selezionato: la linea non ha chiamate attive connesse.</value>
+  </data>
+  <data name="ERROR_SILENT_MONITOR_WC_TAPI" xml:space="preserve">
+    <value>Impossibile ascoltare il telefono selezionato: si è verificato un errore telefonico</value>
+  </data>
+  <data name="ERROR_SILENT_MONITOR_WC_UNSUPPORTED" xml:space="preserve">
+    <value>Impossibile ascoltare il telefono selezionato: la linea richiedente non supporta la funzionalità</value>
+  </data>
+  <data name="LABEL_HOTKEY_RECORDING_PAUSE_RESUME" xml:space="preserve">
+    <value>Sospendi / riprendi la registrazione di chiamata</value>
+  </data>
+  <data name="LABEL_HOTKEY_RECORDING_START_STOP" xml:space="preserve">
+    <value>Avvia / ferma la registrazione di chiamata</value>
+  </data>
+  <data name="LABEL_RECORDING_ERROR_TITLE" xml:space="preserve">
+    <value>Errore di registrazione</value>
+  </data>
+  <data name="LBL_STATUS_RECORDING_IN_PROGRESS" xml:space="preserve">
+    <value>In registrazione</value>
+  </data>
+  <data name="LBL_STATUS_RECORDING_MUTED" xml:space="preserve">
+    <value>Registrazione silenziata</value>
+  </data>
+  <data name="OPTION_ACCESSIBILITY_RECORDINGERRORSINDICATION" xml:space="preserve">
+    <value>Fornire indicazioni di errore del Call Recording</value>
+  </data>
+  <data name="OPTION_ADVISE_ENABLE_ACUSTIC_START_REC" xml:space="preserve">
+    <value>Abilita la segnalazione acustica quando parte il call recording</value>
+  </data>
+  <data name="RECORDING_NOT_AVAILABLE_ERROR" xml:space="preserve">
+    <value>Si è verificato un errore durante la registrazione della chiamata, la registrazione potrebbe essere stata interrotta. Al momento il servizio Call Recording non è disponibile.</value>
+  </data>
+  <data name="RECORDING_STATUS_ALERT_UNAVAILABLE" xml:space="preserve">
+    <value>Call recording non disponibile</value>
+  </data>
+  <data name="RECORDING_STATUS_NOT_AVAILABLE" xml:space="preserve">
+    <value>Imagicle Call Recording al momento non è disponibile</value>
+  </data>
+  <data name="TOOLTIP_PAUSE_BUTTON" xml:space="preserve">
+    <value>Sospendi registrazione</value>
+  </data>
+  <data name="TOOLTIP_RESUME_BUTTON" xml:space="preserve">
+    <value>Riprendi registrazione</value>
+  </data>
+  <data name="TOOLTIP_RESUME_BUTTON_DISABLED" xml:space="preserve">
+    <value>Comando di ripresa registrazione disabilitato</value>
+  </data>
+  <data name="TOOLTIP_START_BUTTON" xml:space="preserve">
+    <value>Registra</value>
+  </data>
+  <data name="TOOLTIP_START_BUTTON_DISABLED" xml:space="preserve">
+    <value>Comando di registrazione disabilitato</value>
+  </data>
+  <data name="TOOLTIP_START_STOP_BUTTON_LICENSE_NOT_AVAILABLE" xml:space="preserve">
+    <value>L’applicazione Call Recording non è disponibile.</value>
+  </data>
+  <data name="TOOLTIP_START_STOP_BUTTON_SERVICE_ERROR" xml:space="preserve">
+    <value>Il servizio Call Recording è arrestato o non raggiungibile.</value>
+  </data>
+  <data name="TOOLTIP_START_STOP_BUTTON_USER_NOT_ENABLED" xml:space="preserve">
+    <value>Non sei abilitato a utilizzare le funzionalità del call recording. Si prega di richiedere l’abilitazione all’amministratore di sistema.</value>
+  </data>
+  <data name="TOOLTIP_STOP_REC_BUTTON" xml:space="preserve">
+    <value>Arresta la registrazione</value>
+  </data>
+  <data name="TOOLTIP_STOP_REC_BUTTON_DISABLED" xml:space="preserve">
+    <value>Comando di arresto registrazione disabilitato</value>
+  </data>
+  <data name="AGENT_ON_CALL_AGENT_COLUMN" xml:space="preserve">
+    <value>Agente</value>
+  </data>
+  <data name="AGENT_ON_CALL_CONTACT_COLUMN" xml:space="preserve">
+    <value>Contatto</value>
+  </data>
+  <data name="AGENT_ON_CALL_DIRECTION_COLUMN" xml:space="preserve">
+    <value>Direzione</value>
+  </data>
+  <data name="AGENT_ON_CALL_DURATION_COLUMN" xml:space="preserve">
+    <value>Durata</value>
+  </data>
+  <data name="AGENT_ON_CALL_MENU_VIEW" xml:space="preserve">
+    <value>Pannello ‘Agenti in chiamata’</value>
+  </data>
+  <data name="AGENT_ON_CALL_WINDOW_TITLE" xml:space="preserve">
+    <value>Agenti in chiamata</value>
+  </data>
+  <data name="CALL_DIRECTION_IN" xml:space="preserve">
+    <value>Entrante</value>
+  </data>
+  <data name="CALL_DIRECTION_OUT" xml:space="preserve">
+    <value>Uscente</value>
+  </data>
+  <data name="AGENTSTATUS_LOGOUT" xml:space="preserve">
+    <value>logged out</value>
+  </data>
+  <data name="AGENTSTATUS_PARTIALLY_READY" xml:space="preserve">
+    <value>parzialmente ready</value>
+  </data>
+  <data name="AGENTSTATUS_PAUSE" xml:space="preserve">
+    <value>pausa</value>
+  </data>
+  <data name="AGENTSTATUS_READY" xml:space="preserve">
+    <value>ready</value>
+  </data>
+  <data name="AGENTSTATUS_UNKNOWN" xml:space="preserve">
+    <value>sconosciuto</value>
+  </data>
+  <data name="AGENTSTATUS_WRAP_UP" xml:space="preserve">
+    <value>wrap-up</value>
+  </data>
+  <data name="ALLAGENTS_PAUSE_REASON_HEADER" xml:space="preserve">
+    <value>Motivo della pausa</value>
+  </data>
+  <data name="ALLAGENTS_STATE_HEADER" xml:space="preserve">
+    <value>Stato</value>
+  </data>
+  <data name="ALLAGENTS_TIME_IN_STATE_HEADER" xml:space="preserve">
+    <value>Tempo nello stato</value>
+  </data>
+  <data name="COLUMN_LBL_CALLFOR" xml:space="preserve">
+    <value>Chiamata per</value>
+  </data>
+  <data name="ERROR_PAUSE_INVALIDREASON" xml:space="preserve">
+    <value>L'elenco dei motivi di pausa disponibili è stato modificato dall'amministratore. Si prega di scegliere uno degli altri motivi.</value>
+  </data>
+  <data name="AGENTS_BYQUEUE_AGENT_COLUMN" xml:space="preserve">
+    <value>Agente</value>
+  </data>
+  <data name="AGENTS_BYQUEUE_STATUS_COLUMN" xml:space="preserve">
+    <value>Stato</value>
+  </data>
+  <data name="AGENT_STATUS_PAUSE" xml:space="preserve">
+    <value>In pausa</value>
+  </data>
+  <data name="AGENTS_QUEUES_QUEUE_COLUMN" xml:space="preserve">
+    <value>Coda</value>
+  </data>
+  <data name="AGENTS_QUEUES_STATUS_COLUMN" xml:space="preserve">
+    <value>Stato</value>
+  </data>
+  <data name="COMMON_CMD_LOGIN" xml:space="preserve">
+    <value>Accedi</value>
+  </data>
+  <data name="COMMON_LBL_LOGINTO" xml:space="preserve">
+    <value>Accedi a</value>
+  </data>
+  <data name="LABEL_PROGRAM_NAME_GENERIC" xml:space="preserve">
+    <value>Imagicle Blue's Attendant</value>
+  </data>
+  <data name="OPTION_LABEL_AGENT" xml:space="preserve">
+    <value>Agente</value>
+  </data>
+  <data name="COMMON_LBL_THEMES" xml:space="preserve">
+    <value>&amp;Temi</value>
+  </data>
+  <data name="IDS_TAB_MONITOR_CALL_TYPE" xml:space="preserve">
+    <value>Tipo chiamata</value>
+  </data>
+  <data name="IDS_TAB_MONITOR_TOTAL_CALLS" xml:space="preserve">
+    <value>Totale chiamate</value>
+  </data>
+  <data name="IDS_TAB_MONITOR_TOTAL_DURATION" xml:space="preserve">
+    <value>Durata totale</value>
+  </data>
+  <data name="AGENT_STATUS_READY" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="CMD_SEND" xml:space="preserve">
+    <value>Invia</value>
+  </data>
+  <data name="OPTION_AGENT_ENDPAUSEAUTOMATICALLY" xml:space="preserve">
+    <value>Temina automaticamente la pausa su:</value>
+  </data>
+  <data name="OPTION_AGENT_PAUSE_ONPCSLEEP" xml:space="preserve">
+    <value>Sospensione PC</value>
+  </data>
+  <data name="OPTION_AGENT_PAUSE_ONWINLOCK" xml:space="preserve">
+    <value>Blocco sessione Windows</value>
+  </data>
+  <data name="OPTION_AGENT_STARTPAUSEAUTOMATICALLOPTION_AGENT_STARTPAUSEAUTOMATICALLY" xml:space="preserve">
+    <value>Imposta automaticamente la pausa su:</value>
+  </data>
+  <data name="OPTION_AGENT_UNPAUSE_ONPCWAKEUP" xml:space="preserve">
+    <value>Risveglio PC</value>
+  </data>
+  <data name="OPTION_AGENT_UNPAUSE_ONWINUNLOCK" xml:space="preserve">
+    <value>Sblocco sessione Windows</value>
+  </data>
+  <data name="SKIN_DARK" xml:space="preserve">
+    <value>&amp;Scura</value>
+  </data>
+  <data name="SKIN_DEFAULT" xml:space="preserve">
+    <value>&amp;Chiara</value>
+  </data>
+  <data name="SKIN_MEDIUMGREY" xml:space="preserve">
+    <value>&amp;Intermedia</value>
+  </data>
+  <data name="WALLBOARD_AGENT_STATS_LEGEND" xml:space="preserve">
+    <value>Ready | In pausa | Logout</value>
+  </data>
+  <data name="WALLBOARD_LBL_READY_PERC" xml:space="preserve">
+    <value>Ready vs tempo totale login</value>
+  </data>
+  <data name="SKIN_PINK" xml:space="preserve">
+    <value>&amp;Rosa</value>
+  </data>
+  <data name="ADV_SEARCH_BUTTON_ADVANCED" xml:space="preserve">
+    <value>Ricerca avanzata</value>
+  </data>
+  <data name="ADV_SEARCH_BUTTON_SIMPLE" xml:space="preserve">
+    <value>Ricerca semplice</value>
+  </data>
+  <data name="ADV_SEARCH_CLEAR_BUTTON" xml:space="preserve">
+    <value>Pulisci filtri avanzati</value>
+  </data>
+  <data name="CONTACTS_ADV_SEARCH_TABLE_PLACEHOLDER" xml:space="preserve">
+    <value>Inserire i filtri sulle intestazioni di colonna e premere INVIO per avviare la ricerca avanzata. La ricerca avanzata non cerca nelle rubriche locali.</value>
+  </data>
+  <data name="LABEL_HOTKEY_ADVANCED_SEARCH_EXTERNAL_CONTACTS" xml:space="preserve">
+    <value>Ricerca avanzata contatti</value>
+  </data>
+  <data name="LABEL_HOTKEY_ADVANCED_SEARCH_INTERNAL_CONTACTS" xml:space="preserve">
+    <value>Ricerca avanzata colleghi</value>
+  </data>
+  <data name="OPTION_AGENT_TRANSFER_DESTINATION_AUTO_NOTE" xml:space="preserve">
+    <value>Ricorda la destinazione dell’ultima trasferita fallita (Chiamata per)</value>
+  </data>
+  <data name="ADD_FAVORITE_BUTTON_TOOLTIP" xml:space="preserve">
+    <value>Aggiungi nuovo preferito</value>
+  </data>
+  <data name="ERR_LABEL_GENERIC" xml:space="preserve">
+    <value>Errore di connessione al server</value>
+  </data>
+  <data name="AVATAR_SELECTOR_CLEAR_BTN_TOOLTIP" xml:space="preserve">
+    <value>Ripristina immagine predefinita</value>
+  </data>
+  <data name="AVATAR_SELECTOR_EDIT_BTN_TOOLTIP" xml:space="preserve">
+    <value>Carica immagine avatar</value>
+  </data>
+  <data name="FLY_SEARCH_CONTACTS_TITLE" xml:space="preserve">
+    <value>Altri contatti</value>
+  </data>
+  <data name="FLY_SEARCH_FAVORITES_TITLE" xml:space="preserve">
+    <value>Preferiti e colleghi</value>
+  </data>
+  <data name="COMMON_NO_RESULTS_FOUND" xml:space="preserve">
+    <value>Nessun risultato trovato</value>
+  </data>
+  <data name="FLY_SEARCH_COLLEAGUES_DIRECTORY_LABEL" xml:space="preserve">
+    <value>Colleghi</value>
+  </data>
+  <data name="OPTION_GENERAL_SHOW_PANIC_BUTTON" xml:space="preserve">
+    <value>Mostra Panic Button</value>
+  </data>
+  <data name="LABEL_HOTKEY_TRIGGER_PANIC_BUTTON" xml:space="preserve">
+    <value>Panic Button</value>
+  </data>
+  <data name="PANIC_BUTTON_COMMAND" xml:space="preserve">
+    <value>Emergenza</value>
+  </data>
+  <data name="TOOLTIP_PANIC_BUTTON" xml:space="preserve">
+    <value>Chiamata d'emergenza</value>
+  </data>
+  <data name="ACCESSIBILITY_MAIN_MENU" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="TOOLTIP_FLY_SEARCH_OTHER_CONTACTS" xml:space="preserve">
+    <value>Non tutti i risultati della ricerca sono mostrati.\nRubriche locali (es. Outlook) e definite nel client (es. Salesforce) non sono incluse.\n\nNel caso di un numero elevato di contatti, alcuni risultati potrebbero non essere mostrati.\nPer favore, ripetere la ricerca con un termine più lungo.</value>
+  </data>
+  <data name="CRM_INTEGRATION_CALL_DIRECTION" xml:space="preserve">
+    <value>Direzione</value>
+  </data>
+  <data name="CALENDAR_EVENT_NOEVENTS" xml:space="preserve">
+    <value>Nessun evento</value>
+  </data>
+  <data name="CALENDAR_EVENT_NO_SUBJECT" xml:space="preserve">
+    <value>(Nessun oggetto)</value>
+  </data>
+  <data name="CALENDAR_EVENT_STATUS_DESCRIPTION_CLOSESTEVENT_TODAY" xml:space="preserve">
+    <value>Oggi l'evento più vicino è alle</value>
+  </data>
+  <data name="CALENDAR_EVENT_STATUS_DESCRIPTION_CLOSESTFREESLOT_TODAY" xml:space="preserve">
+    <value>Oggi il primo momento libero è alle</value>
+  </data>
+  <data name="CALENDAR_EVENT_STATUS_DESCRIPTION_NOEVENTS" xml:space="preserve">
+    <value>Nessun evento per oggi</value>
+  </data>
+  <data name="CALENDAR_EVENT_STATUS_DESCRIPTION_NOFREESLOT_TODAY" xml:space="preserve">
+    <value>Nessun momento libero oggi</value>
+  </data>
+  <data name="CALENDAR_EVENT_STATUS_NOW" xml:space="preserve">
+    <value>Ora {0}</value>
+  </data>
+  <data name="CALENDAR_EXCHANGE_ALL_DAY_EVENT" xml:space="preserve">
+    <value>Tutto il giorno</value>
+  </data>
+  <data name="CALENDAR_EXCHANGE_ERROR_CONNECTION" xml:space="preserve">
+    <value>Impossibile recuperare i dati a causa di un errore di connessione</value>
+  </data>
+  <data name="CALENDAR_EXCHANGE_ERROR_INVALID_CREDENTIALS" xml:space="preserve">
+    <value>Credenziali fornite non valide</value>
+  </data>
+  <data name="CALENDAR_EXCHANGE_ERROR_USER_NOT_FOUND" xml:space="preserve">
+    <value>L'utente ricercato non esiste sul server Exchange</value>
+  </data>
+  <data name="CALENDAR_EXCHANGE_STATUS_DESCRIPTION_BUSY" xml:space="preserve">
+    <value>Occupato</value>
+  </data>
+  <data name="CALENDAR_EXCHANGE_STATUS_DESCRIPTION_FREE" xml:space="preserve">
+    <value>Disponibile</value>
+  </data>
+  <data name="CALENDAR_EXCHANGE_STATUS_DESCRIPTION_NODATA" xml:space="preserve">
+    <value>Nessun dato disponibile</value>
+  </data>
+  <data name="CALENDAR_EXCHANGE_STATUS_DESCRIPTION_OOF" xml:space="preserve">
+    <value>Fuori sede</value>
+  </data>
+  <data name="CALENDAR_EXCHANGE_STATUS_DESCRIPTION_TENTATIVE" xml:space="preserve">
+    <value>Provvisorio</value>
+  </data>
+  <data name="CALENDAR_EXCHANGE_STATUS_DESCRIPTION_WORKINGELSEWHERE" xml:space="preserve">
+    <value>Altra postazione di lavoro</value>
+  </data>
+  <data name="CALENDAR_STATUS_DESCRIPTION_DEFAULT" xml:space="preserve">
+    <value>Nessun dato disponibile</value>
+  </data>
+  <data name="COMMON_LBL_CALENDAR_STATUS" xml:space="preserve">
+    <value>Calendario</value>
+  </data>
+  <data name="OPTIONS_EXCHANGE_LBL_TEST_ERROR_CONNECTION" xml:space="preserve">
+    <value>Errore generico di connessione</value>
+  </data>
+  <data name="OPTIONS_EXCHANGE_LBL_TEST_ERROR_CREDENTIALS" xml:space="preserve">
+    <value>Credenziali non valide</value>
+  </data>
+  <data name="OPTIONS_EXCHANGE_LBL_TEST_ERROR_EMAIL" xml:space="preserve">
+    <value>Formato email non valido</value>
+  </data>
+  <data name="OPTIONS_EXCHANGE_LBL_TEST_SUCCESSFUL" xml:space="preserve">
+    <value>Test completato con successo</value>
+  </data>
+  <data name="OPTION_CALENDAR_EXCHANGE_CHECKBOX_ENABLE" xml:space="preserve">
+    <value>Abilita la visibilità dei calendari dei colleghi utilizzando le credenziali Exchange/Office 365</value>
+  </data>
+  <data name="OPTION_CALENDAR_EXCHANGE_MAIL" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="OPTION_CALENDAR_EXCHANGE_PASSWORD" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="OPTION_CALENDAR_EXCHANGE_TEST_BUTTON_LABEL" xml:space="preserve">
+    <value>TEST</value>
+  </data>
+  <data name="OPTION_LABEL_CALENDAR" xml:space="preserve">
+    <value>Calendario</value>
+  </data>
+  <data name="COMMON_LBL_NUMBER" xml:space="preserve">
+    <value>Numero</value>
+  </data>
+</root>
