@@ -1,0 +1,522 @@
+﻿{
+    "Title": "Imagicle Call Recording",
+    "Recordings": {
+        "Header": {
+            "Direction": "Verz.",
+            "Date": "Datum",
+            "Duration": "Dauer",
+            "Group": "Gruppe",
+            "OwnerInfo": "Benutzer",
+            "OwnerExtension": "Benutzertel.-Nr",
+            "RemoteContact": "Kontakt",
+            "RemoteParty": "Gesprächspartner",
+            "RecId": "Aufz.-ID",
+            "CallId": "Ruf-ID TK-Anlage"
+        },
+        "Detail": {
+            "Tag": "Tag",
+            "Note": "Anmerkung",
+            "PreservedBy": "Archiviert von:",
+            "AddNote": "Anmerkung hinzufügen",
+            "UnavailabilityMessages": {
+                "GenericAdminMessage": "Unable to load audio stream, please try again",
+                "Generic": "A system error occurred, you cannot playback or download this recording. Contact the administrator for more information.",
+                "TrackFileNotFound": "You cannot playback or download this recording because file track has been removed.",
+                "CertificateNotFound": "You cannot playback or download this recording because server certificate has been removed or doesn't contain the private key."
+            }
+        },
+        "ConferenceTag": "Konferenz",
+        "UnknownNumber": "Unbekannt"
+    },
+    "SaveNoteStatus": {
+        "Saved": "Anmerkung gespeichert.",
+        "NotSaved": "Aufgrund eines Systemfehlers konnten Ihre Änderungen nicht gespeichert werden."
+    },
+    "ToolTipNoteEdited": "Letzte Überarbeitung durch ",
+    "ToolTipNoteOn": "am ",
+    "ToolTipUnPreserveClickHere": "Hier klicken, um die Aufzeichnung nicht zu archivieren.",
+    "ToolTipUnPreserveFirstPartForEver": "Hier klicken, um die Aufzeichnung unbefristet zu archivieren",
+    "ToolTipPreservedForEver": "Den aktuellen Systemeinstellungen entsprechend wird diese Aufzeichnung unbefristet archiviert",
+    "ToolTipPreservedUntil": "Den aktuellen Systemeinstellungen entsprechend wird diese Aufzeichnung archiviert bis zum",
+    "ToolTipUnPreserveFirstPartUntil": "Hier klicken für Archivierung der Aufzeichnung bis zum ",
+    "ToolTipSecondPartUntil": "Andernfalls gemäß aktuellen Systemeinstellungen Löschung am ",
+    "ToolTipSecondPartPreserved": "Bei Nichtarchivierung automatische Löschung der Aufzeichnung am ",
+    "ToolTipRemovePreservedAlert": "Vorgang fortsetzen?",
+    "MultipleContactsTooltip": "Die Empfängernummer ist mehreren Kontakten zugewiesen:",
+    "MultipleContactsTooltipAndOther": "und andere",
+    "MultipleContacts": "Mehrfach-Kontakte",
+    "LiveRecordings": {
+        "Muted": "Gedämpft",
+        "Conference": "Konferenz",
+        "Unknown": "Unbekannt"
+    },
+    "Error": {
+        "Title": "Call Recording",
+        "InformationTitle": "Bitte beachten Sie",
+        "UserNotAuthorizedBody": "Diese Seite ist für den IAS-Administrator nicht verfügbare",
+        "UnsupportedAudioFile": "Diese Audiodatei ist ungültig",
+        "RequiredAudioFile": "Diese Audiodatei ist erforderlich",
+        "Unauthorized": "Sie sind nicht berechtigt diese Operation auszuführen .",
+        "UnableToRetryServiceStatus": "Installationsstatus des Recorders nicht abrufbar. Bitte versuchen Sie es erneut.",
+        "UnableToRetryRecordings": "Aufzeichnungen nicht abrufbar. Bitte versuchen Sie es erneut.",
+        "UserNotEnable": "Sie verfügen über keine Zugriffsrechte für diese Anwendung",
+        "UserNotLogged": "Sie sind nicht angemeldet. Bitte melden Sie sich an.",
+        "UnableToRetryRecordingDetail": "Aufzeichnungsdetails nicht abrufbar. Bitte versuchen Sie es erneut.",
+        "StreamLoading": "Der Audiostream konnte nicht geladen werden. Bitte versuchen Sie es erneut",
+        "StreamLoadingFromStorageLocation": "Die Aufzeichnung konnte nicht aus dem Lagerort zurückgezogen werden ({{location}})",
+        "StreamLoadingWithInvalidCertificate": "You cannot playback or download this recording because server certificate has been removed or doesn't contain the private key.",
+        "ChangePreservation": "Der Archivierungsstatus konnte nicht geändert werden",
+        "UnpinUnauthorized": "Diese Aufzeichnung wurde von einem Administrator oder Supervisor archiviert. Der Archivierungsstatus kann nicht geändert werden",
+        "PreservationDisabled": "Die Archivierungsfunktion für Aufzeichnungen wurde vom Administrator deaktiviert",
+        "TestDataExportFailed": "Die Datenexporteinstellungen konnten nicht getestet werden. Bitte versuchen Sie es erneut.",
+        "UnableToDelete": "Die Aufzeichnung konnte nicht gelöscht werden.",
+        "DeleteNotEnabled": "Die Löschfunktion für Aufzeichnungen wurde vom Administrator deaktiviert.",
+        "DeleteUnauthorized": "Die Löschfunktion für Ihr Zugangsprofil wurde vom Administrator deaktiviert.",
+        "UnableToDeletePinnedRecording": "Diese Aufzeichnung wurde von einem Administrator oder Supervisor archiviert. Sie kann nicht gelöscht werden.",
+        "UnableToModifyNoteRecording": "Diese Anmerkung wurde von einem Administrator oder Supervisor bearbeitet. Sie kann nicht geändert werden.",
+        "GatewayTimeout": "Die Operation konnte nicht abgeschlossen werden. Stellen Sie sicher, dass Call Recording Dienst aktiviert ist.",
+        "WebServiceUnreachable": "Der Call Recording-Server konnte nicht erreicht werden.",
+        "InvalidDestinationFolder": "Pfade, die auf lokale Laufwerke verweisen, werden nicht unterstützt. Bitte geben Sie einen Netzwerkpfad an, wie z.B.",
+        "Retry": "Hier klicken, um es erneut zu versuchen",
+        "Close": "Schließen",
+        "Exit": "Beenden",
+        "UnableToModifyNoteRecordingEx": "Diese Anmerkung wurde von {{user}} ({{profile}}) am {{datetime}} bearbeitet. Sie kann nicht geändert werden.",
+        "InvalidPhoneNumber": "Die Telefonnummer ist ungültig",
+        "PilotsCannotBeOverlapped": "Die Präfixe der Pilotnummern dürfen nicht überlappen. Bitte wählen Sie ein anderes Aufzeichnungs-Präfix",
+        "RequiredPilot": "Es muss eine Pilotnummer angegeben werden, damit Ansagen für die Aufnahme aktiviert werden können",
+        "Unexpected": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie nochmal.",
+        "LiveRecording": {
+            "Start": {
+                "UserNotEnabled": "Ein Anruf konnte nicht aufgezeichnet werden: der Benutzer {{username}} 'hat in der Imagicle Application Suite keine primäre Nebenstelle. Bitte fragen Sie den Administrator, um die Benutzerkonfiguration abzuschließen.",
+                "UnauthorizedUser": "Ein Anruf konnte nicht aufgezeichnet werden: der Benutzer {{username}} ist nicht berechtigt, Anrufe aufzuzeichnen. Bitte melden Sie sich beim Systemadministrator.",
+                "NoSuchDevice": "Ein Anruf konnte nicht aufgezeichnet werden: es gibt kein Gerät für den aktuellen Benutzer, das für die Anrufaufzeichnung berechtigt ist.",
+                "NoAvailableLicenses": "Ein Anruf konnte nicht aufgezeichnet werden: keine Lizenz zum Starten der Aufnahme verfügbar.",
+                "NoServiceAvailable": "Ein Anruf konnte nicht aufgezeichnet werden: der Anrufaufzeichnungsdienst kann nicht kontaktiert werden. Bitte melden Sie sich beim Systemadministrator, falls der Fehler weiterhin auftritt.",
+                "InvalidLicense": "Ein Anruf konnte nicht aufgezeichnet werden: die Anrufaufzeichnungslizenz ist ungültig oder abgelaufen.",
+                "NoSuitableCalls": "Ein Anruf konnte nicht aufgezeichnet werden: es gibt keine Anrufe, die für die Aufzeichnung gültig sind.",
+                "WrongConfiguration": "Ein Anruf konnte nicht aufgezeichnet werden: beim Versuch, die Aufzeichnung zu starten, ist ein Fehler im Telephonsystem aufgetreten. Bitte melden Sie sich beim Systemadministrator, falls der Fehler weiterhin auftritt.",
+                "SettingsConflict": "Ein Anruf konnte nicht aufgezeichnet werden: dieses Telefongespräch kann nicht aufgezeichnet werden, da einige Administratorrechte/Filter erlauben es nicht.",
+                "DeviceConfigurationNotAllowedOperation": "Betriebsfehler: die Konfiguration des Telefons erlaubt keine manuelle Aufzeichnung",
+                "CannotRestartRecording": "Betriebsfehler: die Konfiguration des Telefons erlaubt keinen Neustart einer Anrufaufnahme, nachdem sie gestoppt wurde",
+                "GenericError": "Ein Anruf konnte nicht aufgezeichnet werden: beim Aufzeichnen eines Anrufs ist ein Fehler aufgetreten."
+            },
+            "Stop": {
+                "NoServiceAvailable": "Die Aufnahme kann nicht gestoppt werden: der Dienst des Call Recording kann nicht kontaktiert werden. Bitte melden Sie sich beim Systemadministrator, falls der Fehler weiterhin auftritt.",
+                "UserNotEnabled": "Die Aufnahme kann nicht gestoppt werden: der Benutzer '{{username}}’ darf Call Recording nicht verwenden. Bitte melden Sie sich beim Systemadministrator.",
+                "UnauthorizedUser": "Die Aufnahme kann nicht gestoppt werden: der Benutzer '{{username}}’ darf Call Recording nicht verwenden. Bitte melden Sie sich beim Systemadministrator.",
+                "DeviceConfigurationNotAllowedOperation": "Fehler bei diesem Vorgang: die Aufzeichnung kann nicht manuell gestoppt werden wegen der Telefonkonfiguration.",
+                "GenericError": "Die Aufnahme kann nicht gestoppt werden: beim Versuch, die Aufzeichnung zu stoppen, ist ein Fehler aufgetreten.",
+                "Disabled": "Sie sind nicht erlaubt, die Aufzeichnung zu stoppen."
+            },
+            "Pause": {
+                "NoSuitableCall": "Die Aufnahme kann nicht pausiert werden: derzeit wird kein Anruf aufgezeichnet.",
+                "GenericError": "Die Aufnahme kann nicht pausiert werden: beim Versuch, die Aufzeichnung anzuhalten, ist ein Fehler aufgetreten."
+            },
+            "Resume": {
+                "NoSuitableCall": "Die Aufnahme kann nicht fortgesetzt werden: derzeit wird kein Anruf aufgezeichnet.",
+                "GenericError": "Die Aufnahme kann nicht fortgesetzt werden: beim Versuch, die Aufzeichnung fortzusetzen, ist ein Fehler aufgetreten."
+            }
+        }
+    },
+    "Page": "Seite",
+    "No items to display": "Keine Aufzeichnungen zur Anzeige vorhanden",
+    "displayed": "angezeigt",
+    "in total": "gesamt",
+    "of": "von",
+    "RecordingsFound": "gefundene Aufzeichnungen",
+    "RecordingDetail": "Aufzeichnungsdetails",
+    "UserProfile": {
+        "Administrator": "Administrator-Profil",
+        "Supervisor": "Profil Gruppen-Supervisor",
+        "BaseUser": "Einfaches Benutzer-Profil"
+    },
+    "Direction": {
+        "Incoming": "Eingehend",
+        "Outgoing": "Ausgehend",
+        "Unknown": "Unbekannt",
+        "IncomingOutgoingAbbr": "Alle",
+        "IncomingAbbr": "Ein",
+        "OutgoingAbbr": "Aus",
+        "UnknownAbbr": "Unbek."
+    },
+    "Actions": {
+        "Download": "Herunterladen",
+        "AddTag": "Neues Tag hinzufügen",
+        "PushPinRecording": "Hier klicken, um die Aufzeichnung zu archivieren",
+        "PushPinRecordingUnpin": "Hier klicken, um die Archivierung der Aufzeichnung aufzuheben",
+        "Mark": "Markieren als",
+        "Remove": "Entfernen"
+    },
+    "Pager": {
+        "First": "Erste",
+        "Previous": "Zurück",
+        "Next": "Weiter",
+        "Last": "Letzter",
+        "Displayed": "angezeigt",
+        "Total": "gesamt"
+    },
+    "TimezoneWarning": "Bitte beachten Sie, dass sich alle Daten und Uhrzeiten auf Ihre lokale Zeitzone beziehen",
+    "FilterWarning": {
+        "Message": "Das System ist aktuell nur für die Aufzeichnung von Anrufen des Typs {{direction}}{{trafficType}} konfiguriert.",
+        "DirectionType1": "eingehend",
+        "DirectionType2": "ausgehend",
+        "TrafficType1": "intern",
+        "TrafficType2": "extern"
+    },
+    "LicenseWarning": {
+        "Title": "Recorder-Lizenz ungültig oder abgelaufen",
+        "Message": "Der Recorder zeichnet keine Anrufe auf. Sie können nur die bereits vorhandenen Aufzeichnungen durchsuchen und abspielen."
+    },
+    "NoRecordingsToDisplay": "Keine Aufzeichnungen zur Anzeige vorhanden",
+    "Filter": {
+        "Advanced": "SUCHE",
+        "Options": "Filteroptionen",
+        "DurationRange": "Dauer",
+        "DurationMax": "max.",
+        "DateTo": "bis heute",
+        "DateFrom": "seit dem",
+        "User": "Benutzer",
+        "Remote": "Gesprächspartner oder Nummer",
+        "Note": "Anmerkung"
+    },
+    "Jabber": {
+        "Grid": {
+            "AllRecordings": "Aufzeichnungen aller Benutzer",
+            "MyRecordings": "Meine Aufzeichnungen",
+            "OpenDetails": "Aufzeichnungsdetails anzeigen",
+            "NotAllowedToSearchAndPlayRecordingsWarning": "Sie dürfen die gespeicherten Aufnahmen nicht durchsuchen und abspielen"
+        },
+        "Detail": {
+            "Title": "Aufzeichnungsdetails",
+            "RemoteNumber": "Gateway",
+            "Time": "Uhrzeit",
+            "Date": "Datum",
+            "Duration": "Dauer",
+            "Direction": "Richtung",
+            "Id": "Aufzeichnungs-ID",
+            "Tag": "Tag",
+            "Preserve": "Archivieren",
+            "Note": "Anmerkung",
+            "CallId": "Ruf-ID TK-Anlage"
+        }
+    },
+    "DeleteAlertDialog": {
+        "Message": "Soll die Aufzeichnung wirklich gelöscht werden?",
+        "Title": "Aufzeichnung löschen"
+    },
+    "DeleteSuccessfully": "Die Aufnahme wurde erfolgreich gelöscht",
+    "ComingSoon": {
+        "Title": "Demnächst verfügbar",
+        "Message": "Diese Funktion ist in Kürze verfügbar!",
+        "Close": "Schließen"
+    },
+    "ToolBar": {
+        "Refresh": "Aktualisieren"
+    },
+    "RecInfo": {
+        "Filename": "Dateiname:",
+        "Location": "Stelle:",
+        "Size": "Größe:",
+        "Calculating": "Die Größe wird berechnet...",
+        "Hash": "Dateidigest (SHA-256):"
+    },
+    "Settings": {
+        "Title": "Speicher (verschlüsselt)",
+        "StorageLocation": {
+            "Description": "Entscheiden Sie, wo verschlüsselte Aufzeichnungen gespeichert werden sollen und wo sie durch Such- und Abspiel-Rückruf-UI abgerufen werden können. Es ist auch möglich die Aufbewahrung von Aufzeichnungen aus einem Satz von Profilen oder benutzerdefinierter Konfiguration auszuwählen, um die Speicher-Sättigung zu verhindern und die Aufnahme-Lebenszyklusrichtlinie zu erfüllen.",
+            "Title": "Speicherstelle",
+            "Local": "Lokal",
+            "External": "External"
+        },
+        "ServiceUrl": {
+            "Intro": "Sie sollten diese URLs für die Konfiguration des IP Phone Service im CuCM Admin verwenden. Falls der Server mehr als eine konfigurierte IP-Adresse hat, wählen Sie bitte diejenige, die IP-Telefone erreichen können.",
+            "StartDialInRecording": {
+                "Title": "Aufnahmebutton (Dial-in)",
+                "Description": "Sie sollten diese URL verwenden, um eine Dienstschaltfläche auf dem IP-Telefon zu konfigurieren über eine Telefonkonferenz mit der Call Recording Dienst. Sie können diese URL verwenden, für Telefone die Cisco Media Forking oder andere Aufzeichnungstecnologien nicht unterstützen."
+            },
+            "StartMediaForkingRecording": {
+                "Title": "Aufnahmebutton  (Media Forking)",
+                "Description": "Sie sollten diese URL verwenden, um eine Dienstschaltfläche auf dem IP-Telefon zu konfigurieren. Die Schaltfläche löst eine Media Forking-Aufzeichnung des laufenden Telefongesprächs aus. Sie können diese URL für Telefone verwenden, die für die Cisco Media Forking-Aufzeichnung aktiviert sind."
+            },
+            "MediaForkingPhoneService": {
+                "Title": "Call Recording IP Telefon Dienst (Media Forking)",
+                "Description": "Sie können diese URL verwenden, um den IP-Telefondienst zu definieren, der für die Telefone geeignet ist, die für die Cisco Media Forking-Aufzeichnung aktiviert sind (selektiv oder automatisch). Mit diesem IP-Telefon-Service können Sie die Anrufaufzeichnung überwachen und steuern.  Die Überwachung basiert auf den Informationen, die im obigen \"Aufnahme-Einstellungen\" Panel konfiguriert wurden."
+            },
+            "DialInPhoneService": {
+                "Title": "Call Recording IP Phone Service (Dial-In)",
+                "Description": "Sie können diese URL verwenden, um den IP-Telefondienst zu definieren, der für die Cisco Dial-In-Aufzeichnung (Konferenz) Methode geeignet ist. Mit diesem IP-Telefon-Service können Sie die Anrufaufzeichnung überwachen und steuern.  Die Überwachung basiert auf den Informationen, die im obigen \"Aufnahme-Einstellungen\" Panel konfiguriert wurden."
+            },
+            "EnabledCommands": {
+                "Title": "Die aktuell aktivierten Befehle sind:",
+                "None": "KEINE",
+                "Start": "Start",
+                "Stop": "Stop",
+                "Pause": "Pause",
+                "Resume": "Fortsetzen"
+            }
+        },
+        "DataRetention": {
+            "Title": "Datenverwahrung",
+            "ToolTip": "Hier die Richtlinien für die Datenverwahrung festlegen. Ältere Aufzeichnungen werden gemäß den hier festgelegten Richtlinien gelöscht, sowohl aus dem Dateisystem als auch aus der Datenbank und unabhängig von ihrem Speicherort.",
+            "Help": "Hilfe zur Datenverwahrung ...",
+            "Profile": "Dieses Verwahrungsprofil verwenden:",
+            "DeleteRecord": "Aufzeichnungen löschen, die älter sind als:",
+            "PreserveEnabledLabel": "Benutzern gestatten, Aufzeichnungen zu archivieren:",
+            "PreserveProfile": {
+                "FOREVER": "unbefristet",
+                "FORADDITIONAL": "für weitere"
+            },
+            "PreserveWarning": {
+                "Title": "Aufzeichnungen archivieren",
+                "Message": "Einige Aufzeichnungen im System sind für die Archivierung markiert. Bei Deaktivierung dieser Funktion werden diese gemäß den Verwahrungseinstellungen automatisch gelöscht. Vorgang fortsetzen?"
+            },
+            "Profiles": {
+                "USERPRESERVED": "Nach 4 Stunden löschen, außer bei Archivierung durch Benutzer",
+                "MONTHS12": "12 Monate (geeignet für lokales Speichern)",
+                "MONTHS48": "48 Monate (geeignet für lokales Speichern)",
+                "CUSTOM": "Personalisieren",
+                "NONE": "Alle Aufzeichnungen verwahren, kein automatisches Löschen"
+            },
+            "Periods": {
+                "Y": "Jahr(e)",
+                "M": "Monate(n)",
+                "D": "Tag(e)",
+                "H": "Stunden"
+            },
+            "ProfilesHelp": {
+                "0": "Die Aufzeichnungen werden nie gelöscht",
+                "1": "Mit diesem Profil werden Aufzeichnungen nach 12 Monaten gelöscht. Benutzer können bestimmte Aufzeichnungen für die unbefristete Aufbewahrung (niemals löschen) auswählen. Mit 500 GB reserviertem Speicherplatz können Sie Aufzeichnungen von 20 Agents aus bis zu 12 Monaten speichern (20 Tage Dauerkonversation pro Monat bei 6 Stunden pro Tag)",
+                "2": "Mit diesem Profil werden Aufzeichnungen nach 48 Monaten gelöscht. Benutzer können bestimmte Aufzeichnungen für die unbefristete Aufbewahrung (niemals löschen) auswählen. Mit 2 TB reserviertem Speicherplatz können Sie Aufzeichnungen von 20 Agents aus bis zu 48 Monaten speichern (20 Tage Dauerkonversation pro Monat bei 6 Stunden pro Tag)",
+                "3": "Benutzer können bestimmte Aufzeichnungen für die unbefristete Aufbewahrung (niemals löschen) auswählen. Alle anderen Aufzeichnungen werden nach 4 Stunden gelöscht",
+                "4": "Bitte geben Sie die gewünschte Methode für das Archivieren und Löschen von Aufzeichnungen an"
+            }
+        },
+        "Certificate": {
+            "Title": "Zertifikat",
+            "UsedFor": "Verschlüsselungszertifikat:",
+            "NotInstalled": "Nicht gefunden",
+            "Expired": "Abgelaufen",
+            "SelfSigned": "Selbstsigniert"
+        },
+        "DataExport": {
+            "PanelTitle": "Datenexport (unverschlüsselt)",
+            "Title": "Der Dienst kann AUTOMATISCH eine Kopie der Aufzeichnungen in ein Netzwerkverzeichnis (mit Schreibzugriff) exportieren. In dieser Sektion können Sie den Export aktivieren und konfigurieren. Die Aufzeichnungen werden unverschlüsselt im Format MP3 gespeichert. Im gleichen Verzeichnis wird eine Textdatei (.csv) als Index angelegt. Exportierte Aufzeichnungen sind nicht Bestandteil von Call Recording und können über die Search & Play-Oberfläche nicht gesucht werden.",
+            "DataExportEnabledLabel": "Eine Kopie der Aufzeichnungen auf einem externen Medium speichern",
+            "DestinationFolderLabel": "Zielverzeichnis (Basispfad):",
+            "DestinationFolderHelp": "Hier den UNC-Basispfad zum Netzwerkverzeichnis festlegen, in dem die Aufzeichnungen gespeichert werden sollen.",
+            "UserNameLabel": "Diesen Benutzernamen verwenden",
+            "PasswordLabel": "Dieses Passwort verwenden:",
+            "TestAccess": "Zugang testen",
+            "Warning": "Änderungen an diesen Einstellungen werden nur für neue Aufzeichnungen übernommen.",
+            "TestOk": "Test erfolgreich abgeschlossen: Zugang gewährt!",
+            "TestFail": "Test fehlgeschlagen:",
+            "DataExportWarning": "Änderungen an diesen Einstellungen werden nur für neue Aufzeichnungen übernommen."
+        },
+        "SaveAlertDialog": {
+            "WarningMessageIrreversibleChoice": "Wenn Sie diese Option bestätigen, wird das Löschen permanent gesperrt. Niemand kann diese Einstellung ändern, auch nicht mit einem Administrator-Profil. Vorgang fortsetzen?",
+            "Message": "Änderungen speichern?",
+            "WarningForReportData":  "Durch Auswahl dieser Option autorisieren Sie die Aufnahmen-Löschung. Call Recorder Daten sind nicht historisiert: in einigen Berichten werden die Aufzeichnungen nach dem Löschen nicht mehr berücksichtigt. Trotzdem fortfahren?", 
+            "Title": "Einstellungen speichern"
+        },
+        "SaveRetentionAlertDialog": {
+            "Message": "Diese Verwahrungseinstellungen führen zum automatischen Löschen älterer Aufzeichnungen. Vorgang fortsetzen?",
+            "Title": "Einstellungen speichern"
+        },
+        "SaveErrorAlertDialog": {
+            "Message": "Die Einstellungen konnten nicht gespeichert werden, bitte versuchen Sie es erneut.",
+            "Errors": {
+                "Retention": {
+                    "InvalidCertificate": "Das ausgewählte Zertifikat ist ungültig"
+                }
+            },
+            "Title": "Fehler beim Speichern der Einstellungen"
+        },
+        "SettingsTab": "Basiseinstellungen",
+        "TitlePermissions": "Berechtigungen",
+        "DataManagementTab": "Datenmanagement",
+        "NotificationsTab": "Benachrichtigungen",
+        "TitleRecordingFilters": "Aufzeichnungsfilter",
+        "TitleLiveRecordingSettings": "Aufnahme-Einstellungen",
+        "TitleAdvancedSettings": "Pilotnummern",
+        "TitleSecureRecording": "Sichere Aufnahme",
+        "TitleOpenServiceUrlPanel": "Dienst-URL",
+        "TitleEmailNotificationsSettings": "E-Mail Benachrichtigungen",
+        "Permissions": {
+            "Explain": "Aufzeichnungen können gelöscht werden von:",
+            "NoBodyWarning": "Das manuelle Löschen von Aufzeichnungen wurde vom Administrator permanent gesperrt. Wenn Sie diese Option entsperren und neu aktivieren möchten, wenden Sie sich bitte an den Imagicle Support.",
+            "Permission": {
+                "PERMANENTLYNONE": "Niemand (irreversibel)",
+                "NONE": "Niemandem",
+                "SIMPLE": "einfachen Benutzern",
+                "SUPERVISOR": "Gruppen-Supervisors",
+                "ADMINISTRATOR": "Administratoren"
+            }
+        },
+        "LiveRecording": {
+            "Explain": "Die Benutzer müssen sich beim Gadget Jabber abmelden und anmelden, um die Änderungen auf diese Einstellungen anzuwenden.",
+            "EnableStartCommand": "Startbefehl aktivieren",
+            "EnableStopCommand": "Stopbefehl aktivieren",
+            "EnablePauseResumeCommands": "Pause/Fortsetzungbefehl aktivieren"
+        },
+        "DownloadPermissions": {
+            "Explain": "Mindest erforderliche Profile die Aufnahmen zum Download::",
+            "Permission": {
+                "SIMPLE": "einfachen Benutzern",
+                "SUPERVISOR": "Gruppen-Supervisors",
+                "ADMINISTRATOR": "Administratoren"
+            }
+        },
+        "Filters": {
+            "Explain": "Hier können Sie die spezifischen Kriterien festlegen, um zu entscheiden, welche Anrufe aufgezeichnet werden müssen. Diese Regeln gelten nicht für Einwählregistrierungen, die vom Bediener manuell gestartet werden, dh ohne Verwendung des CTI-gesteuerten Modus.",
+            "CallDirectionLbl": "Anrufrichtung",
+            "TrafficTypeLbl": "Verkehrstyp",
+            "Direction": {
+                "BOTH": "Ein- und ausgehende Anrufe",
+                "INCOMING": "Nur eingehende Anrufe",
+                "OUTGOING": "Nur ausgehende Anrufe"
+            },
+            "TrafficType": {
+                "BOTH": "Interne und externe(Festnetz) Anrufe",
+                "EXTERNAL": "Nur externe Anrufe (Festnetz)",
+                "INTERNAL": "Nur interne Anrufe",
+                "ToolTip": "Interne Nummern werden über die Liste der Application Suite-Benutzer und die im Bereich 'Wählparameter' der Suite festgelegten Wählmuster definiert."
+            },
+            "BlackListTitle": "Blacklist (Gesprächspartner)",
+            "BlackListSubTitle": "Anrufe nicht aufzeichnen, wenn die Nummer des Gesprächspartners einem der folgenden Muster entspricht:",
+            "BlackListSubExplain": "Ein Eintrag pro Zeile. Folgende Platzhalter können verwendet werden: Zeichen \"!\" für eine beliebige Ziffernfolge (z.B. \"9!\" für eine Ziffernfolge, die mit \"9\" beginnt). Zeichen \"X\" für ein beliebiges Zeichen (z.B. \"90XX\" für alle 4-stelligen Nummern, die mit \"90\" beginnen). Zeichen \".\" für beliebige Ziffern, Asterisken \"*\" oder Rauten \"#\" (z.B. \"90..\" für beliebige Nummern wie \"9012\", \"90*#\" oder \"901*\"). Zeichen \"+\" an erster Stelle (z.B. \"+33XXX\" für alle 6-stelligen Zahlen, die mit +33 beginnen). Telefonnummern müssen in Normalform angegeben werden, d.h. ohne Präfixe oder Suffixe, die für externe Anrufe verwendet werden."
+        },
+        "PilotNumbers": {
+            "RecordingPilot": {
+                "Title": "Automatische Identifikation des Benutzers",
+                "Intro": "Im Falle eines überlappenden Wählplans die angegebene Nummer ist erforderlich, um den Aufzeichnungsbenutzer richtig zu identifizieren.",
+                "Label": "Recording Pilot (Vorwahl):",
+                "Tooltip": "Dieses Aufzeichnungsprofil (Nummernpräfix) ist für die Benutzeridentifikation im Falle eines überlappenden Wählplans erforderlich."
+            },
+            "LiveKeepRecordingPilot": {
+                "Label": "Live Keep pilot (prefix):",
+                "Tooltip": "This is the recording profile pilot number/prefix to be used for phones to be recorded in the Live Keep mode."
+            },
+            "DetectionStrategy": {
+                "Label": "Methode zur Benutzeridentifikation:",
+                "DefaultStrategy": {
+                    "Label": "Erkennung von Benutzer durch numerische Benutzer-ID",
+                    "Tooltip": "Jeder Benutzer sollte auf CUCM mit einer Aufzeichnungsprofilnummer konfiguriert werden, einschließlich der Pilotnummer und seiner numerischen Benutzer-ID : <Recording Pilot><Numeric User ID>. zum Beispiel, wenn 9500 die Pilotnummer ist, sollten Sie \"9500301\" für die Benutzer-ID 301 und \"9500302\" für die Benutzer-ID 302 verwenden."
+                },
+                "PrefixStrategy": {
+                    "Label": "Erkennung von Benutzer durch numerische Partitions-ID",
+                    "Tooltip": "Jeder Benutzer sollte auf CUCM mit einer Aufzeichnungsprofilnummer konfiguriert werden, einschließlich der Pilotnummer und seiner numerischen Partitions-ID : <Recording Pilot><Numeric User ID>. zum Beispiel, wenn 9500 die Pilotnummer ist, sollten Sie \"9500301\" für die Partitions-ID 20 und \"950030\" für die Partitions-ID 30 verwenden."
+                }
+            },
+            "FreeSeatingPilot": {
+                "Title": "Interaktive Benutzeridentifikation (free seating)",
+                "Intro": "Diese Telefonnummer identifiziert den Aufzeichnungsbenutzer entsprechend seiner/ihrer numerischen Benutzer-ID, unabhängig von der Rufnummer. Es wird normalerweise durch ein Authentifizierungs-IVR-Skript ausgelöst.",
+                "Label": "Free-Seating Pilot (Vorwahl):",
+                "Tooltip": "Alle Ziele, die mit dieser Nummer beginnen, müssen an den Recorder SIP Trunk geleitet werden"
+            },
+            "CtiPilot": {
+                "Title": "Automatische Aufnahme",
+                "Intro": "Wenn Sie den CTI-gesteuerten Mechanismus zur Automatisierung der Einwahlkonferenzen verwenden möchten, sollen Sie hier die dedizierte Servicepilotnummer konfigurieren.",
+                "Label": "Pilotnummer (Präfix), die durch CTI gesteuert wird:",
+                "Tooltip": "Eine Regel muss im CuCM definiert werden, um alle Anrufe, die mit diesem Präfix beginnen, an die Imagicle Call Recording SIP-Trunk zu leiten. Zumbeispiel, wenn der Pilot ‚9600‘ ist, wird ein ‚9600{{suffixMask}}‘ - Route Pattern (feste länge) definiert, das Anrufe an den Call Recording SIP-Trunk leitet.",
+                "PatternDescription": "Eine Regel muss im CuCM definiert werden, um alle Anrufe, die mit diesem Präfix beginnen, an die Imagicle Call Recording SIP-Trunk zu leiten. Dies ist das Muster (ein Muster fester Länge), das Sie gemäß dem im obigen Abschnitt konfigurierten Pilot definieren sollen:"
+
+            },
+            "DefaultOwner": {
+                "Title": "Aktionen auf Aufzeichnungen ohne Beauftragter",
+                "Intro": "Aufzeichnungen müssen zu einem Benutzer geordnet werden, um weiter bestehen zu können. Standardmäßig, wenn das System nicht zu jedem Benutzer eine Aufnahme weisen kann, wird die verworfen und nicht fortgesetzt.\n Konfigurieren Sie in diesem Abschnitt die Aufnahmen, die nicht automatisch zugeordnet verwalten können.",
+                "Label": "Für Aufzeichnungen ohne Beauftragter",
+                "Tooltip": "Wenn Sie diese Option wählen, alle Aufzeichnungen die zu keinem Benutzer zugewiesen können, gehen die verloren.",
+                "Behaviors": {
+                    "Discard": "verwerfen",
+                    "Keep": "Sie können Sie später einem anderen Benutzer zuweisen."
+                },
+                "Errors": {
+                    "UsersNotExisting": "Nicht vorhandene Benutzer: wählen Sie eine andere aus, um Aufnahmen nicht zu verlieren.",
+                    "UserMissingPrivileges": "Benutzer fehlt die Aufnehmen Berechtigung zum Ausführen. Aktualisieren Sie die Berechtigungen oder wählen Sie eine andere auf, um keine Aufnahmen zu verlieren.",
+                    "UserNotSelected": "Benutzereingaben müssen kompiliert werden.",
+                    "InvalidLicense": "Ein Lizenzproblem ist aufgetreten, sodass es nicht möglich zu speichern. Die Seite wird mit den Bedingungen der verfügbaren Lizenz neu geladen."
+                }
+            }
+        },
+        "Notifications": {
+            "EmailNotifications": {
+                "Intro": "Diese Einstellungen beziehen sich auf alle Benutzer, die Aunahmen per E-Mail erhalten dürfen. Es ist möglich, einen Benutzer zu ermächtigen, Aufnahmen per E-Mail zu erhalten, von der Benutzerverwaltung im Admin-Bereich.",
+                "Label": "Name des Absenders:",
+                "AttachRecordingToEmail": "Größengrenze des Anhangs:",
+                "ToLabel": "Max",
+                "MegaBytesLabel": "MB",
+                "AlertEmpty": "Geben Sie die maximale Dateigröße ein",
+                "AlertValue": "Der Wert muss größer als 0 sein",
+                "AttachToolTip": "Die Dateien der Aufnahmen, die größer als diese Grenze sind, können nur von der Meine Anrufe-Webseite der Application Suite heruntergeladen werden"
+            }
+        },
+        "AnnouncementsTab": "Ansagen",
+        "Announcements": {
+            "Pilot": {
+                "Title": "Pilotnummer",
+                "Description": "Für den Fall, dass Sie die Ansage verwenden möchten, sollen Sie hier die Pilotnummer für den Dienst konfigurieren.",
+                "Label": "Pilotnummer derAnsage (Präfix)",
+                "Tooltip": "Eine PBX-Route zum Recorder muss definiert werden, damit alle Ziele, die mit dieser Nummer beginnen, an dem SIP-Trunk des Recorders umgeleitet werden."
+            },
+            "Messages": {
+                "Title": "Ansagen",
+                "Description": "Bitte konfigurieren Sie die Ansagen, die abgespielt werden sollen, wenn die Aufnahme beginnt. Die ausgewählten Ansagen werden von allen Teilnehmern des Telefonanrufs gehört.",
+                "Labels": {
+                    "ExternalIncoming": "Externe ankommende Anrufe",
+                    "ExternalOutgoing": "Externe ausgehende Anrufe"
+                },
+                "Actions": {
+                    "NoMessage": "Keine Ansage",
+                    "DefaultMessage": "Default-Ansage",
+                    "CustomMessage": "Benutzerdefinierte Ansage"
+                }
+            }
+        },
+        "SecureRecording": {
+            "Description": "Diese Funktionalität wurde aktualisiert! Es ist eine geeignete Funktion für alle Apps, die sicheres Kommunikationszertifikat benötigen geworden.",
+            "Link": "Jetzt finden Sie die im <a href=\"#\" ng-click=\"{{linkOnClick}}\">Sichere Kommunikation Zertifikate</a> Abschnitt aus dem Administrationsbereich."
+        },
+        "SaveSuccess": "Alle Änderungen gespeichert",
+        "ButtonSave": "Speichern",
+        "ButtonCancel": "&Abbrechen",
+        "ButtonOk": "OK",
+        "ButtonChange": "Ändern"
+    },
+    "Reports": {
+        "PublicReports": {
+            "Label": "Öffentliche Berichte",
+            "ReportGroups": {
+                "TrafficAnalysis": {
+                    "Label": "Datenverkehrsanalyse",
+                    "RecordingList": {
+                        "Title": "Aufnahmeliste",
+                        "Description": "Es zeigt Aufgezeichnete Anrufe"
+                    },
+                    "BusyChannels": {
+                        "Title": "Betriebsammer Kanal Aufnahme",
+                        "Description": "Es zeigt innerhalb eines Zeitraums die Relation zwischen den lizenzierten Kanälen und den Aufzeichnungen"
+                    }
+                },
+                "VolumeAnalysis": {
+                    "Label": "Volumenanalyse",
+                    "VolumeByUser": {
+                        "Title": "Aufnahmevolumen nach Benutzer",
+                        "Description": "Es zeigt Aufnahmevolumen nach Benutzer"
+                    },
+                    "VolumeByGroup": {
+                        "Title": "Aufnahmevolumen nach Gruppe",
+                        "Description": "Es zeigt Aufnahmevolumen nach Gruppe"
+                    },
+                    "VolumeByServerNode": {
+                        "Title": "Aufnahmevolumen nach Serverknoten",
+                        "Description": "Es zeigt Aufnahmevolumen nach Serverknoten"
+                    },
+                    "VolumeByTenant": {
+                        "Title": "Aufnahmevolumen nach Mandant",
+                        "Description": "Es zeigt Aufnahmevolumen nach Mandant"
+                    }
+                }
+            }
+        }
+    }
+}

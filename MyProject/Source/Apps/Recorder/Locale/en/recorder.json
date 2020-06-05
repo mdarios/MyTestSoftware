@@ -1,0 +1,522 @@
+﻿{
+    "Title": "Imagicle Call Recording",
+    "Recordings": {
+        "Header": {
+            "Direction": "Dir",
+            "Date": "Date",
+            "Duration": "Duration",
+            "Group": "Group",
+            "OwnerInfo": "User",
+            "OwnerExtension": "User phone number",
+            "RemoteContact": "Contact",
+            "RemoteParty": "Remote Party",
+            "RecId": "Rec Id",
+            "CallId": "PBX Call Id"
+        },
+        "Detail": {
+            "Tag": "Tag",
+            "Note": "note",
+            "PreservedBy": "Preserved by:",
+            "AddNote": "Add a note",
+            "UnavailabilityMessages": {
+                "GenericAdminMessage": "Unable to load audio stream, please try again",
+                "Generic": "A system error occurred, you cannot playback or download this recording. Contact the administrator for more information.",
+                "TrackFileNotFound": "You cannot playback or download this recording because file track has been removed.",
+                "CertificateNotFound": "You cannot playback or download this recording because server certificate has been removed or doesn't contain the private key."
+            }
+        },
+        "ConferenceTag": "Conference",
+        "UnknownNumber": "Unknown"
+    },
+    "SaveNoteStatus": {
+        "Saved": "Note saved successfully.",
+        "NotSaved": "Your changes have not been saved because of a system error."
+    },
+    "ToolTipNoteEdited": "Last edit by ",
+    "ToolTipNoteOn": "on ",
+    "ToolTipUnPreserveClickHere": "Click here to unpreserve the record.",
+    "ToolTipUnPreserveFirstPartForEver": "Click to preserve recording forever",
+    "ToolTipPreservedForEver": "Accordingly to current system settings this recording will be preserved forever",
+    "ToolTipPreservedUntil": "Accordingly to current system settings this recording will be preserved until ",
+    "ToolTipUnPreserveFirstPartUntil": "Click to preserve recording until ",
+    "ToolTipSecondPartUntil": "Otherwise, accordingly with current system settings, it will be automatically deleted on ",
+    "ToolTipSecondPartPreserved": "Unpreserving this recording, it will be automatically deleted on ",
+    "ToolTipRemovePreservedAlert": "Are you sure to proceed?",
+    "MultipleContactsTooltip": "Multiple contacts match the remote number:",
+    "MultipleContactsTooltipAndOther": "and other",
+    "MultipleContacts": "multiple contacts",
+    "LiveRecordings": {
+        "Muted": "Muted",
+        "Conference": "Conference",
+        "Unknown": "Unknown"
+    },
+    "Error": {
+        "Title": "Call Recording",
+        "InformationTitle": "Information",
+        "UserNotAuthorizedBody": "This page is not available to the IAS administrator",
+        "UnsupportedAudioFile": "This is not a valid audio file",
+        "RequiredAudioFile": "This audio message is required",
+        "Unauthorized": "You are not authorized to perform this operation.",
+        "UnableToRetryServiceStatus": "Unable to retry Recorder installation status. Please try again.",
+        "UnableToRetryRecordings": "Unable to retrieve recordings. Please try again.",
+        "UserNotEnable": "You are not authorized to access to this application",
+        "UserNotLogged": "You are not logged in. Please login again.",
+        "UnableToRetryRecordingDetail": "Unable to retrieve recording details. Please try again.",
+        "StreamLoading": "Unable to load audio stream. Please try again",
+        "StreamLoadingFromStorageLocation": "Cannot retrieve the recording from the storage location ({{location}})",
+        "StreamLoadingWithInvalidCertificate": "You cannot playback or download this recording because server certificate has been removed or doesn't contain the private key.",
+        "ChangePreservation": "Unable to change the preservation status",
+        "UnpinUnauthorized": "This recording has been preserverd by an administrative or supervisor user. You cannot change the preservation status",
+        "PreservationDisabled": "The recording preservation feature has been disabled by the administrator",
+        "TestDataExportFailed": "Unable to test data export settings. Please try again.",
+        "UnableToDelete": "Unable to delete the recording.",
+        "DeleteNotEnabled": "The recordings deletion feature has been disabled by the administrator.",
+        "DeleteUnauthorized": "The recordings deletion feature for your access profile has been disabled by the administrator.",
+        "UnableToDeletePinnedRecording": "This recording has been preserved by an administrative or supervisor user. You cannot delete it.",
+        "UnableToModifyNoteRecording": "This note has been edited by an administrative or supervisor user. You cannot modify it.",
+        "GatewayTimeout": "Unable to complete the operation. Please ensure that Call Recording service is running.",
+        "WebServiceUnreachable": "Unable to reach the Call Recording server.",
+        "InvalidDestinationFolder": " Paths referring local disk units are not supported. Please, specify a network path, such as \\\\mybackupserver\\Data\\CallRecording",
+        "Retry": "Click here to retry",
+        "Close": "Close",
+        "Exit": "Exit",
+        "UnableToModifyNoteRecordingEx": "This note has been edited by {{user}} ({{profile}}) on {{datetime}}. You cannot modify it.",
+        "InvalidPhoneNumber": "This is not a valid phone number",
+        "PilotsCannotBeOverlapped": "Pilot numbers prefixes cannot be overlapped, please choose another recording prefix",
+        "RequiredPilot": "You must specify a pilot number in order to enable recording announcement messages",
+        "Unexpected": "An unexpected error has occured. Please try again.",
+        "LiveRecording": {
+            "Start": {
+                "UserNotEnabled": "Unable to record a call: user '{{username}}' has not a primary extension number in the Imagicle Application Suite. Please ask the administrator to complete the user configuration.",
+                "UnauthorizedUser": "Unable to record a call: user '{{username}}' is not enabled to record call. Please contact the administrator.",
+                "NoSuchDevice": "Unable to record a call: cannot find any device for current user enabled for call recording.",
+                "NoAvailableLicenses": "Unable to record a call: there are no available licenses to record this call.",
+                "NoServiceAvailable": "Unable to record a call: cannot contact the Call Recording service. Please contact the system administrator if the error persists.",
+                "InvalidLicense": "Unable to record a call: the call recording license is invalid or expired.",
+                "NoSuitableCalls": "Unable to record a call: there are no suitable calls to be recorded.",
+                "WrongConfiguration": "Unable to record a call: an error occurred in the telephony system while trying to start the recording. Please contact the system administrator if the error persists.",
+                "SettingsConflict": "Unable to record a call: this conversation cannot be recorded because of some administrative settings or filters.",
+                "DeviceConfigurationNotAllowedOperation": "Operation error: the telephone configuration does not permit to record manually.",
+                "CannotRestartRecording": "Operation error: the telephone configuration does not permit to restart a call recording after it has been stopped.",
+                "GenericError": "Unable to record a call: an error occurred while trying to record call."
+            },
+            "Stop": {
+                "NoServiceAvailable": "Unable to stop recording: cannot contact the Call Recording service. Please contact the system administrator if the error persists.",
+                "UserNotEnabled": "Unable to stop recording: user '{{username}}' cannot use Call Recording. Please contact the administrator.",
+                "UnauthorizedUser": "Unable to stop recording: user '{{username}}' cannot use Call Recording. Please contact the administrator.",
+                "DeviceConfigurationNotAllowedOperation": "Operation error: the telephone configuration does not permit to stop recording manually.",
+                "GenericError": "Unable to stop recording: an error occurred while trying to stop the recording.",
+                "Disabled": "You are not allowed to stop the recording."
+            },
+            "Pause": {
+                "NoSuitableCall": "Unable to pause recording: no recording in progress.",
+                "GenericError": "Unable to pause recording: an error occurred while trying to pause the recording."
+            },
+            "Resume": {
+                "NoSuitableCall": "Unable to resume recording: no recording in progress.",
+                "GenericError": "Unable to resume recording: an error occurred while trying to resume the recording."
+            }
+        }
+    },
+    "Page": "Page",
+    "No items to display": "No recordings to display",
+    "displayed": "displayed",
+    "in total": "in total",
+    "of": "of",
+    "RecordingsFound": "recordings found",
+    "RecordingDetail": "Recording details",
+    "UserProfile": {
+        "Administrator": "administrator profile",
+        "Supervisor": "group supervisor profile",
+        "BaseUser": "simple user profile"
+    },
+    "Direction": {
+        "Incoming": "Incoming",
+        "Outgoing": "Outgoing",
+        "Unknown": "Unknown",
+        "IncomingOutgoingAbbr": "All",
+        "IncomingAbbr": "In",
+        "OutgoingAbbr": "Out",
+        "UnknownAbbr": "Unk"
+    },
+    "Actions": {
+        "Download": "Download",
+        "AddTag": "Add new tag",
+        "PushPinRecording": "Click to preserve recording",
+        "PushPinRecordingUnpin": "Click to remove recording preservation",
+        "Mark": "Mark as",
+        "Remove": "Remove"
+    },
+    "Pager": {
+        "First": "First",
+        "Previous": "Previous",
+        "Next": "Next",
+        "Last": "Last",
+        "Displayed": "displayed",
+        "Total": "in total"
+    },
+    "TimezoneWarning": "Notice that all dates and times refer to your local timezone",
+    "FilterWarning": {
+        "Message": "The system is currently configured to record only {{direction}}{{trafficType}} calls.",
+        "DirectionType1": "incoming",
+        "DirectionType2": "outgoing",
+        "TrafficType1": "internal",
+        "TrafficType2": "external"
+    },
+    "LicenseWarning": {
+        "Title": "Recorder license is invalid or expired",
+        "Message": "Recorder is not recording calls at all. You can only browse and listen to the existing recordings."
+    },
+    "NoRecordingsToDisplay": "No Recordings to display",
+    "Filter": {
+        "Advanced": "SEARCH",
+        "Options": "Filter Options",
+        "DurationRange": "duration",
+        "DurationMax": "max",
+        "DateTo": "to date",
+        "DateFrom": "from date",
+        "User": "user",
+        "Remote": "remote party or number",
+        "Note": "note"
+    },
+    "Jabber": {
+        "Grid": {
+            "AllRecordings": "All users recordings",
+            "MyRecordings": "My recordings",
+            "OpenDetails": "Go to recording details",
+            "NotAllowedToSearchAndPlayRecordingsWarning": "You are not allowed to search and play the saved recordings"
+        },
+        "Detail": {
+            "Title": "Recording details",
+            "RemoteNumber": "Number",
+            "Time": "Time",
+            "Date": "Date",
+            "Duration": "Duration",
+            "Direction": "Direction",
+            "Id": "Recording id",
+            "Tag": "Tag",
+            "Preserve": "Preserve",
+            "Note": "Note",
+            "CallId": "PBX Call Id"
+        }
+    },
+    "DeleteAlertDialog": {
+        "Message": "Are you sure you want to delete the recording?",
+        "Title": "Delete recording"
+    },
+    "DeleteSuccessfully": "Recording has been deleted successfully",
+    "ComingSoon": {
+        "Title": "Coming soon",
+        "Message": "This feature will be available soon!",
+        "Close": "Close"
+    },
+    "ToolBar": {
+        "Refresh": "refresh"
+    },
+    "RecInfo": {
+        "Filename": "File name:",
+        "Location": "Location:",
+        "Size": "Size:",
+        "Calculating": "calculating...",
+        "Hash": "File digest (SHA-256):"
+    },
+    "Settings": {
+        "Title": "Storage (encrypted)",
+        "StorageLocation": {
+            "Description": "Define where records must be stored encrypted and available for retrieval only through Search and Play Call Recording UI. You can also select the retention of recordings from a set of profiles or custom configuration, to avoid storage saturation and match your recording lifecycle policy.",
+            "Title": "Storage Location",
+            "Local": "Local",
+            "External": "External"
+        },
+        "ServiceUrl": {
+            "Intro": "These are the URLs to be used when configuring IP Phone Service into CUCM Admin. If server has more than one ip address configured, please, choose the one reachable by IP Phones.",
+            "StartDialInRecording": {
+                "Title": "Record Button (Dial-In)",
+                "Description": "Use this URL to configure a service button on the IP phone to record the ongoing conversation by starting a conference call with the Call Recording service. Use this URL with phones that do not support Cisco Media Forking or other recording technologies."
+            },
+            "StartMediaForkingRecording": {
+                "Title": "Record Button (Media Forking)",
+                "Description": "Use this URL to configure a service button on the IP phone to record the ongoing conversation by either starting a Media Forking recording or keeping it from the beginning (Live Keep). Use this URL only with phones enabled for the Cisco Media Forking recording."
+            },
+            "MediaForkingPhoneService": {
+                "Title": "Call Recording IP Phone Service (Media Forking)",
+                "Description": "Use this URL to define the IP phone service suitable for phones enabled for the Cisco media forking recording (selective or automatic). This IP phone service allows to monitor and control the call recording activities, accordingly with the settings configured in the \"Recording Control\" panel, above."
+            },
+            "DialInPhoneService": {
+                "Title": "Call Recording IP Phone Service (Dial-In)",
+                "Description": "Use this URL to define the IP phone service suitable for phones recording in dial-in (conference) mode. This IP phone service allows to monitor and control the call recording activities, accordingly with the settings configured in the \"Recording Control\" panel, above."
+            },
+            "EnabledCommands": {
+                "Title": "Current enabled commands are:",
+                "None": "NONE",
+                "Start": "Start",
+                "Stop": "Stop",
+                "Pause": "Pause",
+                "Resume": "Resume"
+            }
+        },
+        "DataRetention": {
+            "Title": "Data Retention",
+            "ToolTip": "Define here the data retention policies. Older recordings will be deleted accordingly with the specified policies, both from the filesystem and the database, regardless of the storage location.",
+            "Help": "Data Retention Help...",
+            "Profile": "Use this retention profile:",
+            "DeleteRecord": "Delete recordings older than:",
+            "PreserveEnabledLabel": "Enable users to preserve recordings:",
+            "PreserveProfile": {
+                "FOREVER": "forever",
+                "FORADDITIONAL": "for additional"
+            },
+            "PreserveWarning": {
+                "Title": "Preserve recordings",
+                "Message": "There are some recordings in the system that are marked to be preserved. Removing this feature, they will be automatically deleted accordingly with the retention settings. Are you sure to proceed?"
+            },
+            "Profiles": {
+                "USERPRESERVED": "Delete after 4 hours, except preserved by users",
+                "MONTHS12": "12 months (suitable for local storage)",
+                "MONTHS48": "48 months (suitable for local storage)",
+                "CUSTOM": "Customize",
+                "NONE": "Keep all recordings, no automatic deletion"
+            },
+            "Periods": {
+                "Y": "Year(s)",
+                "M": "Month(s)",
+                "D": "Day(s)",
+                "H": "Hour(s)"
+            },
+            "ProfilesHelp": {
+                "0": "Recordings are never deleted",
+                "1": "This profile will delete recordings after 12 months. Users can select specific recordings for unlimited retention (never deleted). With 500GB reserved storage, you can store up 12 months of 20 agents recording (20 days per month continuous conversation, 6 hours per day)",
+                "2": "This profile will delete recordings after 48 months. Users can select specific recordings for unlimited retention (never deleted). With 2TB reserved storage, you can store up 48 months of 20 agents recording (20 days per month continuous conversation, 6 hours per day)",
+                "3": "Users can select specific recordings for unlimited retention (never deleted). All the other recordings will be deleted after 4 hours",
+                "4": "Specify your preferred method to preserve or delete recordings"
+            }
+        },
+        "Certificate": {
+            "Title": "Certificate",
+            "UsedFor": "Certificate used for encryption:",
+            "NotInstalled": "not found",
+            "Expired": "expired",
+            "SelfSigned": "self-signed"
+        },
+        "DataExport": {
+            "PanelTitle": "Data Export (Unencrypted)",
+            "Title": "The service can AUTOMATICALLY export a copy of the recordings into a network shared folder (accessible for writing). Use this section to enable and configure it. Recordings will be saved in MP3, unencrypted, format. A text file (CSV) containing the relevant call data will be created in the same folder, for indexing purposes. The exported recordings are not part of Call Recording lifecycle and not retrievable through Search and Play UI.",
+            "DataExportEnabledLabel": "Save a copy of recordings on an external storage area",
+            "DestinationFolderLabel": "Destination folder (base path):",
+            "DestinationFolderHelp": "Specify here the UNC base path of the network shared folder where the recordings will be saved.",
+            "UserNameLabel": "Use this username",
+            "PasswordLabel": "Use this password:",
+            "TestAccess": "Test access",
+            "Warning": "Any change to these settings will apply to new recordings only.",
+            "TestOk": "Test successful: access granted!",
+            "TestFail": "Test failed:",
+            "DataExportWarning": "Any change  to these settings will apply to new recordings only."
+        },
+        "SaveAlertDialog": {
+            "WarningMessageIrreversibleChoice": "If you confirm this option, deletion will be permanently disabled. Nobody will be able to change this setting anymore, even administrator profiles. Are you sure to proceeed?",
+            "Message": "Are you sure you want to save the changes?",
+            "WarningForReportData":  "By choosing this option you are enabling the deletion of the recordings. Call Recorder data are not historicized so the recordings will no longer be considered in some reports once deleted. Proceed anyway?", 
+            "Title": "Save settings"
+        },
+        "SaveRetentionAlertDialog": {
+            "Message": "These retention settings imply automatic deletion of older recordings, do you want to proceed?",
+            "Title": "Save settings"
+        },
+        "SaveErrorAlertDialog": {
+            "Message": "Unable to save settings, please try again.",
+            "Errors": {
+                "Retention": {
+                    "InvalidCertificate": "Selected certificate is not valid"
+                }
+            },
+            "Title": "Save settings error"
+        },
+        "SettingsTab": "Settings",
+        "TitlePermissions": "Permissions",
+        "DataManagementTab": "Data Management",
+        "NotificationsTab": "Notifications",
+        "TitleRecordingFilters": "Recording filters",
+        "TitleLiveRecordingSettings": "Recording control",
+        "TitleAdvancedSettings": "Pilot numbers",
+        "TitleSecureRecording": "Secure recording",
+        "TitleOpenServiceUrlPanel": "Services URLs",
+        "TitleEmailNotificationsSettings": "Email notifications",
+        "Permissions": {
+            "Explain": "Recordings can be deleted by:",
+            "NoBodyWarning": "Manual deletion of recordings has been disabled permanently by the administrator. If you need to unlock this option and re-enable it, please contact the Imagicle Support service.",
+            "Permission": {
+                "PERMANENTLYNONE": "Nobody (irreversible choice)",
+                "NONE": "Nobody",
+                "SIMPLE": "Simple Users",
+                "SUPERVISOR": "Group Supervisors",
+                "ADMINISTRATOR": "Administrators"
+            }
+        },
+        "LiveRecording": {
+            "Explain": "In order to apply changes to these settings, users need to logout and login in the Gadget Jabber.",
+            "EnableStartCommand": "Enable Start command",
+            "EnableStopCommand": "Enable Stop command",
+            "EnablePauseResumeCommands": "Enable Pause/Resume commands"
+        },
+        "DownloadPermissions": {
+            "Explain": "Recordings can be downloaded by:",
+            "Permission": {
+                "SIMPLE": "Simple Users",
+                "SUPERVISOR": "Group Supervisors",
+                "ADMINISTRATOR": "Administrators"
+            }
+        },
+        "Filters": {
+            "Explain": "Define here specific criteria to decide which calls must be recorded, if any. These rules do not apply to dial-in recordings that the operator sets up manually, that is, not leveraging the CTI controlled mode.",
+            "CallDirectionLbl": "Call direction",
+            "TrafficTypeLbl": "Traffic type",
+            "Direction": {
+                "BOTH": "Incoming and Outgoing calls",
+                "INCOMING": "Incoming calls only",
+                "OUTGOING": "Outgoing calls only"
+            },
+            "TrafficType": {
+                "BOTH": "Internal and External (PSTN) calls",
+                "EXTERNAL": "External (PSTN) calls only",
+                "INTERNAL": "Internal calls only",
+                "ToolTip": "Internal numbers are defined by the application suite users list and by the number patterns specified in the 'Numbering Plan Parameters' section of the suite."
+            },
+            "BlackListTitle": "Black list (remote party)",
+            "BlackListSubTitle": "Don't record calls when the remote party number matches one of the following patterns:",
+            "BlackListSubExplain": "One entry for each row. Following wildcards can be used: Character \"!\" to specify any sequence of digits (i.e. \"9!\" for any number starting with \"9\"). Character \"X\" to permit any single digit (i.e. \"90XX\" for any 4 digits number starting with \"90\"). Character \".\" to permit any single digit, asterisk \"*\" or pound \"#\" (i.e. \"90..\" for any number such as \"9012\", \"90*#\", \"901*\"). You can use \"+\" as first digit (i.e \"+33XXX\" for any 6 digits number starting with +33). Telephone numbers must be expressed in canonical form, that is without any eventual prefix/suffix required for placing external calls."
+        },
+        "PilotNumbers": {
+            "RecordingPilot": {
+                "Title": "Automatic user identification",
+                "Intro": "By default, users are automatically identified by their calling number. In case of overlapping dial plan, the number specified here is required to properly identify the recording user.",
+                "Label": "Regular pilot (prefix):",
+                "Tooltip": "This is the recording profile (number prefix) needed for user identification in the case of overlapping dial plan."
+            },
+            "LiveKeepRecordingPilot": {
+                "Label": "Live Keep pilot (prefix):",
+                "Tooltip": "This is the recording profile pilot number/prefix to be used for phones to be recorded in the Live Keep mode."
+            },
+            "DetectionStrategy": {
+                "Label": "User identification strategy:",
+                "DefaultStrategy": {
+                    "Label": "Detect user by Numeric User Id",
+                    "Tooltip": "Each user should be configured on CUCM with a recording profile number including both the pilot number and his/her numeric User ID: <Recording Pilot><Numeric User ID>. For instance, supposing 9500 is the pilot number, you should use \"9500301\" for user ID 301 and \"9500302\" for user ID 302."
+                },
+                "PrefixStrategy": {
+                    "Label": "Detect user by Numeric Partition Id",
+                    "Tooltip": "Each user should be configured on CUCM with a recording profile number including both the pilot number and his/her numeric Partition ID: <Recording Pilot><Numeric Partition ID>. For instance, supposing 9500 is the pilot number, you should use \"950020\" for partition ID 20 and \"950030\" for partition ID 30."
+                }
+            },
+            "FreeSeatingPilot": {
+                "Title": "Interactive user identification (free seating)",
+                "Intro": "This is the phone number prefix used to identify the recording user basing on his/her numeric user ID, regardless of the calling number. Usually triggered by an authentication IVR script.",
+                "Label": "Free seating pilot (prefix):",
+                "Tooltip": "A PBX route to the recorder must be defined accordingly with this prefix, routing all destinations starting with such number to the recorder SIP trunk"
+            },
+            "CtiPilot": {
+                "Title": "Automated Recording",
+                "Intro": "If you need to use the CTI-controlled mechanism to automate the dial-in conference calls, please, configure here the dedicated service pilot number. The user IP phone will automatically place a call to this number, followed by further {{suffixLength}} digits.",
+                "Label": "CTI controlled pilot n° (prefix):",
+                "Tooltip": "A rule in the CUCM must be defined to route all calls matching this prefix to the Imagicle Call Recording SIP trunk. For instance, if this pilot number is 9600, you need to define a route pattern 9600{{suffixMask}} (a fixed length pattern) routing calls to the Call Recording trunk",
+                "PatternDescription": "A rule in the CUCM must be defined to route all calls matching this prefix to the Imagicle Call Recording SIP trunk. This is the pattern (a fixed length pattern) you need to define accordingly to the pilot configured in the section above:"
+
+            },
+            "DefaultOwner": {
+                "Title": "Actions on recordings without assignee",
+                "Intro": "Recordings must be associated to a user in order to be persisted. By default, when system cannot assign a recording to any user, it is discarded and not persisted.\n Use this section to configure how to manage recordings that cannot be automatically associated.",
+                "Label": "For recordings without assignee:",
+                "Tooltip": "Selecting this option, all recordings that are not assignable to any user will be lost.",
+                "Behaviors": {
+                    "Discard": "Discard them",
+                    "Keep": "Assign them to another user"
+                },
+                "Errors": {
+                    "UsersNotExisting": "Non existing user, select another to not lose recordings.",
+                    "UserMissingPrivileges": "User lacks recording privileges. Update his permissions or select another to not lose recordings.",
+                    "UserNotSelected": "User input must be compiled.",
+                    "InvalidLicense": "A license problem has occurred so it's not possible to save. Page will be reloaded with the terms of the available license."
+                }
+            }
+        },
+        "Notifications": {
+            "EmailNotifications": {
+                "Intro": "These settings are related to all users enabled to receive recordings by e-mail. To enable a user to receive recordings by e-mail go to user management in admin section",
+                "Label": "Sender display name:",
+                "AttachRecordingToEmail": "Attachment size limit:",
+                "ToLabel": "to:",
+                "MegaBytesLabel": "MB",
+                "AlertEmpty": "A maximum file size must be specified",
+                "AlertValue": "The value must be greater than 0",
+                "AttachToolTip": "Recording files greater than this limit will be only available for download at 'My Recordings' web page of Application Suite"
+            }
+        },
+        "AnnouncementsTab": "Announcements",
+        "Announcements": {
+            "Pilot": {
+                "Title": "Pilot",
+                "Description": "If you need to use the Call Recording announcements feature, please configure here the dedicated service pilot number.",
+                "Label": "Announcement pilot (prefix)",
+                "Tooltip": "A PBX route to the recorder must be defined accordingly with this prefix, routing all destinations starting with such number to the recorder SIP trunk"
+            },
+            "Messages": {
+                "Title": "Messages",
+                "Description": "Configure the announcement messages that will be played when the recording starts. Different behaviors can be set according to the call direction and type. Chosen messages will be heard by all call parties.",
+                "Labels": {
+                    "ExternalIncoming": "External incoming calls",
+                    "ExternalOutgoing": "External outgoing calls"
+                },
+                "Actions": {
+                    "NoMessage": "No message",
+                    "DefaultMessage": "Default message",
+                    "CustomMessage": "Custom message"
+                }
+            }
+        },
+        "SecureRecording": {
+            "Description": "This functionality has been upgraded! It has become a feature suitable for all the apps that need a secure communications certificate.",
+            "Link": "Now you can find it in the <a href=\"#\" ng-click=\"{{linkOnClick}}\">Secure communications certificate</a> section of the Administration area."
+        },
+        "SaveSuccess": "All changes saved",
+        "ButtonSave": "Save",
+        "ButtonCancel": "Cancel",
+        "ButtonOk": "OK",
+        "ButtonChange": "Change"
+    },
+    "Reports": {
+        "PublicReports": {
+            "Label": "Public reports",
+            "ReportGroups": {
+                "TrafficAnalysis": {
+                    "Label": "Traffic Analysis",
+                    "RecordingList": {
+                        "Title": "Recording List",
+                        "Description": "It shows recorded calls"
+                    },
+                    "BusyChannels": {
+                        "Title": "Recording Busy Channels",
+                        "Description": "It shows the relation between the licensed channels and the recordings in a time period"
+                    }
+                },
+                "VolumeAnalysis": {
+                    "Label": "Volume Analysis",
+                    "VolumeByUser": {
+                        "Title": "Recording Volume by User",
+                        "Description": "It shows recorded call volume by user"
+                    },
+                    "VolumeByGroup": {
+                        "Title": "Recording Volume by Group",
+                        "Description": "It shows recorded call volume by group"
+                    },
+                    "VolumeByServerNode": {
+                        "Title": "Recording Volume by Server Node",
+                        "Description": "It shows recorded call volume by server node"
+                    },
+                    "VolumeByTenant": {
+                        "Title": "Recording Volume by Tenant",
+                        "Description": "It shows recorded call volume by tenant"
+                    }
+                }
+            }
+        }
+    }
+}
