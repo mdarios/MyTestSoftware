@@ -4419,4 +4419,7 @@
   <data name="COMMON_LBL_NUMBER" xml:space="preserve">
     <value>Numero</value>
   </data>
+  <data name="TOOLTIP_START_STOP__BUTTON_NOT_AVAILABLE" xml:space="preserve">
+    <value>L'applicazione Call Recording non è disponibile.</value>
+  </data>
 </root>
