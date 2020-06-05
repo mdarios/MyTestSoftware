@@ -1,37 +1,27 @@
 ﻿{
     "Title": "Imagicle Call Recording",
-    "Recordings": {
-        "Header": {
-            "Direction": "Dir",
-            "Date": "Data",
-            "Duration": "Durata",
-            "Group": "Gruppo",
-            "OwnerInfo": "Utente",
-            "OwnerExtension": "Num. tel. utente",
-            "RemoteContact": "Contatto",
-            "RemoteParty": "Numero remoto",
-            "RecId": "Rec Id",
-            "CallId": "Id chiamata sul PBX"
-        },
-        "Detail": {
-            "Tag": "Etichetta",
-            "Note": "Nota",
-            "PreservedBy": "Preservata da:",
-            "AddNote": "Aggiungi una nota",
-            "UnavailabilityMessages": {
-                "GenericAdminMessage": "Unable to load audio stream, please try again",
-                "Generic": "A system error occurred, you cannot playback or download this recording. Contact the administrator for more information.",
-                "TrackFileNotFound": "You cannot playback or download this recording because file track has been removed.",
-                "CertificateNotFound": "You cannot playback or download this recording because server certificate has been removed or doesn't contain the private key."
-            }
-        },
-        "ConferenceTag": "Conferenza",
-        "UnknownNumber": "Sconosciuto"
-    },
-    "SaveNoteStatus": {
-        "Saved": "Note salvate con successo",
-        "NotSaved": "Errore durante il salvataggio delle modifiche."
-    },
+    "Recordings.Header.Direction": "Dir",
+    "Recordings.Header.Date": "Data",
+    "Recordings.Header.Duration": "Durata",
+    "Recordings.Header.Group": "Gruppo",
+    "Recordings.Header.OwnerInfo": "Utente",
+    "Recordings.Header.OwnerExtension": "Num. tel. utente",
+    "Recordings.Header.RemoteContact": "Contatto",
+    "Recordings.Header.RemoteParty": "Numero remoto",
+    "Recordings.Header.RecId": "Rec Id",
+    "Recordings.Header.CallId": "Id chiamata sul PBX",
+    "Recordings.Detail.Tag": "Etichetta",
+    "Recordings.Detail.Note": "Nota",
+    "Recordings.Detail.PreservedBy": "Preservata da:",
+    "Recordings.Detail.AddNote": "Aggiungi una nota",
+    "Recordings.Detail.UnavailabilityMessages.GenericAdminMessage": "Impossibile caricare il file audio, si prega di riprovare",
+    "Recordings.Detail.UnavailabilityMessages.Generic": "A system error occurred, you cannot playback or download this recording. Contact the administrator for more information.",
+    "Recordings.Detail.UnavailabilityMessages.TrackFileNotFound": "Impossibile riprodurre la registrazione perché la traccia audio è stata rimossa.",
+    "Recordings.Detail.UnavailabilityMessages.CertificateNotFound": "You cannot playback or download this recording because server certificate has been removed or doesn't contain the private key.",
+    "Recordings.ConferenceTag": "Conferenza",
+    "Recordings.UnknownNumber": "Sconosciuto",
+    "SaveNoteStatus.Saved": "Note salvate con successo",
+    "SaveNoteStatus.NotSaved": "Errore durante il salvataggio delle modifiche.",
     "ToolTipNoteEdited": "Ultima modifica di ",
     "ToolTipNoteOn": "il ",
     "ToolTipUnPreserveClickHere": "Clicca qui per disabilitare la conservazione di questa registrazione.",
@@ -45,79 +35,65 @@
     "MultipleContactsTooltip": "Al numero remoto corrispondono contatti multipli:",
     "MultipleContactsTooltipAndOther": "e altro",
     "MultipleContacts": "contatti multipli",
-    "LiveRecordings": {
-        "Muted": "Silenziato",
-        "Conference": "Conferenza",
-        "Unknown": "Sconosciuto"
-    },
-    "Error": {
-        "Title": "Registrazione Chiamate",
-        "InformationTitle": "Avviso",
-        "UserNotAuthorizedBody": "Questa pagina non è disponibile per l'amministratore della IAS",
-        "UnsupportedAudioFile": "Questo non è un file audio valido",
-        "RequiredAudioFile": "Questo messaggio audio è obbligatorio",
-        "Unauthorized": "Non sei autorizzato ad eseguire questa operazione.",
-        "UnableToRetryServiceStatus": "Impossibile ottenere lo stato di installazione del servizio. Per favore ripova.",
-        "UnableToRetryRecordings": "Impossibile recuperare le registrazioni. Per favore riprovare.",
-        "UserNotEnable": "Non si è autorizzati ad accedere a questa applicazione",
-        "UserNotLogged": "Login necessario. Per favore effettua di nuovo l'accesso al sistema.",
-        "UnableToRetryRecordingDetail": "Impossibile ottenere i dettagli delle registrazioni. Per favore riprova.",
-        "StreamLoading": "Impossibile ottenere il contenuto audio. Per favore riprovare.",
-        "StreamLoadingFromStorageLocation": "Impossibile ottenere il contenuto audio dallo storage ({{location}})",
-        "StreamLoadingWithInvalidCertificate": "Impossibile riprodurre o scaricare la registrazione perchè il certificato server è stato rimosso o è privo della chiave privata.",
-        "ChangePreservation": "Non è possibile modificare le impostazioni di conservazione della registrazione.",
-        "UnpinUnauthorized": "Questa registrazione è stata preservata da un profilo di accesso superiore. Non puoi quindi modificarne le impostazioni di conservazione.",
-        "PreservationDisabled": "La funzionalità di lunga conservazione è stata disabilitata dall'amministratore.",
-        "TestDataExportFailed": "Impossibile effettuare il test in scrittura. Per favore, riprova.",
-        "UnableToDelete": "Impossibile cancellare la registrazione.",
-        "DeleteNotEnabled": "La cancellazione è stata disabilitata dall'amministratore del servizio.",
-        "DeleteUnauthorized": "La cancellazione è stata disabilitata per il tuo profilo di accesso dall'amministratore del servizio.",
-        "UnableToDeletePinnedRecording": "Questa registrazione è stata preservata da un profilo di accesso superiore. Non è quindi possibile cancellarla.",
-        "UnableToModifyNoteRecording": "Questa nota è stata scritta da un profilo di accesso superiore. Non è pertanto possibile modificarla.",
-        "GatewayTimeout": "Impossibile completare l’operazione. Assicurarsi che il servizio Call Recording sia in esecuzione.",
-        "WebServiceUnreachable": "Impossibile contattare il server Imagicle.",
-        "InvalidDestinationFolder": "I percorsi locali non sono supportati. Per favore, utilizza un percorso di rete, come",
-        "Retry": "Premere qui per riprovare",
-        "Close": "Chiudi",
-        "Exit": "Esci",
-        "UnableToModifyNoteRecordingEx": "Questa nota è stata modificata da {{user}} ({{profile}}) il {{datetime}}. Non puoi modificarla.",
-        "InvalidPhoneNumber": "Questo non è un numero di telefono valido",
-        "PilotsCannotBeOverlapped": "I prefissi dei numeri pilot non possono avere sovrapposizioni, si prega di scegliere un altro prefisso di registrazione",
-        "RequiredPilot": "E' necessario specificare un pilot per abilitare gli annunci di registrazione",
-        "Unexpected": "Si è verificato un errore inatteso. Si prega di riprovare più tardi.",
-        "LiveRecording": {
-            "Start": {
-                "UserNotEnabled": "Impossibile registrare la chiamata: l’utente '{{username}}' non ha un interno associato in Imagicle Application Suite. Si prega di chiedere all’amministratore di completare la configurazione.",
-                "UnauthorizedUser": "Impossibile registrare la chiamata: l’utente '{{username}}' non è abilitato a registrare la chiamata. Si prega di contattare l’amministratore.",
-                "NoSuchDevice": "Impossibile registrare la chiamata: nessun dispositivo abilitato alla registrazione risulta associato all’utente corrente.",
-                "NoAvailableLicenses": "Impossibile registrare la chiamata: non sono disponibili licenze per registrare questa chiamata.",
-                "NoServiceAvailable": "Impossibile registrare la chiamata: errore cercando di raggiungere il servizio Call Recording. Si prega di contattare l’amministratore se l’errore persiste.",
-                "InvalidLicense": "Impossibile registrare la chiamata: la licenza Call Recording è invalida o scaduta.",
-                "NoSuitableCalls": "Impossibile registrare la chiamata: non ci sono chiamate registrabili.",
-                "WrongConfiguration": "Impossibile registrare la chiamata: si è verificato un errore nel sistema telefonico mentre la registrazione veniva avviata. Si prega di contattare l’amministratore se il problema persiste.",
-                "SettingsConflict": "Impossibile registrare la chiamata: questa conversazione non può essere registrata per impostazione amministrativa.",
-                "DeviceConfigurationNotAllowedOperation": "Errore: la configurazione telefonica non permette la registrazione manuale.",
-                "CannotRestartRecording": "Errore: la configurazione telefonica non permette di riavviare una registrazione dopo che è stata fermata.",
-                "GenericError": "Impossibile registrare la chiamata: si è verificato un errore durante il tentativo di registrare la chiamata."
-            },
-            "Stop": {
-                "NoServiceAvailable": "Impossibile arrestare la registrazione: errore cercando di raggiungere il servizio Call Recording. Si prega di contattare l’amministratore se l’errore persiste.",
-                "UserNotEnabled": "Impossibile arrestare la registrazione: l’utente '{{username}}' non è abilitato alla registrazione. Si prega di contattare l’amministratore.",
-                "UnauthorizedUser": "Impossibile arrestare la registrazione: l’utente '{{username}}' non è abilitato alla registrazione. Si prega di contattare l’amministratore.",
-                "DeviceConfigurationNotAllowedOperation": "Errore: la configurazione telefonica non permette l’arresto manuale delle registrazioni.",
-                "GenericError": "Impossibile arrestare la registrazione: si è verificato un errore durante l’operazione.",
-                "Disabled": "L'arresto delle registrazioni è disabilitato."
-            },
-            "Pause": {
-                "NoSuitableCall": "Impossibile mettere la registrazione in pausa: nessuna registrazione in corso.",
-                "GenericError": "Impossibile mettere la registrazione in pausa: si è verificato un errore durante l’operazione."
-            },
-            "Resume": {
-                "NoSuitableCall": "Impossibile riprendere la registrazione: nessuna registrazione in corso.",
-                "GenericError": "Impossibile riprendere la registrazione: si è verificato un errore durante l’operazione."
-            }
-        }
-    },
+    "LiveRecordings.Muted": "Silenziato",
+    "LiveRecordings.Conference": "Conferenza",
+    "LiveRecordings.Unknown": "Sconosciuto",
+    "Error.Title": "Registrazione Chiamate",
+    "Error.InformationTitle": "Avviso",
+    "Error.UserNotAuthorizedBody": "Questa pagina non è disponibile per l'amministratore della IAS",
+    "Error.UnsupportedAudioFile": "Questo non è un file audio valido",
+    "Error.RequiredAudioFile": "Questo messaggio audio è obbligatorio",
+    "Error.Unauthorized": "Non sei autorizzato ad eseguire questa operazione.",
+    "Error.UnableToRetryServiceStatus": "Impossibile ottenere lo stato di installazione del servizio. Per favore ripova.",
+    "Error.UnableToRetryRecordings": "Impossibile recuperare le registrazioni. Per favore riprovare.",
+    "Error.UserNotEnable": "Non si è autorizzati ad accedere a questa applicazione",
+    "Error.UserNotLogged": "Login necessario. Per favore effettua di nuovo l'accesso al sistema.",
+    "Error.UnableToRetryRecordingDetail": "Impossibile ottenere i dettagli delle registrazioni. Per favore riprova.",
+    "Error.StreamLoading": "Impossibile ottenere il contenuto audio. Per favore riprovare.",
+    "Error.StreamLoadingFromStorageLocation": "Impossibile ottenere il contenuto audio dallo storage ({{location}})",
+    "Error.StreamLoadingWithInvalidCertificate": "Impossibile riprodurre o scaricare la registrazione perchè il certificato server è stato rimosso o è privo della chiave privata.",
+    "Error.ChangePreservation": "Non è possibile modificare le impostazioni di conservazione della registrazione.",
+    "Error.UnpinUnauthorized": "Questa registrazione è stata preservata da un profilo di accesso superiore. Non puoi quindi modificarne le impostazioni di conservazione.",
+    "Error.PreservationDisabled": "La funzionalità di lunga conservazione è stata disabilitata dall'amministratore.",
+    "Error.TestDataExportFailed": "Impossibile effettuare il test in scrittura. Per favore, riprova.",
+    "Error.UnableToDelete": "Impossibile cancellare la registrazione.",
+    "Error.DeleteNotEnabled": "La cancellazione è stata disabilitata dall'amministratore del servizio.",
+    "Error.DeleteUnauthorized": "La cancellazione è stata disabilitata per il tuo profilo di accesso dall'amministratore del servizio.",
+    "Error.UnableToDeletePinnedRecording": "Questa registrazione è stata preservata da un profilo di accesso superiore. Non è quindi possibile cancellarla.",
+    "Error.UnableToModifyNoteRecording": "Questa nota è stata scritta da un profilo di accesso superiore. Non è pertanto possibile modificarla.",
+    "Error.GatewayTimeout": "Impossibile completare l’operazione. Assicurarsi che il servizio Call Recording sia in esecuzione.",
+    "Error.WebServiceUnreachable": "Impossibile contattare il server Imagicle.",
+    "Error.InvalidDestinationFolder": "I percorsi locali non sono supportati. Per favore, utilizza un percorso di rete, come",
+    "Error.Retry": "Premere qui per riprovare",
+    "Error.Close": "Chiudi",
+    "Error.Exit": "Esci",
+    "Error.UnableToModifyNoteRecordingEx": "Questa nota è stata modificata da {{user}} ({{profile}}) il {{datetime}}. Non puoi modificarla.",
+    "Error.InvalidPhoneNumber": "Questo non è un numero di telefono valido",
+    "Error.PilotsCannotBeOverlapped": "I prefissi dei numeri pilot non possono avere sovrapposizioni, si prega di scegliere un altro prefisso di registrazione",
+    "Error.RequiredPilot": "E' necessario specificare un pilot per abilitare gli annunci di registrazione",
+    "Error.Unexpected": "Si è verificato un errore inatteso. Si prega di riprovare più tardi.",
+    "Error.LiveRecording.Start.UserNotEnabled": "Impossibile registrare la chiamata: l’utente '{{username}}' non ha un interno associato in Imagicle Application Suite. Si prega di chiedere all’amministratore di completare la configurazione.",
+    "Error.LiveRecording.Start.UnauthorizedUser": "Impossibile registrare la chiamata: l’utente '{{username}}' non è abilitato a registrare la chiamata. Si prega di contattare l’amministratore.",
+    "Error.LiveRecording.Start.NoSuchDevice": "Impossibile registrare la chiamata: nessun dispositivo abilitato alla registrazione risulta associato all’utente corrente.",
+    "Error.LiveRecording.Start.NoAvailableLicenses": "Impossibile registrare la chiamata: non sono disponibili licenze per registrare questa chiamata.",
+    "Error.LiveRecording.Start.NoServiceAvailable": "Impossibile registrare la chiamata: errore cercando di raggiungere il servizio Call Recording. Si prega di contattare l’amministratore se l’errore persiste.",
+    "Error.LiveRecording.Start.InvalidLicense": "Impossibile registrare la chiamata: la licenza Call Recording è invalida o scaduta.",
+    "Error.LiveRecording.Start.NoSuitableCalls": "Impossibile registrare la chiamata: non ci sono chiamate registrabili.",
+    "Error.LiveRecording.Start.WrongConfiguration": "Impossibile registrare la chiamata: si è verificato un errore nel sistema telefonico mentre la registrazione veniva avviata. Si prega di contattare l’amministratore se il problema persiste.",
+    "Error.LiveRecording.Start.SettingsConflict": "Impossibile registrare la chiamata: questa conversazione non può essere registrata per impostazione amministrativa.",
+    "Error.LiveRecording.Start.DeviceConfigurationNotAllowedOperation": "Errore: la configurazione telefonica non permette la registrazione manuale.",
+    "Error.LiveRecording.Start.CannotRestartRecording": "Errore: la configurazione telefonica non permette di riavviare una registrazione dopo che è stata fermata.",
+    "Error.LiveRecording.Start.GenericError": "Impossibile registrare la chiamata: si è verificato un errore durante il tentativo di registrare la chiamata.",
+    "Error.LiveRecording.Stop.NoServiceAvailable": "Impossibile arrestare la registrazione: errore cercando di raggiungere il servizio Call Recording. Si prega di contattare l’amministratore se l’errore persiste.",
+    "Error.LiveRecording.Stop.UserNotEnabled": "Impossibile arrestare la registrazione: l’utente '{{username}}' non è abilitato alla registrazione. Si prega di contattare l’amministratore.",
+    "Error.LiveRecording.Stop.UnauthorizedUser": "Impossibile arrestare la registrazione: l’utente '{{username}}' non è abilitato alla registrazione. Si prega di contattare l’amministratore.",
+    "Error.LiveRecording.Stop.DeviceConfigurationNotAllowedOperation": "Errore: la configurazione telefonica non permette l’arresto manuale delle registrazioni.",
+    "Error.LiveRecording.Stop.GenericError": "Impossibile arrestare la registrazione: si è verificato un errore durante l’operazione.",
+    "Error.LiveRecording.Stop.Disabled": "L'arresto delle registrazioni è disabilitato.",
+    "Error.LiveRecording.Pause.NoSuitableCall": "Impossibile mettere la registrazione in pausa: nessuna registrazione in corso.",
+    "Error.LiveRecording.Pause.GenericError": "Impossibile mettere la registrazione in pausa: si è verificato un errore durante l’operazione.",
+    "Error.LiveRecording.Resume.NoSuitableCall": "Impossibile riprendere la registrazione: nessuna registrazione in corso.",
+    "Error.LiveRecording.Resume.GenericError": "Impossibile riprendere la registrazione: si è verificato un errore durante l’operazione.",
     "Page": "Pagina",
     "No items to display": "Nessuna registrazione corrispondente ai filtri impostati",
     "displayed": "visualizzate",
@@ -125,398 +101,251 @@
     "of": "di",
     "RecordingsFound": "registrazioni trovate",
     "RecordingDetail": "Dettagli delle registrazioni",
-    "UserProfile": {
-        "Administrator": "profilo di amministrazione",
-        "Supervisor": "profilo supervisore di gruppo",
-        "BaseUser": "profilo utente semplice"
-    },
-    "Direction": {
-        "Incoming": "Entranti",
-        "Outgoing": "Uscenti",
-        "Unknown": "Sconosciuto",
-        "IncomingOutgoingAbbr": "Tutte",
-        "IncomingAbbr": "Ent",
-        "OutgoingAbbr": "Usc",
-        "UnknownAbbr": "Sco"
-    },
-    "Actions": {
-        "Download": "Scarica",
-        "AddTag": "Aggiungi nuova etichetta",
-        "PushPinRecording": "Clicca per conservare la registrazione",
-        "PushPinRecordingUnpin": "Clicca per disabilitare la conservazione di questa registrazione",
-        "Mark": "Marca come",
-        "Remove": "Rimuovi"
-    },
-    "Pager": {
-        "First": "Prima",
-        "Previous": "Precedente",
-        "Next": "Prossima",
-        "Last": "Ultima",
-        "Displayed": "visualizzate",
-        "Total": "in totale"
-    },
+    "UserProfile.Administrator": "profilo di amministrazione",
+    "UserProfile.Supervisor": "profilo supervisore di gruppo",
+    "UserProfile.BaseUser": "profilo utente semplice",
+    "Direction.Incoming": "Entranti",
+    "Direction.Outgoing": "Uscenti",
+    "Direction.Unknown": "Sconosciuto",
+    "Direction.IncomingOutgoingAbbr": "Tutte",
+    "Direction.IncomingAbbr": "Ent",
+    "Direction.OutgoingAbbr": "Usc",
+    "Direction.UnknownAbbr": "Sco",
+    "Actions.Download": "Scarica",
+    "Actions.AddTag": "Aggiungi nuova etichetta",
+    "Actions.PushPinRecording": "Clicca per conservare la registrazione",
+    "Actions.PushPinRecordingUnpin": "Clicca per disabilitare la conservazione di questa registrazione",
+    "Actions.Mark": "Marca come",
+    "Actions.Remove": "Rimuovi",
+    "Pager.First": "Prima",
+    "Pager.Previous": "Precedente",
+    "Pager.Next": "Prossima",
+    "Pager.Last": "Ultima",
+    "Pager.Displayed": "visualizzate",
+    "Pager.Total": "in totale",
     "TimezoneWarning": "Tutte le date e le ore si riferiscono al tuo fuso orario",
-    "FilterWarning": {
-        "Message": "Il sistema è attulamente configurato per registrare solo le chiamate {{direction}}{{trafficType}} ",
-        "DirectionType1": "entranti",
-        "DirectionType2": "uscenti",
-        "TrafficType1": "interne",
-        "TrafficType2": "esterne"
-    },
-    "LicenseWarning": {
-        "Title": "La licenza di Call Recording è scaduta o non valida",
-        "Message": "Il servizio Call Recording non sta registrando alcuna chiamata. Si possono ricercare e ascoltare soltanto le registrazioni già esistenti."
-    },
+    "FilterWarning.Message": "Il sistema è attulamente configurato per registrare solo le chiamate {{direction}}{{trafficType}} ",
+    "FilterWarning.DirectionType1": "entranti",
+    "FilterWarning.DirectionType2": "uscenti",
+    "FilterWarning.TrafficType1": "interne",
+    "FilterWarning.TrafficType2": "esterne",
+    "LicenseWarning.Title": "La licenza di Call Recording è scaduta o non valida",
+    "LicenseWarning.Message": "Il servizio Call Recording non sta registrando alcuna chiamata. Si possono ricercare e ascoltare soltanto le registrazioni già esistenti.",
     "NoRecordingsToDisplay": "Nessuna registrazione da visualizzare",
-    "Filter": {
-        "Advanced": "RICERCA AVANZATA",
-        "Options": "Opzioni di ricerca",
-        "DurationRange": "con durata compresa tra",
-        "DurationMax": "max",
-        "DateTo": "alla data:",
-        "DateFrom": "dalla data:",
-        "User": "utente",
-        "Remote": "interlocutore remoto o numero",
-        "Note": "note"
-    },
-    "Jabber": {
-        "Grid": {
-            "AllRecordings": "Registrazioni di tutti gli utenti",
-            "MyRecordings": "Le mie registrazioni",
-            "OpenDetails": "Vai al dettaglio della registrazione",
-            "NotAllowedToSearchAndPlayRecordingsWarning": "La ricerca e la riproduzione delle registrazioni salvate non sono consentite"
-        },
-        "Detail": {
-            "Title": "Dettagli della registrazione",
-            "RemoteNumber": "Numero remoto",
-            "Time": "Ora",
-            "Date": "Data",
-            "Duration": "Durata",
-            "Direction": "Direzione",
-            "Id": "Id registrazione",
-            "Tag": "Etichetta",
-            "Preserve": "Mantieni",
-            "Note": "Nota",
-            "CallId": "Id chiamata sul PBX"
-        }
-    },
-    "DeleteAlertDialog": {
-        "Message": "Sicuro di cancellare la registrazione?",
-        "Title": "Cancellazione"
-    },
+    "Filter.Advanced": "RICERCA AVANZATA",
+    "Filter.Options": "Opzioni di ricerca",
+    "Filter.DurationRange": "con durata compresa tra",
+    "Filter.DurationMax": "max",
+    "Filter.DateTo": "alla data:",
+    "Filter.DateFrom": "dalla data:",
+    "Filter.User": "utente",
+    "Filter.Remote": "interlocutore remoto o numero",
+    "Filter.Note": "note",
+    "Jabber.Grid.AllRecordings": "Registrazioni di tutti gli utenti",
+    "Jabber.Grid.MyRecordings": "Le mie registrazioni",
+    "Jabber.Grid.OpenDetails": "Vai al dettaglio della registrazione",
+    "Jabber.Grid.NotAllowedToSearchAndPlayRecordingsWarning": "La ricerca e la riproduzione delle registrazioni salvate non sono consentite",
+    "Jabber.Detail.Title": "Dettagli della registrazione",
+    "Jabber.Detail.RemoteNumber": "Numero remoto",
+    "Jabber.Detail.Time": "Ora",
+    "Jabber.Detail.Date": "Data",
+    "Jabber.Detail.Duration": "Durata",
+    "Jabber.Detail.Direction": "Direzione",
+    "Jabber.Detail.Id": "Id registrazione",
+    "Jabber.Detail.Tag": "Etichetta",
+    "Jabber.Detail.Preserve": "Mantieni",
+    "Jabber.Detail.Note": "Nota",
+    "Jabber.Detail.CallId": "Id chiamata sul PBX",
+    "DeleteAlertDialog.Message": "Sicuro di cancellare la registrazione?",
+    "DeleteAlertDialog.Title": "Cancellazione",
     "DeleteSuccessfully": "La registrazione è stata eliminata con successo",
-    "ComingSoon": {
-        "Title": "Coming soon",
-        "Message": "Questa funzionalità sarà disponbile a breve!",
-        "Close": "Chiudi"
-    },
-    "ToolBar": {
-        "Refresh": "aggiorna"
-    },
-    "RecInfo": {
-        "Filename": "Nome file:",
-        "Location": "Posizione:",
-        "Size": "Dimensione:",
-        "Calculating": "Calcolo in corso...",
-        "Hash": "File digest (SHA-256):"
-    },
-    "Settings": {
-        "Title": "Storage (cifrato)",
-        "StorageLocation": {
-            "Description": "Definire dove archiviare le registrazioni criptate disponibili per la ricezione tramite la maschera di ricerca ed il player del Call Recording. E' anche possibile selezionare il tipo di conservazione dei dati da un elenco di profili o impostando una configurazione personalizzata per evitare la saturazione dello spazio compatibilmente con le politiche del ciclo di vita delle registrazioni.",
-            "Title": "Posizione archivio",
-            "Local": "Locale",
-            "External": "Esterna"
-        },
-        "ServiceUrl": {
-            "Intro": "Questi sono gli URL da utilizzare quando si configura un IP Phone Service nell’amministrazione CUCM. Se il server ha più di un indirizzo IP, si prega di selezionarne uno raggiungibile dai telefoni IP.",
-            "StartDialInRecording": {
-                "Title": "Tasto di registrazione (Dial-In)",
-                "Description": "Utilizzare questo URL per configurare sul telefono IP un tasto (Service Button) che registra la conversazione in corso avviando una conferenza con il servizio di Call Recording. Utilizzare questo URL per i telefoni che non supportano Cisco Media Forking o altre tecnologie di registrazione."
-            },
-            "StartMediaForkingRecording": {
-                "Title": "Tasto di registrazione (Media Forking)",
-                "Description": "Utilizzare questo URL per configurare sul telefono IP un tasto (Service Button) che registra la conversazione in corso avviando la registrazione Media Forking oppure salvando la conversazione dal suo inizio (Live Keep). Utilizzare questo URL solo per telefoni abilitati alla registrazione Cisco Media Forking."
-            },
-            "MediaForkingPhoneService": {
-                "Title": "Call Recording IP Phone Service (Media Forking)",
-                "Description": "Utilizzare questo URL per definire l’IP Phone Service su telefoni abilitati alla registrazione Cisco Media Forking (selettiva o automatica). Questo IP Phone Service permette di monitorare e controllare le attività di registrazione chiamate, coerentemente con le impostazioni configurate nel pannello \"Controllo della registrazione\" sopra."
-            },
-            "DialInPhoneService": {
-                "Title": "Call Recording IP Phone Service (Dial-In)",
-                "Description": "Utilizzare questo URL per definire l’IP Phone Service su telefoni che registrano in modalità Dial-In (conferenza). Questo IP Phone Service permette di monitorare e controllare le atività di registrazione chiamate, coerentemente con le impostazioni configurate nel pannello \"Controllo della registrazione\" sopra."
-            },
-            "EnabledCommands": {
-                "Title": "I comandi attualmente abilitati sono:",
-                "None": "NESSUNO",
-                "Start": "Start",
-                "Stop": "Stop",
-                "Pause": "Pausa",
-                "Resume": "Riprendi"
-            }
-        },
-        "DataRetention": {
-            "Title": "Conservazione dei dati",
-            "ToolTip": "Definisci qui le impostazioni per la conservazione dei dati. Le registrazioni più vecchie verranno cancellate coerentemente con le impostazioni configurate, sia dallo storage che dal database.",
-            "Help": "Aiuto per la conservazione dei dati...",
-            "Profile": "Usa questo profilo di conservazione dei dati:",
-            "DeleteRecord": "Cancella le registrazioni più vecchie di:",
-            "PreserveEnabledLabel": "Abilita gli utenti a preservare le registrazioni:",
-            "PreserveProfile": {
-                "FOREVER": "per sempre",
-                "FORADDITIONAL": "per altri"
-            },
-            "PreserveWarning": {
-                "Title": "Preserva le registrazioni",
-                "Message": "Ci sono registrazioni nel sistema marcate come da conservare. Disabilitando questa funzionalità, tali registrazioni saranno automaticamente cancellate coerentemente con le impostazioni di conservazione. Sicuro di procedere?"
-            },
-            "Profiles": {
-                "USERPRESERVED": "Cancella dopo 4 ore, tranne quelle preservate dagli utenti",
-                "MONTHS12": "12 mesi (ideale per l'archivio locale)",
-                "MONTHS48": "48 mesi (ideale per l'archivio locale)",
-                "CUSTOM": "Personalizza",
-                "NONE": "Mantieni tutte le registrazioni, nessuna cancellazione automatica"
-            },
-            "Periods": {
-                "Y": "Anno(i)",
-                "M": "Mese(i)",
-                "D": "Giorno(i)",
-                "H": "Ora(e)"
-            },
-            "ProfilesHelp": {
-                "0": "Le registrazioni non vengono mai cancellate",
-                "1": "Questo profilo cancellerà le registrazioni dopo 12 mesi. Gli utenti possono selezionare delle specifiche registrazioni da conservare per sempre. Con 500GB di storage disponibile, si possono conservare registrazioni di 20 agenti fino a 12 mesi (20 giorni al mese di registrazione continua, 6 ore al giorno)",
-                "2": "Questo profilo cancellerà le registrazioni dopo 48 mesi. Gli utenti possono selezionare delle specifiche registrazioni da conservare per sempre. Con 2TB di storage disponibile, si possono conservare registrazioni di 20 agenti fino a 48 mesi (20 giorni al mese di registrazione continua, 6 ore al giorno)",
-                "3": "Gli utenti possono selezionare specifiche registrazioni da conservare per sempre. Tutte le altre registrazioni saranno cancellate dopo 4 ore",
-                "4": "Specifica una impostazione diversa per la cancellazione automatica delle registrazioni"
-            }
-        },
-        "Certificate": {
-            "Title": "Certificato",
-            "UsedFor": "Certificato usato per la cifratura:",
-            "NotInstalled": "non trovato",
-            "Expired": "scaduto",
-            "SelfSigned": "autogenerato"
-        },
-        "DataExport": {
-            "PanelTitle": "Export registrazioni (non cifrato)",
-            "Title": "Il servizio può AUTOMATICAMENTE esportare una copia delle registrazioni in una cartella di rete condivisa (accessibile in scrittura). Utilizza questa sezione per abilitare e configurare il servizio. Le registrazioni saranno salvate in formato MP3, non cifrate. Nella stessa cartella verrà creato un file di testo (CSV) contenente tutte le informazioni associate alle registrazioni, come indice. Le registrazioni così esportate NON saranno parte del ciclo di vita e della gestione con il Call Recording di Imagicle e non disponibili per la ricerca e il riascolto dalle interfacce web.",
-            "DataExportEnabledLabel": "Esporta una copia delle registrazioni su uno storage esterno",
-            "DestinationFolderLabel": "Cartella destinazione (percorso base):",
-            "DestinationFolderHelp": "Specificare il percorso base UNC della cartella di rete condivisa dove le registrazioni saranno salvate.",
-            "UserNameLabel": "Usa questo username",
-            "PasswordLabel": "Usa questa password:",
-            "TestAccess": "Test di accesso",
-            "Warning": "Qualsiasi cambiamento a queste impostazioni si applicherà solamente alle nuove registrazioni.",
-            "TestOk": "Test positivo: accesso funzionante!",
-            "TestFail": "Test fallito:",
-            "DataExportWarning": "Qualsiasi cambiamento a queste impostazioni si applicherà solamente alle nuove registrazioni."
-        },
-        "SaveAlertDialog": {
-            "WarningMessageIrreversibleChoice": "Se si conferma questa opzione, la cancellazione verrà disattivata in modo permanente. Nessuno sarà più in grado di modificare questa impostazione, neppure i profili di amministrazione. Sei sicuro di voler procedere?",
-            "Message": "Sicuro di salvare i cambiamenti?",
-            "WarningForReportData":  "Scegliendo questa opzione stai abilitando la cancellazione delle registrazioni. I dati del Call Recorder non sono storicizzati e, una volta cance1llate, le registrazioni non saranno più considerate in alcuni report. Vuoi procedere?", 
-            "Title": "Salva le impostazioni"
-        },
-        "SaveRetentionAlertDialog": {
-            "Message": "Queste impostazioni di conservazione implicano la cancellazione automatica delle vecchie registrazioni, sicuro di procedere?",
-            "Title": "Salva le impostazioni"
-        },
-        "SaveErrorAlertDialog": {
-            "Message": "Impossibile salvare le impostazioni, riprovare.",
-            "Errors": {
-                "Retention": {
-                    "InvalidCertificate": "Il certificato selezionato non è valido"
-                }
-            },
-            "Title": "Errore nel salvataggio impostazioni"
-        },
-        "SettingsTab": "Impostazioni",
-        "TitlePermissions": "Permessi",
-        "DataManagementTab": "Gestione della conservazione dati",
-        "NotificationsTab": "Notifiche",
-        "TitleRecordingFilters": "Filtri di registrazione",
-        "TitleLiveRecordingSettings": "Controllo della registrazione",
-        "TitleAdvancedSettings": "Numeri pilot",
-        "TitleSecureRecording": "Registrazione sicura",
-        "TitleOpenServiceUrlPanel": "Service URL",
-        "TitleEmailNotificationsSettings": "Notifiche via Email",
-        "Permissions": {
-            "Explain": "Le registrazioni possono essere cancellate da:",
-            "NoBodyWarning": "La cancellazione manuale delle registrazioni è stato disattivata in modo permanente dall'amministratore. Si prega di contattare il servizio di supporto Imagicle se si desidera sbloccare questa opzione e riattivarla.",
-            "Permission": {
-                "PERMANENTLYNONE": "Nessuno (scelta irreversibile)",
-                "NONE": "Nessuno",
-                "SIMPLE": "Utenti semplici",
-                "SUPERVISOR": "Supervisori di gruppo",
-                "ADMINISTRATOR": "Amministratori"
-            }
-        },
-        "LiveRecording": {
-            "Explain": "Affinché le modifiche abbiano effetto, gli utenti devono effettuare nuovamente l’accesso al Gadget Jabber",
-            "EnableStartCommand": "Abilita comando Start",
-            "EnableStopCommand": "Abilita comando Stop",
-            "EnablePauseResumeCommands": "Abilita comandi Pausa/Riprendi"
-        },
-        "DownloadPermissions": {
-            "Explain": "Le registrazioni possono essere scaricate da:",
-            "Permission": {
-                "SIMPLE": "Utenti semplici",
-                "SUPERVISOR": "Supervisori di gruppo",
-                "ADMINISTRATOR": "Amministratori"
-            }
-        },
-        "Filters": {
-            "Explain": "Definire qui gli eventuali criteri per decidere quali chiamate devono essere registrate. Queste regole non si applicano alle registrazioni dial-in avviate manualmente dall’operatore (senza l’utilizzo della modalità controllata CTI).",
-            "CallDirectionLbl": "Direzione della chiamata",
-            "TrafficTypeLbl": "Tipo di traffico",
-            "Direction": {
-                "BOTH": "Chiamate entranti e uscenti",
-                "INCOMING": "Solo chiamate entranti",
-                "OUTGOING": "Solo chiamate uscenti"
-            },
-            "TrafficType": {
-                "BOTH": "Chiamate interne ed esterne (PSTN)",
-                "EXTERNAL": "Solo chiamate esterne (PSTN)",
-                "INTERNAL": "Solo chiamate interne",
-                "ToolTip": "I numeri interni sono definiti dalla lista utenti dell'ApplicationSuite e dal pattern numerico definito nella sezione 'Parametri del piano di numerazione' della Suite."
-            },
-            "BlackListTitle": "Black list (party remoto)",
-            "BlackListSubTitle": "Non registrare chiamate quando il numero remoto corrisponde ad uno dei seguenti pattern:",
-            "BlackListSubExplain": "Una entry per ciascuna riga. Le seguenti wildcard possono essere usate: il carattere \"!\" per specificare qualsiasi sequenza di digit (i.e. \"9!\" per qualsiasi numero che comincia per \"9\"). Il carattere \"X\" per permettere qualsiasi digit singolo(i.e. \"90XX\" per qualsiasi numero di 4 cifre che comincia con \"90\"). Il carattere \".\" per permettere qualsiasi singolo digit, asterisco \"*\" o cancelletto \"#\" (i.e. \"90..\" per qualsiasi numero come \"9012\", \"90*#\", \"901*\"). E'possibile utilizzare \"+\" come prefisso (i.e \"+33XXX\" per qualsiasi numero a 6 cifre che comincia con +33). I numeri di telefono devono essere specificati nella forma canonica, cioè senza eventuali prefissi/suffissi richiesti per effettuare chiamate esterne."
-        },
-        "PilotNumbers": {
-            "RecordingPilot": {
-                "Title": "Identificazione utente automatica",
-                "Intro": "Di default gli utenti sono automaticamente identificati dal loro numero chiamante. Nel caso di piano di numerazione sovrapposta, il numero specificato qui sotto è richiesto per identificare correttamente l'utente della registrazione.",
-                "Label": "Pilot di registrazione (prefisso):",
-                "Tooltip": "E' il prefisso del recording profile number da rimuovere dal numero chiamato per identificare l'utente chiamante"
-            },
-            "LiveKeepRecordingPilot": {
-                "Label": "Pilot di registrazione Live Keep (prefisso):",
-                "Tooltip": "E' il prefisso del recording profile number usato dai telefoni che vogliono registrare nella modalità Live Keep."
-            },
-            "DetectionStrategy": {
-                "Label": "Strategia per identificazione utente:",
-                "DefaultStrategy": {
-                    "Label": "Individua utente da Id Numerico Utente",
-                    "Tooltip": "Ogni utente dovrebbe essere configurato sul CUCM con un recording profile number che include sia il pilot che il suo ID Numerico Utente: <Pilot di registrazione><ID Numerico Utente> (es. \"9500301\" per ID utente 301, \"9500302\" per ID utente 302)"
-                },
-                "PrefixStrategy": {
-                    "Label": "Individua utente da Id Numerico Partizione",
-                    "Tooltip": "Ogni utente dovrebbe essere configurato sul CUCM con un recording profile number che include sia il pilot che il suo ID Numerico Partizione: <Pilot di registrazione><ID Numerico Partizione> (es. \"950020\" per ID partizione 20, \"950030\" per ID partizione 30)"
-                }
-            },
-            "FreeSeatingPilot": {
-                "Title": "Identificazione utente interattiva (free seating)",
-                "Intro": "Questo è il prefisso del numero di telefono usato per identificare l'utente della registrazione basandosi sul proprio ID utente numerico, indipendentemente dal numero di chiamata. Di solito è innescato da uno script IVR di autenticazione.",
-                "Label": "Pilot di free seating (prefisso):",
-                "Tooltip": "Deve essere definita una rotta del PBX al recorder con questo prefisso, instradando tutte le destinazioni che iniziano con tale numero al SIP trunk del recorder"
-            },
-            "CtiPilot": {
-                "Title": "Registrazione Automatizzata",
-                "Intro": "Per poter utilizzare il meccanismo controllato CTI per automatizzare le conferenze dial-in, si prega di configurare qui il numero pilot dedicato. Il telefono IP dell’utente effettuerà automaticamente una chiamata a questo numero, seguito da ulteriori {{suffixLength}} cifre.",
-                "Label": "Pilot per controllo CTI (prefisso)",
-                "Tooltip": "Deve essere definita una regola nel CUCM per instradare al SIP trunk Imagicle Call Recording tutte le chiamate che iniziano con questo prefisso. Ad esempio, se il pilot è “9600”, andrà definito un route pattern “9600{{suffixMask}}” (di lunghezza fissa) che instradi le chiamate al SIP trunk di Call Recording",
-                "PatternDescription": "Deve essere definita una regola nel CUCM per instradare al SIP trunk Imagicle Call Recording tutte le chiamate che iniziano con questo prefisso. In base al pilot configurato sopra, questo è il pattern di lunghezza fissa che dovrà essere configurato:"
-
-            },
-            "DefaultOwner": {
-                "Title": "Azioni per registrazioni senza assegnatario",
-                "Intro": "Le registrazioni devono essere associate a un utente per poter essere mantenute. In automatico, quando il sistema non può assegnare una registrazione a nessun utente, questa viene scartata e non mantenuta.\n Utilizza questa sezione per configurare come gestire le registrazioni che non possono essere associate automaticamente.",
-                "Label": "Le registrazioni senza assegnatario:",
-                "Tooltip": "Selezionando questa opzione, tutte le registrazioni non sono assegnabili a nessun utente andranno perse.",
-                "Behaviors": {
-                    "Discard": "Saranno scartate",
-                    "Keep": "Saranno assegnate ad altro utente"
-                },
-                "Errors": {
-                    "UsersNotExisting": "Utente inesistente, selezionane un altro per non perdere registrazioni.",
-                    "UserMissingPrivileges": "L'utente non ha i privilegi di registrazione. Aggiorna i suoi permessi o selezionane un altro per non perdere registrazioni.",
-                    "UserNotSelected": "La sezione utente deve essere compilata.",
-                    "InvalidLicense": "Si è verificato un problema di licenza quindi non è possibile salvare. La pagina verrà ricaricata secondo i termini della licenza disponibile."
-                }
-            }
-        },
-        "Notifications": {
-            "EmailNotifications": {
-                "Intro": "Queste impostazioni sono relative a tutti gli utenti abilitati alla ricezione delle registrazioni via e-mail. Per abilitare un utente a ricevere registrazioni via e-mail andare in gestione utenti nella sezione admin",
-                "Label": "Nome mittente visualizzato:",
-                "AttachRecordingToEmail": "Massima dimensione dell'allegato:",
-                "ToLabel": "a:",
-                "MegaBytesLabel": "MB",
-                "AlertEmpty": "La dimensione massima del file deve essere specificata",
-                "AlertValue": "Il valore deve essere maggiore di 0",
-                "AttachToolTip": "Le registrazioni più grandi di questo limite saranno disponibili per il download solo dalla pagina web 'Le mie registrazioni' dell'Application Suite"
-            }
-        },
-        "AnnouncementsTab": "Annunci",
-        "Announcements": {
-            "Pilot": {
-                "Title": "Pilot",
-                "Description": "Se hai bisogno della funzionalità dell'annuncio di registrazione, configura qui sotto il pilot dedicato.",
-                "Label": "Pilot di annuncio (prefisso)",
-                "Tooltip": "Deve essere definita una rotta PBX, in accordo con questo prefisso, che redirige tutte le destinazioni che iniziano con tale numero verso il SIP trunk del recorder"
-            },
-            "Messages": {
-                "Title": "Messaggi",
-                "Description": "Configura i messaggi che verranno riprodotti quando la registrazione inizia. Possono essere configurati comportamenti diversi a seconda della direzione e del tipo di chiamata. I messaggi scelti saranno sentiti da tutti i partecipanti alla chiamata.",
-                "Labels": {
-                    "ExternalIncoming": "Chiamate esterne entranti",
-                    "ExternalOutgoing": "Chiamate esterne uscenti"
-                },
-                "Actions": {
-                    "NoMessage": "Nessun messaggio",
-                    "DefaultMessage": "Messaggio predefinito",
-                    "CustomMessage": "Messaggio personalizzato"
-                }
-            }
-        },
-        "SecureRecording": {
-            "Description": "Questa funzionalità è stata aggiornata! È diventata una funzionalità adatta a tutte le app che richiedono un certificato di comunicazione protetta.",
-            "Link": "Ora puoi trovarla nella sezione <a href=\"#\" ng-click=\"{{linkOnClick}}\">Certificato per comunicazioni sicure</a> dell'area Amministrazione."
-        },
-        "SaveSuccess": "Tutti i cambiamenti sono stati salvati",
-        "ButtonSave": "Salva",
-        "ButtonCancel": "Cancella",
-        "ButtonOk": "OK",
-        "ButtonChange": "Cambia"
-    },
-    "Reports": {
-        "PublicReports": {
-            "Label": "Report pubblici",
-            "ReportGroups": {
-                "TrafficAnalysis": {
-                    "Label": "Analisi del traffico",
-                    "RecordingList": {
-                        "Title": "Lista delle registrazioni",
-                        "Description": "Mostra le chiamate registrate"
-                    },
-                    "BusyChannels": {
-                        "Title": "Occupazione canali di registrazione",
-                        "Description": "Mostra la relazione tra i canali con licenza e registrazioni in un periodo di tempo"
-                    }
-                },
-                "VolumeAnalysis": {
-                    "Label": "Analisi di volume",
-                    "VolumeByUser": {
-                        "Title": "Volumi di registrazione per utente",
-                        "Description": "Mostra il volume delle chiamate registrate da ogni utente"
-                    },
-                    "VolumeByGroup": {
-                        "Title": "Volumi di registrazione per gruppo",
-                        "Description": "Mostra il volume delle chiamate registrate da ogni gruppo"
-                    },
-                    "VolumeByServerNode": {
-                        "Title": "Volumi di registrazione per nodo del server",
-                        "Description": "Mostra il volume delle chiamate registrate da ogni nodo del server"
-                    },
-                    "VolumeByTenant": {
-                        "Title": "Volumi di registrazione per tenant",
-                        "Description": "Mostra il volume delle chiamate registrate da ogni tenant"
-                    }
-                }
-            }
-        }
-    }
+    "ComingSoon.Title": "Coming soon",
+    "ComingSoon.Message": "Questa funzionalità sarà disponbile a breve!",
+    "ComingSoon.Close": "Chiudi",
+    "ToolBar.Refresh": "aggiorna",
+    "RecInfo.Filename": "Nome file:",
+    "RecInfo.Location": "Posizione:",
+    "RecInfo.Size": "Dimensione:",
+    "RecInfo.Calculating": "Calcolo in corso...",
+    "RecInfo.Hash": "File digest (SHA-256):",
+    "Settings.Title": "Storage (cifrato)",
+    "Settings.StorageLocation.Description": "Definire dove archiviare le registrazioni criptate disponibili per la ricezione tramite la maschera di ricerca ed il player del Call Recording. E' anche possibile selezionare il tipo di conservazione dei dati da un elenco di profili o impostando una configurazione personalizzata per evitare la saturazione dello spazio compatibilmente con le politiche del ciclo di vita delle registrazioni.",
+    "Settings.StorageLocation.Title": "Posizione archivio",
+    "Settings.StorageLocation.Local": "Locale",
+    "Settings.StorageLocation.External": "Esterna",
+    "Settings.ServiceUrl.Intro": "Questi sono gli URL da utilizzare quando si configura un IP Phone Service nell’amministrazione CUCM. Se il server ha più di un indirizzo IP, si prega di selezionarne uno raggiungibile dai telefoni IP.",
+    "Settings.ServiceUrl.StartDialInRecording.Title": "Tasto di registrazione (Dial-In)",
+    "Settings.ServiceUrl.StartDialInRecording.Description": "Utilizzare questo URL per configurare sul telefono IP un tasto (Service Button) che registra la conversazione in corso avviando una conferenza con il servizio di Call Recording. Utilizzare questo URL per i telefoni che non supportano Cisco Media Forking o altre tecnologie di registrazione.",
+    "Settings.ServiceUrl.StartMediaForkingRecording.Title": "Tasto di registrazione (Media Forking)",
+    "Settings.ServiceUrl.StartMediaForkingRecording.Description": "Utilizzare questo URL per configurare sul telefono IP un tasto (Service Button) che registra la conversazione in corso avviando la registrazione Media Forking oppure salvando la conversazione dal suo inizio (Live Keep). Utilizzare questo URL solo per telefoni abilitati alla registrazione Cisco Media Forking.",
+    "Settings.ServiceUrl.MediaForkingPhoneService.Title": "Call Recording IP Phone Service (Media Forking)",
+    "Settings.ServiceUrl.MediaForkingPhoneService.Description": "Utilizzare questo URL per definire l’IP Phone Service su telefoni abilitati alla registrazione Cisco Media Forking (selettiva o automatica). Questo IP Phone Service permette di monitorare e controllare le attività di registrazione chiamate, coerentemente con le impostazioni configurate nel pannello \"Controllo della registrazione\" sopra.",
+    "Settings.ServiceUrl.DialInPhoneService.Title": "Call Recording IP Phone Service (Dial-In)",
+    "Settings.ServiceUrl.DialInPhoneService.Description": "Utilizzare questo URL per definire l’IP Phone Service su telefoni che registrano in modalità Dial-In (conferenza). Questo IP Phone Service permette di monitorare e controllare le atività di registrazione chiamate, coerentemente con le impostazioni configurate nel pannello \"Controllo della registrazione\" sopra.",
+    "Settings.ServiceUrl.EnabledCommands.Title": "I comandi attualmente abilitati sono:",
+    "Settings.ServiceUrl.EnabledCommands.None": "NESSUNO",
+    "Settings.ServiceUrl.EnabledCommands.Start": "Start",
+    "Settings.ServiceUrl.EnabledCommands.Stop": "Stop",
+    "Settings.ServiceUrl.EnabledCommands.Pause": "Pausa",
+    "Settings.ServiceUrl.EnabledCommands.Resume": "Riprendi",
+    "Settings.DataRetention.Title": "Conservazione dei dati",
+    "Settings.DataRetention.ToolTip": "Definisci qui le impostazioni per la conservazione dei dati. Le registrazioni più vecchie verranno cancellate coerentemente con le impostazioni configurate, sia dallo storage che dal database.",
+    "Settings.DataRetention.Help": "Aiuto per la conservazione dei dati...",
+    "Settings.DataRetention.Profile": "Usa questo profilo di conservazione dei dati:",
+    "Settings.DataRetention.DeleteRecord": "Cancella le registrazioni più vecchie di:",
+    "Settings.DataRetention.PreserveEnabledLabel": "Abilita gli utenti a preservare le registrazioni:",
+    "Settings.DataRetention.PreserveProfile.FOREVER": "per sempre",
+    "Settings.DataRetention.PreserveProfile.FORADDITIONAL": "per altri",
+    "Settings.DataRetention.PreserveWarning.Title": "Preserva le registrazioni",
+    "Settings.DataRetention.PreserveWarning.Message": "Ci sono registrazioni nel sistema marcate come da conservare. Disabilitando questa funzionalità, tali registrazioni saranno automaticamente cancellate coerentemente con le impostazioni di conservazione. Sicuro di procedere?",
+    "Settings.DataRetention.Profiles.USERPRESERVED": "Cancella dopo 4 ore, tranne quelle preservate dagli utenti",
+    "Settings.DataRetention.Profiles.MONTHS12": "12 mesi (ideale per l'archivio locale)",
+    "Settings.DataRetention.Profiles.MONTHS48": "48 mesi (ideale per l'archivio locale)",
+    "Settings.DataRetention.Profiles.CUSTOM": "Personalizza",
+    "Settings.DataRetention.Profiles.NONE": "Mantieni tutte le registrazioni, nessuna cancellazione automatica",
+    "Settings.DataRetention.Periods.Y": "Anno(i)",
+    "Settings.DataRetention.Periods.M": "Mese(i)",
+    "Settings.DataRetention.Periods.D": "Giorno(i)",
+    "Settings.DataRetention.Periods.H": "Ora(e)",
+    "Settings.DataRetention.ProfilesHelp.0": "Le registrazioni non vengono mai cancellate",
+    "Settings.DataRetention.ProfilesHelp.1": "Questo profilo cancellerà le registrazioni dopo 12 mesi. Gli utenti possono selezionare delle specifiche registrazioni da conservare per sempre. Con 500GB di storage disponibile, si possono conservare registrazioni di 20 agenti fino a 12 mesi (20 giorni al mese di registrazione continua, 6 ore al giorno)",
+    "Settings.DataRetention.ProfilesHelp.2": "Questo profilo cancellerà le registrazioni dopo 48 mesi. Gli utenti possono selezionare delle specifiche registrazioni da conservare per sempre. Con 2TB di storage disponibile, si possono conservare registrazioni di 20 agenti fino a 48 mesi (20 giorni al mese di registrazione continua, 6 ore al giorno)",
+    "Settings.DataRetention.ProfilesHelp.3": "Gli utenti possono selezionare specifiche registrazioni da conservare per sempre. Tutte le altre registrazioni saranno cancellate dopo 4 ore",
+    "Settings.DataRetention.ProfilesHelp.4": "Specifica una impostazione diversa per la cancellazione automatica delle registrazioni",
+    "Settings.Certificate.Title": "Certificato",
+    "Settings.Certificate.UsedFor": "Certificato usato per la cifratura:",
+    "Settings.Certificate.NotInstalled": "non trovato",
+    "Settings.Certificate.Expired": "scaduto",
+    "Settings.Certificate.SelfSigned": "autogenerato",
+    "Settings.DataExport.PanelTitle": "Export registrazioni (non cifrato)",
+    "Settings.DataExport.Title": "Il servizio può AUTOMATICAMENTE esportare una copia delle registrazioni in una cartella di rete condivisa (accessibile in scrittura). Utilizza questa sezione per abilitare e configurare il servizio. Le registrazioni saranno salvate in formato MP3, non cifrate. Nella stessa cartella verrà creato un file di testo (CSV) contenente tutte le informazioni associate alle registrazioni, come indice. Le registrazioni così esportate NON saranno parte del ciclo di vita e della gestione con il Call Recording di Imagicle e non disponibili per la ricerca e il riascolto dalle interfacce web.",
+    "Settings.DataExport.DataExportEnabledLabel": "Esporta una copia delle registrazioni su uno storage esterno",
+    "Settings.DataExport.DestinationFolderLabel": "Cartella destinazione (percorso base):",
+    "Settings.DataExport.DestinationFolderHelp": "Specificare il percorso base UNC della cartella di rete condivisa dove le registrazioni saranno salvate.",
+    "Settings.DataExport.UserNameLabel": "Usa questo username",
+    "Settings.DataExport.PasswordLabel": "Usa questa password:",
+    "Settings.DataExport.TestAccess": "Test di accesso",
+    "Settings.DataExport.Warning": "Qualsiasi cambiamento a queste impostazioni si applicherà solamente alle nuove registrazioni.",
+    "Settings.DataExport.TestOk": "Test positivo: accesso funzionante!",
+    "Settings.DataExport.TestFail": "Test fallito:",
+    "Settings.DataExport.DataExportWarning": "Qualsiasi cambiamento a queste impostazioni si applicherà solamente alle nuove registrazioni.",
+    "Settings.SaveAlertDialog.WarningMessageIrreversibleChoice": "Se si conferma questa opzione, la cancellazione verrà disattivata in modo permanente. Nessuno sarà più in grado di modificare questa impostazione, neppure i profili di amministrazione. Sei sicuro di voler procedere?",
+    "Settings.SaveAlertDialog.Message": "Sicuro di salvare i cambiamenti?",
+    "Settings.SaveAlertDialog.WarningForReportData": "Scegliendo questa opzione stai abilitando la cancellazione delle registrazioni. I dati del Call Recorder non sono storicizzati e, una volta cance1llate, le registrazioni non saranno più considerate in alcuni report. Vuoi procedere?",
+    "Settings.SaveAlertDialog.Title": "Salva le impostazioni",
+    "Settings.SaveRetentionAlertDialog.Message": "Queste impostazioni di conservazione implicano la cancellazione automatica delle vecchie registrazioni, sicuro di procedere?",
+    "Settings.SaveRetentionAlertDialog.Title": "Salva le impostazioni",
+    "Settings.SaveErrorAlertDialog.Message": "Impossibile salvare le impostazioni, riprovare.",
+    "Settings.SaveErrorAlertDialog.Errors.Retention.InvalidCertificate": "Il certificato selezionato non è valido",
+    "Settings.SaveErrorAlertDialog.Title": "Errore nel salvataggio impostazioni",
+    "Settings.SettingsTab": "Impostazioni",
+    "Settings.TitlePermissions": "Permessi",
+    "Settings.DataManagementTab": "Gestione della conservazione dati",
+    "Settings.NotificationsTab": "Notifiche",
+    "Settings.TitleRecordingFilters": "Filtri di registrazione",
+    "Settings.TitleLiveRecordingSettings": "Controllo della registrazione",
+    "Settings.TitleAdvancedSettings": "Numeri pilot",
+    "Settings.TitleSecureRecording": "Registrazione sicura",
+    "Settings.TitleOpenServiceUrlPanel": "Service URL",
+    "Settings.TitleEmailNotificationsSettings": "Notifiche via Email",
+    "Settings.Permissions.Explain": "Le registrazioni possono essere cancellate da:",
+    "Settings.Permissions.NoBodyWarning": "La cancellazione manuale delle registrazioni è stato disattivata in modo permanente dall'amministratore. Si prega di contattare il servizio di supporto Imagicle se si desidera sbloccare questa opzione e riattivarla.",
+    "Settings.Permissions.Permission.PERMANENTLYNONE": "Nessuno (scelta irreversibile)",
+    "Settings.Permissions.Permission.NONE": "Nessuno",
+    "Settings.Permissions.Permission.SIMPLE": "Utenti semplici",
+    "Settings.Permissions.Permission.SUPERVISOR": "Supervisori di gruppo",
+    "Settings.Permissions.Permission.ADMINISTRATOR": "Amministratori",
+    "Settings.LiveRecording.Explain": "Affinché le modifiche abbiano effetto, gli utenti devono effettuare nuovamente l’accesso al Gadget Jabber",
+    "Settings.LiveRecording.EnableStartCommand": "Abilita comando Start",
+    "Settings.LiveRecording.EnableStopCommand": "Abilita comando Stop",
+    "Settings.LiveRecording.EnablePauseResumeCommands": "Abilita comandi Pausa/Riprendi",
+    "Settings.DownloadPermissions.Explain": "Le registrazioni possono essere scaricate da:",
+    "Settings.DownloadPermissions.Permission.SIMPLE": "Utenti semplici",
+    "Settings.DownloadPermissions.Permission.SUPERVISOR": "Supervisori di gruppo",
+    "Settings.DownloadPermissions.Permission.ADMINISTRATOR": "Amministratori",
+    "Settings.Filters.Explain": "Definire qui gli eventuali criteri per decidere quali chiamate devono essere registrate. Queste regole non si applicano alle registrazioni dial-in avviate manualmente dall’operatore (senza l’utilizzo della modalità controllata CTI).",
+    "Settings.Filters.CallDirectionLbl": "Direzione della chiamata",
+    "Settings.Filters.TrafficTypeLbl": "Tipo di traffico",
+    "Settings.Filters.Direction.BOTH": "Chiamate entranti e uscenti",
+    "Settings.Filters.Direction.INCOMING": "Solo chiamate entranti",
+    "Settings.Filters.Direction.OUTGOING": "Solo chiamate uscenti",
+    "Settings.Filters.TrafficType.BOTH": "Chiamate interne ed esterne (PSTN)",
+    "Settings.Filters.TrafficType.EXTERNAL": "Solo chiamate esterne (PSTN)",
+    "Settings.Filters.TrafficType.INTERNAL": "Solo chiamate interne",
+    "Settings.Filters.TrafficType.ToolTip": "I numeri interni sono definiti dalla lista utenti dell'ApplicationSuite e dal pattern numerico definito nella sezione 'Parametri del piano di numerazione' della Suite.",
+    "Settings.Filters.BlackListTitle": "Black list (party remoto)",
+    "Settings.Filters.BlackListSubTitle": "Non registrare chiamate quando il numero remoto corrisponde ad uno dei seguenti pattern:",
+    "Settings.Filters.BlackListSubExplain": "Una entry per ciascuna riga. Le seguenti wildcard possono essere usate: il carattere \"!\" per specificare qualsiasi sequenza di digit (i.e. \"9!\" per qualsiasi numero che comincia per \"9\"). Il carattere \"X\" per permettere qualsiasi digit singolo(i.e. \"90XX\" per qualsiasi numero di 4 cifre che comincia con \"90\"). Il carattere \".\" per permettere qualsiasi singolo digit, asterisco \"*\" o cancelletto \"#\" (i.e. \"90..\" per qualsiasi numero come \"9012\", \"90*#\", \"901*\"). E'possibile utilizzare \"+\" come prefisso (i.e \"+33XXX\" per qualsiasi numero a 6 cifre che comincia con +33). I numeri di telefono devono essere specificati nella forma canonica, cioè senza eventuali prefissi/suffissi richiesti per effettuare chiamate esterne.",
+    "Settings.PilotNumbers.RecordingPilot.Title": "Identificazione utente automatica",
+    "Settings.PilotNumbers.RecordingPilot.Intro": "Di default gli utenti sono automaticamente identificati dal loro numero chiamante. Nel caso di piano di numerazione sovrapposta, il numero specificato qui sotto è richiesto per identificare correttamente l'utente della registrazione.",
+    "Settings.PilotNumbers.RecordingPilot.Label": "Pilot di registrazione (prefisso):",
+    "Settings.PilotNumbers.RecordingPilot.Tooltip": "E' il prefisso del recording profile number da rimuovere dal numero chiamato per identificare l'utente chiamante",
+    "Settings.PilotNumbers.LiveKeepRecordingPilot.Label": "Pilot di registrazione Live Keep (prefisso):",
+    "Settings.PilotNumbers.LiveKeepRecordingPilot.Tooltip": "E' il prefisso del recording profile number usato dai telefoni che vogliono registrare nella modalità Live Keep.",
+    "Settings.PilotNumbers.DetectionStrategy.Label": "Strategia per identificazione utente:",
+    "Settings.PilotNumbers.DetectionStrategy.DefaultStrategy.Label": "Individua utente da Id Numerico Utente",
+    "Settings.PilotNumbers.DetectionStrategy.DefaultStrategy.Tooltip": "Ogni utente dovrebbe essere configurato sul CUCM con un recording profile number che include sia il pilot che il suo ID Numerico Utente: <Pilot di registrazione><ID Numerico Utente> (es. \"9500301\" per ID utente 301, \"9500302\" per ID utente 302)",
+    "Settings.PilotNumbers.DetectionStrategy.PrefixStrategy.Label": "Individua utente da Id Numerico Partizione",
+    "Settings.PilotNumbers.DetectionStrategy.PrefixStrategy.Tooltip": "Ogni utente dovrebbe essere configurato sul CUCM con un recording profile number che include sia il pilot che il suo ID Numerico Partizione: <Pilot di registrazione><ID Numerico Partizione> (es. \"950020\" per ID partizione 20, \"950030\" per ID partizione 30)",
+    "Settings.PilotNumbers.FreeSeatingPilot.Title": "Identificazione utente interattiva (free seating)",
+    "Settings.PilotNumbers.FreeSeatingPilot.Intro": "Questo è il prefisso del numero di telefono usato per identificare l'utente della registrazione basandosi sul proprio ID utente numerico, indipendentemente dal numero di chiamata. Di solito è innescato da uno script IVR di autenticazione.",
+    "Settings.PilotNumbers.FreeSeatingPilot.Label": "Pilot di free seating (prefisso):",
+    "Settings.PilotNumbers.FreeSeatingPilot.Tooltip": "Deve essere definita una rotta del PBX al recorder con questo prefisso, instradando tutte le destinazioni che iniziano con tale numero al SIP trunk del recorder",
+    "Settings.PilotNumbers.CtiPilot.Title": "Registrazione Automatizzata",
+    "Settings.PilotNumbers.CtiPilot.Intro": "Per poter utilizzare il meccanismo controllato CTI per automatizzare le conferenze dial-in, si prega di configurare qui il numero pilot dedicato. Il telefono IP dell’utente effettuerà automaticamente una chiamata a questo numero, seguito da ulteriori {{suffixLength}} cifre.",
+    "Settings.PilotNumbers.CtiPilot.Label": "Pilot per controllo CTI (prefisso)",
+    "Settings.PilotNumbers.CtiPilot.Tooltip": "Deve essere definita una regola nel CUCM per instradare al SIP trunk Imagicle Call Recording tutte le chiamate che iniziano con questo prefisso. Ad esempio, se il pilot è “9600”, andrà definito un route pattern “9600{{suffixMask}}” (di lunghezza fissa) che instradi le chiamate al SIP trunk di Call Recording",
+    "Settings.PilotNumbers.CtiPilot.PatternDescription": "Deve essere definita una regola nel CUCM per instradare al SIP trunk Imagicle Call Recording tutte le chiamate che iniziano con questo prefisso. In base al pilot configurato sopra, questo è il pattern di lunghezza fissa che dovrà essere configurato:",
+    "Settings.PilotNumbers.DefaultOwner.Title": "Azioni per registrazioni senza assegnatario",
+    "Settings.PilotNumbers.DefaultOwner.Intro": "Le registrazioni devono essere associate a un utente per poter essere mantenute. In automatico, quando il sistema non può assegnare una registrazione a nessun utente, questa viene scartata e non mantenuta.\n Utilizza questa sezione per configurare come gestire le registrazioni che non possono essere associate automaticamente.",
+    "Settings.PilotNumbers.DefaultOwner.Label": "Le registrazioni senza assegnatario:",
+    "Settings.PilotNumbers.DefaultOwner.Tooltip": "Selezionando questa opzione, tutte le registrazioni non sono assegnabili a nessun utente andranno perse.",
+    "Settings.PilotNumbers.DefaultOwner.Behaviors.Discard": "Saranno scartate",
+    "Settings.PilotNumbers.DefaultOwner.Behaviors.Keep": "Saranno assegnate ad altro utente",
+    "Settings.PilotNumbers.DefaultOwner.Errors.UsersNotExisting": "Utente inesistente, selezionane un altro per non perdere registrazioni.",
+    "Settings.PilotNumbers.DefaultOwner.Errors.UserMissingPrivileges": "L'utente non ha i privilegi di registrazione. Aggiorna i suoi permessi o selezionane un altro per non perdere registrazioni.",
+    "Settings.PilotNumbers.DefaultOwner.Errors.UserNotSelected": "La sezione utente deve essere compilata.",
+    "Settings.PilotNumbers.DefaultOwner.Errors.InvalidLicense": "Si è verificato un problema di licenza quindi non è possibile salvare. La pagina verrà ricaricata secondo i termini della licenza disponibile.",
+    "Settings.Notifications.EmailNotifications.Intro": "Queste impostazioni sono relative a tutti gli utenti abilitati alla ricezione delle registrazioni via e-mail. Per abilitare un utente a ricevere registrazioni via e-mail andare in gestione utenti nella sezione admin",
+    "Settings.Notifications.EmailNotifications.Label": "Nome mittente visualizzato:",
+    "Settings.Notifications.EmailNotifications.AttachRecordingToEmail": "Massima dimensione dell'allegato:",
+    "Settings.Notifications.EmailNotifications.ToLabel": "a:",
+    "Settings.Notifications.EmailNotifications.MegaBytesLabel": "MB",
+    "Settings.Notifications.EmailNotifications.AlertEmpty": "La dimensione massima del file deve essere specificata",
+    "Settings.Notifications.EmailNotifications.AlertValue": "Il valore deve essere maggiore di 0",
+    "Settings.Notifications.EmailNotifications.AttachToolTip": "Le registrazioni più grandi di questo limite saranno disponibili per il download solo dalla pagina web 'Le mie registrazioni' dell'Application Suite",
+    "Settings.AnnouncementsTab": "Annunci",
+    "Settings.Announcements.Pilot.Title": "Pilot",
+    "Settings.Announcements.Pilot.Description": "Se hai bisogno della funzionalità dell'annuncio di registrazione, configura qui sotto il pilot dedicato.",
+    "Settings.Announcements.Pilot.Label": "Pilot di annuncio (prefisso)",
+    "Settings.Announcements.Pilot.Tooltip": "Deve essere definita una rotta PBX, in accordo con questo prefisso, che redirige tutte le destinazioni che iniziano con tale numero verso il SIP trunk del recorder",
+    "Settings.Announcements.Messages.Title": "Messaggi",
+    "Settings.Announcements.Messages.Description": "Configura i messaggi che verranno riprodotti quando la registrazione inizia. Possono essere configurati comportamenti diversi a seconda della direzione e del tipo di chiamata. I messaggi scelti saranno sentiti da tutti i partecipanti alla chiamata.",
+    "Settings.Announcements.Messages.Labels.ExternalIncoming": "Chiamate esterne entranti",
+    "Settings.Announcements.Messages.Labels.ExternalOutgoing": "Chiamate esterne uscenti",
+    "Settings.Announcements.Messages.Actions.NoMessage": "Nessun messaggio",
+    "Settings.Announcements.Messages.Actions.DefaultMessage": "Messaggio predefinito",
+    "Settings.Announcements.Messages.Actions.CustomMessage": "Messaggio personalizzato",
+    "Settings.SecureRecording.Description": "Questa funzionalità è stata aggiornata! È diventata una funzionalità adatta a tutte le app che richiedono un certificato di comunicazione protetta.",
+    "Settings.SecureRecording.Link": "Ora puoi trovarla nella sezione <a href=\"#\" ng-click=\"{{linkOnClick}}\">Certificato per comunicazioni sicure</a> dell'area Amministrazione.",
+    "Settings.SaveSuccess": "Tutti i cambiamenti sono stati salvati",
+    "Settings.ButtonSave": "Salva",
+    "Settings.ButtonCancel": "Cancella",
+    "Settings.ButtonOk": "OK",
+    "Settings.ButtonChange": "Cambia",
+    "Reports.PublicReports.Label": "Report pubblici",
+    "Reports.PublicReports.ReportGroups.TrafficAnalysis.Label": "Analisi del traffico",
+    "Reports.PublicReports.ReportGroups.TrafficAnalysis.RecordingList.Title": "Lista delle registrazioni",
+    "Reports.PublicReports.ReportGroups.TrafficAnalysis.RecordingList.Description": "Mostra le chiamate registrate",
+    "Reports.PublicReports.ReportGroups.TrafficAnalysis.BusyChannels.Title": "Occupazione canali di registrazione",
+    "Reports.PublicReports.ReportGroups.TrafficAnalysis.BusyChannels.Description": "Mostra la relazione tra i canali con licenza e registrazioni in un periodo di tempo",
+    "Reports.PublicReports.ReportGroups.VolumeAnalysis.Label": "Analisi di volume",
+    "Reports.PublicReports.ReportGroups.VolumeAnalysis.VolumeByUser.Title": "Volumi di registrazione per utente",
+    "Reports.PublicReports.ReportGroups.VolumeAnalysis.VolumeByUser.Description": "Mostra il volume delle chiamate registrate da ogni utente",
+    "Reports.PublicReports.ReportGroups.VolumeAnalysis.VolumeByGroup.Title": "Volumi di registrazione per gruppo",
+    "Reports.PublicReports.ReportGroups.VolumeAnalysis.VolumeByGroup.Description": "Mostra il volume delle chiamate registrate da ogni gruppo",
+    "Reports.PublicReports.ReportGroups.VolumeAnalysis.VolumeByServerNode.Title": "Volumi di registrazione per nodo del server",
+    "Reports.PublicReports.ReportGroups.VolumeAnalysis.VolumeByServerNode.Description": "Mostra il volume delle chiamate registrate da ogni nodo del server",
+    "Reports.PublicReports.ReportGroups.VolumeAnalysis.VolumeByTenant.Title": "Volumi di registrazione per tenant",
+    "Reports.PublicReports.ReportGroups.VolumeAnalysis.VolumeByTenant.Description": "Mostra il volume delle chiamate registrate da ogni tenant"
 }
