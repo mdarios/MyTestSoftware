@@ -1,0 +1,498 @@
+﻿{
+    "LandingPage": {
+        "Title": "Scegli il tuo prodotto di IVR",
+        "Ivr4qme": {
+            "Description": "Una soluzione di Auto Attendant facile e flessibile per definire menu vocali multi-livello, basato sul protocollo SIP ed è disponibile come modulo opzionale di Queue Manager Enterprise.",
+            "Title": "IVR module per Queue Manager Enterprise"
+        },
+        "IvrManagerEnterprise": {
+            "Description": "Una semplice soluzione di Auto Attendnat con gestione centralizzata di azioni di base, in esecuzione su Cisco Voice Gateway come script TCL.",
+            "Title": "IVR Manager Enterprise"
+        },
+        "LearnMore": "Leggi di più sul sito web"
+    },
+    "LicenseWarning": {
+        "TitleIvrLicenseInvalid": "La licenza di IVR module è invalida o scaduta",
+        "MessageIvrLicenseInvalid": "Sono necessarie entrambe le licenze di Queue Manager Enterprise e modulo IVR. Attenzione: nessun trattamento IVR verrà applicato alle chiamate entranti.",
+        "TitleQmeLicenseInvalid": "La licenza di Queue Manager Enterprise è invalida o scaduta",
+        "MessageQmeLicenseInvalid": "È necessaria una licenza Queue Manager Enterprise in abbinamento al modulo IVR per gestire le chiamate in arrivo. È comunque possibile configurare i servizi esistenti e anche crearne di nuovi, ma il sistema non applicherà alcun servizio IVR per le chiamate in arrivo."
+    },
+    "Pager": {
+        "Displayed": "mostrati",
+        "First": "Primo",
+        "Last": "Ultimo",
+        "Next": "Prossimo",
+        "Previous": "Precedente",
+        "Total": "in totale"
+    },
+    "Refresh": "Aggiorna",
+    "Tabs": {
+        "Heading": {
+            "Settings": "Impostazioni IVR",
+            "Behaviours": "Comportamenti",
+            "TimeTable": "Tabella oraria",
+            "Permissions": "Permessi"
+        }
+    },
+    "Services": {
+        "Actions": {
+            "AddNew": "Aggiungi un nuovo servizio IVR",
+            "Refresh": "Aggiorna",
+            "Edit": "Modifica",
+            "Remove": "Rimuovi"
+        },
+        "Remove": {
+            "Title": "Conferma la cancellazione",
+            "Message": "Cancella il servizio IVR '{{name}}'?"
+        },
+        "Header": {
+            "Name": "Nome",
+            "PhoneNumber": "Numero telefonico"
+        },
+        "Error": {
+            "UnableToDeleteService": "Impossibile eliminare questo servizio, si prega di riprovare"
+        },
+        "NoServicesToDisplay": "Nessun servizio IVR da visualizzare"
+    },
+    "Ivr4qme": {
+        "SaveResult": {
+            "Success": "Tutti i cambiamenti sono stati salvati",
+            "Failed": "Cambiamenti non ancora salvati",
+            "BehaviourCreated": "Il comportamento è stato creato"
+        },
+        "Error": {
+            "UnexpectedResponse": "Impossibile completare l'operazione. Assicurarsi che Queue Manager Enterprise sia in esecuzione."
+        }
+    },
+    "Service": {
+        "Choose": {
+            "Title": "Aggiungi un nuovo servizio IVR",
+            "Description": "Crea un nuovo servizio IVR"
+        },
+        "Add": {
+            "Title": {
+                "Empty": "Crea un servizio IVR da wizard",
+                "Menu": "Crea un servizio IVR da un template di menu",
+                "Echo": "Crea un servizio IVR echo"
+            }
+        },
+        "Type": {
+            "Empty": {
+                "Name": "Da wizard",
+                "Description": "Con il semplicissimo wizard in 3 passi. Verrà creato un comportamento predefinito di chiusura dell'azienda."
+            },
+            "Menu": {
+                "Name": "Da un template di menu",
+                "Description": "Un menu a 2 livelli, con le diverse azioni possibili, come riprodurre i messaggi, trasferire chiamate, ripetere il menu."
+            },
+            "Echo": {
+                "Name": "Servizio echo",
+                "Description": "Servizio diagnostico per testare la rilevazione di DTMF."
+            }
+        },
+        "Settings": {
+            "Basic": "Impostazioni di base",
+            "Common": "Impostazioni comuni",
+            "CommonMenu": "Impostazioni comuni di menu"
+        },
+        "Title": "Servizio IVR \"{{name}}\" ({{number}})",
+        "Name": "Nome del servizio",
+        "PhoneNumber": "Numero telefonico",
+        "MenuSelectionTimeout": "Timeout di selezione",
+        "TimeInSeconds": "secondi",
+        "Tooltip": {
+            "NameHelp": "Inserire qui il nome per questo servizio IVR. Questo nome deve essere univoco.",
+            "PhoneNumberHelp": "Inserire qui il numero di telefono utilizzato per attivare questo servizio IVR. Il numero deve essere raggiungibile dal PBX e deve essere univoco (utilizzato solo da questo servizio).",
+            "OverflowHelp": "Configurare il trattamento di chiamata da applicare quando i canali licenziati sono esauriti"
+        },
+        "OverflowMessage": "Su overflow di canali, suona",
+        "AndThen": "e poi",
+        "Error": {
+            "VoiceServiceType": {
+                "IVRService": "IVR",
+                "QMEQueue": "coda di Queue Manager Enterprise",
+                "GlobalLoginLogout": "Queue Manager Enterprise, login/logout globale"
+            },
+            "CreateTitle": "Errore nella creazione dell'IVR",
+            "UpdateTitle": "Errore nell'aggiornamento dell'IVR",
+            "UnableToCreateService": "Impossibile creare il servizio IVR, riprovare",
+            "UnableToUpdateService": "Impossibile aggiornare il servizio IVR, riprovare",
+            "DuplicateServiceName": "Questo nome è già utilizzato",
+            "DuplicateServicePhoneNumber": "Questo numero è già usato da {{voiceServiceType}} {{voiceServiceName}}",
+            "InvalidPhoneNumber": "Non è un numero telefonico valido",
+            "UnableToGetService": "Impossibile reperire le impostazioni del servizio IVR",
+            "UnableToGetIvrServiceTemplate": "Impossibile reperire il template del servizio IVR",
+            "RequiredMenuSectionTimeout": "Il timeout di selezione è obbligatorio",
+            "InvalidMenuSectionTimeout": "Non è un numero telefonico valido",
+            "MenuSectionTimeoutNotZero": "Timeout di selezione deve essere maggiore di 0 ",
+            "MenuSectionTimeoutTooLarge": "Timeout di selezione troppo grande. Si prega di inserire un numero compreso tra 1 e {{maxMenuSelectionTimeout}}"
+        }
+    },
+    "Behaviours": {
+        "Header": {
+            "Name": "Nome",
+            "Description": "Descrizione",
+            "Type": "Tipo",
+            "Tooltip": "Per definire il servizio IVR, è possibile configurare il numero di comportamenti di cui hai bisogno, anche combinandoli insieme."
+        },
+        "Actions": {
+            "AddNew": "Aggiungi un nuovo comportamento",
+            "Refresh": "Aggiorna",
+            "Edit": "Modifica",
+            "Remove": "Elimina"
+        },
+        "Remove": {
+            "Title": "Conferma eliminazione",
+            "Message": "Eliminare il comportamento '{{name}}'?"
+        },
+        "Error": {
+            "UnableToDeleteBehaviour": "Impossibile eliminare questo comportamento, riprovare",
+            "UnableToDeleteBehaviourInUse": "Questo comportamento non può essere eliminato perché risulta programmato per questo servizio IVR",
+            "UnableToDeleteReferredBehaviour": "Questo comportamento non può essere eliminato perché è referenziato dal comportamento '{{referrerBehaviour}}'",
+            "UnableToGetBehaviors": "Impossibile recuperare informazioni sul comportamento"
+        },
+        "NoBehavioursToDisplay": "Nessun comportamento da visualizzare",
+        "Main": "Comportamento principale",
+        "Edit": "Comportamenti"
+    },
+    "Behaviour": {
+        "Add": {
+            "Title": "Aggiungi un nuovo comportamento: {{behaviourType}}",
+            "Behaviour": "Comportamento",
+            "TypeChoice": "Scegli quale comportamento sarà eseguito"
+        },
+        "Edit": {
+            "Title": "Modifica il comportamento '{{behaviourName}}'"
+        },
+        "Type": {
+            "PlayMessage": {
+                "Name": "Riproduci il messaggio",
+                "Description": "Riproduci il messaggio e aggancia"
+            },
+            "Transfer": {
+                "Name": "Trasferisci a",
+                "Description": "Trasferisci la chiamata ad una destinazione specifica"
+            },
+            "Menu": {
+                "Name": "Menu",
+                "Description": "Per definire menu multi-livello con scelte (Premere 1 per, 2 per, ...)"
+            },
+            "DialInAndTransfer": {
+                "Name": "Digita un interno",
+                "Description": "Fa digitare al chiamante l'estensione alla quale vuole essere connesso"
+            }
+        },
+        "Name": "Nome",
+        "Description": "Descrizione",
+        "IntroMessage": "Messaggio introduttivo",
+        "PlayMessage": "Riproduci il messaggio",
+        "Transfer": {
+            "TransferTo": "Trasferisci a",
+            "PreTransferMessage": "Messaggio prima del trasferimento",
+            "OnTransferFailure": "Su fallimento della trasferta",
+            "OnTransferFailureMessage": "Suona il messaggio",
+            "FailureBehaviour": "e poi",
+            "FailureMessage": "In caso di fallimento, riproduci",
+            "Retry": "Riprova il trasferimento",
+            "Tooltip": {
+                "TransferTo": "Specificare il numero a cui trasferire la chiamata. Può essere un numero di interno diretto o il numero di una coda",
+                "Retry": "Seleziona per tentare trasferimenti di chiamata aggiuntivi in caso di fallimento (numero di destinazione è occupato, non raggiungibile o non risponde). È possibile specificare il numero di tentativi di trasferimento di chiamata e messaggi relativi. Il timeout di non risposta non può essere specificato qui (Timeout di risposta del PBX)"
+            }
+        },
+        "Menu": {
+            "MenuMessage": "Messaggio del menu",
+            "noSelectionBehaviour": "Nessuna selezione",
+            "wrongSelectionBehaviour": "Errata selezione",
+            "add": "<- aggiungi un nuovo elemento",
+            "InvalidTimeoutOptions": "Opzioni di timeout e di selezione non valida",
+            "Errors": {
+                "RequiredNoSelection": "L'azione su nessuna selezione effettuata è obbligatoria",
+                "RequiredWrongSelection": "L'azione su selezione invalida è obbligatoria",
+                "ActionNotConfigured": "Azione non configurata",
+                "BehaviourNotConfigured": "Il comportamento è obbligatorio"
+            },
+            "Repeat": "Ripeti il Menu"
+        },
+        "Repeat": {
+            "Message": "Messaggio",
+            "MaxRepetitions": "Ripetizioni",
+            "Unlimited": "Illimitato",
+            "Indefinitely": "Indefinitamente",
+            "Limited": "Fino a",
+            "Description": "Fino a {{times}} volte"
+        },
+        "DialInAndTransfer": {
+            "CollectionTitle": "Opzioni di raccolta cifre",
+            "PreCollectionMessage": "Messaggio precedente la raccolta",
+            "CollectAtLeast": "Raccogli un minimo di",
+            "UpTo": "fino a ",
+            "Digits": "cifre",
+            "TerminateOnPound": "Termina la raccolta con #",
+            "CollectionTimeout": "Attendi cifre per un massimo di ",
+            "RetryCollection": "Riprova raccolta",
+            "CollectionFailureMessage": "In caso di fallimento della raccolta, riproduci",
+            "TransferTitle": "Opzioni di trasferimento",
+            "PreTransferMessage": "Messaggio da riprodurre prima del trasferimento",
+            "TransferPrefix": "Prefisso trasferimento (opzionale)",
+            "Tooltip": {
+                "PhoneNumberPrefix": "Scegli il prefisso da usare per il trasferimento delle chiamate verso le destinazioni (utile per il camp on alle destinazioni)"
+            }
+        },
+        "Seconds": "secondi",
+        "Times": "volte",
+        "Retry": {
+            "MaxRetries": "per altre",
+            "Message": "prima di ogni tentativo, riproduci"
+        },
+        "AndThen": "e poi",
+        "Hangup": "Aggancia",
+        "Execute": "Esegui",
+        "Select": "(seleziona un comportamento)",
+        "ActionSelect": "(seleziona un'azione)",
+        "Actions": {
+            "ExecuteBehaviour": "Esegui un comportamento",
+            "PlayMessage": "Riproduci un messaggio",
+            "TransferTo": "Trasferisci a",
+            "Submenu": "Sotto-menu",
+            "BackToParent": "Indietro al menu precedente",
+            "BackToRoot": "Indietro al menu principale",
+            "RepeatMenu": "Ripeti il menu",
+            "DialInAndTransfer": "Digita un interno"
+        },
+        "Error": {
+            "CreateTitle": "Errore nella creazione del comportamento",
+            "UpdateTitle": "Errore nell'aggiornamento del comportamento",
+            "DuplicationBehaviourName": "Questo nome è già utilizzato in questo servizio IVR",
+            "UnableToCreateBehaviour": "Impossibile creare questo comportamento, riprova",
+            "UnableToUpdateBehaviour": "Impossibile aggiornare questo comportamento, riprova",
+            "UnableToGetBehavior": "Impossibile recuperare le informazioni del comportamento",
+            "UnableToGetBehaviors": "Impossibile recuperare la lista dei comportamenti",
+            "UnableToGetDefaultBehavior": "Impossibile recuperare le informazioni del comportamento principale",
+            "RequiredMaxRepetitions": "Il numero massimo di ripetizioni è obbligatorio",
+            "MaxRepetitionsNotZero": "Il numero massimo di ripetizioni deve essere maggiore di 0",
+            "MaxRepetitionsTooBig": "Il numero massimo di ripetizioni numero troppo grande",
+            "RequiredMaxRetries": "Il numero massimo di tentativi è obbligatorio",
+            "MaxRetriesNotZero": "Il numero massimo di tentativi deve essere maggiore di 0",
+            "MaxRetriesTooBig": "Il numero massimo di ripetizioni è troppo grande. Inserire un numero tra 1 e {{maxRetries}}",
+            "RequiredMinMaxCollectDigits": "E' richiesto un numero minimo e massimo di cifre da inserire",
+            "RequiredMinCollectDigits": "E' richiesto un numero minimo di cifre da inserire",
+            "RequiredMaxCollectDigits": "E' richiesto un numero massimo di cifre da inserire",
+            "MinCollectDigitsNotZero": "Il numero minimo di cifre da inserire deve essere maggiore di 0",
+            "MaxDigitsGreaterThanEqualToMinDigits": "Il numero massimo di cifre da inserire deve essere maggiore o uguale al numero minimo",
+            "RequiredCollectionTimeout": "Il tempo massimo di attesa per digitare le cifre è obbligatorio.",
+            "CollectionTimeoutNotZero": "Il tempo massimo di attesa per digitare le cifre deve essere maggiore di 0 secondi",
+            "CollectionTimeoutTooLarge": "Il tempo massimo di attesa per digitare le cifre è troppo grande. Inserire un numero tra 1 e {{maxCollectionTimeoutValue}}"
+        },
+        "Tooltip": {
+            "InvalidTimeoutOptionsHelp": "Queste azioni si applicano a tutto il menu in caso di timeout o selezioni non valide"
+        },
+        "NoMessage": "Nessun messaggio",
+        "NoNumber": "Nessun numero",
+        "NoName": "Nessun nome",
+        "NoBehaviour": "Nessun comportamento",
+        "ExecuteInfo": "Esegui il comportamento",
+        "UnselectedAction": "Nessuna azione selezionata"
+    },
+    "ManageService": {
+        "Title": "Gestisci il servizio",
+        "Message": "IVR è un modulo di Queue Manager Enterprise (QME) che condivide i canali disponibili.\n Per gestire il servizio, si prega di fare riferimento alla pagina QME",
+        "ManageServiceLink": "Gestisci il servizio"
+    },
+    "ScheduleChooser": {
+        "Title": "Scegli il tipo di pianificazione per \"{{behaviourName}}\"",
+        "Description": "Come vorresti fare la pianificazione?",
+        "Type": {
+            "WeeklySchedule": {
+                "Name": "Pianificazione settimanale",
+                "Description": "Pianificare questo comportamento come un normale comportamento settimanale"
+            },
+            "HolidayOrSpecialEvent": {
+                "Name": "Festività ed eventi speciali",
+                "Description": "Pianificare questo comportamento come una festività o un evento speciale con una ricorrenza opzionale"
+            },
+            "Always": {
+                "Name": "Sempre",
+                "Description": "Usa sempre questo comportamento (24x7)"
+            }
+        }
+    },
+    "TimeTable": {
+        "TimeZone": {
+            "Description": "Selezionare il fuso orario da utilizzare per questo servizio. L’ora legale del fuso orario selezionato verrà applicata automaticamente. Si tenga presente che se verrà cambiato il fuso orario, le pianificazioni esistenti (settimanale, festività ed eventi speciali) saranno applicate conseguentemente.",
+            "Label": "Fuso orario:",
+            "DefaultValue": "usa il fuso orario del server",
+            "ReadOnlyDefaultInfo": "Fuso orario del server ({{timeZone}})",
+            "Info": "Gli orari sono riferiti al fuso orario {{timeZone}}"
+        },
+        "DefaultBehaviour": {
+            "Label": "Al di fuori di una programmazione definita, esegui il seguente comportamento:",
+            "NoBehaviourConfigured": "Nessun comportamento è ancora stato configurato. Per favore, aggiungere un nuovo comportamento per definire il trattamento delle chiamate per questo servizio IVR.",
+            "Error": {
+                "UnableToSetDefaultBehaviour": "Impossibile impostare il comportamento principale"
+            }
+        },
+        "WeeklySchedule": {
+            "Title": "Pianificazione settimanale ordinaria",
+            "Description": "Configurare qui gli orari ordinari di apertura settimanale ed i comportamenti del servizio IVR. Questa pianificazione potrebbe essere sovrascritta da una festività o da eventi speciali definiti sotto nella sezione dedicata.",
+            "Actions": {
+                "Add": "Pianifica un comportamento",
+                "Edit": "Modifica",
+                "Delete": "Elimina"
+            },
+            "Remove": {
+                "Title": "Conferma eliminazione",
+                "Message": "Eliminare l'intera pianificazione?"
+            },
+            "AddTitle": "Aggiungere un nuovo comportamento pianificato",
+            "ScheduleBehaviourTitle": "Pianfica il comportamento '{{name}}'",
+            "EditTitle": "Modifica il comportamento pianificato"
+        },
+        "SpecialEventsSchedule": {
+            "Title": "Festività ed eventi speciali",
+            "Description": "Pianifica qui il comportamento per le festività o gli eventi speciali. Questi comportamenti sostituiscono la programmazione settimanale ordinaria definita sopra.",
+            "Table": {
+                "Name": "Nome",
+                "Start": "Avvia",
+                "End": "Fine",
+                "Repeat": "Ripeti",
+                "Behaviour": "Comportamento"
+            },
+            "Actions": {
+                "Add": "Aggiungi",
+                "Edit": "Modifica",
+                "Refresh": "Aggiorna",
+                "Delete": "Elimina"
+            },
+            "AddTitle": "Aggiungi festività o eventi speciali",
+            "ScheduleBehaviourTitle": "Aggiungi festività o eventi speciali '{{name}}'",
+            "EditTitle": "Modifica le festività o gli eventi speciali",
+            "Remove": {
+                "Title": "Conferma eliminazione",
+                "MessageWithName": "Eliminare la pianificazione comportamento '{{name}}'?",
+                "MessageWithoutName": "Eliminare la pianificazione del comportamento selezionato?"
+            },
+            "Repeat": {
+                "Never": "Mai",
+                "Yearly": "Ogni anno"
+            },
+            "NoSpecialEventScheduled": "Nessuna festività o evento speciale da visualizzare"
+        },
+        "TestScheduledBehaviour": {
+            "Title": "Verifica comportamento programmato",
+            "Description": "Utilizzare questo test per verificare quale è il comportamento previsto per questo IVR alla data/ora specificata.",
+            "TimeZoneInfo": "Il fuso orario corrente ({{timeZoneName}}) è applicato",
+            "DateToTest": "Data e ora da verificare",
+            "TestResultTitle": "Comportamento eseguito",
+            "WeeklySchedule": "(programmazione settimanale)",
+            "HolidayAndSpecialEvent": "(festività ed eventi speciali)",
+            "HolidayAndSpecialEventWithName": "(festività ed evento speciale \"{{eventName}}\")",
+            "DefaultBehaviour": "(fuori da qualsiasi pianificazione)",
+            "NoBehaviour": "Questo servizio IVR non ha nessun comportamento"
+        },
+        "ScheduledBehaviour": "Comportamento",
+        "Name": "Nome",
+        "From": "Da",
+        "To": "A",
+        "StartTime": "Dalle ore",
+        "EndTime": "alle ore",
+        "Show24Hours": "Mostra 24 ore",
+        "ShowBusinessHours": "Mostra orario lavorativo",
+        "ApplyOnDays": "Applicare nei giorni",
+        "EventName": "Nome evento",
+        "Recurrence": "Ripeti",
+        "CheckAtCurrentTime": "Effettuare un controllo all'ora corrente",
+        "Error": {
+            "AtLeastOneDay": "Selezionare almeno un giorno",
+            "DateTimeNotValid": "Data non valida",
+            "DateTimeRequired": "Data e ora richieste",
+            "TimeNotValid": "Orario non valida",
+            "TimeRequired": "Orario richiesto",
+            "Overlap": "La programmazione di questo comportamento si sovrappone con una pianificazione settimanale esistente",
+            "OverlapSpecial": "La pianificazione di questo comportamento si sovrappone con un evento speciale esistente",
+            "UnableToCreateGeneric": "Impossibile pianificare il comportamento, per favore riprovare",
+            "UnableToDelete": "Impossibile cancellare la programmazione del comportamento, per favore riprovare",
+            "UnableToGetScheduledBehaviors": "Impossibile recuperare la tabella oraria della pianificazione del comportamento",
+            "UnableToUpdateGeneric": "Impossibile aggiornare la pianificazione del comportamento, per favore riprovare",
+            "WrongTiming": "L'orario di fine deve essere successivo a quello di inizio",
+            "UnableToGetScheduledBehaviorAt": "Impossibile recuperare l'attuale comportamento eseguito"
+        }
+    },
+    "Permissions": {
+        "Actions": {
+            "AddNew": "Aggiungi nuovo manager",
+            "Refresh": "Aggiorna",
+            "Remove": "Rimuovi"
+        },
+        "Header": {
+            "Name": "Nome",
+            "Username": "Nome utente",
+            "Extension": "Interno"
+        },
+        "Error": {
+            "UnableToGetUsers": "Non è stato possibile caricare la lista degli utenti",
+            "UnableToDeleteUser": "Non è stato possibile rimuovere il manager, si prega di riprovare",
+            "AddManagerFailed": "* Si è verificato un errore durante l'aggiunta del manager."
+        },
+        "Remove": {
+            "Title": "Confermare la rimozione",
+            "Message": "Rimuovere il manager '{{name}}'?"
+        },
+        "AddManager": {
+            "Title": "Aggiungi nuovi manager",
+            "Description": "Utilizza questa sezione per aggiungere manager al servizio IVR",
+            "SearchLabel": "Cerca utenti",
+            "SearchButton": "Cerca",
+            "SearchPlaceHolder": "Cerca utenti...",
+            "SearchTooltip": "Digitare uno username, interno o dipartimento per cercare gli utenti.",
+            "Grid": {
+                "Header": {
+                    "Username": "Nome utente",
+                    "Name": "Nome",
+                    "Surname": "Cognome",
+                    "Extension": "Interno",
+                    "Department": "Dipartimento"
+                }
+            }
+        },
+        "NoUsersToDisplay": "Nessun manager associato"
+    },
+    "Errors": {
+        "RequiredName": "Il nome è obbligatorio",
+        "NameTooLong": "Il nome non può contenere più di {{maxCharacters}} caratteri",
+        "RequiredPhoneNumber": "Il numero telefonico è obbligatorio",
+        "InvalidPhoneNumber": "Non è un numero telefonico valido",
+        "PhoneNumberTooLong": "Il numero telefonico non può contenere più di {{maxDigits}} cifre",
+        "InvalidNumber": "Non è un numero valido",
+        "AudioMessageRequired": "Questo messaggio audio è obbligatorio",
+        "UnsupportedFileAudio": "Questo non è un file audio valido",
+        "UnableToUploadFile": "Impossibile caricare il file audio",
+        "UnableToUploadFileDetails": "Formato del file audio non supportato.\nUtilizzare uno tra i seguenti formati:\n",
+        "SupportedAudioFormat": {
+            "WAV": "WAV",
+            "WMA": "WMA",
+            "MP3": "MP3",
+            "M4A": "M4A",
+            "GSM": "GSM",
+            "AMR": "AMR",
+            "3GPP": "3GPP"
+        },
+        "UnableToUpdateAudioMessageMetadata": "Impossibile caricare informazioni per questo messaggio"
+    },
+    "Reports": {
+        "Home": {
+            "PublicReports": "Report pubblici",
+            "IVRAnalisys": "Analisi IVR",
+            "Rpt_Detail": "Analisi dettaglio chiamate",
+            "Rpt_Detail_explain": "Mostra dettagli chiamata",
+            "Rpt_CallVolume": "Volume di chiamate per Servizio",
+            "Rpt_CallVolume_explain": "Mostra il numero di chiamate e la durata dell'attesa per servizio e per esito",
+            "Rpt_CallVolumeByBehav": "Volume di chiamate per Servizio e Comportamento",
+            "Rpt_CallVolumePerBehaviour_explain": "Mostra il numero di chiamate e la durata dell'attesa per servizio, per comportamento e per esito",
+            "Rpt_BusyChannels": "Analisi Canali Occupati",
+            "Rpt_BusyChannels_explain": "Show busy channels statistics including average and max channel occupation over the day",
+            "Rpt_TimePeriodAnalysis": "Andamento",
+            "Rpt_TimePeriodAnalysis_explain": "Mostra il numero di chiamate per esito e l'andamento temporale"
+        },
+        "Refresh": "Aggiorna"
+    } 
+}

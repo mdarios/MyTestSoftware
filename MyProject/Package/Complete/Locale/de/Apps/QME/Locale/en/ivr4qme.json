@@ -1,0 +1,498 @@
+﻿{
+    "LandingPage": {
+        "Title": "Bitte wählen Sie Ihr IVR-Produkt",
+        "Ivr4qme": {
+            "Description": "Einfache und flexible Auto Attendant-Lösung zur Konfiguration eines mehrstufigen Voice-Menüs, SIP-basiert und erhältlich mit dem optionalen Modul Queue Manager Enterprise.",
+            "Title": "IVR-Modul für Queue Manager Enterprise"
+        },
+        "IvrManagerEnterprise": {
+            "Description": "Einfache Auto Attendant-Lösung mit zentraler Verwaltung von Basisfunktionen für den Betrieb über Cisco Voice Gateways als TCL-Scripts.",
+            "Title": "IVR Manager Enterprise"
+        },
+        "LearnMore": "Weitere Infos auf der Website"
+    },
+    "LicenseWarning": {
+        "TitleIvrLicenseInvalid": "Die Lizenz des IVR-Moduls ist ungültig oder abgelaufen",
+        "MessageIvrLicenseInvalid": "Es wird sowohl eine Lizenz für Queue Manager Enterprise als auch für das IVR-Modul benötigt. Bitte beachten Sie, dass für eingehende Anrufe keine IVR-Funktion verfügbar ist.",
+        "TitleQmeLicenseInvalid": "Die Lizenz für Queue Manager Enterprise ist ungültig oder abgelaufen",
+        "MessageQmeLicenseInvalid": "Für die Verwaltung eingehender Anrufe über das IVR-Modul benötigen Sie eine Lizenz für Queue Manager Enterprise. Sie können bereits vorhandene Dienste konfigurieren und auch neue erstellen, aber das System stellt keine IVR-Dienste für eingehende Anrufe bereit."
+    },
+    "Pager": {
+        "Displayed": "angezeigt",
+        "First": "Erste",
+        "Last": "Letzter",
+        "Next": "Weiter",
+        "Previous": "Zurück",
+        "Total": "gesamt"
+    },
+    "Refresh": "Aktualisieren",
+    "Tabs": {
+        "Heading": {
+            "Settings": "IVR-Einstellungen",
+            "Behaviours": "Verhalten",
+            "TimeTable": "Zeitplan",
+            "Permissions": "Berechtigungen"
+        }
+    },
+    "Services": {
+        "Actions": {
+            "AddNew": "Neuen IVR-Dienst hinzufügen",
+            "Refresh": "Aktualisieren",
+            "Edit": "Bearbeiten",
+            "Remove": "Entfernen"
+        },
+        "Remove": {
+            "Title": "Löschen bestätigen",
+            "Message": "IVR-Dienst '{{name}}' löschen?"
+        },
+        "Header": {
+            "Name": "Bezeichnung",
+            "PhoneNumber": "Telefonnummer"
+        },
+        "Error": {
+            "UnableToDeleteService": "Der Dienst konnte nicht gelöscht werden, bitte versuchen Sie es erneut"
+        },
+        "NoServicesToDisplay": "Keine IVR-Dienste zur Anzeige vorhanden"
+    },
+    "Ivr4qme": {
+        "SaveResult": {
+            "Success": "Alle Änderungen gespeichert",
+            "Failed": "Die Änderungen wurden nicht gespeichert",
+            "BehaviourCreated": "Vorgang erstellt"
+        },
+        "Error": {
+            "UnexpectedResponse": "Der Vorgang konnte nicht abgeschlossen werden. Bitte stellen Sie sicher, dass Queue Manager Enterprise ausgeführt wird."
+        }
+    },
+    "Service": {
+        "Choose": {
+            "Title": "Neuen IVR-Dienst hinzufügen",
+            "Description": "Neuen IVR-Dienst erstellen:"
+        },
+        "Add": {
+            "Title": {
+                "Empty": "IVR-Dienst aus dem Wizard hinzufügen",
+                "Menu": "IVR-Dienst aus der Menüvorlage hinzufügen",
+                "Echo": "IVR-Dienst-Echo hinzufügen"
+            }
+        },
+        "Type": {
+            "Empty": {
+                "Name": "Aus dem Wizard",
+                "Description": "Mit dem Komfort-Wizard in 3 Schritten. Eine Standard Schliessung Verhalten des Unternehmens wird automatisch hinzugefügt"
+            },
+            "Menu": {
+                "Name": "Aus der Menüvorlage",
+                "Description": "2-stufiges Menü mit den verschiedenen möglichen Aktionen wie der Wiedergabe von Ansagen, Rufweiterleitung und Wiederholung der Menüansage."
+            },
+            "Echo": {
+                "Name": "Echo-Dienst",
+                "Description": "Diagnosedienst zum Testen der DTMF-Erfassung."
+            }
+        },
+        "Settings": {
+            "Basic": "Grundeinstellungen",
+            "Common": "Allgemeine Einstellungen",
+            "CommonMenu": "Allgemeine Menüeinstellungen"
+        },
+        "Title": "IVR-Dienst \"{{name}}\" ({{number}})",
+        "Name": "Dienstname",
+        "PhoneNumber": "Telefonnummer",
+        "MenuSelectionTimeout": "Kein Wähl-Timeout",
+        "TimeInSeconds": "Sekunden",
+        "Tooltip": {
+            "NameHelp": "Bitte hier einen Namen für diesen IVR-Dienst eingeben. Der Name muss eindeutig sein.",
+            "PhoneNumberHelp": "Bitte hier die IVR-Bezugstelefonnummer eingeben, um den IVR-Dienst zu aktivieren. Die Nummer muss von der TK-Anlage erreichbar und eindeutig sein (darf nur für diesen Dienst verwendet werden).",
+            "OverflowHelp": "Vorgehensweise für den Fall konfigurieren, dass bei eingehenden Anrufen die lizenzierten Kanäle ausgelastet sind"
+        },
+        "OverflowMessage": "Ansage bei Auslastung",
+        "AndThen": "und anschließend",
+        "Error": {
+            "VoiceServiceType": {
+                "IVRService": "IVR",
+                "QMEQueue": "Warteschlange in Queue Manager Enterprise",
+                "GlobalLoginLogout": "Globales Anmelden/Abmelden in Queue Manager Enterprise"
+            },
+            "CreateTitle": "Fehler bei IVR-Erstellung",
+            "UpdateTitle": "Fehler bei IVR-Aktualisierung",
+            "UnableToCreateService": "Der IVR-Dienst konnte nicht erstellt werden, bitte versuchen Sie es erneut",
+            "UnableToUpdateService": "Der IVR-Dienst konnte nicht aktualisiert werden, bitte versuchen Sie es erneut",
+            "DuplicateServiceName": "Dieser Name wird bereits verwendet",
+            "DuplicateServicePhoneNumber": "Diese Nummer wird bereits für {{voiceServiceType}} {{voiceServiceName}} verwendet",
+            "InvalidPhoneNumber": "Die Telefonnummer ist ungültig",
+            "UnableToGetService": "Einstellungen des IVR-Dienstes nicht gefunden",
+            "UnableToGetIvrServiceTemplate": "Vorlage für den IVR-Dienst nicht gefunden",
+            "RequiredMenuSectionTimeout": "Timeout für Menüauswahl erforderlich",
+            "InvalidMenuSectionTimeout": "Die Nummer ist ungültig",
+            "MenuSectionTimeoutNotZero": "Das Timeout für die Menüauswahl muss größer als 0 sein",
+            "MenuSectionTimeoutTooLarge": "Timeout für Menüauswahl zu lang. Bitte eine Zahl zwischen 1 und {{maxMenuSelectionTimeout}} eingeben"
+        }
+    },
+    "Behaviours": {
+        "Header": {
+            "Name": "Bezeichnung",
+            "Description": "Beschreibung",
+            "Type": "Anruftyp",
+            "Tooltip": "Zur Erstellung des IVR-Dienstes können Sie beliebig viele Verhalten konfigurieren und miteinander kombinieren."
+        },
+        "Actions": {
+            "AddNew": "Neues Verhalten hinzufügen",
+            "Refresh": "Aktualisieren",
+            "Edit": "&Bearbeiten",
+            "Remove": "Entfernen"
+        },
+        "Remove": {
+            "Title": "Löschen bestätigen",
+            "Message": "Verhalten '{{name}}' löschen?"
+        },
+        "Error": {
+            "UnableToDeleteBehaviour": "Das Verhalten konnte nicht gelöscht werden, bitte versuchen Sie es erneut",
+            "UnableToDeleteBehaviourInUse": "Dieses Verhalten kann nicht gelöscht werden, weil es für dieses IVR-Dienstes geplant ist",
+            "UnableToDeleteReferredBehaviour": "Dieses Verhalten kann nicht gelöscht werden, weil das Verhalten '{{referrerBehaviour}}' darauf verweist",
+            "UnableToGetBehaviors": "Keine Informationen über das Verhalten abrufbar"
+        },
+        "NoBehavioursToDisplay": "Kein Verhalten zur Anzeige vorhanden",
+        "Main": "Hauptverhalten",
+        "Edit": "Verhalten"
+    },
+    "Behaviour": {
+        "Add": {
+            "Title": "Neues Verhalten{{behaviourType}} hinzufügen",
+            "Behaviour": "Verhalten",
+            "TypeChoice": "Bitte wählen, welches Verhalten ausgeführt werden soll"
+        },
+        "Edit": {
+            "Title": "Verhalten '{{behaviourName}}' bearbeiten"
+        },
+        "Type": {
+            "PlayMessage": {
+                "Name": "Ansage wiedergeben",
+                "Description": "Ansage wiedergeben und auflegen"
+            },
+            "Transfer": {
+                "Name": "Weiterleiten zu",
+                "Description": "Anruf zu einem bestimmten Ziel weiterleiten"
+            },
+            "Menu": {
+                "Name": "Menu",
+                "Description": "Konfiguration eines mehrstufigen Menüs mit Auswahloptionen (Drücken Sie 1, um ..., 2, um, ...)"
+            },
+            "DialInAndTransfer": {
+                "Name": "Einwahl",
+                "Description": "Der Anrufer kann selbst die Nummer der Nebenstelle wählen, mit der er verbunden werden möchte"
+            }
+        },
+        "Name": "Bezeichnung",
+        "Description": "Beschreibung",
+        "IntroMessage": "Begrüßungsansage",
+        "PlayMessage": "Ansage wiedergeben",
+        "Transfer": {
+            "TransferTo": "Weiterleiten zu",
+            "PreTransferMessage": "Ansage vor der Weiterleitung",
+            "OnTransferFailure": "Bei fehlgeschlagener Weiterleitung",
+            "OnTransferFailureMessage": "Ansage wiedergeben",
+            "FailureBehaviour": "und anschließend",
+            "FailureMessage": "Ansage bei Fehlschlagen",
+            "Retry": "Weiterleitung erneut versuchen",
+            "Tooltip": {
+                "TransferTo": "Bitte die Nummer angeben, zu der der Anruf weitergeleitet werden soll. Dies kann die direkte Durchwahl zu einer Nebenstelle oder die Nummer einer Warteschleife sein",
+                "Retry": "Markieren, um bei Fehlschlagen weitere Weiterleitungsversuche zu starten (Zielanschluss besetzt, nicht erreichbar oder Nichtannahme). Sie können die Anzahl der Weiterleitungsversuche einschließlich entsprechender Ansagen definieren. Das Timeout für die Nichtannahme kann hier nicht konfiguriert werden (Timeout für Nichtannahme der TK-Anlage)"
+            }
+        },
+        "Menu": {
+            "MenuMessage": "Menüansage",
+            "noSelectionBehaviour": "Keine Auswahl",
+            "wrongSelectionBehaviour": "Falsche Auswahl",
+            "add": "<- neues Element hinzufügen",
+            "InvalidTimeoutOptions": "Timeout und ungültige Optionen",
+            "Errors": {
+                "RequiredNoSelection": "Aktion keine Auswahl erforderlich",
+                "RequiredWrongSelection": "Aktion falsche Auswahl erforderlich",
+                "ActionNotConfigured": "Aktion nicht konfiguriert",
+                "BehaviourNotConfigured": "Verhalten erforderlich"
+            },
+            "Repeat": "Menüansage wiederholen"
+        },
+        "Repeat": {
+            "Message": "Hinweis",
+            "MaxRepetitions": "Wiederholungen",
+            "Unlimited": "Unbegrenzt",
+            "Indefinitely": "unendlich",
+            "Limited": "Bis",
+            "Description": "Bis {{times}} Mal"
+        },
+        "DialInAndTransfer": {
+            "CollectionTitle": "Optionen für Ziffernerfassung",
+            "PreCollectionMessage": "Ansage für die Auswahl von Vorwahlen",
+            "CollectAtLeast": "Mindestens erfassen",
+            "UpTo": "bis zu",
+            "Digits": "Ziffern",
+            "TerminateOnPound": "Erfassung mit # abschließen",
+            "CollectionTimeout": "Ziffern erfassen für höchstens",
+            "RetryCollection": "Erfassung wiederholen",
+            "CollectionFailureMessage": "Bei Fehlschlagen der Erfassung wiedergeben",
+            "TransferTitle": "Weiterleitungsoptionen",
+            "PreTransferMessage": "Ansage vor der Weiterleitung",
+            "TransferPrefix": "Weiterleitungsvorwahl (optional)",
+            "Tooltip": {
+                "PhoneNumberPrefix": "Legen Sie die Vorwahl fest, die Sie verwenden möchten, wenn Sie Anrufe weiterleiten (nützlich für Camp-On zu Nebenstellen)"
+            }
+        },
+        "Seconds": "Sekunden",
+        "Times": "Mal",
+        "Retry": {
+            "MaxRetries": "weitere",
+            "Message": "Ansage vor jedem Versuch"
+        },
+        "AndThen": "and then",
+        "Hangup": "Hangup",
+        "Execute": "Execute",
+        "Select": "(select a behaviour)",
+        "ActionSelect": "(select an action)",
+        "Actions": {
+            "ExecuteBehaviour": "Verhalten ausführen",
+            "PlayMessage": "Ansage wiedergeben",
+            "TransferTo": "Weiterleiten zu",
+            "Submenu": "Untermenü",
+            "BackToParent": "Zurück zum übergeordneten Menü",
+            "BackToRoot": "Zurück zum Hauptmenü",
+            "RepeatMenu": "Menüansage wiederholen",
+            "DialInAndTransfer": "Einwahl"
+        },
+        "Error": {
+            "CreateTitle": "Fehler bei Definition des Verhaltens",
+            "UpdateTitle": "Fehler bei Aktualisierung des Verhaltens",
+            "DuplicationBehaviourName": "Dieser Name wird in diesem IVR-Dienst bereits verwendet",
+            "UnableToCreateBehaviour": "Das Verhalten konnte nicht definiert werden, bitte versuchen Sie es erneut",
+            "UnableToUpdateBehaviour": "Das Verhalten konnte nicht aktualisiert werden, bitte versuchen Sie es erneut",
+            "UnableToGetBehavior": "Keine Informationen über das Verhalten abrufbar",
+            "UnableToGetBehaviors": "Liste der Dienst-Verhalten nicht abrufbar",
+            "UnableToGetDefaultBehavior": "Hauptinformationen über Verhalten nicht abrufbar",
+            "RequiredMaxRepetitions": "Höchstanzahl der Wiederholungen erforderlich",
+            "MaxRepetitionsNotZero": "Die Höchstanzahl der Wiederholungen muss größer als 0 sein",
+            "MaxRepetitionsTooBig": "Höchstanzahl der Wiederholungen zu hoch",
+            "RequiredMaxRetries": "Höchstanzahl der Wiederholungsversuche erforderlich",
+            "MaxRetriesNotZero": "Die Höchstanzahl der Wiederholungsversuche muss größer als 0 sein",
+            "MaxRetriesTooBig": "Höchstanzahl der Wiederholungen zu hoch. Bitte eine Zahl zwischen 1 und {{maxRetries}} eingeben",
+            "RequiredMinMaxCollectDigits": "Mindest- und Höchstanzahl zu erfassender Ziffern erforderlich",
+            "RequiredMinCollectDigits": "Mindestanzahl zu erfassender Ziffern erforderlich",
+            "RequiredMaxCollectDigits": "Höchstanzahl zu erfassender Ziffern erforderlich",
+            "MinCollectDigitsNotZero": "Die Mindestanzahl der zu erfassenden Ziffern muss größer als 0 sein",
+            "MaxDigitsGreaterThanEqualToMinDigits": "Die Höchstanzahl der zu erfassenden Ziffern muss größer oder gleich der Mindestanzahl zu erfassender Ziffern sein",
+            "RequiredCollectionTimeout": "Timeout für Ziffernerfassung erforderlich",
+            "CollectionTimeoutNotZero": "Das Timeout für die Ziffernerfassung muss größer als 0 Sekunden sein",
+            "CollectionTimeoutTooLarge": "Timeout für Ziffernerfassung zu lang. Bitte einen Wert zwischen 1 und {{maxCollectionTimeoutValue}} eingeben"
+        },
+        "Tooltip": {
+            "InvalidTimeoutOptionsHelp": "Im Fall eines Timeouts oder ungültiger Eingaben gelten diese Aktionen für das gesamte Menü"
+        },
+        "NoMessage": "Keine Nachricht",
+        "NoNumber": "Keine Nummer",
+        "NoName": "Kein Name",
+        "NoBehaviour": "Kein Verhalten",
+        "ExecuteInfo": "Verhalten ausführen",
+        "UnselectedAction": "Keine Aktionen ausgewählt"
+    },
+    "ManageService": {
+        "Title": "Dienste verwalten",
+        "Message": "IVR ist ein Modul von Queue Manager Enterprise (QME) und die verfügbaren Kanäle werden gemeinsam genutzt.\nZur Verwaltung des Dienstes öffnen Sie bitte die QME-Ansicht",
+        "ManageServiceLink": "Dienste verwalten"
+    },
+    "ScheduleChooser": {
+        "Title": "Bitte einen Plantyp für \"{{behaviourName}}\" wählen",
+        "Description": "\"Wie möchten Sie planen?",
+        "Type": {
+            "WeeklySchedule": {
+                "Name": "Wochenplan",
+                "Description": "Diesen Vorgang als Standard-Wochenplan einstellen"
+            },
+            "HolidayOrSpecialEvent": {
+                "Name": "Feiertag oder spezielles Ereignis",
+                "Description": "Diesen Vorgang für Feiertage oder spezielle Ereignisse mit optionaler Wiederkehr planen"
+            },
+            "Always": {
+                "Name": "Immer",
+                "Description": "Diesen Vorgang immer anwenden (24x7)"
+            }
+        }
+    },
+    "TimeTable": {
+        "TimeZone": {
+            "Description": "Die Zeitzone aus, die für diesen Dienst verwendet werden soll. Die Sommerzeiteinstellung für die angegebene Zeitzone wird angewendet. Bitte beachten Sie, dass die bestehenden Zeitpläne (Wochenkalender, Feiertage und besondere Ereignisse) den neuen Zeitzoneneinstellungen folgen.",
+            "Label": "Zeitzone:",
+            "DefaultValue": "Zeitzone des Servers benutzen.",
+            "ReadOnlyDefaultInfo": "Zeitzone des Servers ({{timeZone}})",
+            "Info": "Die Zeiten beziehen sich auf die Zeitzone {{timeZone}}"
+        },
+        "DefaultBehaviour": {
+            "Label": "Außerhalb der definierten Pläne folgenden Vorgang anwenden:",
+            "NoBehaviourConfigured": "Es wurde noch kein Verhalten konfiguriert. Bitte ein neues Verhalten hinzufügen, um die Vorgehensweise für Anrufe bei diesem IVR-Dienst zu definieren.",
+            "Error": {
+                "UnableToSetDefaultBehaviour": "Hauptverhalten konnte nicht eingestellt werden"
+            }
+        },
+        "WeeklySchedule": {
+            "Title": "Standard-Wochenplan",
+            "Description": "Konfigurieren Sie hier die regulären wöchentlichen Öffnungszeiten und Vorgänge für den IVR-Dienst. Dieser Plan kann an Feiertagen und bei speziellen Ereignissen außer Kraft gesetzt werden, die unten in dem entsprechenden Bereich konfiguriert werden.",
+            "Actions": {
+                "Add": "Vorgang planen",
+                "Edit": "Bearbeiten",
+                "Delete": "Löschen"
+            },
+            "Remove": {
+                "Title": "Löschen bestätigen",
+                "Message": "Vollständige Plansequenz löschen?"
+            },
+            "AddTitle": "Neuen geplanten Vorgang hinzufügen",
+            "ScheduleBehaviourTitle": "Vorgang'{{name}}' planen",
+            "EditTitle": "Geplanten Vorgang bearbeiten"
+        },
+        "SpecialEventsSchedule": {
+            "Title": "Urlaubstage und besondere Ereignisse",
+            "Description": "Hier die Vorgänge für Feiertage und spezielle Ereignisse planen. Diese Vorgänge ändern den oben festgelegten Standard-Wochenplan.",
+            "Table": {
+                "Name": "Bezeichnung",
+                "Start": "Starten",
+                "End": "Ende",
+                "Repeat": "Wiederholen",
+                "Behaviour": "Vorgang"
+            },
+            "Actions": {
+                "Add": "Hinzufügen",
+                "Edit": "Bearbeiten",
+                "Refresh": "Aktualisieren",
+                "Delete": "Löschen"
+            },
+            "AddTitle": "Feiertag oder spezielles Ereignis hinzufügen",
+            "ScheduleBehaviourTitle": "Feiertag oder spezielles Ereignis für '{{name}}' hinzufügen",
+            "EditTitle": "Feiertag oder spezielles Ereignis bearbeiten",
+            "Remove": {
+                "Title": "Löschen bestätigen",
+                "MessageWithName": "Vorgangsplan '{{name}}' löschen?",
+                "MessageWithoutName": "Soll der markierte Vorgangsplan gelöscht werden?"
+            },
+            "Repeat": {
+                "Never": "Nie",
+                "Yearly": "Jedes Jahr"
+            },
+            "NoSpecialEventScheduled": "Keine Feiertage oder speziellen Ereignisse vorhanden"
+        },
+        "TestScheduledBehaviour": {
+            "Title": "Geplante Voreinstellungen testen",
+            "Description": "Mit diesem Test können Sie den geplanten Vorgang dieser IVR für ein bestimmtes Datum / eine bestimmte Uhrzeit ermitteln.",
+            "TimeZoneInfo": "Die aktuelle Dienstzeitzone ({{timeZoneName}}) wird angewendet",
+            "DateToTest": "Zu testendes Datum / Uhrzeit",
+            "TestResultTitle": "Vorgang ausgeführt",
+            "WeeklySchedule": "(Wochenplan)",
+            "HolidayAndSpecialEvent": "(Feiertag und spezielles Ereignis)",
+            "HolidayAndSpecialEventWithName": "(Feiertag und spezielles Ereignis \"{{eventName}}\")",
+            "DefaultBehaviour": "(außerhalb aller Pläne)",
+            "NoBehaviour": "Dieser IVR-Dienst hat keinen Vorgang"
+        },
+        "ScheduledBehaviour": "Vorgang",
+        "Name": "Bezeichnung",
+        "From": "Vom",
+        "To": "An",
+        "StartTime": "Von Stunde",
+        "EndTime": "Bis Stunde",
+        "Show24Hours": "24 Stunden anzeigen",
+        "ShowBusinessHours": "Bürostunden anzeigen",
+        "ApplyOnDays": "Für Tage anwenden",
+        "EventName": "Ereignis-Name",
+        "Recurrence": "Wiederholen",
+        "CheckAtCurrentTime": "Zur aktuellen Zeit prüfen",
+        "Error": {
+            "AtLeastOneDay": "Mindestens einen Tag auswählen",
+            "DateTimeNotValid": "Ungültiges Datum",
+            "DateTimeRequired": "Datum und Uhrzeit erforderlich",
+            "TimeNotValid": "Ungültige Uhrzeit",
+            "TimeRequired": "Uhrzeit erforderlich",
+            "Overlap": "Dieser Vorgangsplan überschneidet sich mit dem bestehenden Wochenplan",
+            "OverlapSpecial": "Dieser Vorgangsplan überschneidet sich mit einem bestehenden speziellen Ereignis",
+            "UnableToCreateGeneric": "Der Vorgangsplan konnte nicht erstellt werden, bitte versuchen Sie es erneut",
+            "UnableToDelete": "Der Vorgangsplan konnte nicht gelöscht werden, bitte versuchen Sie es erneut",
+            "UnableToGetScheduledBehaviors": "Der Zeitplan des Vorgangs wurde nicht gefunden",
+            "UnableToUpdateGeneric": "Der Vorgangsplan konnte nicht aktualisiert werden, bitte versuchen Sie es erneut",
+            "WrongTiming": "Die Endzeit muss nach der Startzeit liegen",
+            "UnableToGetScheduledBehaviorAt": "Der derzeit ausgeführte Vorgang wurde nicht gefunden"
+        }
+    },
+    "Permissions": {
+        "Actions": {
+            "AddNew": "Add new manager",
+            "Refresh": "Aktualisieren",
+            "Remove": "Entfernen"
+        },
+        "Header": {
+            "Name": "Bezeichnung",
+            "Username": "Benutzer",
+            "Extension": "Durchwahl"
+        },
+        "Error": {
+            "UnableToGetUsers": "Unable to retrieve list of users",
+            "UnableToDeleteUser": "Unable to remove this manager, please try again",
+            "AddManagerFailed": "* An error has occurred adding manager."
+        },
+        "Remove": {
+            "Title": "Confirm removal",
+            "Message": "Remove manager '{{name}}'?"
+        },
+        "AddManager": {
+            "Title": "Add new managers",
+            "Description": "Use this section to add new manager for the current IVR service",
+            "SearchLabel": "Benutzer suchen",
+            "SearchButton": "Suchen",
+            "SearchPlaceHolder": "Benutzer suchen...",
+            "SearchTooltip": "Geben Sie einen Benutzernamen, eine Durchwahl oder eine Abteilung ein, um nach einem Benutzer zu suchen.",
+            "Grid": {
+                "Header": {
+                    "Username": "Benutzer",
+                    "Name": "Vorname",
+                    "Surname": "Familienname",
+                    "Extension": "Durchwahl",
+                    "Department": "Abteilung"
+                }
+            }
+        },
+        "NoUsersToDisplay": "No associated manager"
+    },
+    "Errors": {
+        "RequiredName": "Name erforderlich",
+        "NameTooLong": "Der Name darf höchstens {{maxCharacters}} Zeichen enthalten",
+        "RequiredPhoneNumber": "Telefonnummer erforderlich",
+        "InvalidPhoneNumber": "Die Telefonnummer ist ungültig",
+        "PhoneNumberTooLong": "Die Telefonnummer darf höchstens {{maxDigits}} Ziffern enthalten",
+        "InvalidNumber": "Die Nummer ist ungültig",
+        "AudioMessageRequired": "Ansage erforderlich",
+        "UnsupportedFileAudio": "Audiodatei ungültig",
+        "UnableToUploadFile": "Die Audiodatei konnte nicht geladen werden",
+        "UnableToUploadFileDetails": "Audiodatei nicht unterstützt.\nBitte verwenden Sie eine Datei in den folgenden unterstützten Formaten:\n",
+        "SupportedAudioFormat": {
+            "WAV": "WAV",
+            "WMA": "WMA",
+            "MP3": "MP3",
+            "M4A": "M4A",
+            "GSM": "GSM",
+            "AMR": "AMR",
+            "3GPP": "3GPP"
+        },
+        "UnableToUpdateAudioMessageMetadata": "Die Informationen über diese Ansage konnten nicht geladen werden"
+    },
+    "Reports": {
+        "Home": {
+            "PublicReports": "Öffentliche Berichte",
+            "IVRAnalisys": "IVR-Analyse",
+            "Rpt_Detail": "Analyse der Anrufdetails",
+            "Rpt_Detail_explain": "Aufzeichnung der Anrufdetails anzeigen",
+            "Rpt_CallVolume": "Anrufvolumen nach Diensten",
+            "Rpt_CallVolume_explain": "Anzahl der Anrufe und Wartezeiten nach Diensten und Ergebnissen anzeigen",
+            "Rpt_CallVolumeByBehav": "Anrufvolumen nach Diensten und Vorgängen",
+            "Rpt_CallVolumePerBehaviour_explain": "Anzahl der Anrufe und Wartezeiten nach Diensten, Vorgängen und Ergebnissen anzeigen",
+            "Rpt_BusyChannels": "Analyse besetzter Kanäle",
+            "Rpt_BusyChannels_explain": "Statistik der bestezten Kanäle, einschließlich Durchschnittswerten und max. Kanalauslastung im Tagesverlauf anzeigen",
+            "Rpt_TimePeriodAnalysis": "Tendenzen",
+            "Rpt_TimePeriodAnalysis_explain": "Anzeige der Anrufe nach Resultat und Zeittrend anzeigen"
+        },
+        "Refresh": "Aktualisieren"
+    } 
+}
