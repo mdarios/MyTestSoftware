@@ -121,7 +121,7 @@
     "Pager.Previous": "Precedente",
     "Pager.Next": "Prossima",
     "Pager.Last": "Ultima",
-    "Pager.Displayed": "visualizzate",
+    "Pager.Displayed": "mostrati",
     "Pager.Total": "in totale",
     "TimezoneWarning": "Tutte le date e le ore si riferiscono al tuo fuso orario",
     "FilterWarning.Message": "Il sistema è attulamente configurato per registrare solo le chiamate {{direction}}{{trafficType}}.",
