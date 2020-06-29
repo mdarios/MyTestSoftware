@@ -442,31 +442,31 @@
     <value>Telefono di casa</value>
   </data>
   <data name="COMMON_LBL_LANGUAGE_ARB" xml:space="preserve">
-    <value>العربية (&amp;Arabic)</value>
+    <value>العربية (&amp;Arabo)</value>
   </data>
   <data name="COMMON_LBL_LANGUAGE_ENG" xml:space="preserve">
     <value>&amp;English (English)</value>
   </data>
   <data name="COMMON_LBL_LANGUAGE_FRA" xml:space="preserve">
-    <value>&amp;Français (French)</value>
+    <value>&amp;Français (Francese)</value>
   </data>
   <data name="COMMON_LBL_LANGUAGE_GER" xml:space="preserve">
-    <value>&amp;Deutsch (German)</value>
+    <value>&amp;Deutsch (Tedesco)</value>
   </data>
   <data name="COMMON_LBL_LANGUAGE_ITA" xml:space="preserve">
-    <value>&amp;Italiano (Italian)</value>
+    <value>&amp;Italiano (Italiano)</value>
   </data>
   <data name="COMMON_LBL_LANGUAGE_OLA" xml:space="preserve">
-    <value>&amp;Nederlands (Dutch)</value>
+    <value>&amp;Nederlands (Olandese)</value>
   </data>
   <data name="COMMON_LBL_LANGUAGE_POR" xml:space="preserve">
-    <value>&amp;Português (Portugal)</value>
+    <value>&amp;Português (Portoghese)</value>
   </data>
   <data name="COMMON_LBL_LANGUAGE_SELECTION" xml:space="preserve">
     <value>&amp;Selezione lingua</value>
   </data>
   <data name="COMMON_LBL_LANGUAGE_SPA" xml:space="preserve">
-    <value>E&amp;spañol (Spanish)</value>
+    <value>E&amp;spañol (Spagnolo)</value>
   </data>
   <data name="COMMON_LBL_LASTNAME" xml:space="preserve">
     <value>Cognome</value>
@@ -961,7 +961,7 @@
     <value>Errore CTI/TAPI: l'interno {0} non è controllato dal server.</value>
   </data>
   <data name="ERR_LABEL_LICENSENOTAVAILABLE" xml:space="preserve">
-    <value>Licenza non disponibile per questo utente.</value>
+    <value>Licenza non disponibile per questo utente</value>
   </data>
   <data name="ERR_LABEL_UNAUTHORIZED" xml:space="preserve">
     <value>Errore durante la validazione dell'utente.</value>
@@ -1075,7 +1075,7 @@
     <value>Memorizza utente</value>
   </data>
   <data name="FORM_LOGIN_MSG_USERNAME_PWD_EMPTY" xml:space="preserve">
-    <value>Il nome utente o la password sono vuoti</value>
+    <value>Il nome utente o la password sono vuoti </value>
   </data>
   <data name="FORM_LOGIN_TITLE" xml:space="preserve">
     <value>Imagicle Blue's Attendant / Blue's One Enterprise login</value>
@@ -1147,10 +1147,10 @@
     <value>L'invio del messaggio è stato annullato dal gateway SMS.</value>
   </data>
   <data name="IDS_LBL_SENDSMS_STATO_ERRORE" xml:space="preserve">
-    <value>Si è verificato un errore. Verificare che la connessione ad Internet sia attiva e che l'utente e la password siano corretti.</value>
+    <value>Si è verificato un errore. Verificare che la connessione ad Internet sia attiva e che l'utente e la password siano corretti. </value>
   </data>
   <data name="IDS_LBL_SENDSMS_STATO_ERRORE_INVIO" xml:space="preserve">
-    <value>Si è verificato un errore durante l'invio dell'SMS. Verificare che la connessione ad Internet sia attiva e che l'utente e la password siano corretti.</value>
+    <value>Si è verificato un errore durante l'invio dell'SMS. Verificare che la connessione ad Internet sia attiva e che l'utente e la password siano corretti. </value>
   </data>
   <data name="IDS_LBL_SENDSMS_STATO_ERR_GATEWAY" xml:space="preserve">
     <value>Si è verificato un errore di comunicazione con il gateway di SMS.</value>
@@ -2473,7 +2473,7 @@
     <value>Altro</value>
   </data>
   <data name="PRESENCEACTIVITIES_PA" xml:space="preserve">
-    <value>Sempre assente </value>
+    <value>Sempre assente</value>
   </data>
   <data name="PRESENCEACTIVITIES_PERFORMANCE" xml:space="preserve">
     <value>In esibizione</value>
@@ -3742,7 +3742,7 @@
     <value>Stato deviato verso numero</value>
   </data>
   <data name="FAVOURITE_STATUS_FW_TO_VOICEMAIL" xml:space="preserve">
-    <value>Stato deviato verso voicemail </value>
+    <value>Stato deviato verso voicemail</value>
   </data>
   <data name="STATUS_FWAVMAIL" xml:space="preserve">
     <value>Voicemail</value>
@@ -4421,5 +4421,8 @@
   </data>
   <data name="TOOLTIP_START_STOP__BUTTON_NOT_AVAILABLE" xml:space="preserve">
     <value>L'applicazione Call Recording non è disponibile.</value>
+  </data>
+  <data name="TOOLTIP_START_STOP__BUTTON_SERVICE_ERROR" xml:space="preserve">
+    <value>Il servizio Call Recording è spento o non raggiungibile.</value>
   </data>
 </root>
