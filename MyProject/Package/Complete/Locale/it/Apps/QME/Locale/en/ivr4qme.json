@@ -318,15 +318,15 @@
     "Errors.UnableToUpdateAudioMessageMetadata": "Impossibile caricare informazioni per questo messaggio",
     "Reports.Home.PublicReports": "Report pubblici",
     "Reports.Home.IVRAnalisys": "Analisi IVR",
-    "Reports.Home.Rpt_Detail": "Analisi dettaglio chiamate",
-    "Reports.Home.Rpt_Detail_explain": "Mostra dettagli chiamata",
+    "Reports.Home.Rpt_Detail": "",
+    "Reports.Home.Rpt_Detail_explain": "",
     "Reports.Home.Rpt_CallVolume": "Volume di chiamate per Servizio",
     "Reports.Home.Rpt_CallVolume_explain": "Mostra il numero di chiamate e la durata dell'attesa per servizio e per esito",
     "Reports.Home.Rpt_CallVolumeByBehav": "Volume di chiamate per Servizio e Comportamento",
     "Reports.Home.Rpt_CallVolumePerBehaviour_explain": "Mostra il numero di chiamate e la durata dell'attesa per servizio, per comportamento e per esito",
-    "Reports.Home.Rpt_BusyChannels": "Analisi Canali Occupati",
+    "Reports.Home.Rpt_BusyChannels": "",
     "Reports.Home.Rpt_BusyChannels_explain": "Show busy channels statistics including average and max channel occupation over the day",
-    "Reports.Home.Rpt_TimePeriodAnalysis": "Andamento",
+    "Reports.Home.Rpt_TimePeriodAnalysis": "",
     "Reports.Home.Rpt_TimePeriodAnalysis_explain": "Mostra il numero di chiamate per esito e l'andamento temporale",
-    "Reports.Refresh": "Aggiorna"
+    "Reports.Refresh": ""
 }
