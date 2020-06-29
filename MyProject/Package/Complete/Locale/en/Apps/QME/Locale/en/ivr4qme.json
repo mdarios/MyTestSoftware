@@ -1,498 +1,332 @@
 ﻿{
-    "LandingPage": {
-        "Title": "Choose your IVR product",
-        "Ivr4qme": {
-            "Description": "An easy and flexible Auto Attendant solution to define multi-level voice menu, SIP based and available as an optional Queue Manager Enterprise module.",
-            "Title": "IVR module for Queue Manager Enterprise"
-        },
-        "IvrManagerEnterprise": {
-            "Description": "A simple Auto Attendant with centralized management of basic actions, running on Cisco Voice Gateways as TCL scripts.",
-            "Title": "IVR Manager Enterprise"
-        },
-        "LearnMore": "Learn more on website"
-    },
-    "LicenseWarning": {
-        "TitleIvrLicenseInvalid": "IVR module license is invalid or expired",
-        "MessageIvrLicenseInvalid": "Both Queue Manager Enterprise license and IVR module license are required. Please, pay attention that no IVR treatment will be applied to incoming calls.",
-        "TitleQmeLicenseInvalid": "Queue Manager Enterprise license is invalid or expired",
-        "MessageQmeLicenseInvalid": "A Queue Manager Enterprise license is required to the IVR module to manage incoming calls. You can still configure existing services and even create new ones but system won't apply any IVR service to incoming calls."
-    },
-    "Pager": {
-        "Displayed": "displayed",
-        "First": "First",
-        "Last": "Last",
-        "Next": "Next",
-        "Previous": "Previous",
-        "Total": "in total"
-    },
+    "LandingPage.Title": "Choose your IVR product {{p}}",
+    "LandingPage.Ivr4qme.Description": "An easy and flexible Auto Attendant solution to define multi-level voice menu, SIP based and available as an optional Queue Manager Enterprise module.",
+    "LandingPage.Ivr4qme.Title": "IVR module for Queue Manager Enterprise",
+    "LandingPage.IvrManagerEnterprise.Description": "A simple Auto Attendant with centralized management of basic actions, running on Cisco Voice Gateways as TCL scripts.",
+    "LandingPage.IvrManagerEnterprise.Title": "IVR Manager Enterprise",
+    "LandingPage.LearnMore": "Learn more on website",
+    "LicenseWarning.TitleIvrLicenseInvalid": "IVR module license is invalid or expired",
+    "LicenseWarning.MessageIvrLicenseInvalid": "Both Queue Manager Enterprise license and IVR module license are required. Please, pay attention that no IVR treatment will be applied to incoming calls.",
+    "LicenseWarning.TitleQmeLicenseInvalid": "Queue Manager Enterprise license is invalid or expired",
+    "LicenseWarning.MessageQmeLicenseInvalid": "A Queue Manager Enterprise license is required to the IVR module to manage incoming calls. You can still configure existing services and even create new ones but system won't apply any IVR service to incoming calls.",
+    "Pager.Displayed": "displayed",
+    "Pager.First": "First",
+    "Pager.Last": "Last",
+    "Pager.Next": "Next",
+    "Pager.Previous": "Previous",
+    "Pager.Total": "in total",
     "Refresh": "Refresh",
-    "Tabs": {
-        "Heading": {
-            "Settings": "IVR settings",
-            "Behaviours": "Behaviours",
-            "TimeTable": "Time table",
-            "Permissions": "Permissions"
-        }
-    },
-    "Services": {
-        "Actions": {
-            "AddNew": "Add new IVR service",
-            "Refresh": "Refresh",
-            "Edit": "Edit",
-            "Remove": "Remove"
-        },
-        "Remove": {
-            "Title": "Confirm Delete",
-            "Message": "Delete IVR service '{{name}}'?"
-        },
-        "Header": {
-            "Name": "Name",
-            "PhoneNumber": "Phone number"
-        },
-        "Error": {
-            "UnableToDeleteService": "Unable to delete this service, please try again"
-        },
-        "NoServicesToDisplay": "No IVR services to display"
-    },
-    "Ivr4qme": {
-        "SaveResult": {
-            "Success": "All changes saved",
-            "Failed": "Changes not saved",
-            "BehaviourCreated": "Behaviour has been created"
-        },
-        "Error": {
-            "UnexpectedResponse": "Unable to complete the operation. Please ensure that Queue Manager Enterprise is running."
-        }
-    },
-    "Service": {
-        "Choose": {
-            "Title": "Add new IVR service",
-            "Description": "Create an IVR service:"
-        },
-        "Add": {
-            "Title": {
-                "Empty": "Add IVR service from wizard",
-                "Menu": "Add IVR service from menu template",
-                "Echo": "Add IVR service echo"
-            }
-        },
-        "Type": {
-            "Empty": {
-                "Name": "From wizard",
-                "Description": "With the 3 steps super easy wizard. A default Company closed behaviour will be automatically added."
-            },
-            "Menu": {
-                "Name": "From menu template",
-                "Description": "A 2 level menu, with the different possible actions, like play messages, transfer calls, repeat menu."
-            },
-            "Echo": {
-                "Name": "Echo service",
-                "Description": "Diagnostic service for testing DTMF detection."
-            }
-        },
-        "Settings": {
-            "Basic": "Basic settings",
-            "Common": "Common settings",
-            "CommonMenu": "Common menu settings"
-        },
-        "Title": "IVR service \"{{name}}\" ({{number}})",
-        "Name": "Service name",
-        "PhoneNumber": "Phone number",
-        "MenuSelectionTimeout": "No selection timeout",
-        "TimeInSeconds": "seconds",
-        "Tooltip": {
-            "NameHelp": "Enter here a name for this IVR service. This name must be unique.",
-            "PhoneNumberHelp": "Enter here the IVR pilot phone number used to activate this IVR service. The number must be reachable by the PBX and must be unique (used only by this service).",
-            "OverflowHelp": "Configure call treatment to apply when licensed channels are exhausted"
-        },
-        "OverflowMessage": "On overflow play",
-        "AndThen": "and then",
-        "Error": {
-            "VoiceServiceType": {
-                "IVRService": "IVR",
-                "QMEQueue": "Queue Manager Enterprise queue",
-                "GlobalLoginLogout": "Queue Manager Enterprise global login/logout"
-            },
-            "CreateTitle": "IVR creation error",
-            "UpdateTitle": "IVR update error",
-            "UnableToCreateService": "Unable to create IVR service, please try again",
-            "UnableToUpdateService": "Unable to update IVR service, please try again",
-            "DuplicateServiceName": "This name is already used",
-            "DuplicateServicePhoneNumber": "This number is already used in {{voiceServiceType}} {{voiceServiceName}}",
-            "InvalidPhoneNumber": "This is not a valid phone number",
-            "UnableToGetService": "Unable to retrieve IVR service settings",
-            "UnableToGetIvrServiceTemplate": "Unable to retrieve IVR service template",
-            "RequiredMenuSectionTimeout": "Menu selection timeout is required",
-            "InvalidMenuSectionTimeout": "This is not a valid number",
-            "MenuSectionTimeoutNotZero": "Menu selection timeout must be greater than 0",
-            "MenuSectionTimeoutTooLarge": "Menu selection timeout is too large. Please enter a number between 1 and {{maxMenuSelectionTimeout}}"
-        }
-    },
-    "Behaviours": {
-        "Header": {
-            "Name": "Name",
-            "Description": "Description",
-            "Type": "Type",
-            "Tooltip": "To define your IVR service, you can configure as many behaviours as you need, combining them together."
-        },
-        "Actions": {
-            "AddNew": "Add new behaviour",
-            "Refresh": "Refresh",
-            "Edit": "Edit",
-            "Remove": "Remove"
-        },
-        "Remove": {
-            "Title": "Confirm delete",
-            "Message": "Delete behaviour '{{name}}'?"
-        },
-        "Error": {
-            "UnableToDeleteBehaviour": "Unable to delete this behaviour, please try again",
-            "UnableToDeleteBehaviourInUse": "This behaviour cannot be deleted because it is scheduled for this IVR service",
-            "UnableToDeleteReferredBehaviour": "This behaviour cannot be deleted because it is referred by the behaviour '{{referrerBehaviour}}'",
-            "UnableToGetBehaviors": "Unable to retrieve behaviours information"
-        },
-        "NoBehavioursToDisplay": "No behaviours to display",
-        "Main": "Main behaviour",
-        "Edit": "Behaviours"
-    },
-    "Behaviour": {
-        "Add": {
-            "Title": "Add new {{behaviourType}} behaviour",
-            "Behaviour": "behaviour",
-            "TypeChoice": "Choose which behaviour will be executed"
-        },
-        "Edit": {
-            "Title": "Edit behaviour '{{behaviourName}}'"
-        },
-        "Type": {
-            "PlayMessage": {
-                "Name": "Play message",
-                "Description": "Play message and hang up"
-            },
-            "Transfer": {
-                "Name": "Transfer to",
-                "Description": "Transfer call to a specific destination"
-            },
-            "Menu": {
-                "Name": "Menu",
-                "Description": "To define multi-level menu with choices (Press 1 for, 2 for,...)"
-            },
-            "DialInAndTransfer": {
-                "Name": "Dial in",
-                "Description": "Let the caller dial the extension number to be connected to"
-            }
-        },
-        "Name": "Name",
-        "Description": "Description",
-        "IntroMessage": "Intro message",
-        "PlayMessage": "Play message",
-        "Transfer": {
-            "TransferTo": "Transfer to",
-            "PreTransferMessage": "Pre transfer message",
-            "OnTransferFailure": "On transfer failure",
-            "OnTransferFailureMessage": "Play message",
-            "FailureBehaviour": "and  then",
-            "FailureMessage": "On failure, play",
-            "Retry": "Retry transfer",
-            "Tooltip": {
-                "TransferTo": "Specify the number to transfer the call to. Can be a direct extension number or the number of a queue",
-                "Retry": "Flag to attempt additional call transfers in case of failure (destination number is busy, not reachable or does not answer). You can specify the number of call transfer attempts and relative messages. The no answer timeout can’t be specified here (PBX no answer timeout)"
-            }
-        },
-        "Menu": {
-            "MenuMessage": "Menu message",
-            "noSelectionBehaviour": "No selection",
-            "wrongSelectionBehaviour": "Wrong selection",
-            "add": "<- add a new item",
-            "InvalidTimeoutOptions": "Timeout and Invalid options",
-            "Errors": {
-                "RequiredNoSelection": "No selection action is required",
-                "RequiredWrongSelection": "Wrong selection action is required",
-                "ActionNotConfigured": "Action not configured",
-                "BehaviourNotConfigured": "Behaviour is required"
-            },
-            "Repeat": "Repeat Menu"
-        },
-        "Repeat": {
-            "Message": "Message",
-            "MaxRepetitions": "Repetitions",
-            "Unlimited": "Unlimited",
-            "Indefinitely": "indefinitely",
-            "Limited": "Up to",
-            "Description": "Up to {{times}} times"
-        },
-        "DialInAndTransfer": {
-            "CollectionTitle": "Digits collection options",
-            "PreCollectionMessage": "Pre digit selection message",
-            "CollectAtLeast": "Collect at least",
-            "UpTo": "up to",
-            "Digits": "digits",
-            "TerminateOnPound": "Terminate collection on #",
-            "CollectionTimeout": "Collect digits for maximum",
-            "RetryCollection": "Retry collection",
-            "CollectionFailureMessage": "On collection failure, play",
-            "TransferTitle": "Transfer options",
-            "PreTransferMessage": "Pre transfer message",
-            "TransferPrefix": "Transfer prefix (optional)",
-            "Tooltip": {
-                "PhoneNumberPrefix": "Set the prefix you would like to use when transferring calls to destinations (useful for camp on to extensions)"
-            }
-        },
-        "Seconds": "seconds",
-        "Times": "times",
-        "Retry": {
-            "MaxRetries": "for further",
-            "Message": "play before each attempt"
-        },
-        "AndThen": "and then",
-        "Hangup": "Hangup",
-        "Execute": "Execute",
-        "Select": "(select a behaviour)",
-        "ActionSelect": "(select an action)",
-        "Actions": {
-            "ExecuteBehaviour": "Execute behaviour",
-            "PlayMessage": "Play message",
-            "TransferTo": "Transfer to",
-            "Submenu": "Submenu",
-            "BackToParent": "Back to parent menu",
-            "BackToRoot": "Back to main menu",
-            "RepeatMenu": "Repeat menu",
-            "DialInAndTransfer": "Dial in"
-        },
-        "Error": {
-            "CreateTitle": "Behaviour creation error",
-            "UpdateTitle": "Behaviour update error",
-            "DuplicationBehaviourName": "This name is already used in this IVR service",
-            "UnableToCreateBehaviour": "Unable to create this behaviour, please try again",
-            "UnableToUpdateBehaviour": "Unable to update this behaviour, please try again",
-            "UnableToGetBehavior": "Unable to retrieve behaviour information",
-            "UnableToGetBehaviors": "Unable to retrieve list of service behaviours",
-            "UnableToGetDefaultBehavior": "Unable to retrieve main behaviour information",
-            "RequiredMaxRepetitions": "Max repetitions number is required",
-            "MaxRepetitionsNotZero": "Max repetitions must be greater than 0",
-            "MaxRepetitionsTooBig": "Max repetitions number too big",
-            "RequiredMaxRetries": "Max retries number is required",
-            "MaxRetriesNotZero": "Max retries must be greater than 0",
-            "MaxRetriesTooBig": "Max repetitions number too big. Please enter a number between 1 and {{maxRetries}}",
-            "RequiredMinMaxCollectDigits": "Minimum and maximum numbers of digits to be collected are required",
-            "RequiredMinCollectDigits": "Minimum number of digits to be collected is required",
-            "RequiredMaxCollectDigits": "Maximum number of digits to be collected is required",
-            "MinCollectDigitsNotZero": "Minimum number of digits to be collected must be greater than 0",
-            "MaxDigitsGreaterThanEqualToMinDigits": "Maximum number of digits to be collected must be greater than or equal to the minimum number of digits to be collected",
-            "RequiredCollectionTimeout": "Digits collection timeout is required",
-            "CollectionTimeoutNotZero": "Digits collection timeout must be greater than 0 seconds",
-            "CollectionTimeoutTooLarge": "Digits collection timeout is too large. Please enter a number between 1 and {{maxCollectionTimeoutValue}}"
-        },
-        "Tooltip": {
-            "InvalidTimeoutOptionsHelp": "These actions apply to the whole menu in case of Timeout or Invalid Selections"
-        },
-        "NoMessage": "No message",
-        "NoNumber": "No number",
-        "NoName": "No name",
-        "NoBehaviour": "No behaviour",
-        "ExecuteInfo": "Execute the behaviour",
-        "UnselectedAction": "No actions selected"
-    },
-    "ManageService": {
-        "Title": "Manage Service",
-        "Message": "IVR is a module of Queue Manager Enterprise (QME) sharing the available channels.\nTo manage the service, please refer to the QME page",
-        "ManageServiceLink": "Manage Service"
-    },
-    "ScheduleChooser": {
-        "Title": "Choose schedule type for \"{{behaviourName}}\"",
-        "Description": "How do you want to schedule?",
-        "Type": {
-            "WeeklySchedule": {
-                "Name": "Weekly schedule",
-                "Description": "Schedule this Behaviour as a normal weekly schedule"
-            },
-            "HolidayOrSpecialEvent": {
-                "Name": "Holiday or special event",
-                "Description": "Schedule this Behaviour as an holiday or special event with an optional recurrence"
-            },
-            "Always": {
-                "Name": "Always",
-                "Description": "Use always this Behaviour (24x7)"
-            }
-        }
-    },
-    "TimeTable": {
-        "TimeZone": {
-            "Description": "Select the time zone to be used for this service. The daylight saving setting for the specified time zone will apply. Please, notice that if you change the time zone the existing schedules (weekly calendar, holydays and special events) will be applied accordingly.",
-            "Label": "Time zone:",
-            "DefaultValue": "use server time zone",
-            "ReadOnlyDefaultInfo": "Server time zone ({{timeZone}})",
-            "Info": "Times are referred to {{timeZone}} timezone"
-        },
-        "DefaultBehaviour": {
-            "Label": "Outside of defined schedules, execute the following behaviour:",
-            "NoBehaviourConfigured": "No behaviour has been configured yet. Please, add a new behaviour to define call treatment for this IVR service.",
-            "Error": {
-                "UnableToSetDefaultBehaviour": "Unable to set main behaviour"
-            }
-        },
-        "WeeklySchedule": {
-            "Title": "Ordinary Weekly Schedule",
-            "Description": "Configure here the ordinary weekly opening hours and behaviours of the IVR service. This schedule can be overridden by holidays and special events defined below in the dedicated section.",
-            "Actions": {
-                "Add": "Schedule a behaviour",
-                "Edit": "Edit",
-                "Delete": "Delete"
-            },
-            "Remove": {
-                "Title": "Confirm delete",
-                "Message": "Delete the whole schedule sequence?"
-            },
-            "AddTitle": "Add new scheduled behaviour",
-            "ScheduleBehaviourTitle": "Schedule behaviour '{{name}}'",
-            "EditTitle": "Edit scheduled behaviour"
-        },
-        "SpecialEventsSchedule": {
-            "Title": "Holidays and special events",
-            "Description": "Schedule here behaviour for holidays or special events. These behaviours override the ordinary weekly schedule defined above.",
-            "Table": {
-                "Name": "Name",
-                "Start": "Start",
-                "End": "End",
-                "Repeat": "Repeat",
-                "Behaviour": "Behaviour"
-            },
-            "Actions": {
-                "Add": "Add",
-                "Edit": "Edit",
-                "Refresh": "Refresh",
-                "Delete": "Delete"
-            },
-            "AddTitle": "Add holiday or special event",
-            "ScheduleBehaviourTitle": "Add holiday or special event for '{{name}}'",
-            "EditTitle": "Edit holiday or special event",
-            "Remove": {
-                "Title": "Confirm delete",
-                "MessageWithName": "Delete behaviour scheduling '{{name}}'?",
-                "MessageWithoutName": "Delete selected behaviour scheduling?"
-            },
-            "Repeat": {
-                "Never": "Never",
-                "Yearly": "Every year"
-            },
-            "NoSpecialEventScheduled": "No holidays or special events to display"
-        },
-        "TestScheduledBehaviour": {
-            "Title": "Test a scheduled behaviour",
-            "Description": "Use this test to see which is the scheduled behaviour for this IVR on the specified date/time.",
-            "TimeZoneInfo": "The current service time zone ({{timeZoneName}}) is applied",
-            "DateToTest": "Date and time to test",
-            "TestResultTitle": "Behaviour executed",
-            "WeeklySchedule": "(weekly schedule)",
-            "HolidayAndSpecialEvent": "(holiday and special event)",
-            "HolidayAndSpecialEventWithName": "(holiday and special event \"{{eventName}}\")",
-            "DefaultBehaviour": "(outside any schedule)",
-            "NoBehaviour": "This IVR service has no behaviour"
-        },
-        "ScheduledBehaviour": "Behaviour",
-        "Name": "Name",
-        "From": "From",
-        "To": "To",
-        "StartTime": "From hour",
-        "EndTime": "To hour",
-        "Show24Hours": "Show 24 hours",
-        "ShowBusinessHours": "Show business hours",
-        "ApplyOnDays": "Apply on days",
-        "EventName": "Event name",
-        "Recurrence": "Repeat",
-        "CheckAtCurrentTime": "Check at current time",
-        "Error": {
-            "AtLeastOneDay": "Select at least one day",
-            "DateTimeNotValid": "Invalid date",
-            "DateTimeRequired": "Date and time are required",
-            "TimeNotValid": "Invalid time",
-            "TimeRequired": "Time is required",
-            "Overlap": "This behaviour scheduling overlaps with existing weekly schedule",
-            "OverlapSpecial": "This behaviour scheduling overlaps with an existing special event",
-            "UnableToCreateGeneric": "Unable to create behaviour scheduling, please try again",
-            "UnableToDelete": "Unable to delete behaviour scheduling, please try again",
-            "UnableToGetScheduledBehaviors": "Unable to retrieve time table behaviour scheduling",
-            "UnableToUpdateGeneric": "Unable to update behaviour scheduling, please try again",
-            "WrongTiming": "End time must be after start time",
-            "UnableToGetScheduledBehaviorAt": "Unable to retrieve current behaviour executed"
-        }
-    },
-    "Permissions": {
-        "Actions": {
-            "AddNew": "Add new manager",
-            "Refresh": "Refresh",
-            "Remove": "Remove"
-        },
-        "Header": {
-            "Name": "Name",
-            "Username": "Username",
-            "Extension": "Extension"
-        },
-        "Error": {
-            "UnableToGetUsers": "Unable to retrieve list of users",
-            "UnableToDeleteUser": "Unable to remove this manager, please try again",
-            "AddManagerFailed": "* An error has occurred adding manager."
-        },
-        "Remove": {
-            "Title": "Confirm removal",
-            "Message": "Remove manager '{{name}}'?"
-        },
-        "AddManager": {
-            "Title": "Add new managers",
-            "Description": "Use this section to add new manager for the current IVR service",
-            "SearchLabel": "Search user",
-            "SearchButton": "Search",
-            "SearchPlaceHolder": "Search user...",
-            "SearchTooltip": "Type a username, extension or department to search a user.",
-            "Grid": {
-                "Header": {
-                    "Username": "Username",
-                    "Name": "First Name",
-                    "Surname": "Last Name",
-                    "Extension": "Extension",
-                    "Department": "Department"
-                }
-            }
-        },
-        "NoUsersToDisplay": "No associated manager"
-    },
-    "Errors": {
-        "RequiredName": "Name is required",
-        "NameTooLong": "Name cannot contain more than {{maxCharacters}} characters",
-        "RequiredPhoneNumber": "Phone number is required",
-        "InvalidPhoneNumber": "This is not a valid phone number",
-        "PhoneNumberTooLong": "Phone number cannot contain more than {{maxDigits}} digits",
-        "InvalidNumber": "This is not a valid number",
-        "AudioMessageRequired": "This audio message is required",
-        "UnsupportedFileAudio": "This is not a valid audio file",
-        "UnableToUploadFile": "Unable to upload audio file",
-        "UnableToUploadFileDetails": "Unsupported audio file.\nPlease use one of these supported formats:\n",
-        "SupportedAudioFormat": {
-            "WAV": "WAV",
-            "WMA": "WMA",
-            "MP3": "MP3",
-            "M4A": "M4A",
-            "GSM": "GSM",
-            "AMR": "AMR",
-            "3GPP": "3GPP"
-        },
-        "UnableToUpdateAudioMessageMetadata": "Unable to upload information for this audio message"
-    },
-    "Reports": {
-        "Home": {
-            "PublicReports": "Public Reports",
-            "IVRAnalisys": "IVR Analysis",
-            "Rpt_Detail": "Call Detail Analysis",
-            "Rpt_Detail_explain": "Show call detail record",
-            "Rpt_CallVolume": "Call Volume by Service",
-            "Rpt_CallVolume_explain": "Show number of calls and wait duration per service and per outcome",
-            "Rpt_CallVolumeByBehav": "Call Volume by Service and Behaviour",
-            "Rpt_CallVolumePerBehaviour_explain": "Show number of calls and wait duration per service, per behaviour and per outcome",
-            "Rpt_BusyChannels": "Busy Channels analysis",
-            "Rpt_BusyChannels_explain": "Show busy channels statistics including average and max channel occupation over the day",
-            "Rpt_TimePeriodAnalysis": "Trends",
-            "Rpt_TimePeriodAnalysis_explain": "Show the number of calls per outcome and time trend"
-        },
-        "Refresh": "Refresh"
-    } 
+    "Tabs.Heading.Settings": "IVR settings",
+    "Tabs.Heading.Behaviours": "Behaviours",
+    "Tabs.Heading.TimeTable": "Time table",
+    "Tabs.Heading.Permissions": "Permissions",
+    "Services.Actions.AddNew": "Add new IVR service",
+    "Services.Actions.Refresh": "Refresh",
+    "Services.Actions.Edit": "Edit",
+    "Services.Actions.Remove": "Remove",
+    "Services.Remove.Title": "Confirm Delete",
+    "Services.Remove.Message": "Delete IVR service '{{name}}'?",
+    "Services.Header.Name": "Name",
+    "Services.Header.PhoneNumber": "Phone number",
+    "Services.Error.UnableToDeleteService": "Unable to delete this service, please try again",
+    "Services.NoServicesToDisplay": "No IVR services to display",
+    "Ivr4qme.SaveResult.Success": "All changes saved",
+    "Ivr4qme.SaveResult.Failed": "Changes not saved",
+    "Ivr4qme.SaveResult.BehaviourCreated": "Behaviour has been created",
+    "Ivr4qme.Error.UnexpectedResponse": "Unable to complete the operation. Please ensure that Queue Manager Enterprise is running.",
+    "Service.Choose.Title": "Add new IVR service",
+    "Service.Choose.Description": "Create an IVR service:",
+    "Service.Add.Title.Empty": "Add IVR service from wizard",
+    "Service.Add.Title.Menu": "Add IVR service from menu template",
+    "Service.Add.Title.Echo": "Add IVR service echo",
+    "Service.Type.Empty.Name": "From wizard",
+    "Service.Type.Empty.Description": "With the 3 steps super easy wizard. A default Company closed behaviour will be automatically added.",
+    "Service.Type.Menu.Name": "From menu template",
+    "Service.Type.Menu.Description": "A 2 level menu, with the different possible actions, like play messages, transfer calls, repeat menu.",
+    "Service.Type.Echo.Name": "Echo service",
+    "Service.Type.Echo.Description": "Diagnostic service for testing DTMF detection.",
+    "Service.Settings.Basic": "Basic settings",
+    "Service.Settings.Common": "Common settings",
+    "Service.Settings.CommonMenu": "Common menu settings",
+    "Service.Title": "IVR service \"{{name}}\" ({{number}})",
+    "Service.Name": "Service name",
+    "Service.PhoneNumber": "Phone number",
+    "Service.MenuSelectionTimeout": "No selection timeout",
+    "Service.TimeInSeconds": "seconds",
+    "Service.Tooltip.NameHelp": "Enter here a name for this IVR service. This name must be unique.",
+    "Service.Tooltip.PhoneNumberHelp": "Enter here the IVR pilot phone number used to activate this IVR service. The number must be reachable by the PBX and must be unique (used only by this service).",
+    "Service.Tooltip.OverflowHelp": "Configure call treatment to apply when licensed channels are exhausted",
+    "Service.OverflowMessage": "On overflow play",
+    "Service.AndThen": "and then",
+    "Service.Error.VoiceServiceType.IVRService": "IVR",
+    "Service.Error.VoiceServiceType.QMEQueue": "Queue Manager Enterprise queue",
+    "Service.Error.VoiceServiceType.GlobalLoginLogout": "Queue Manager Enterprise global login/logout",
+    "Service.Error.CreateTitle": "IVR creation error",
+    "Service.Error.UpdateTitle": "IVR update error",
+    "Service.Error.UnableToCreateService": "Unable to create IVR service, please try again",
+    "Service.Error.UnableToUpdateService": "Unable to update IVR service, please try again",
+    "Service.Error.DuplicateServiceName": "This name is already used",
+    "Service.Error.DuplicateServicePhoneNumber": "This number is already used in {{voiceServiceType}} {{voiceServiceName}}",
+    "Service.Error.InvalidPhoneNumber": "This is not a valid phone number",
+    "Service.Error.UnableToGetService": "Unable to retrieve IVR service settings",
+    "Service.Error.UnableToGetIvrServiceTemplate": "Unable to retrieve IVR service template",
+    "Service.Error.RequiredMenuSectionTimeout": "Menu selection timeout is required",
+    "Service.Error.InvalidMenuSectionTimeout": "This is not a valid number",
+    "Service.Error.MenuSectionTimeoutNotZero": "Menu selection timeout must be greater than 0",
+    "Service.Error.MenuSectionTimeoutTooLarge": "Menu selection timeout is too large. Please enter a number between 1 and {{maxMenuSelectionTimeout}}",
+    "Behaviours.Header.Name": "Name",
+    "Behaviours.Header.Description": "Description",
+    "Behaviours.Header.Type": "Type",
+    "Behaviours.Header.Tooltip": "To define your IVR service, you can configure as many behaviours as you need, combining them together.",
+    "Behaviours.Actions.AddNew": "Add new behaviour",
+    "Behaviours.Actions.Refresh": "Refresh",
+    "Behaviours.Actions.Edit": "Edit",
+    "Behaviours.Actions.Remove": "Remove",
+    "Behaviours.Remove.Title": "Confirm delete",
+    "Behaviours.Remove.Message": "Delete behaviour '{{name}}'?",
+    "Behaviours.Error.UnableToDeleteBehaviour": "Unable to delete this behaviour, please try again",
+    "Behaviours.Error.UnableToDeleteBehaviourInUse": "This behaviour cannot be deleted because it is scheduled for this IVR service",
+    "Behaviours.Error.UnableToDeleteReferredBehaviour": "This behaviour cannot be deleted because it is referred by the behaviour '{{referrerBehaviour}}'",
+    "Behaviours.Error.UnableToGetBehaviors": "Unable to retrieve behaviours information",
+    "Behaviours.NoBehavioursToDisplay": "No behaviours to display",
+    "Behaviours.Main": "Main behaviour",
+    "Behaviours.Edit": "Behaviours",
+    "Behaviour.Add.Title": "Add new {{behaviourType}} behaviour",
+    "Behaviour.Add.Behaviour": "behaviour",
+    "Behaviour.Add.TypeChoice": "Choose which behaviour will be executed",
+    "Behaviour.Edit.Title": "Edit behaviour '{{behaviourName}}'",
+    "Behaviour.Type.PlayMessage.Name": "Play message",
+    "Behaviour.Type.PlayMessage.Description": "Play message and hang up",
+    "Behaviour.Type.Transfer.Name": "Transfer to",
+    "Behaviour.Type.Transfer.Description": "Transfer call to a specific destination",
+    "Behaviour.Type.Menu.Name": "Menu",
+    "Behaviour.Type.Menu.Description": "To define multi-level menu with choices (Press 1 for, 2 for,...)",
+    "Behaviour.Type.DialInAndTransfer.Name": "Dial in",
+    "Behaviour.Type.DialInAndTransfer.Description": "Let the caller dial the extension number to be connected to",
+    "Behaviour.Name": "Name",
+    "Behaviour.Description": "Description",
+    "Behaviour.IntroMessage": "Intro message",
+    "Behaviour.PlayMessage": "Play message",
+    "Behaviour.Transfer.TransferTo": "Transfer to",
+    "Behaviour.Transfer.PreTransferMessage": "Pre transfer message",
+    "Behaviour.Transfer.OnTransferFailure": "On transfer failure",
+    "Behaviour.Transfer.OnTransferFailureMessage": "Play message",
+    "Behaviour.Transfer.FailureBehaviour": "and  then",
+    "Behaviour.Transfer.FailureMessage": "On failure, play",
+    "Behaviour.Transfer.Retry": "Retry transfer",
+    "Behaviour.Transfer.Tooltip.TransferTo": "Specify the number to transfer the call to. Can be a direct extension number or the number of a queue",
+    "Behaviour.Transfer.Tooltip.Retry": "Flag to attempt additional call transfers in case of failure (destination number is busy, not reachable or does not answer). You can specify the number of call transfer attempts and relative messages. The no answer timeout can’t be specified here (PBX no answer timeout)",
+    "Behaviour.Menu.MenuMessage": "Menu message",
+    "Behaviour.Menu.noSelectionBehaviour": "No selection",
+    "Behaviour.Menu.wrongSelectionBehaviour": "Wrong selection",
+    "Behaviour.Menu.add": "<- add a new item",
+    "Behaviour.Menu.InvalidTimeoutOptions": "Timeout and Invalid options",
+    "Behaviour.Menu.Errors.RequiredNoSelection": "No selection action is required",
+    "Behaviour.Menu.Errors.RequiredWrongSelection": "Wrong selection action is required",
+    "Behaviour.Menu.Errors.ActionNotConfigured": "Action not configured",
+    "Behaviour.Menu.Errors.BehaviourNotConfigured": "Behaviour is required",
+    "Behaviour.Menu.Repeat": "Repeat Menu",
+    "Behaviour.Repeat.Message": "Message",
+    "Behaviour.Repeat.MaxRepetitions": "Repetitions",
+    "Behaviour.Repeat.Unlimited": "Unlimited",
+    "Behaviour.Repeat.Indefinitely": "indefinitely",
+    "Behaviour.Repeat.Limited": "Up to",
+    "Behaviour.Repeat.Description": "Up to {{times}} times",
+    "Behaviour.DialInAndTransfer.CollectionTitle": "Digits collection options",
+    "Behaviour.DialInAndTransfer.PreCollectionMessage": "Pre digit selection message",
+    "Behaviour.DialInAndTransfer.CollectAtLeast": "Collect at least",
+    "Behaviour.DialInAndTransfer.UpTo": "up to",
+    "Behaviour.DialInAndTransfer.Digits": "digits",
+    "Behaviour.DialInAndTransfer.TerminateOnPound": "Terminate collection on #",
+    "Behaviour.DialInAndTransfer.CollectionTimeout": "Collect digits for maximum",
+    "Behaviour.DialInAndTransfer.RetryCollection": "Retry collection",
+    "Behaviour.DialInAndTransfer.CollectionFailureMessage": "On collection failure, play",
+    "Behaviour.DialInAndTransfer.TransferTitle": "Transfer options",
+    "Behaviour.DialInAndTransfer.PreTransferMessage": "Pre transfer message",
+    "Behaviour.DialInAndTransfer.TransferPrefix": "Transfer prefix (optional)",
+    "Behaviour.DialInAndTransfer.Tooltip.PhoneNumberPrefix": "Set the prefix you would like to use when transferring calls to destinations (useful for camp on to extensions)",
+    "Behaviour.Seconds": "seconds",
+    "Behaviour.Times": "times",
+    "Behaviour.Retry.MaxRetries": "for further",
+    "Behaviour.Retry.Message": "play before each attempt",
+    "Behaviour.AndThen": "and then",
+    "Behaviour.Hangup": "Hangup",
+    "Behaviour.Execute": "Execute",
+    "Behaviour.Select": "(select a behaviour)",
+    "Behaviour.ActionSelect": "(select an action)",
+    "Behaviour.Actions.ExecuteBehaviour": "Execute behaviour",
+    "Behaviour.Actions.PlayMessage": "Play message",
+    "Behaviour.Actions.TransferTo": "Transfer to",
+    "Behaviour.Actions.Submenu": "Submenu",
+    "Behaviour.Actions.BackToParent": "Back to parent menu",
+    "Behaviour.Actions.BackToRoot": "Back to main menu",
+    "Behaviour.Actions.RepeatMenu": "Repeat menu",
+    "Behaviour.Actions.DialInAndTransfer": "Dial in",
+    "Behaviour.Error.CreateTitle": "Behaviour creation error",
+    "Behaviour.Error.UpdateTitle": "Behaviour update error",
+    "Behaviour.Error.DuplicationBehaviourName": "This name is already used in this IVR service",
+    "Behaviour.Error.UnableToCreateBehaviour": "Unable to create this behaviour, please try again",
+    "Behaviour.Error.UnableToUpdateBehaviour": "Unable to update this behaviour, please try again",
+    "Behaviour.Error.UnableToGetBehavior": "Unable to retrieve behaviour information",
+    "Behaviour.Error.UnableToGetBehaviors": "Unable to retrieve list of service behaviours",
+    "Behaviour.Error.UnableToGetDefaultBehavior": "Unable to retrieve main behaviour information",
+    "Behaviour.Error.RequiredMaxRepetitions": "Max repetitions number is required",
+    "Behaviour.Error.MaxRepetitionsNotZero": "Max repetitions must be greater than 0",
+    "Behaviour.Error.MaxRepetitionsTooBig": "Max repetitions number too big",
+    "Behaviour.Error.RequiredMaxRetries": "Max retries number is required",
+    "Behaviour.Error.MaxRetriesNotZero": "Max retries must be greater than 0",
+    "Behaviour.Error.MaxRetriesTooBig": "Max repetitions number too big. Please enter a number between 1 and {{maxRetries}}",
+    "Behaviour.Error.RequiredMinMaxCollectDigits": "Minimum and maximum numbers of digits to be collected are required",
+    "Behaviour.Error.RequiredMinCollectDigits": "Minimum number of digits to be collected is required",
+    "Behaviour.Error.RequiredMaxCollectDigits": "Maximum number of digits to be collected is required",
+    "Behaviour.Error.MinCollectDigitsNotZero": "Minimum number of digits to be collected must be greater than 0",
+    "Behaviour.Error.MaxDigitsGreaterThanEqualToMinDigits": "Maximum number of digits to be collected must be greater than or equal to the minimum number of digits to be collected",
+    "Behaviour.Error.RequiredCollectionTimeout": "Digits collection timeout is required",
+    "Behaviour.Error.CollectionTimeoutNotZero": "Digits collection timeout must be greater than 0 seconds",
+    "Behaviour.Error.CollectionTimeoutTooLarge": "Digits collection timeout is too large. Please enter a number between 1 and {{maxCollectionTimeoutValue}}",
+    "Behaviour.Tooltip.InvalidTimeoutOptionsHelp": "These actions apply to the whole menu in case of Timeout or Invalid Selections",
+    "Behaviour.NoMessage": "No message",
+    "Behaviour.NoNumber": "No number",
+    "Behaviour.NoName": "No name",
+    "Behaviour.NoBehaviour": "No behaviour",
+    "Behaviour.ExecuteInfo": "Execute the behaviour",
+    "Behaviour.UnselectedAction": "No actions selected",
+    "ManageService.Title": "Manage Service",
+    "ManageService.Message": "IVR is a module of Queue Manager Enterprise (QME) sharing the available channels.\nTo manage the service, please refer to the QME page",
+    "ManageService.ManageServiceLink": "Manage Service",
+    "ScheduleChooser.Title": "Choose schedule type for \"{{behaviourName}}\"",
+    "ScheduleChooser.Description": "How do you want to schedule?",
+    "ScheduleChooser.Type.WeeklySchedule.Name": "Weekly schedule",
+    "ScheduleChooser.Type.WeeklySchedule.Description": "Schedule this Behaviour as a normal weekly schedule",
+    "ScheduleChooser.Type.HolidayOrSpecialEvent.Name": "Holiday or special event",
+    "ScheduleChooser.Type.HolidayOrSpecialEvent.Description": "Schedule this Behaviour as an holiday or special event with an optional recurrence",
+    "ScheduleChooser.Type.Always.Name": "Always",
+    "ScheduleChooser.Type.Always.Description": "Use always this Behaviour (24x7)",
+    "TimeTable.TimeZone.Description": "Select the time zone to be used for this service. The daylight saving setting for the specified time zone will apply. Please, notice that if you change the time zone the existing schedules (weekly calendar, holydays and special events) will be applied accordingly.",
+    "TimeTable.TimeZone.Label": "Time zone:",
+    "TimeTable.TimeZone.DefaultValue": "use server time zone",
+    "TimeTable.TimeZone.ReadOnlyDefaultInfo": "Server time zone ({{timeZone}})",
+    "TimeTable.TimeZone.Info": "Times are referred to {{timeZone}} timezone",
+    "TimeTable.DefaultBehaviour.Label": "Outside of defined schedules, execute the following behaviour:",
+    "TimeTable.DefaultBehaviour.NoBehaviourConfigured": "No behaviour has been configured yet. Please, add a new behaviour to define call treatment for this IVR service.",
+    "TimeTable.DefaultBehaviour.Error.UnableToSetDefaultBehaviour": "Unable to set main behaviour",
+    "TimeTable.WeeklySchedule.Title": "Ordinary Weekly Schedule",
+    "TimeTable.WeeklySchedule.Description": "Configure here the ordinary weekly opening hours and behaviours of the IVR service. This schedule can be overridden by holidays and special events defined below in the dedicated section.",
+    "TimeTable.WeeklySchedule.Actions.Add": "Schedule a behaviour",
+    "TimeTable.WeeklySchedule.Actions.Edit": "Edit",
+    "TimeTable.WeeklySchedule.Actions.Delete": "Delete",
+    "TimeTable.WeeklySchedule.Remove.Title": "Confirm delete",
+    "TimeTable.WeeklySchedule.Remove.Message": "Delete the whole schedule sequence?",
+    "TimeTable.WeeklySchedule.AddTitle": "Add new scheduled behaviour",
+    "TimeTable.WeeklySchedule.ScheduleBehaviourTitle": "Schedule behaviour '{{name}}'",
+    "TimeTable.WeeklySchedule.EditTitle": "Edit scheduled behaviour",
+    "TimeTable.SpecialEventsSchedule.Title": "Holidays and special events",
+    "TimeTable.SpecialEventsSchedule.Description": "Schedule here behaviour for holidays or special events. These behaviours override the ordinary weekly schedule defined above.",
+    "TimeTable.SpecialEventsSchedule.Table.Name": "Name",
+    "TimeTable.SpecialEventsSchedule.Table.Start": "Start",
+    "TimeTable.SpecialEventsSchedule.Table.End": "End",
+    "TimeTable.SpecialEventsSchedule.Table.Repeat": "Repeat",
+    "TimeTable.SpecialEventsSchedule.Table.Behaviour": "Behaviour",
+    "TimeTable.SpecialEventsSchedule.Actions.Add": "Add",
+    "TimeTable.SpecialEventsSchedule.Actions.Edit": "Edit",
+    "TimeTable.SpecialEventsSchedule.Actions.Refresh": "Refresh",
+    "TimeTable.SpecialEventsSchedule.Actions.Delete": "Delete",
+    "TimeTable.SpecialEventsSchedule.AddTitle": "Add holiday or special event",
+    "TimeTable.SpecialEventsSchedule.ScheduleBehaviourTitle": "Add holiday or special event for '{{name}}'",
+    "TimeTable.SpecialEventsSchedule.EditTitle": "Edit holiday or special event",
+    "TimeTable.SpecialEventsSchedule.Remove.Title": "Confirm delete",
+    "TimeTable.SpecialEventsSchedule.Remove.MessageWithName": "Delete behaviour scheduling '{{name}}'?",
+    "TimeTable.SpecialEventsSchedule.Remove.MessageWithoutName": "Delete selected behaviour scheduling?",
+    "TimeTable.SpecialEventsSchedule.Repeat.Never": "Never",
+    "TimeTable.SpecialEventsSchedule.Repeat.Yearly": "Every year",
+    "TimeTable.SpecialEventsSchedule.NoSpecialEventScheduled": "No holidays or special events to display",
+    "TimeTable.TestScheduledBehaviour.Title": "Test a scheduled behaviour",
+    "TimeTable.TestScheduledBehaviour.Description": "Use this test to see which is the scheduled behaviour for this IVR on the specified date/time.",
+    "TimeTable.TestScheduledBehaviour.TimeZoneInfo": "The current service time zone ({{timeZoneName}}) is applied",
+    "TimeTable.TestScheduledBehaviour.DateToTest": "Date and time to test",
+    "TimeTable.TestScheduledBehaviour.TestResultTitle": "Behaviour executed",
+    "TimeTable.TestScheduledBehaviour.WeeklySchedule": "(weekly schedule)",
+    "TimeTable.TestScheduledBehaviour.HolidayAndSpecialEvent": "(holiday and special event)",
+    "TimeTable.TestScheduledBehaviour.HolidayAndSpecialEventWithName": "(holiday and special event \"{{eventName}}\")",
+    "TimeTable.TestScheduledBehaviour.DefaultBehaviour": "(outside any schedule)",
+    "TimeTable.TestScheduledBehaviour.NoBehaviour": "This IVR service has no behaviour",
+    "TimeTable.ScheduledBehaviour": "Behaviour",
+    "TimeTable.Name": "Name",
+    "TimeTable.From": "From",
+    "TimeTable.To": "To",
+    "TimeTable.StartTime": "From hour",
+    "TimeTable.EndTime": "To hour",
+    "TimeTable.Show24Hours": "Show 24 hours",
+    "TimeTable.ShowBusinessHours": "Show business hours",
+    "TimeTable.ApplyOnDays": "Apply on days",
+    "TimeTable.EventName": "Event name",
+    "TimeTable.Recurrence": "Repeat",
+    "TimeTable.CheckAtCurrentTime": "Check at current time",
+    "TimeTable.Error.AtLeastOneDay": "Select at least one day",
+    "TimeTable.Error.DateTimeNotValid": "Invalid date",
+    "TimeTable.Error.DateTimeRequired": "Date and time are required",
+    "TimeTable.Error.TimeNotValid": "Invalid time",
+    "TimeTable.Error.TimeRequired": "Time is required",
+    "TimeTable.Error.Overlap": "This behaviour scheduling overlaps with existing weekly schedule",
+    "TimeTable.Error.OverlapSpecial": "This behaviour scheduling overlaps with an existing special event",
+    "TimeTable.Error.UnableToCreateGeneric": "Unable to create behaviour scheduling, please try again",
+    "TimeTable.Error.UnableToDelete": "Unable to delete behaviour scheduling, please try again",
+    "TimeTable.Error.UnableToGetScheduledBehaviors": "Unable to retrieve time table behaviour scheduling",
+    "TimeTable.Error.UnableToUpdateGeneric": "Unable to update behaviour scheduling, please try again",
+    "TimeTable.Error.WrongTiming": "End time must be after start time",
+    "TimeTable.Error.UnableToGetScheduledBehaviorAt": "Unable to retrieve current behaviour executed",
+    "Permissions.Actions.AddNew": "Add new manager",
+    "Permissions.Actions.Refresh": "Refresh",
+    "Permissions.Actions.Remove": "Remove",
+    "Permissions.Header.Name": "Name",
+    "Permissions.Header.Username": "Username",
+    "Permissions.Header.Extension": "Extension",
+    "Permissions.Error.UnableToGetUsers": "Unable to retrieve list of users",
+    "Permissions.Error.UnableToDeleteUser": "Unable to remove this manager, please try again",
+    "Permissions.Error.AddManagerFailed": "* An error has occurred adding manager.",
+    "Permissions.Remove.Title": "Confirm removal",
+    "Permissions.Remove.Message": "Remove manager '{{name}}'?",
+    "Permissions.AddManager.Title": "Add new managers",
+    "Permissions.AddManager.Description": "Use this section to add new manager for the current IVR service",
+    "Permissions.AddManager.SearchLabel": "Search user",
+    "Permissions.AddManager.SearchButton": "Search",
+    "Permissions.AddManager.SearchPlaceHolder": "Search user...",
+    "Permissions.AddManager.SearchTooltip": "Type a username, extension or department to search a user.",
+    "Permissions.AddManager.Grid.Header.Username": "Username",
+    "Permissions.AddManager.Grid.Header.Name": "First Name",
+    "Permissions.AddManager.Grid.Header.Surname": "Last Name",
+    "Permissions.AddManager.Grid.Header.Extension": "Extension",
+    "Permissions.AddManager.Grid.Header.Department": "Department",
+    "Permissions.NoUsersToDisplay": "No associated manager",
+    "Errors.RequiredName": "Name is required",
+    "Errors.NameTooLong": "Name cannot contain more than {{maxCharacters}} characters",
+    "Errors.RequiredPhoneNumber": "Phone number is required",
+    "Errors.InvalidPhoneNumber": "This is not a valid phone number",
+    "Errors.PhoneNumberTooLong": "Phone number cannot contain more than {{maxDigits}} digits",
+    "Errors.InvalidNumber": "This is not a valid number",
+    "Errors.AudioMessageRequired": "This audio message is required",
+    "Errors.UnsupportedFileAudio": "This is not a valid audio file",
+    "Errors.UnableToUploadFile": "Unable to upload audio file",
+    "Errors.UnableToUploadFileDetails": "Unsupported audio file.\nPlease use one of these supported formats:\n",
+    "Errors.SupportedAudioFormat.WAV": "WAV",
+    "Errors.SupportedAudioFormat.WMA": "WMA",
+    "Errors.SupportedAudioFormat.MP3": "MP3",
+    "Errors.SupportedAudioFormat.M4A": "M4A",
+    "Errors.SupportedAudioFormat.GSM": "GSM",
+    "Errors.SupportedAudioFormat.AMR": "AMR",
+    "Errors.SupportedAudioFormat.3GPP": "3GPP",
+    "Errors.UnableToUpdateAudioMessageMetadata": "Unable to upload information for this audio message",
+    "Reports.Home.PublicReports": "Public Reports",
+    "Reports.Home.IVRAnalisys": "IVR Analysis",
+    "Reports.Home.Rpt_Detail": "Call Detail Analysis",
+    "Reports.Home.Rpt_Detail_explain": "Show call detail record",
+    "Reports.Home.Rpt_CallVolume": "Call Volume by Service",
+    "Reports.Home.Rpt_CallVolume_explain": "Show number of calls and wait duration per service and per outcome",
+    "Reports.Home.Rpt_CallVolumeByBehav": "Call Volume by Service and Behaviour",
+    "Reports.Home.Rpt_CallVolumePerBehaviour_explain": "Show number of calls and wait duration per service, per behaviour and per outcome",
+    "Reports.Home.Rpt_BusyChannels": "Busy Channels analysis",
+    "Reports.Home.Rpt_BusyChannels_explain": "Show busy channels statistics including average and max channel occupation over the day",
+    "Reports.Home.Rpt_TimePeriodAnalysis": "Trends",
+    "Reports.Home.Rpt_TimePeriodAnalysis_explain": "Show the number of calls per outcome and time trend",
+    "Reports.Refresh": "Refresh"
 }
